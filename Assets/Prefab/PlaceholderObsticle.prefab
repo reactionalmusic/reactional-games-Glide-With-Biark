@@ -46,6 +46,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1dfe62c187cc2b499b6f1c85949aada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnableObjects: []
+  PipePrefab: {fileID: 0}
+  spawnInterval: 1
+  spawnHeightRange: 5
+  spawnTimer: 0
   movementSpeed: 8
 --- !u!1 &1592156687455806221
 GameObject:
