@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -63,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
         rb.linearVelocity = Vector2.up * flyVelocity;
         isFalling = false;
         Debug.Log("Hello, I'm trying to fly");
+      
         
     }
     
@@ -114,9 +116,36 @@ public class PlayerMovement : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other)
     {
         Debug.Log("Collision with " + other.gameObject.name + " Game Over");
-        Destroy(gameObject);
-        //TODO Add Vfx
-        
-        gameManager.GameOver();
+
+        StartCoroutine(PlayerCollision());
     }
+    
+    
+   // --------------- Ienumerator Coroutines -------------
+
+   private IEnumerator WaitForSeconds(float seconds)
+   {
+       yield return new WaitForSeconds(seconds);
+   }
+   
+   private IEnumerator PlayerCollision()
+   {
+       // Start the dissolve effect
+       yield return StartCoroutine(PlayerDisolve.Instance.DisolvePlayer(true, false));
+       
+
+       // Wait for 4 seconds
+       yield return new WaitForSeconds(4f);
+       
+
+       // Set GameObject inactive
+       gameObject.SetActive(false);
+
+       // Call GameOver
+       gameManager.GameOver();
+       
+       
+   }
+   
+   
 }

@@ -51,6 +51,9 @@ public class ReactionalBeatSpawnManager : MonoBehaviour
         spawnedObjects.Add(newObject);
     }
 
+    
+    // TODO fix parallax and see if lists cant spawn same prefab from alinked list and make items invis
+    // TODO put it back and reuse after it has passed the player
     private void MoveSpawnedObjects()
     {
         // Iterate through all spawned objects and move them

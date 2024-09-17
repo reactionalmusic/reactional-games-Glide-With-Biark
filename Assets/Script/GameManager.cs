@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -33,6 +34,12 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Reload Game");
             SceneManager.LoadScene(0);
+            
+            // Set Player Visible Again
+            gameObject.SetActive(true);
+            StartCoroutine(PlayerDisolve.Instance.SpawnPlayer(true, false));
+            
+            
         
             //TODO add gameover check here so it only works when game is over
         }
@@ -59,4 +66,12 @@ public class GameManager : MonoBehaviour
         controller.UI.Submit.performed -= ReloadGame;
         controller.UI.Submit.Disable();
     }
+    
+    // --------------- Ienumerators -------------
+
+    private IEnumerator WaitForSeconds(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+    }
+
 }
