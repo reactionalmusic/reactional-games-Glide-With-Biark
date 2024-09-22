@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 23036018}
   m_Layer: 0
   m_Name: Lantern Big
-  m_TagString: Untagged
+  m_TagString: PulseOnBeatBar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -391,7 +391,7 @@ GameObject:
   - component: {fileID: 49477863}
   m_Layer: 0
   m_Name: Lantern (1)
-  m_TagString: Untagged
+  m_TagString: PulseOnBeatBar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -581,10 +581,11 @@ GameObject:
   - component: {fileID: 287090673}
   - component: {fileID: 287090675}
   - component: {fileID: 287090677}
+  - component: {fileID: 287090681}
   - component: {fileID: 287090679}
   m_Layer: 0
   m_Name: Player - Biark
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -783,6 +784,26 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &287090681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287090672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 232ece3dc1b01c1428d2b45f00262de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 287090679}
+  startTimeRange: 2
+  endTimeRange: 4
+  stingerNames:
+  - negative, small
+  - negative, medium
+  - negative, large
+  quant: 0
 --- !u!1 &334360413
 GameObject:
   m_ObjectHideFlags: 0
@@ -966,7 +987,7 @@ GameObject:
   - component: {fileID: 392663191}
   m_Layer: 0
   m_Name: Stone
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1665,8 +1686,8 @@ MonoBehaviour:
   PulseOn4th: []
   PulseOn8th: []
   PulseOn16th: []
-  xScale: 1
-  yScale: 1.3
+  xScale: 1.1
+  yScale: 1.1
   zScale: 1
 --- !u!1 &1344787978
 GameObject:
@@ -1752,6 +1773,153 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!1 &1349150800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1349150801}
+  - component: {fileID: 1349150803}
+  - component: {fileID: 1349150802}
+  m_Layer: 0
+  m_Name: Reactional Engine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1349150801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349150800}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1667900474}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1349150802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349150800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbcd0cc5516da4100adb4b6a71d92ced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _allowPlay: 0
+  _outputEvents: 1
+  output: {fileID: 0}
+  _updateMode: 1
+  _audioOutputMode: 0
+--- !u!82 &1349150803
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349150800}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1409073809
 GameObject:
   m_ObjectHideFlags: 0
@@ -1821,6 +1989,7 @@ Transform:
   - {fileID: 133823190}
   - {fileID: 1975673468196333752}
   - {fileID: 961475376}
+  - {fileID: 1667900474}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1501662565
@@ -2131,6 +2300,118 @@ BoxCollider2D:
   m_AutoTiling: 1
   m_Size: {x: 19.24, y: 0.6}
   m_EdgeRadius: 0
+--- !u!1 &1667900473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1667900474}
+  - component: {fileID: 1667900476}
+  - component: {fileID: 1667900475}
+  m_Layer: 0
+  m_Name: Reactional Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1667900474
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667900473}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.0656707, y: 0.21769369, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1349150801}
+  m_Father: {fileID: 1442745991}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1667900475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667900473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9062e3bfc3f4b83429a1ab9a138df423, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _autoplayTheme: 1
+  _autoplayTrack: 1
+  _themeVolume: 1
+  _playlistVolume: 0.6
+--- !u!114 &1667900476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667900473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb7d56e2d1164026874f8e09601fff2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSection: 
+  bundles:
+  - name: GlideWithBiark
+    path: C:/Users/Phili/Documents/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\GlideWithBiark
+    sections:
+    - name: Section #1
+      themes:
+      - name: Reactional_ScifiBoss copy
+        trackID: -1
+        trackHash: d592445baa37315bef581ca9e5af74d7ff8dda8dba2c43870e76ed774d602a23
+        trackName: Reactional_ScifiBoss copy
+        trackArtist: 
+        trackAlbum: 
+        trackGenre: 
+        trackCover: 
+        trackBPM: 
+        bundleID: GlideWithBiark
+      playlists:
+      - name: Default
+        tracks:
+        - name: Daft Punk - Within
+          trackID: -1
+          trackHash: c5254e1aeb5e0477adf6099151aaa40f99d4f440f5dd0613e09724ee3f883bbd
+          trackName: Daft Punk - Within
+          trackArtist: ' '
+          trackAlbum: ' '
+          trackGenre: ' '
+          trackCover: 
+          trackBPM: ' '
+          bundleID: GlideWithBiark
+        - name: Daft Punk - Giorgio by Moroder
+          trackID: -1
+          trackHash: 3e3391dd7698723079a44e37c439f1d9afb2a7ae811ac4e95975b8e407c40313
+          trackName: Daft Punk - Giorgio by Moroder
+          trackArtist: ' '
+          trackAlbum: ' '
+          trackGenre: ' '
+          trackCover: 
+          trackBPM: ' '
+          bundleID: GlideWithBiark
+  _loadedThemes: []
+  _loadedTracks: []
+  lookahead: 0
+  selectedTheme: 0
+  selectedTrack: 0
+  _reactionalLog: 0
+  _playlistMode: 1
+  _loadType: 0
+  isDucked: 0
+  mainOut: {fileID: 0}
 --- !u!1 &1727856925
 GameObject:
   m_ObjectHideFlags: 0
@@ -2720,7 +3001,7 @@ GameObject:
   - component: {fileID: 2146539519}
   m_Layer: 0
   m_Name: Lantern
-  m_TagString: Untagged
+  m_TagString: PulseOnBeatBar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

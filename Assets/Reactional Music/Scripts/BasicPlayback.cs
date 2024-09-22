@@ -19,7 +19,8 @@ namespace Reactional.Core
         public void Start()
         {
             if (Reactional.Setup.IsValid)
-            {                
+            {      
+               
                 Play();                
             } else {
                 Debug.LogWarning("Reactional is not setup correctly. Please check the setup guide.");
@@ -36,6 +37,7 @@ namespace Reactional.Core
             // await Reactional.Setup.LoadBundle("BundleName");                     // Load everything in a specific bundle
             
             // await Reactional.Setup.LoadSection("BundleName","Default");          // Load specific section in specific bundle
+            
             await Reactional.Setup.LoadSection();                                   // Load "Default Section" from inspector, or first defined section in first bundle
 
             // await Reactional.Setup.LoadTheme("BundleName","Default","ThemeName");// Load specific theme in specific bundle
@@ -46,7 +48,7 @@ namespace Reactional.Core
             // await Reactional.Setup.LoadPlaylist("Default");                      // Find and load specifc playlist in any bundle
             // await Reactional.Setup.LoadPlaylist();                               // Load the first playlist defined in first bundle
 
-            // await Reactional.Setup.LoadTrack("BundleName","TrackName");          // Load specific track in specific bundle
+            // await Reactional.Setup.LoadTrack("GlideWithBiark","Daft Punk - Giorgio by Moroder");          // Load specific track in specific bundle
 
             if (_autoplayTheme)
                 Reactional.Playback.Theme.Play();

@@ -17,7 +17,7 @@ namespace DashGames
     {
         //TODO if you want differen scaling parameters for different objects then add new variables and set them on the right beat in ScaleMeshes().
         
-        // These headers simply shows what you should tag a mesh with out in the editor to make it pulse
+        // These headers simply shows what you should tag a mesh with out in the editor to make it pulse, remember adding it to the Tags or Script wont compile correctlly 
         [Header("Tag mehses with 'PulseOnBeatBar' for pulsing on every beat")]
         [Header("Tag mehses with 'PulseOn4th' for pulsing on every beat")]
         [Header("Tag mehses with 'PulseOn8th' for pulsing on every beat")]
