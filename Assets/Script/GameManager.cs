@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
             
             // Set Player Visible Again
             gameObject.SetActive(true);
-            StartCoroutine(PlayerDisolve.Instance.SpawnPlayer(true, false));
+            StartCoroutine(PlayerOnDeath.Instance.SpawnPlayer(true, false));
             
             
         

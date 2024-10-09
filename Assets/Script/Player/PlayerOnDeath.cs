@@ -2,10 +2,12 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-public class PlayerDisolve : MonoBehaviour
+public class PlayerOnDeath : MonoBehaviour
 {
-    public static PlayerDisolve Instance { get; private set; }
+    public static PlayerOnDeath Instance { get; private set; }
 
+    
+    [Header("Disolve before Death")]
     [SerializeField] private float _dissolveTime = 0.75f;
     [SerializeField] private bool canDisolve = true;
     [SerializeField] private bool canDisolveVertical = false;

@@ -18,6 +18,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float maxFallSpeed = -10f; // Limits how fast the player can fall
     [SerializeField] private float fallTriggerVelocity = 5f;
     
+    [Header("Colliding")]
+    [SerializeField] private float timerSetPlayerInvis = .5f; // Time Before the player gets "invis"
+    
     private bool isFalling = false;
  
     private void Awake()
@@ -131,11 +134,11 @@ public class PlayerMovement : MonoBehaviour
    private IEnumerator PlayerCollision()
    {
        // Start the dissolve effect
-       yield return StartCoroutine(PlayerDisolve.Instance.DisolvePlayer(true, false));
+       yield return StartCoroutine(PlayerOnDeath.Instance.DisolvePlayer(true, false));
        
 
        // Wait for 4 seconds
-       yield return new WaitForSeconds(4f);
+       yield return new WaitForSeconds(timerSetPlayerInvis);
        
 
        // Set GameObject inactive

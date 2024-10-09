@@ -54,7 +54,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Disolve: 1.1
+    - _Disolve: 0.222
     - _DisolveAmount: 0
     - _Disolve_NoiseScale: 18.2
     - _Disolve_SpiralScale: 7.7
@@ -63,7 +63,7 @@ Material:
     - _SpiralStrength: 13.5
     - _VerticalDisolve: 0.35
     - _VerticalLine_NoiseScale: 0
-    - _Vertical_NoiseScale: 10
+    - _Vertical_NoiseScale: 0.38
     m_Colors:
     - _OutlineColor: {r: 0.5069819, g: 1.6018745, b: 2.828427, a: 0}
   m_BuildTextureStacks: []

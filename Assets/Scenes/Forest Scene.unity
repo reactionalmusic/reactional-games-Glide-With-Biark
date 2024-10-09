@@ -708,6 +708,7 @@ MonoBehaviour:
   downwardForceMultiplier: 20
   maxFallSpeed: -10
   fallTriggerVelocity: 5
+  timerSetPlayerInvis: 0.5
 --- !u!70 &287090677
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2346,7 +2347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9062e3bfc3f4b83429a1ab9a138df423, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _autoplayTheme: 1
+  _autoplayTheme: 0
   _autoplayTrack: 1
   _themeVolume: 1
   _playlistVolume: 0.6
@@ -2382,20 +2383,20 @@ MonoBehaviour:
       playlists:
       - name: Default
         tracks:
-        - name: Daft Punk - Within
+        - name: Daft Punk - Giorgio by Moroder
           trackID: -1
-          trackHash: c5254e1aeb5e0477adf6099151aaa40f99d4f440f5dd0613e09724ee3f883bbd
-          trackName: Daft Punk - Within
+          trackHash: b329871152f6b1de079a845fb3c62a705b8ec96ce99ce39bc83f1b3aba2838fb
+          trackName: Daft Punk - Giorgio by Moroder
           trackArtist: ' '
           trackAlbum: ' '
           trackGenre: ' '
           trackCover: 
           trackBPM: ' '
           bundleID: GlideWithBiark
-        - name: Daft Punk - Giorgio by Moroder
+        - name: Daft Punk - Within
           trackID: -1
-          trackHash: 3e3391dd7698723079a44e37c439f1d9afb2a7ae811ac4e95975b8e407c40313
-          trackName: Daft Punk - Giorgio by Moroder
+          trackHash: c5254e1aeb5e0477adf6099151aaa40f99d4f440f5dd0613e09724ee3f883bbd
+          trackName: Daft Punk - Within
           trackArtist: ' '
           trackAlbum: ' '
           trackGenre: ' '
