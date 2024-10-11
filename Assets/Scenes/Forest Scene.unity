@@ -42,7 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -295,90 +296,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &38853575
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 38853576}
-  - component: {fileID: 38853577}
-  m_Layer: 0
-  m_Name: 2DLightBlue
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &38853576
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38853575}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.017472262, y: -0.13103597, z: 0}
-  m_LocalScale: {x: 2.1839306, y: 2.1839306, z: 2.1839306}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2146539518}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &38853577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38853575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ComponentVersion: 2
-  m_LightType: 3
-  m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.815
-  m_Color: {r: 0.76415086, g: 0.97623223, b: 1, a: 1}
-  m_Intensity: 6
-  m_LightVolumeIntensity: 1
-  m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000
-  m_LightCookieSprite: {fileID: 0}
-  m_DeprecatedPointLightCookieSprite: {fileID: 0}
-  m_LightOrder: 0
-  m_AlphaBlendOnOverlap: 0
-  m_OverlapOperation: 0
-  m_NormalMapDistance: 3
-  m_NormalMapQuality: 2
-  m_UseNormalMap: 0
-  m_ShadowsEnabled: 1
-  m_ShadowIntensity: 0.75
-  m_ShadowSoftness: 0.3
-  m_ShadowSoftnessFalloffIntensity: 0.5
-  m_ShadowVolumeIntensityEnabled: 0
-  m_ShadowVolumeIntensity: 0.75
-  m_LocalBounds:
-    m_Center: {x: 0, y: -0.00000011920929, z: 0}
-    m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
-  m_PointLightInnerAngle: 360
-  m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 1.26
-  m_ShapeLightParametricSides: 5
-  m_ShapeLightParametricAngleOffset: 0
-  m_ShapeLightParametricRadius: 1
-  m_ShapeLightFalloffSize: 0.5
-  m_ShapeLightFalloffOffset: {x: 0, y: 0}
-  m_ShapePath:
-  - {x: -0.5, y: -0.5, z: 0}
-  - {x: 0.5, y: -0.5, z: 0}
-  - {x: 0.5, y: 0.5, z: 0}
-  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &49477861
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,11 +675,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3ad393a17b4e264b9d0d430f78bf089, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dissolveTime: 0.45
-  canDisolve: 1
-  canDisolveVertical: 0
-  _spriteRenderer: {fileID: 287090673}
-  _material: {fileID: 2100000, guid: 158e0a65f92080a40adfd23a3e0aa508, type: 2}
 --- !u!95 &287090679
 Animator:
   serializedVersion: 7
@@ -1991,6 +1903,7 @@ Transform:
   - {fileID: 1975673468196333752}
   - {fileID: 961475376}
   - {fileID: 1667900474}
+  - {fileID: 2026244204}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1501662565
@@ -2365,8 +2278,64 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultSection: 
   bundles:
+  - name: a_different_way
+    path: C:/Users/ginli/Documents/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\a_different_way
+    sections:
+    - name: Test
+      themes:
+      - name: ' '
+        trackID: -1
+        trackHash: reactionalMetadata
+        trackName: ' '
+        trackArtist: 
+        trackAlbum: 
+        trackGenre: 
+        trackCover: 
+        trackBPM: 
+        bundleID: a_different_way
+      playlists:
+      - name: Default
+        tracks:
+        - name: ' '
+          trackID: -1
+          trackHash: reactionalMetadata
+          trackName: ' '
+          trackArtist: ' '
+          trackAlbum: ' '
+          trackGenre: ' '
+          trackCover: 
+          trackBPM: ' '
+          bundleID: a_different_way
+  - name: electric_blue
+    path: C:/Users/ginli/Documents/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\electric_blue
+    sections:
+    - name: Test
+      themes:
+      - name: ' '
+        trackID: -1
+        trackHash: reactionalMetadata
+        trackName: ' '
+        trackArtist: 
+        trackAlbum: 
+        trackGenre: 
+        trackCover: 
+        trackBPM: 
+        bundleID: electric_blue
+      playlists:
+      - name: Default
+        tracks:
+        - name: ' '
+          trackID: -1
+          trackHash: reactionalMetadata
+          trackName: ' '
+          trackArtist: ' '
+          trackAlbum: ' '
+          trackGenre: ' '
+          trackCover: 
+          trackBPM: ' '
+          bundleID: electric_blue
   - name: GlideWithBiark
-    path: C:/Users/Phili/Documents/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\GlideWithBiark
+    path: C:/Users/ginli/Documents/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\GlideWithBiark
     sections:
     - name: Section #1
       themes:
@@ -2403,6 +2372,90 @@ MonoBehaviour:
           trackCover: 
           trackBPM: ' '
           bundleID: GlideWithBiark
+  - name: have_faith
+    path: C:/Users/ginli/Documents/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\have_faith
+    sections:
+    - name: Test
+      themes:
+      - name: ' '
+        trackID: -1
+        trackHash: reactionalMetadata
+        trackName: ' '
+        trackArtist: 
+        trackAlbum: 
+        trackGenre: 
+        trackCover: 
+        trackBPM: 
+        bundleID: have_faith
+      playlists:
+      - name: Default
+        tracks:
+        - name: ' '
+          trackID: -1
+          trackHash: reactionalMetadata
+          trackName: ' '
+          trackArtist: ' '
+          trackAlbum: ' '
+          trackGenre: ' '
+          trackCover: 
+          trackBPM: ' '
+          bundleID: have_faith
+  - name: instant_crush
+    path: C:/Users/ginli/Documents/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\instant_crush
+    sections:
+    - name: Test
+      themes:
+      - name: ' '
+        trackID: -1
+        trackHash: reactionalMetadata
+        trackName: ' '
+        trackArtist: 
+        trackAlbum: 
+        trackGenre: 
+        trackCover: 
+        trackBPM: 
+        bundleID: instant_crush
+      playlists:
+      - name: Default
+        tracks:
+        - name: ' '
+          trackID: -1
+          trackHash: reactionalMetadata
+          trackName: ' '
+          trackArtist: ' '
+          trackAlbum: ' '
+          trackGenre: ' '
+          trackCover: 
+          trackBPM: ' '
+          bundleID: instant_crush
+  - name: wavy_lays_brah
+    path: C:/Users/ginli/Documents/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\wavy_lays_brah
+    sections:
+    - name: Test
+      themes:
+      - name: ' '
+        trackID: -1
+        trackHash: reactionalMetadata
+        trackName: ' '
+        trackArtist: 
+        trackAlbum: 
+        trackGenre: 
+        trackCover: 
+        trackBPM: 
+        bundleID: wavy_lays_brah
+      playlists:
+      - name: Default
+        tracks:
+        - name: ' '
+          trackID: -1
+          trackHash: reactionalMetadata
+          trackName: ' '
+          trackArtist: ' '
+          trackAlbum: ' '
+          trackGenre: ' '
+          trackCover: 
+          trackBPM: ' '
+          bundleID: wavy_lays_brah
   _loadedThemes: []
   _loadedTracks: []
   lookahead: 0
@@ -2738,6 +2791,56 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2026244203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2026244204}
+  - component: {fileID: 2026244205}
+  m_Layer: 0
+  m_Name: ObjectSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2026244204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026244203}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1442745991}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2026244205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026244203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9882ac6cde2f04aea915309dae5bb63b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  songChunker: {fileID: 11400000, guid: 347b2603fc163427b89efa5b2c2530bb, type: 2}
+  boxPrefab: {fileID: 6691017079308188631, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
+  mediumBoxPrefab: {fileID: 6691017079308188631, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
+  bigBoxPrefab: {fileID: 6691017079308188631, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
+  autoChunk: 1
+  offlineMusicDataAsset: {fileID: 11400000, guid: 430ea2b1d90a2534cb0742a7c3e5592a, type: 2}
 --- !u!1 &2044857640
 GameObject:
   m_ObjectHideFlags: 0
@@ -2990,94 +3093,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 287090674}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2146539517
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2146539518}
-  - component: {fileID: 2146539519}
-  m_Layer: 0
-  m_Name: Lantern
-  m_TagString: PulseOnBeatBar
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2146539518
+--- !u!4 &2146539518 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 1529104501236640156, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
+  m_PrefabInstance: {fileID: 7419315610337010593}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2146539517}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.97, y: -1.8, z: 0}
-  m_LocalScale: {x: 0.45789, y: 0.45789, z: 0.45789}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 38853576}
-  m_Father: {fileID: 1409073810}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &2146539519
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2146539517}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 7513860317229740675, guid: 2aa160ee76fa97341be378ab1f0991f2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.01, y: 2.22}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1001 &29794208090762012
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3248,6 +3268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Reactional Spawn Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 8845421054998412797, guid: a084bf622ca776647a9a2b728432a60e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3375,6 +3399,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f987ed465587bfe4a9bcb18eac04e55c, type: 3}
+--- !u!1001 &7419315610337010593
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1409073810}
+    m_Modifications:
+    - target: {fileID: 1529104501236640156, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529104501236640156, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529104501236640156, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529104501236640156, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529104501236640156, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529104501236640156, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529104501236640156, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529104501236640156, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529104501236640156, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529104501236640156, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6691017079308188631, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
+      propertyPath: m_Name
+      value: Lantern
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

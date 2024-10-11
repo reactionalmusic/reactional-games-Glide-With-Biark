@@ -107,10 +107,11 @@ public class ChunkSpawner : MonoBehaviour
 
             boxPrefab.GetComponent<pitchdata>().pitch = vocal.note;
 
-            Vector3 position = new Vector3((vocal.note % 12) / 4, offset * 5, 0);
+            //Vector3 position = new Vector3((vocal.note % 12) / 4, offset * 5, 0);
+            Vector3 position = new Vector3(offset * 5, (vocal.note % 12) / 4 - 4, 0);
             var obj = Instantiate(boxPrefab, position, Quaternion.identity, gameObject.transform);
             accumulatedObjects.Add(obj);
-            accumulatedPositions.Add(position.y);
+            accumulatedPositions.Add(position.x);
             accumulatedEntries.Add(accumulatedEntry);
         }
         prev_offset = 0;
@@ -158,10 +159,10 @@ public class ChunkSpawner : MonoBehaviour
             prev_end = bass.offset_seconds + bass.duration_seconds;
             mediumBoxPrefab.GetComponent<pitchdata>().pitch = bass.note;
 
-            Vector3 position = new Vector3((bass.note % 12) / 4 - 4, offset * 5, 0);
+            Vector3 position = new Vector3(offset * 5, (bass.note % 12) / 4 - 4, 0);
             var obj = Instantiate(mediumBoxPrefab, position, Quaternion.identity, gameObject.transform);
             accumulatedObjects.Add(obj);
-            accumulatedPositions.Add(position.y);
+            accumulatedPositions.Add(position.x);
             accumulatedEntries.Add(accumulatedEntry);
         }
         prev_offset = 0;
@@ -201,10 +202,11 @@ public class ChunkSpawner : MonoBehaviour
 
             bigBoxPrefab.GetComponent<pitchdata>().pitch = 128;
 
-            Vector3 position = new Vector3(-5, offset * 5, 0);
+            //Vector3 position = new Vector3(-5, offset * 5, 0);
+            Vector3 position = new Vector3(offset * 5, -5, 0);
             var obj = Instantiate(bigBoxPrefab, position, Quaternion.identity, gameObject.transform);
             accumulatedObjects.Add(obj);
-            accumulatedPositions.Add(position.y);
+            accumulatedPositions.Add(position.x);
             accumulatedEntries.Add(accumulatedEntry);
         }
     }
@@ -225,10 +227,11 @@ public class ChunkSpawner : MonoBehaviour
                 {
                     pref = mediumBoxPrefab;
                 }
-                Vector3 position = new Vector3((value * 2) - 5, accumulatedEntry * 5, 0);
+                //Vector3 position = new Vector3((value * 2) - 5, accumulatedEntry * 5, 0);
+                Vector3 position = new Vector3(accumulatedEntry * 5, (value * 2) - 5, 0);
                 var obj = Instantiate(pref, position, Quaternion.identity, gameObject.transform);
                 accumulatedObjects.Add(obj);
-                accumulatedPositions.Add(position.y);
+                accumulatedPositions.Add(position.x);
                 accumulatedEntries.Add(accumulatedEntry);
             }
             accumulatedEntry++;
@@ -241,7 +244,6 @@ public class ChunkSpawner : MonoBehaviour
         {
             MoveChunks();
         }
-
     }
 
     void MoveChunks()
@@ -250,12 +252,12 @@ public class ChunkSpawner : MonoBehaviour
         for (int i = 0; i < accumulatedObjects.Count; i++)
         {
             float position = accumulatedPositions[i];
-            accumulatedObjects[i].transform.position = new Vector3(accumulatedObjects[i].transform.position.x, position - beatPosition, accumulatedObjects[i].transform.position.z);
+            accumulatedObjects[i].transform.position = new Vector3(position - beatPosition, accumulatedObjects[i].transform.position.y, accumulatedObjects[i].transform.position.z);
         }
         for (int i = 0; i < accumulatedBassObjects.Count; i++)
         {
             float position = accumulatedBassPositions[i];
-            accumulatedBassObjects[i].transform.position = new Vector3(accumulatedBassObjects[i].transform.position.x, position - beatPosition, accumulatedBassObjects[i].transform.position.z);
+            accumulatedBassObjects[i].transform.position = new Vector3(position - beatPosition, accumulatedBassObjects[i].transform.position.y , accumulatedBassObjects[i].transform.position.z);
         }
     }
 }
