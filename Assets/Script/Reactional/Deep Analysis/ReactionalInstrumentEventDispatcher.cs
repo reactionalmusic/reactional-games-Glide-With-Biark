@@ -4,13 +4,18 @@ using Reactional.Core;
 using Reactional.Experimental;
 using System;
 
-public class ChunkSpawner : MonoBehaviour
+public class ReactionalInstrumentEventDispatcher : MonoBehaviour
 {
     // Public variables for prefabs
     public SongChunker songChunker;
     public GameObject VocalPrefab;
     public GameObject BasPrefab;
     public GameObject DrumPrefab;
+
+    // Events for triggering when a note is hit
+    public static event Action<float, vocals> OnVocalNoteHit;   // Event for when a vocal note is hit
+    public static event Action<float, bass> OnBassNoteHit;     // Event for when a bass note is hit
+    public static event Action<float, drums> OnDrumNoteHit;    // Event for when a drum note is hit
 
     // Lists to track positions and objects spawned
     private List<float> accumulatedPositions = new List<float>();
@@ -32,41 +37,49 @@ public class ChunkSpawner : MonoBehaviour
     private const float YOffsetMultiplier = 2f;  // Controls spacing on Y-axis
     private const float YBasePosition = -5f;     // Base Y position for items like drums
     private const float YPitchAdjustment = 4f;   // Adjustment for Y position based on pitch
-    
-    //TODO add delegates here for all instrument events?
 
+    /// <summary>
+    /// Unity's Start method to initialize and set up events.
+    /// </summary>
     void Start()
     {
-        // TODO add the Delegates here and subscribe on them , but break out the function as separate functions that you call here. 
-        
+        // Subscribe the instantiation methods to the events
+        OnVocalNoteHit += InstantiateVocalPrefab;
+        OnBassNoteHit += InstantiateBassPrefab;
+        OnDrumNoteHit += InstantiateDrumPrefab;
+
         if (autoChunk)
         {
-            SpawnVocals();
-            SpawnBass();
-            SpawnDrums();
+            // Call the methods to trigger the events for each instrument
+            SpawnVocals();  // Will trigger OnVocalNoteHit
+            SpawnBass();    // Will trigger OnBassNoteHit
+            SpawnDrums();   // Will trigger OnDrumNoteHit
             return;
         }
 
-        // Spawn chunks if autoChunk is disabled
+        // TODO: This might be better suited in another script handling chunk management
         foreach (var chunk in songChunker.chunkAssets)
         {
-            SpawnChunk(chunk);
-        }
-    }
-    
-    //TODO add event for subscribe and unsubscribe , 2 methods. 
-    
-    void Update()
-    {
-        // Continuously update the position of the chunks based on the current beat
-        if (ReactionalEngine.Instance.CurrentBeat > 0)
-        {
-            MoveChunks();  
+            SpawnChunk(chunk);  // TODO: Consider moving to chunk management logic
         }
     }
 
     /// <summary>
-    /// Method to spawn vocals based on the offlineMusicDataAsset
+    /// Unsubscribe from the events when the object is destroyed to avoid memory leaks.
+    /// </summary>
+    void OnDestroy()
+    {
+        // Unsubscribe from the events when the object is destroyed
+        OnVocalNoteHit -= InstantiateVocalPrefab;
+        OnBassNoteHit -= InstantiateBassPrefab;
+        OnDrumNoteHit -= InstantiateDrumPrefab;
+    }
+    
+  
+    
+
+    /// <summary>
+    /// Method to spawn vocals and trigger the OnVocalNoteHit event.
     /// </summary>
     void SpawnVocals()
     {
@@ -97,24 +110,27 @@ public class ChunkSpawner : MonoBehaviour
             prev_offset = offset;
             VocalPrefab.GetComponent<pitchdata>().pitch = vocal.note;
 
-           
-            InstantiateVocalPrefab(offset, vocal);
+            // Trigger the event for when a vocal note is hit
+            OnVocalNoteHit?.Invoke(offset, vocal);
         }
     }
 
+    /// <summary>
+    /// Instantiates the vocal prefab when the OnVocalNoteHit event is triggered.
+    /// </summary>
+    /// <param name="offset">The time offset for when the vocal note is hit.</param>
+    /// <param name="vocal">The vocals data associated with the note.</param>
     private void InstantiateVocalPrefab(float offset, vocals vocal)
     {
-        // Using constants for the position calculations
         Vector3 position = new Vector3(offset * XOffsetMultiplier, GetYPosition(vocal.note), 0);
-        var obj = Instantiate(VocalPrefab, position, Quaternion.identity, gameObject.transform);  // Spawn the vocal prefab
+        var obj = Instantiate(VocalPrefab, position, Quaternion.identity, gameObject.transform);
         accumulatedObjects.Add(obj);  // Track the spawned object
         accumulatedPositions.Add(position.x);  // Track its X position
         accumulatedEntries.Add(accumulatedEntry);  // Track its entry count
     }
 
-
     /// <summary>
-    /// Method to spawn bass objects
+    /// Method to spawn bass and trigger the OnBassNoteHit event.
     /// </summary>
     void SpawnBass()
     {
@@ -126,7 +142,7 @@ public class ChunkSpawner : MonoBehaviour
         {
             float offset = Mathf.Round(bass.offset * 4) / 4f;  // Round offset to nearest 0.25
 
-            // Skipping logic based on previous bass object's pitch and offset
+            // Skipping logic based on previous bass's pitch and offset
             if (Mathf.Round(bass.note) % 12 == prev_pitch % 12 && bass.offset_seconds + 0.3f < prev_end)
             {
                 continue;
@@ -134,7 +150,7 @@ public class ChunkSpawner : MonoBehaviour
 
             if ((offset % 1 != 0f || offset % 1 != 0.5f) && bass.duration_seconds < 0.15f)
             {
-                continue;  // Skip very short bass objects
+                continue;  // Skip very short bass notes
             }
 
             if (offset <= prev_offset + 0.25f || offset == prev_offset)
@@ -147,30 +163,35 @@ public class ChunkSpawner : MonoBehaviour
             prev_end = bass.offset_seconds + bass.duration_seconds;
             BasPrefab.GetComponent<pitchdata>().pitch = bass.note;
 
-            InstantiateBassPrefab(offset, bass);
+            // Trigger the event for when a bass note is hit
+            OnBassNoteHit?.Invoke(offset, bass);
         }
     }
 
+    /// <summary>
+    /// Instantiates the bass prefab when the OnBassNoteHit event is triggered.
+    /// </summary>
+    /// <param name="offset">The time offset for when the bass note is hit.</param>
+    /// <param name="bass">The bass data associated with the note.</param>
     private void InstantiateBassPrefab(float offset, bass bass)
     {
-        // Position calculation with constants for better clarity
         Vector3 position = new Vector3(offset * XOffsetMultiplier, GetYPosition(bass.note), 0);
-        var obj = Instantiate(BasPrefab, position, Quaternion.identity, gameObject.transform);  // Spawn the bass prefab
+        var obj = Instantiate(BasPrefab, position, Quaternion.identity, gameObject.transform);
         accumulatedBassObjects.Add(obj);  // Track the spawned bass object
         accumulatedBassPositions.Add(position.x);  // Track its X position
         accumulatedBassEntries.Add(accumulatedEntry);  // Track its entry count 
     }
 
     /// <summary>
-    /// Method to spawn drum objects
+    /// Method to spawn drums and trigger the OnDrumNoteHit event.
     /// </summary>
     void SpawnDrums()
     {
         float prev_offset = 0;
 
-        foreach (var drums in offlineMusicDataAsset.drums)
+        foreach (var drum in offlineMusicDataAsset.drums)
         {
-            float offset = Mathf.Round(drums.offset * 4) / 4f;  // Round offset to nearest 0.25
+            float offset = Mathf.Round(drum.offset * 4) / 4f;  // Round offset to nearest 0.25
 
             if (offset <= prev_offset + 0.25f || offset == prev_offset)
             {
@@ -180,21 +201,26 @@ public class ChunkSpawner : MonoBehaviour
             prev_offset = offset;
             DrumPrefab.GetComponent<pitchdata>().pitch = 128;  // Example pitch for drums (fixed value)
 
-            InstantiateDrumPrefab(offset);
+            // Trigger the event for when a drum note is hit
+            OnDrumNoteHit?.Invoke(offset, drum);
         }
     }
 
-    private void InstantiateDrumPrefab(float offset)
+    /// <summary>
+    /// Instantiates the drum prefab when the OnDrumNoteHit event is triggered.
+    /// </summary>
+    /// <param name="offset">The time offset for when the drum note is hit.</param>
+    /// <param name="drums">The drums data associated with the note.</param>
+    private void InstantiateDrumPrefab(float offset, drums drum)
     {
-        // Calculate position for drums using constants
         Vector3 position = new Vector3(offset * XOffsetMultiplier, YBasePosition, 0);  // Fixed Y position for drums
-        var obj = Instantiate(DrumPrefab, position, Quaternion.identity, gameObject.transform);  // Spawn the drum prefab
+        var obj = Instantiate(DrumPrefab, position, Quaternion.identity, gameObject.transform);
         accumulatedObjects.Add(obj);  // Track the spawned object
         accumulatedPositions.Add(position.x);  // Track its X position
         accumulatedEntries.Add(accumulatedEntry);  // Track its entry count
     }
 
-    // Spawns chunks based on the data in chunkAssets
+    // TODO: Consider moving chunk management logic to another script
     void SpawnChunk(ChunkAsset chunk)
     {
         // Loop through the chunk's intList to spawn corresponding objects
@@ -210,18 +236,18 @@ public class ChunkSpawner : MonoBehaviour
                 // Select the correct prefab based on the index
                 if (i == 0)
                 {
-                    prefabToSpawn = DrumPrefab;  // Use bass prefab for index 0
+                    prefabToSpawn = DrumPrefab;  // Use drum prefab for index 0
                 }
                 else if (i == 8)
                 {
-                    prefabToSpawn = BasPrefab;  // Use drum prefab for index 8
+                    prefabToSpawn = BasPrefab;  // Use bass prefab for index 8
                 }
 
                 // Calculate position using the X and Y multipliers and base Y position
                 Vector3 position = new Vector3(accumulatedEntry * XOffsetMultiplier, (value * YOffsetMultiplier) + YBasePosition, 0);
                 
                 // Spawn the prefab at the calculated position
-                var obj = Instantiate(prefabToSpawn, position, Quaternion.identity, gameObject.transform);  
+                var obj = Instantiate(prefabToSpawn, position, Quaternion.identity, gameObject.transform);
                 accumulatedObjects.Add(obj);  // Track the spawned object
                 accumulatedPositions.Add(position.x);  // Track its X position
                 accumulatedEntries.Add(accumulatedEntry);  // Track its entry count
@@ -231,7 +257,9 @@ public class ChunkSpawner : MonoBehaviour
         }
     }
 
-    // Moves all the spawned chunks based on the current beat (only moves on the X-axis for now)
+    /// <summary>
+    /// Moves all the spawned chunks based on the current beat (only moves on the X-axis for now).
+    /// </summary>
     void MoveChunks()
     {
         float beatPosition = ReactionalEngine.Instance.CurrentBeat * XOffsetMultiplier;
@@ -251,10 +279,13 @@ public class ChunkSpawner : MonoBehaviour
         }
     }
 
-    // Calculates the Y-position based on the note value
+    /// <summary>
+    /// Calculates the Y-position based on the note value.
+    /// </summary>
+    /// <param name="note">The note value to calculate Y position for.</param>
+    /// <returns>Returns the Y position adjusted for pitch.</returns>
     float GetYPosition(float note)
     {
-        // Return Y position adjusted for pitch (adjustment factor and base value)
-        return (note % 12) / YPitchAdjustment - YPitchAdjustment;  
+        return (note % 12) / YPitchAdjustment - YPitchAdjustment;  // Return Y position adjusted for pitch
     }
 }
