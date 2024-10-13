@@ -42,8 +42,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 13
-  m_BakeOnSceneLoad: 0
+  serializedVersion: 12
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -675,6 +674,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3ad393a17b4e264b9d0d430f78bf089, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _dissolveTime: 0.75
+  canDisolve: 1
+  canDisolveVertical: 0
+  _spriteRenderer: {fileID: 0}
+  _material: {fileID: 0}
 --- !u!95 &287090679
 Animator:
   serializedVersion: 7
@@ -2836,9 +2840,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   songChunker: {fileID: 11400000, guid: 347b2603fc163427b89efa5b2c2530bb, type: 2}
-  boxPrefab: {fileID: 6691017079308188631, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
-  mediumBoxPrefab: {fileID: 6691017079308188631, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
-  bigBoxPrefab: {fileID: 6691017079308188631, guid: fec19c578f4d768479952f9abf0b9a2d, type: 3}
+  VocalPrefab: {fileID: 6691017079308188631, guid: e7a7f0d85c3f0eb41843e86ab9f52924, type: 3}
+  DrumPrefab: {fileID: 6691017079308188631, guid: 34ae9d70d10bca442b1eae60ece53fc7, type: 3}
+  BasPrefab: {fileID: 6691017079308188631, guid: e78d17e8ec75bac48bc7c2364ae51836, type: 3}
   autoChunk: 1
   offlineMusicDataAsset: {fileID: 11400000, guid: 430ea2b1d90a2534cb0742a7c3e5592a, type: 2}
 --- !u!1 &2044857640

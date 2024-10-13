@@ -66,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
         
         rb.linearVelocity = Vector2.up * flyVelocity;
         isFalling = false;
-        Debug.Log("Hello, I'm trying to fly");
+        
       
         
     }
