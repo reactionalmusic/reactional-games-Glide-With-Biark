@@ -2282,8 +2282,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultSection: 
   bundles:
+  - name: Jonaskattjavel
+    path: C:/Users/Phili/Documents/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\Jonaskattjavel
+    sections:
+    - name: Test
+      themes:
+      - name: ' '
+        trackID: -1
+        trackHash: reactionalMetadata
+        trackName: ' '
+        trackArtist: 
+        trackAlbum: 
+        trackGenre: 
+        trackCover: 
+        trackBPM: 
+        bundleID: Jonaskattjavel
+      playlists:
+      - name: Default
+        tracks:
+        - name: ' '
+          trackID: -1
+          trackHash: reactionalMetadata
+          trackName: ' '
+          trackArtist: ' '
+          trackAlbum: ' '
+          trackGenre: ' '
+          trackCover: 
+          trackBPM: ' '
+          bundleID: Jonaskattjavel
   - name: a_different_way
-    path: C:/Users/ginli/Documents/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\a_different_way
+    path: C:/Users/Phili/Documents/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\a_different_way
     sections:
     - name: Test
       themes:
@@ -2311,7 +2339,7 @@ MonoBehaviour:
           trackBPM: ' '
           bundleID: a_different_way
   - name: electric_blue
-    path: C:/Users/ginli/Documents/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\electric_blue
+    path: C:/Users/Phili/Documents/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\electric_blue
     sections:
     - name: Test
       themes:
@@ -2339,7 +2367,7 @@ MonoBehaviour:
           trackBPM: ' '
           bundleID: electric_blue
   - name: GlideWithBiark
-    path: C:/Users/ginli/Documents/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\GlideWithBiark
+    path: C:/Users/Phili/Documents/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\GlideWithBiark
     sections:
     - name: Section #1
       themes:
@@ -2377,7 +2405,7 @@ MonoBehaviour:
           trackBPM: ' '
           bundleID: GlideWithBiark
   - name: have_faith
-    path: C:/Users/ginli/Documents/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\have_faith
+    path: C:/Users/Phili/Documents/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\have_faith
     sections:
     - name: Test
       themes:
@@ -2405,7 +2433,7 @@ MonoBehaviour:
           trackBPM: ' '
           bundleID: have_faith
   - name: instant_crush
-    path: C:/Users/ginli/Documents/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\instant_crush
+    path: C:/Users/Phili/Documents/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\instant_crush
     sections:
     - name: Test
       themes:
@@ -2433,7 +2461,7 @@ MonoBehaviour:
           trackBPM: ' '
           bundleID: instant_crush
   - name: wavy_lays_brah
-    path: C:/Users/ginli/Documents/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\wavy_lays_brah
+    path: C:/Users/Phili/Documents/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\wavy_lays_brah
     sections:
     - name: Test
       themes:
@@ -2841,10 +2869,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   songChunker: {fileID: 11400000, guid: 347b2603fc163427b89efa5b2c2530bb, type: 2}
   VocalPrefab: {fileID: 6691017079308188631, guid: e7a7f0d85c3f0eb41843e86ab9f52924, type: 3}
-  DrumPrefab: {fileID: 6691017079308188631, guid: 34ae9d70d10bca442b1eae60ece53fc7, type: 3}
   BasPrefab: {fileID: 6691017079308188631, guid: e78d17e8ec75bac48bc7c2364ae51836, type: 3}
+  DrumPrefab: {fileID: 6691017079308188631, guid: 34ae9d70d10bca442b1eae60ece53fc7, type: 3}
   autoChunk: 1
-  offlineMusicDataAsset: {fileID: 11400000, guid: 430ea2b1d90a2534cb0742a7c3e5592a, type: 2}
+  offlineMusicDataAsset: {fileID: 11400000, guid: c83556e444c997c43910ddac12639b82, type: 2}
+  XOffsetMultiplier: 5
+  YOffsetMultiplier: 2
+  YBasePosition: -5
+  YPitchAdjustment: 4
 --- !u!1 &2044857640
 GameObject:
   m_ObjectHideFlags: 0
