@@ -42,7 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -2282,8 +2283,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultSection: 
   bundles:
-  - name: Jonaskattjavel
-    path: C:/Users/Phili/Documents/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\Jonaskattjavel
+  - name: 219246102_deep
+    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\219246102_deep
     sections:
     - name: Test
       themes:
@@ -2296,7 +2297,7 @@ MonoBehaviour:
         trackGenre: 
         trackCover: 
         trackBPM: 
-        bundleID: Jonaskattjavel
+        bundleID: 219246102_deep
       playlists:
       - name: Default
         tracks:
@@ -2309,9 +2310,93 @@ MonoBehaviour:
           trackGenre: ' '
           trackCover: 
           trackBPM: ' '
-          bundleID: Jonaskattjavel
+          bundleID: 219246102_deep
+  - name: 219303026_deep
+    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\219303026_deep
+    sections:
+    - name: Test
+      themes:
+      - name: ' '
+        trackID: -1
+        trackHash: reactionalMetadata
+        trackName: ' '
+        trackArtist: 
+        trackAlbum: 
+        trackGenre: 
+        trackCover: 
+        trackBPM: 
+        bundleID: 219303026_deep
+      playlists:
+      - name: Default
+        tracks:
+        - name: ' '
+          trackID: -1
+          trackHash: reactionalMetadata
+          trackName: ' '
+          trackArtist: ' '
+          trackAlbum: ' '
+          trackGenre: ' '
+          trackCover: 
+          trackBPM: ' '
+          bundleID: 219303026_deep
+  - name: 220323489_deep
+    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\220323489_deep
+    sections:
+    - name: Test
+      themes:
+      - name: ' '
+        trackID: -1
+        trackHash: reactionalMetadata
+        trackName: ' '
+        trackArtist: 
+        trackAlbum: 
+        trackGenre: 
+        trackCover: 
+        trackBPM: 
+        bundleID: 220323489_deep
+      playlists:
+      - name: Default
+        tracks:
+        - name: ' '
+          trackID: -1
+          trackHash: reactionalMetadata
+          trackName: ' '
+          trackArtist: ' '
+          trackAlbum: ' '
+          trackGenre: ' '
+          trackCover: 
+          trackBPM: ' '
+          bundleID: 220323489_deep
+  - name: 226814360_deep
+    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\226814360_deep
+    sections:
+    - name: Test
+      themes:
+      - name: ' '
+        trackID: -1
+        trackHash: reactionalMetadata
+        trackName: ' '
+        trackArtist: 
+        trackAlbum: 
+        trackGenre: 
+        trackCover: 
+        trackBPM: 
+        bundleID: 226814360_deep
+      playlists:
+      - name: Default
+        tracks:
+        - name: ' '
+          trackID: -1
+          trackHash: reactionalMetadata
+          trackName: ' '
+          trackArtist: ' '
+          trackAlbum: ' '
+          trackGenre: ' '
+          trackCover: 
+          trackBPM: ' '
+          bundleID: 226814360_deep
   - name: a_different_way
-    path: C:/Users/Phili/Documents/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\a_different_way
+    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\a_different_way
     sections:
     - name: Test
       themes:
@@ -2339,7 +2424,7 @@ MonoBehaviour:
           trackBPM: ' '
           bundleID: a_different_way
   - name: electric_blue
-    path: C:/Users/Phili/Documents/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\electric_blue
+    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\electric_blue
     sections:
     - name: Test
       themes:
@@ -2367,7 +2452,7 @@ MonoBehaviour:
           trackBPM: ' '
           bundleID: electric_blue
   - name: GlideWithBiark
-    path: C:/Users/Phili/Documents/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\GlideWithBiark
+    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\GlideWithBiark
     sections:
     - name: Section #1
       themes:
@@ -2405,7 +2490,7 @@ MonoBehaviour:
           trackBPM: ' '
           bundleID: GlideWithBiark
   - name: have_faith
-    path: C:/Users/Phili/Documents/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\have_faith
+    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\have_faith
     sections:
     - name: Test
       themes:
@@ -2433,7 +2518,7 @@ MonoBehaviour:
           trackBPM: ' '
           bundleID: have_faith
   - name: instant_crush
-    path: C:/Users/Phili/Documents/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\instant_crush
+    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\instant_crush
     sections:
     - name: Test
       themes:
@@ -2460,8 +2545,36 @@ MonoBehaviour:
           trackCover: 
           trackBPM: ' '
           bundleID: instant_crush
+  - name: Jonaskattjavel
+    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\Jonaskattjavel
+    sections:
+    - name: Test
+      themes:
+      - name: ' '
+        trackID: -1
+        trackHash: reactionalMetadata
+        trackName: ' '
+        trackArtist: 
+        trackAlbum: 
+        trackGenre: 
+        trackCover: 
+        trackBPM: 
+        bundleID: Jonaskattjavel
+      playlists:
+      - name: Default
+        tracks:
+        - name: ' '
+          trackID: -1
+          trackHash: reactionalMetadata
+          trackName: ' '
+          trackArtist: ' '
+          trackAlbum: ' '
+          trackGenre: ' '
+          trackCover: 
+          trackBPM: ' '
+          bundleID: Jonaskattjavel
   - name: wavy_lays_brah
-    path: C:/Users/Phili/Documents/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\wavy_lays_brah
+    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\wavy_lays_brah
     sections:
     - name: Test
       themes:
@@ -2872,7 +2985,7 @@ MonoBehaviour:
   BasPrefab: {fileID: 6691017079308188631, guid: e78d17e8ec75bac48bc7c2364ae51836, type: 3}
   DrumPrefab: {fileID: 6691017079308188631, guid: 34ae9d70d10bca442b1eae60ece53fc7, type: 3}
   autoChunk: 1
-  offlineMusicDataAsset: {fileID: 11400000, guid: c83556e444c997c43910ddac12639b82, type: 2}
+  offlineMusicDataAsset: {fileID: 11400000, guid: 3424d0fd661a10c47a60c5fb261a5a59, type: 2}
   XOffsetMultiplier: 5
   YOffsetMultiplier: 2
   YBasePosition: -5
