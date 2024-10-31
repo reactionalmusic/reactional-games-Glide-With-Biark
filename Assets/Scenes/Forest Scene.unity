@@ -1456,12 +1456,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 837168765}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.0656707, y: 0.21769369, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1442745991}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &919842543
 GameObject:
@@ -1909,6 +1909,7 @@ Transform:
   - {fileID: 961475376}
   - {fileID: 1667900474}
   - {fileID: 2026244204}
+  - {fileID: 837168766}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1501662565
@@ -2395,212 +2396,6 @@ MonoBehaviour:
           trackCover: 
           trackBPM: ' '
           bundleID: 226814360_deep
-  - name: a_different_way
-    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\a_different_way
-    sections:
-    - name: Test
-      themes:
-      - name: ' '
-        trackID: -1
-        trackHash: reactionalMetadata
-        trackName: ' '
-        trackArtist: 
-        trackAlbum: 
-        trackGenre: 
-        trackCover: 
-        trackBPM: 
-        bundleID: a_different_way
-      playlists:
-      - name: Default
-        tracks:
-        - name: ' '
-          trackID: -1
-          trackHash: reactionalMetadata
-          trackName: ' '
-          trackArtist: ' '
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 
-          trackBPM: ' '
-          bundleID: a_different_way
-  - name: electric_blue
-    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\electric_blue
-    sections:
-    - name: Test
-      themes:
-      - name: ' '
-        trackID: -1
-        trackHash: reactionalMetadata
-        trackName: ' '
-        trackArtist: 
-        trackAlbum: 
-        trackGenre: 
-        trackCover: 
-        trackBPM: 
-        bundleID: electric_blue
-      playlists:
-      - name: Default
-        tracks:
-        - name: ' '
-          trackID: -1
-          trackHash: reactionalMetadata
-          trackName: ' '
-          trackArtist: ' '
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 
-          trackBPM: ' '
-          bundleID: electric_blue
-  - name: GlideWithBiark
-    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\GlideWithBiark
-    sections:
-    - name: Section #1
-      themes:
-      - name: Reactional_ScifiBoss copy
-        trackID: -1
-        trackHash: d592445baa37315bef581ca9e5af74d7ff8dda8dba2c43870e76ed774d602a23
-        trackName: Reactional_ScifiBoss copy
-        trackArtist: 
-        trackAlbum: 
-        trackGenre: 
-        trackCover: 
-        trackBPM: 
-        bundleID: GlideWithBiark
-      playlists:
-      - name: Default
-        tracks:
-        - name: Daft Punk - Giorgio by Moroder
-          trackID: -1
-          trackHash: b329871152f6b1de079a845fb3c62a705b8ec96ce99ce39bc83f1b3aba2838fb
-          trackName: Daft Punk - Giorgio by Moroder
-          trackArtist: ' '
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 
-          trackBPM: ' '
-          bundleID: GlideWithBiark
-        - name: Daft Punk - Within
-          trackID: -1
-          trackHash: c5254e1aeb5e0477adf6099151aaa40f99d4f440f5dd0613e09724ee3f883bbd
-          trackName: Daft Punk - Within
-          trackArtist: ' '
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 
-          trackBPM: ' '
-          bundleID: GlideWithBiark
-  - name: have_faith
-    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\have_faith
-    sections:
-    - name: Test
-      themes:
-      - name: ' '
-        trackID: -1
-        trackHash: reactionalMetadata
-        trackName: ' '
-        trackArtist: 
-        trackAlbum: 
-        trackGenre: 
-        trackCover: 
-        trackBPM: 
-        bundleID: have_faith
-      playlists:
-      - name: Default
-        tracks:
-        - name: ' '
-          trackID: -1
-          trackHash: reactionalMetadata
-          trackName: ' '
-          trackArtist: ' '
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 
-          trackBPM: ' '
-          bundleID: have_faith
-  - name: instant_crush
-    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\instant_crush
-    sections:
-    - name: Test
-      themes:
-      - name: ' '
-        trackID: -1
-        trackHash: reactionalMetadata
-        trackName: ' '
-        trackArtist: 
-        trackAlbum: 
-        trackGenre: 
-        trackCover: 
-        trackBPM: 
-        bundleID: instant_crush
-      playlists:
-      - name: Default
-        tracks:
-        - name: ' '
-          trackID: -1
-          trackHash: reactionalMetadata
-          trackName: ' '
-          trackArtist: ' '
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 
-          trackBPM: ' '
-          bundleID: instant_crush
-  - name: Jonaskattjavel
-    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\Jonaskattjavel
-    sections:
-    - name: Test
-      themes:
-      - name: ' '
-        trackID: -1
-        trackHash: reactionalMetadata
-        trackName: ' '
-        trackArtist: 
-        trackAlbum: 
-        trackGenre: 
-        trackCover: 
-        trackBPM: 
-        bundleID: Jonaskattjavel
-      playlists:
-      - name: Default
-        tracks:
-        - name: ' '
-          trackID: -1
-          trackHash: reactionalMetadata
-          trackName: ' '
-          trackArtist: ' '
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 
-          trackBPM: ' '
-          bundleID: Jonaskattjavel
-  - name: wavy_lays_brah
-    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\wavy_lays_brah
-    sections:
-    - name: Test
-      themes:
-      - name: ' '
-        trackID: -1
-        trackHash: reactionalMetadata
-        trackName: ' '
-        trackArtist: 
-        trackAlbum: 
-        trackGenre: 
-        trackCover: 
-        trackBPM: 
-        bundleID: wavy_lays_brah
-      playlists:
-      - name: Default
-        tracks:
-        - name: ' '
-          trackID: -1
-          trackHash: reactionalMetadata
-          trackName: ' '
-          trackArtist: ' '
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 
-          trackBPM: ' '
-          bundleID: wavy_lays_brah
   _loadedThemes: []
   _loadedTracks: []
   lookahead: 0
@@ -2695,6 +2490,24 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!1 &1775079087 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1622015176290592475, guid: e78144a8eefcaa9419b45a14a2bfc6c7, type: 3}
+  m_PrefabInstance: {fileID: 29794208090762012}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1775079090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775079087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e2f5a74ea78f54fa9fe1429e2d72e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalLight: {fileID: 619394801}
 --- !u!1 &1793552786
 GameObject:
   m_ObjectHideFlags: 0
@@ -2980,11 +2793,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9882ac6cde2f04aea915309dae5bb63b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  songChunker: {fileID: 11400000, guid: 347b2603fc163427b89efa5b2c2530bb, type: 2}
   VocalPrefab: {fileID: 6691017079308188631, guid: e7a7f0d85c3f0eb41843e86ab9f52924, type: 3}
   BasPrefab: {fileID: 6691017079308188631, guid: e78d17e8ec75bac48bc7c2364ae51836, type: 3}
   DrumPrefab: {fileID: 6691017079308188631, guid: 34ae9d70d10bca442b1eae60ece53fc7, type: 3}
-  autoChunk: 1
   offlineMusicDataAsset: {fileID: 11400000, guid: 3424d0fd661a10c47a60c5fb261a5a59, type: 2}
   XOffsetMultiplier: 5
   YOffsetMultiplier: 2
@@ -3302,7 +3113,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1622015176290592475, guid: e78144a8eefcaa9419b45a14a2bfc6c7, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 1775079090}
   m_SourcePrefab: {fileID: 100100000, guid: e78144a8eefcaa9419b45a14a2bfc6c7, type: 3}
 --- !u!1001 &275415850982283093
 PrefabInstance:
@@ -3617,6 +3431,5 @@ SceneRoots:
   - {fileID: 1848548741}
   - {fileID: 919842544}
   - {fileID: 1442745991}
-  - {fileID: 837168766}
   - {fileID: 29794208090762012}
   - {fileID: 619394802}
