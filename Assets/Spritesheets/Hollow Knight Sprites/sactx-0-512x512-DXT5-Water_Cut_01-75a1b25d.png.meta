@@ -1,0 +1,2968 @@
+fileFormatVersion: 2
+guid: 266532ad68f9afe479a081da764bccb3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5512652667108733682
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_0
+  - first:
+      213: 8462326512916696031
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_1
+  - first:
+      213: -3612100687778507597
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_2
+  - first:
+      213: -1176245867210121285
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_3
+  - first:
+      213: 2632781284815301336
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_4
+  - first:
+      213: -2666858132846236110
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_5
+  - first:
+      213: 1331459304240964042
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_6
+  - first:
+      213: 9148941746990055150
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_7
+  - first:
+      213: 6989017958199695006
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_8
+  - first:
+      213: 854894936409703971
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_9
+  - first:
+      213: -2107018114248199838
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_10
+  - first:
+      213: 4906518951308704195
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_11
+  - first:
+      213: -68399102966288118
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_12
+  - first:
+      213: 8138306956677253064
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_13
+  - first:
+      213: -1446942729114766792
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_14
+  - first:
+      213: -2005865930141009999
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_15
+  - first:
+      213: 3992669269621517013
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_16
+  - first:
+      213: -4258981070303437619
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_17
+  - first:
+      213: -8851753151403947304
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_18
+  - first:
+      213: -7547279578867399368
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_19
+  - first:
+      213: 7712642706831210152
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_20
+  - first:
+      213: 2526206976847122956
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_21
+  - first:
+      213: -1718414554693190290
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_22
+  - first:
+      213: -4434559977725135908
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_23
+  - first:
+      213: 401509010024513344
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_24
+  - first:
+      213: -1053944853210705452
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_25
+  - first:
+      213: 641090931198459142
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_26
+  - first:
+      213: 6629373099017494394
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_27
+  - first:
+      213: 3628821701037124420
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_28
+  - first:
+      213: 4679784408322128024
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_29
+  - first:
+      213: -2175370480775382241
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_30
+  - first:
+      213: 6203748517979469741
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_31
+  - first:
+      213: -695233207661525585
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_32
+  - first:
+      213: 2845273718468404571
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_33
+  - first:
+      213: -431042752514847184
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_34
+  - first:
+      213: -3434063874917903155
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_35
+  - first:
+      213: 8145962525257831172
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_36
+  - first:
+      213: 6381669002308752620
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_37
+  - first:
+      213: 1597437246594290136
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_38
+  - first:
+      213: 1900851419860687301
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_39
+  - first:
+      213: 7952038764541185305
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_40
+  - first:
+      213: -5525864878556185195
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_41
+  - first:
+      213: 8864256412687176768
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_42
+  - first:
+      213: 5732445652538519541
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_43
+  - first:
+      213: 1669150170191190985
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_44
+  - first:
+      213: -6261584337131319615
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_45
+  - first:
+      213: -6304959004195097802
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_46
+  - first:
+      213: 550314768872999664
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_47
+  - first:
+      213: 7256909627446236010
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_48
+  - first:
+      213: 284732082489717173
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_49
+  - first:
+      213: 8564436765228827969
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_50
+  - first:
+      213: -317024922356089490
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_51
+  - first:
+      213: 1096999250416245249
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_52
+  - first:
+      213: -8133221247728675703
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_53
+  - first:
+      213: -5287508844291004324
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_54
+  - first:
+      213: 8410378846051108078
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_55
+  - first:
+      213: 8696439916769254952
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_56
+  - first:
+      213: -8717108420529621522
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_57
+  - first:
+      213: -1877032893035551769
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_58
+  - first:
+      213: 6811438889578058158
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_59
+  - first:
+      213: 8372976650184122768
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_60
+  - first:
+      213: 3521779965909413044
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_61
+  - first:
+      213: 5409853314202113165
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_62
+  - first:
+      213: 6165244326931629726
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_63
+  - first:
+      213: 4207118349031046503
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_64
+  - first:
+      213: 1170616554811520822
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_65
+  - first:
+      213: 7888599047662766716
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_66
+  - first:
+      213: 2788742955161819510
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_67
+  - first:
+      213: 3377668321095145450
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_68
+  - first:
+      213: 6942550344403075682
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_69
+  - first:
+      213: 618558083111277697
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_70
+  - first:
+      213: 5095199152234340948
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_71
+  - first:
+      213: -4446875837736768069
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_72
+  - first:
+      213: 3674098367799583440
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_73
+  - first:
+      213: -2338624750508913978
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_74
+  - first:
+      213: 6583305630322922974
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_75
+  - first:
+      213: -3819704069377316602
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_76
+  - first:
+      213: -5121988845490705455
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_77
+  - first:
+      213: 2043194748430979025
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_78
+  - first:
+      213: -214692984259576962
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_79
+  - first:
+      213: -3136569228591074949
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_80
+  - first:
+      213: 3648003388091082450
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_81
+  - first:
+      213: -7429608303161501648
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_82
+  - first:
+      213: 5775032260232631487
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_83
+  - first:
+      213: 8335772290478724415
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_84
+  - first:
+      213: 6840974658677969271
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_85
+  - first:
+      213: 1278350283037255631
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_86
+  - first:
+      213: -1411281555078578359
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_87
+  - first:
+      213: -6372040727274882161
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_88
+  - first:
+      213: -8976787981878277729
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_89
+  - first:
+      213: -3173820450192464344
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_90
+  - first:
+      213: -2496415569699335025
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_91
+  - first:
+      213: -6789784834533680398
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_92
+  - first:
+      213: -310729102293058933
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_93
+  - first:
+      213: 1937425787612608670
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_94
+  - first:
+      213: 5043934620861100482
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_95
+  - first:
+      213: -649161364311530223
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_96
+  - first:
+      213: -7014811632151868884
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_97
+  - first:
+      213: -7982178320734792500
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_98
+  - first:
+      213: -3242901722796889190
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_99
+  - first:
+      213: 1629226912743494737
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_100
+  - first:
+      213: -7109817350371461182
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_101
+  - first:
+      213: -3113607368262701385
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_102
+  - first:
+      213: -616792363315202021
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_103
+  - first:
+      213: -5564468547884464168
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_104
+  - first:
+      213: 4641037102770157419
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_105
+  - first:
+      213: 2689459017458800667
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_106
+  - first:
+      213: 83542597138507998
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_107
+  - first:
+      213: 1904049248382095645
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_108
+  - first:
+      213: 7104785078649595813
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_109
+  - first:
+      213: 5172654115918246307
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_110
+  - first:
+      213: -3335202295072502230
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_111
+  - first:
+      213: 2119294398518882358
+    second: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_112
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 404
+        width: 142
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f23029b460e08c40800000000000000
+      internalID: 5512652667108733682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 403
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb05cfc029307570800000000000000
+      internalID: 8462326512916696031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 300
+        width: 183
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4940cef8d3fddc0800000000000000
+      internalID: -3612100687778507597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_3
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 373
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf5b64ad922dafe0800000000000000
+      internalID: -1176245867210121285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 376
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da66b421a4898420800000000000000
+      internalID: 2632781284815301336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_5
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 358
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ea65568aa6dfad0800000000000000
+      internalID: -2666858132846236110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_6
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 330
+        width: 125
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1eb2ece2b4a7210800000000000000
+      internalID: 1331459304240964042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_7
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 277
+        width: 193
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee7514bb0297fe70800000000000000
+      internalID: 9148941746990055150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_8
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 345
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e969157bdcafdf060800000000000000
+      internalID: 6989017958199695006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 322
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3260bfc4a623ddb00800000000000000
+      internalID: 854894936409703971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 290
+        width: 188
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2613ce4403e52c2e0800000000000000
+      internalID: -2107018114248199838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_11
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 310
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c93a788df4771440800000000000000
+      internalID: 4906518951308704195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_12
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 287
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a013db4d06ffc0ff0800000000000000
+      internalID: -68399102966288118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_13
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 282
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c786d9fe0311f070800000000000000
+      internalID: 8138306956677253064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_14
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 272
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832b7cc014d6bebe0800000000000000
+      internalID: -1446942729114766792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_15
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 292
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7f2e6609bb924e0800000000000000
+      internalID: -2005865930141009999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_16
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 269
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5daa861fb8fc86730800000000000000
+      internalID: 3992669269621517013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_17
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 276
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc5377184f05e4c0800000000000000
+      internalID: -4258981070303437619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_18
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 269
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da8f1b4861482580800000000000000
+      internalID: -8851753151403947304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_19
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 262
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8358c01d53da24790800000000000000
+      internalID: -7547279578867399368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_20
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 262
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a67e24bdafc80b60800000000000000
+      internalID: 7712642706831210152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_21
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 237
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02161c6cd3ee0320800000000000000
+      internalID: 2526206976847122956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_22
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 227
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6db6aa2117f628e0800000000000000
+      internalID: -1718414554693190290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_23
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 253
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3778012374572c0800000000000000
+      internalID: -4434559977725135908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_24
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 245
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f31ac3152729500800000000000000
+      internalID: 401509010024513344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_25
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 227
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d156837db2af51f0800000000000000
+      internalID: -1053944853210705452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_26
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 234
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60dfec62ecc95e800800000000000000
+      internalID: 641090931198459142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_27
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 226
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fd77aa5b3400c50800000000000000
+      internalID: 6629373099017494394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_28
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 233
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44beb8b5c1a2c5230800000000000000
+      internalID: 3628821701037124420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_29
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 225
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898b373ff1fe1f040800000000000000
+      internalID: 4679784408322128024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_30
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 235
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b3386c2188fc1e0800000000000000
+      internalID: -2175370480775382241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_31
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 207
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7b5028864281650800000000000000
+      internalID: 6203748517979469741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_32
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 216
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa58745c4190a56f0800000000000000
+      internalID: -695233207661525585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_33
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 212
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55601e3f517c7720800000000000000
+      internalID: 2845273718468404571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_34
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 209
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e885d76e0a40af0800000000000000
+      internalID: -431042752514847184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_35
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 209
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc45487a911c750d0800000000000000
+      internalID: -3434063874917903155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 185
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40313afe1c54c0170800000000000000
+      internalID: 8145962525257831172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_37
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 204
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce41cb4652e309850800000000000000
+      internalID: 6381669002308752620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_38
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 203
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d11b3256bc3b2610800000000000000
+      internalID: 1597437246594290136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_39
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 197
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9d7939b4e216a10800000000000000
+      internalID: 1900851419860687301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_40
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 198
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d0d98ef115b5e60800000000000000
+      internalID: 7952038764541185305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_41
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 195
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59df9d49b2f2053b0800000000000000
+      internalID: -5525864878556185195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_42
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 182
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04492341e3a240b70800000000000000
+      internalID: 8864256412687176768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_43
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 189
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff6acdf2fcbd8f40800000000000000
+      internalID: 5732445652538519541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_44
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 191
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb570b7c330a2710800000000000000
+      internalID: 1669150170191190985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_45
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 181
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce432e78326a19a0800000000000000
+      internalID: -6261584337131319615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_46
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 181
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633fc87d0394088a0800000000000000
+      internalID: -6304959004195097802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_47
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 166
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa8359dd5c13a700800000000000000
+      internalID: 550314768872999664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_48
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 167
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a639b0f7bd8b5b460800000000000000
+      internalID: 7256909627446236010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_49
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 177
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1f4f8025293f300800000000000000
+      internalID: 284732082489717173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_50
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 159
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14582c49cddfad670800000000000000
+      internalID: 8564436765228827969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_51
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 159
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6df4064383b99bf0800000000000000
+      internalID: -317024922356089490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_52
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 166
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a1eef8103593f00800000000000000
+      internalID: 1096999250416245249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_53
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 161
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9841979ed5ef02f80800000000000000
+      internalID: -8133221247728675703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_54
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 146
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c586c4578befe96b0800000000000000
+      internalID: -5287508844291004324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_55
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 152
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee40659100ba7b470800000000000000
+      internalID: 8410378846051108078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_56
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 145
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e1f815706ffa870800000000000000
+      internalID: 8696439916769254952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_57
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 146
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5f3c5a31c960780800000000000000
+      internalID: -8717108420529621522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_58
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 150
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e364ea578073f5e0800000000000000
+      internalID: -1877032893035551769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_59
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 134
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1d49ed497178e50800000000000000
+      internalID: 6811438889578058158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_60
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 126
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0916dd2c6e9c23470800000000000000
+      internalID: 8372976650184122768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_61
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 136
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc2e154830efd030800000000000000
+      internalID: 3521779965909413044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_62
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 122
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d849cf73de8a31b40800000000000000
+      internalID: 5409853314202113165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_63
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 135
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96804cec095f8550800000000000000
+      internalID: 6165244326931629726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_64
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 134
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76df50229dfa26a30800000000000000
+      internalID: 4207118349031046503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_65
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 135
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6377bbded8dde3010800000000000000
+      internalID: 1170616554811520822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_66
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 124
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a8c6bc90fe97d60800000000000000
+      internalID: 7888599047662766716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_67
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 123
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6791b4c31fa93b620800000000000000
+      internalID: 2788742955161819510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_68
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 113
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae757ff3173efde20800000000000000
+      internalID: 3377668321095145450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_69
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 116
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262496941c4e85060800000000000000
+      internalID: 6942550344403075682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_70
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 119
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1845bc0ac4f859800800000000000000
+      internalID: 618558083111277697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_71
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 91
+        width: 102
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452acc822a8c5b640800000000000000
+      internalID: 5095199152234340948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_72
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 99
+        width: 36
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdae637cf58942c0800000000000000
+      internalID: -4446875837736768069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_73
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 106
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d26982dff40df230800000000000000
+      internalID: 3674098367799583440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_74
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 105
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cacaf21e298b8fd0800000000000000
+      internalID: -2338624750508913978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_75
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 102
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed51a3747999c5b50800000000000000
+      internalID: 6583305630322922974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_76
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 86
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609a6a5f26fadfac0800000000000000
+      internalID: -3819704069377316602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_77
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 79
+        width: 43
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db6301584a0be8b0800000000000000
+      internalID: -5121988845490705455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_78
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 93
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df0c236cc2ea5c10800000000000000
+      internalID: 2043194748430979025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_79
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 67
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b70794ed1450df0800000000000000
+      internalID: -214692984259576962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_80
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 76
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b717864a7eaa874d0800000000000000
+      internalID: -3136569228591074949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_81
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 77
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d62796e0cf40a230800000000000000
+      internalID: 3648003388091082450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_82
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 68
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03814cdac9ab4e890800000000000000
+      internalID: -7429608303161501648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_83
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 78
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb456954e39052050800000000000000
+      internalID: 5775032260232631487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_84
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 68
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35578ebbbc9ea370800000000000000
+      internalID: 8335772290478724415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_85
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 78
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77113fff43600fe50800000000000000
+      internalID: 6840974658677969271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_86
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 69
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7a4f63fcc9db110800000000000000
+      internalID: 1278350283037255631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_87
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 67
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ffa7727ee1a6ce0800000000000000
+      internalID: -1411281555078578359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_88
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b757418b6f197a0800000000000000
+      internalID: -6372040727274882161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_89
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 57
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99462c34ea0c6380800000000000000
+      internalID: -8976787981878277729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_90
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 62
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826686dbd1354f3d0800000000000000
+      internalID: -3173820450192464344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_91
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 58
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8411541443fa5dd0800000000000000
+      internalID: -2496415569699335025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_92
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa1944baa6d5c1a0800000000000000
+      internalID: -6789784834533680398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_93
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 54
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a327c178110bbf0800000000000000
+      internalID: -310729102293058933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_94
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 54
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98b4592d7e13ea10800000000000000
+      internalID: 1937425787612608670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 46
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c178b250d7aff540800000000000000
+      internalID: 5043934620861100482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_96
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 33
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115ad46bd27bdf6f0800000000000000
+      internalID: -649161364311530223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_97
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 42
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a4f439cf166ae90800000000000000
+      internalID: -7014811632151868884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_98
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 52
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc457c2db1b993190800000000000000
+      internalID: -7982178320734792500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 37
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b60339016eef2d0800000000000000
+      internalID: -3242901722796889190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_100
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1541590ce3d2c9610800000000000000
+      internalID: 1629226912743494737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_101
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 25
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7333d0acad45d90800000000000000
+      internalID: -7109817350371461182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_102
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 31
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bea9ac589e3ac4d0800000000000000
+      internalID: -3113607368262701385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_103
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 41
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b187c6c0d96b077f0800000000000000
+      internalID: -616792363315202021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_104
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 17
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d74387665907c2b0800000000000000
+      internalID: -5564468547884464168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_105
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 16
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67f50cd7a6486040800000000000000
+      internalID: 4641037102770157419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 6
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b185a9d1ab0e25520800000000000000
+      internalID: 2689459017458800667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_107
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 18
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8ed0aac8dc82100800000000000000
+      internalID: 83542597138507998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_108
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 11
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d111aac04ba8c6a10800000000000000
+      internalID: 1904049248382095645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_109
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 17
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7a762e264499260800000000000000
+      internalID: 7104785078649595813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_110
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1f4453385f8c740800000000000000
+      internalID: 5172654115918246307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_111
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 2
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ec22cee2bf6b1d0800000000000000
+      internalID: -3335202295072502230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Water_Cut_01-75a1b25d_112
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6307136e60f396d10800000000000000
+      internalID: 2119294398518882358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

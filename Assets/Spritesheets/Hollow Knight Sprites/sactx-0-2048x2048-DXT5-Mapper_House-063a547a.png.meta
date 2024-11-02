@@ -1,0 +1,618 @@
+fileFormatVersion: 2
+guid: f801038a700b15e4e895140b6b202fb8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 47244473563571158
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_0
+  - first:
+      213: -4535108243390191764
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_1
+  - first:
+      213: 3527080668557474387
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_2
+  - first:
+      213: -2874572841763165538
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_3
+  - first:
+      213: -3016867599418672472
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_4
+  - first:
+      213: -2252294506842233530
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_5
+  - first:
+      213: -8882591446175239529
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_6
+  - first:
+      213: -3845672768223528914
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_7
+  - first:
+      213: -1612320470401822340
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_8
+  - first:
+      213: -1588841677037928446
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_9
+  - first:
+      213: -9182990336705258861
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_10
+  - first:
+      213: -2217322796580338783
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_11
+  - first:
+      213: 8716698874287883940
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_12
+  - first:
+      213: -1732556685945649116
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_13
+  - first:
+      213: -4442364498116181463
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_14
+  - first:
+      213: 7302702085590918372
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_15
+  - first:
+      213: 2757098449123505410
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_16
+  - first:
+      213: -6329019994789698387
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_17
+  - first:
+      213: 3743085939949075666
+    second: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1842
+        width: 297
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d36b503998d7a000800000000000000
+      internalID: 47244473563571158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1812
+        width: 297
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6728c6a41f0011c0800000000000000
+      internalID: -4535108243390191764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_2
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1549
+        width: 376
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35af3874e25b2f030800000000000000
+      internalID: 3527080668557474387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_3
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1857
+        width: 297
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9aa8b50b377b18d0800000000000000
+      internalID: -2874572841763165538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1689
+        width: 297
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aab34207eee126d0800000000000000
+      internalID: -3016867599418672472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1268
+        width: 529
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645ea16441e3eb0e0800000000000000
+      internalID: -2252294506842233530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_6
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1512
+        width: 8
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7923dc54422bab480800000000000000
+      internalID: -8882591446175239529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_7
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1537
+        width: 296
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28b4a71efc61aac0800000000000000
+      internalID: -3845672768223528914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_8
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 1169
+        width: 297
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71db991313ef99e0800000000000000
+      internalID: -1612320470401822340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_9
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1308
+        width: 299
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20081dba9ec43f9e0800000000000000
+      internalID: -1588841677037928446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 521
+        width: 814
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a96dc31f67f8080800000000000000
+      internalID: -9182990336705258861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 777
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a304751aac7a31e0800000000000000
+      internalID: -2217322796580338783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_12
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 429
+        width: 297
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a60aff617fe7f870800000000000000
+      internalID: 8716698874287883940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_13
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 389
+        width: 134
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4284bf4afd8b4f7e0800000000000000
+      internalID: -1732556685945649116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_14
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 318
+        width: 296
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9228afe860d8952c0800000000000000
+      internalID: -4442364498116181463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_15
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 258
+        width: 296
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4a6200bd8685560800000000000000
+      internalID: 7302702085590918372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_16
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 0
+        width: 296
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20579c68e6e234620800000000000000
+      internalID: 2757098449123505410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_17
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 129
+        width: 297
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4273ae8ddca28a0800000000000000
+      internalID: -6329019994789698387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Mapper_House-063a547a_18
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 297
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc7c66a4dc12f330800000000000000
+      internalID: 3743085939949075666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

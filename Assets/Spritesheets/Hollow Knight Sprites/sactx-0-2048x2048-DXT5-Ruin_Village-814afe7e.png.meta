@@ -1,0 +1,493 @@
+fileFormatVersion: 2
+guid: 76855ea20f0ff4c4daacc66821f80dbd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2305519916240527294
+    second: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_0
+  - first:
+      213: -381525303893021777
+    second: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_1
+  - first:
+      213: 5965451172974846469
+    second: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_2
+  - first:
+      213: 7065763569637198137
+    second: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_3
+  - first:
+      213: 6340272075087076592
+    second: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_4
+  - first:
+      213: -42204254622299728
+    second: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_5
+  - first:
+      213: 3979419005152771939
+    second: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_6
+  - first:
+      213: 8233421829745494435
+    second: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_7
+  - first:
+      213: -7759286644205674198
+    second: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_8
+  - first:
+      213: -5737528923487461358
+    second: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_9
+  - first:
+      213: 3579009602785740198
+    second: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_10
+  - first:
+      213: 6179801578041425882
+    second: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_11
+  - first:
+      213: 1683953122465279514
+    second: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_12
+  - first:
+      213: 4833993271130005813
+    second: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_0
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1750
+        width: 48
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24025e1f9d52100e0800000000000000
+      internalID: -2305519916240527294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_1
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1681
+        width: 54
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab22ace1cc84baf0800000000000000
+      internalID: -381525303893021777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_2
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1583
+        width: 165
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5026a1a4c3a89c250800000000000000
+      internalID: 5965451172974846469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_3
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1834
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9390f13d782ae0260800000000000000
+      internalID: 7065763569637198137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1735
+        width: 257
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fcd4ee2cdb2df750800000000000000
+      internalID: 6340272075087076592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_5
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1713
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b94a3b347f0a6ff0800000000000000
+      internalID: -42204254622299728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_6
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1733
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36fb196508cb93730800000000000000
+      internalID: 3979419005152771939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_7
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1258
+        width: 510
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a94de7188df24270800000000000000
+      internalID: 8233421829745494435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1547
+        height: 1718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2120b558e9715490800000000000000
+      internalID: -7759286644205674198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_9
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 771
+        width: 117
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2102003c7d33060b0800000000000000
+      internalID: -5737528923487461358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_10
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 955
+        width: 187
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a581c575423ba130800000000000000
+      internalID: 3579009602785740198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_11
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 347
+        width: 274
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adfbe811bc013c550800000000000000
+      internalID: 6179801578041425882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_12
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 0
+        width: 167
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ee3f2617a9e5710800000000000000
+      internalID: 1683953122465279514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Ruin_Village-814afe7e_13
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 201
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531255cb44bc51340800000000000000
+      internalID: 4833993271130005813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

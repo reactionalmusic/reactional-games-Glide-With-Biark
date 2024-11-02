@@ -1,0 +1,5418 @@
+fileFormatVersion: 2
+guid: b02a22b083945214a8799c60e1c643ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8630324270540843165
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_0
+  - first:
+      213: 4732527574991328760
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_1
+  - first:
+      213: -389722768882540492
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_2
+  - first:
+      213: -8200441152593827308
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_3
+  - first:
+      213: 2206231045011369091
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_4
+  - first:
+      213: 1209343136451262556
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_5
+  - first:
+      213: 9064872270520587956
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_6
+  - first:
+      213: -4770673412915527935
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_7
+  - first:
+      213: 5207547234666633271
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_8
+  - first:
+      213: -6206357080043475826
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_9
+  - first:
+      213: -2702360579242932918
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_10
+  - first:
+      213: 9187616338440458735
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_11
+  - first:
+      213: 1589751357900592808
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_12
+  - first:
+      213: 1786459672139649343
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_13
+  - first:
+      213: 2334622718248786050
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_14
+  - first:
+      213: -1569572923662959580
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_15
+  - first:
+      213: -2637273196681759247
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_16
+  - first:
+      213: -5728598762860766075
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_17
+  - first:
+      213: -4290911864060400388
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_18
+  - first:
+      213: -3355394700493184677
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_19
+  - first:
+      213: -2537398324471607262
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_20
+  - first:
+      213: 6120263932504441021
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_21
+  - first:
+      213: -879534967444867089
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_22
+  - first:
+      213: -5968792717795059424
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_23
+  - first:
+      213: 7953820697255278680
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_24
+  - first:
+      213: 5093391020217822365
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_25
+  - first:
+      213: -8114142680864845045
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_26
+  - first:
+      213: 6815436471278495228
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_27
+  - first:
+      213: 6978290463181302675
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_28
+  - first:
+      213: -4433839404493765018
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_29
+  - first:
+      213: 1717568096278993875
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_30
+  - first:
+      213: -5934338164501959689
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_31
+  - first:
+      213: -6621492105314387548
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_32
+  - first:
+      213: 3368022858549702448
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_33
+  - first:
+      213: -2155690707599774418
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_34
+  - first:
+      213: 2519788895177058975
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_35
+  - first:
+      213: -4283485391987582919
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_36
+  - first:
+      213: -7185171013811815837
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_37
+  - first:
+      213: -5922654171996795994
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_38
+  - first:
+      213: 4741199474864449710
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_39
+  - first:
+      213: -1014910244813631066
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_40
+  - first:
+      213: 209542873493737449
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_41
+  - first:
+      213: -7923286116970640930
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_42
+  - first:
+      213: 6407297697166854653
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_43
+  - first:
+      213: -19741123017429678
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_44
+  - first:
+      213: 5024469138200745013
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_45
+  - first:
+      213: 8043070973321862415
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_46
+  - first:
+      213: 8567503925635358267
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_47
+  - first:
+      213: 1045278204816362704
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_48
+  - first:
+      213: 7465823042051398578
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_49
+  - first:
+      213: 8468428497310656600
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_50
+  - first:
+      213: -2712680537601297474
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_51
+  - first:
+      213: 933765699090295382
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_52
+  - first:
+      213: -3004706419161984209
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_53
+  - first:
+      213: 4387266602081614968
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_54
+  - first:
+      213: 5638352650036069364
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_55
+  - first:
+      213: -6772907103963452962
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_56
+  - first:
+      213: 889006157970460494
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_57
+  - first:
+      213: 3068353327171287897
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_58
+  - first:
+      213: -865543617282042151
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_59
+  - first:
+      213: -3870763308119579304
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_60
+  - first:
+      213: 7721351960773938141
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_61
+  - first:
+      213: 2168759450327001571
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_62
+  - first:
+      213: -790975821201114418
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_63
+  - first:
+      213: 2101453703429052915
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_64
+  - first:
+      213: 7244872641281474746
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_65
+  - first:
+      213: 1983036282823645887
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_66
+  - first:
+      213: -840502818464610635
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_67
+  - first:
+      213: -7378802986053699576
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_68
+  - first:
+      213: -848076106269295078
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_69
+  - first:
+      213: -4112265132215130455
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_70
+  - first:
+      213: 2874663932026519873
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_71
+  - first:
+      213: -4406385441828208459
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_72
+  - first:
+      213: -3459560577988045858
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_73
+  - first:
+      213: -503615707070668327
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_74
+  - first:
+      213: -4696772811080295354
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_75
+  - first:
+      213: -8592013527280433095
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_76
+  - first:
+      213: -7178876227878811440
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_77
+  - first:
+      213: -620382755808740540
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_78
+  - first:
+      213: 1241529097074300362
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_79
+  - first:
+      213: -5115479102315429679
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_80
+  - first:
+      213: 8549110059486143431
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_81
+  - first:
+      213: -1685799076231228507
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_82
+  - first:
+      213: -2134188280641491542
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_83
+  - first:
+      213: 8195913713156980884
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_84
+  - first:
+      213: -8091445879062419362
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_85
+  - first:
+      213: 2371894295087908242
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_86
+  - first:
+      213: -6511362809871155890
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_87
+  - first:
+      213: 6773802558551406604
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_88
+  - first:
+      213: 5738626729035236043
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_89
+  - first:
+      213: -8841341453502115879
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_90
+  - first:
+      213: 6129654271990024717
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_91
+  - first:
+      213: 1005574762519415224
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_92
+  - first:
+      213: 4496445972174411867
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_93
+  - first:
+      213: -4972521508437636025
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_94
+  - first:
+      213: 2418334551926245404
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_95
+  - first:
+      213: 3332008660707879001
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_96
+  - first:
+      213: 232437317940583738
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_97
+  - first:
+      213: -4143897971963341750
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_98
+  - first:
+      213: -5240990413459316191
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_99
+  - first:
+      213: -3136058472853342096
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_100
+  - first:
+      213: 6712167481626716183
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_101
+  - first:
+      213: 127487813040641393
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_102
+  - first:
+      213: 819366421631836532
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_103
+  - first:
+      213: 5799165751865295716
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_104
+  - first:
+      213: 7468356242795292211
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_105
+  - first:
+      213: 972410245918834562
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_106
+  - first:
+      213: -7159020113022378533
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_107
+  - first:
+      213: -1937133641536196706
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_108
+  - first:
+      213: -8500796508170491355
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_109
+  - first:
+      213: 7619313226964349170
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_110
+  - first:
+      213: -5690323904711522405
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_111
+  - first:
+      213: 2248500142093300778
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_112
+  - first:
+      213: 8722633015776260265
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_113
+  - first:
+      213: 2152953693702785724
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_114
+  - first:
+      213: -7491350023663228053
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_115
+  - first:
+      213: -1485561873297085445
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_116
+  - first:
+      213: 2609946076941768438
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_117
+  - first:
+      213: -3645533443488680730
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_118
+  - first:
+      213: 6564704852604969391
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_119
+  - first:
+      213: -1411842755241852078
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_120
+  - first:
+      213: 3332707408556626981
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_121
+  - first:
+      213: -3539447624392520298
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_122
+  - first:
+      213: -4734926868657772346
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_123
+  - first:
+      213: -1513840385686949473
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_124
+  - first:
+      213: -6055152585618768079
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_125
+  - first:
+      213: 3452869709664465726
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_126
+  - first:
+      213: 2619015840521700884
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_127
+  - first:
+      213: -3589294436689780934
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_128
+  - first:
+      213: 228107514226739623
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_129
+  - first:
+      213: -4967918903772051628
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_130
+  - first:
+      213: -7857381591383006943
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_131
+  - first:
+      213: -422666096460719534
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_132
+  - first:
+      213: -8346749454569194350
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_133
+  - first:
+      213: 8133734610459908110
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_134
+  - first:
+      213: 905720627752488660
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_135
+  - first:
+      213: 9141603680704922594
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_136
+  - first:
+      213: 3703270778490092032
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_137
+  - first:
+      213: -6462989873051171014
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_138
+  - first:
+      213: -669294960947859979
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_139
+  - first:
+      213: 814547482091748163
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_140
+  - first:
+      213: -3733692655115653553
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_141
+  - first:
+      213: 6241625411667698857
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_142
+  - first:
+      213: 7750734202371021611
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_143
+  - first:
+      213: 3118283705463978048
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_144
+  - first:
+      213: 6424398249712315609
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_145
+  - first:
+      213: -5922901190136232896
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_146
+  - first:
+      213: 668753082511255662
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_147
+  - first:
+      213: 1072930110328543020
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_148
+  - first:
+      213: -6736134023606993395
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_149
+  - first:
+      213: -6567669301528049396
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_150
+  - first:
+      213: 672000948744157390
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_151
+  - first:
+      213: -4222482684722770696
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_152
+  - first:
+      213: 5127585640071260495
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_153
+  - first:
+      213: 2210401498048384802
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_154
+  - first:
+      213: 3065128081879434978
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_155
+  - first:
+      213: 8146755869584047714
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_156
+  - first:
+      213: 1899044656483080665
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_157
+  - first:
+      213: 1913197508402363050
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_158
+  - first:
+      213: 735960681806733159
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_159
+  - first:
+      213: 2710779715330783997
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_160
+  - first:
+      213: -6015133332370111051
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_161
+  - first:
+      213: -7574603770962627248
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_162
+  - first:
+      213: 1663742110511751
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_163
+  - first:
+      213: -7082296307539318626
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_164
+  - first:
+      213: 8022823847450091626
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_165
+  - first:
+      213: 2592457860755186766
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_166
+  - first:
+      213: 4970487756273620846
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_167
+  - first:
+      213: 514023200029438914
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_168
+  - first:
+      213: -8259123146501928801
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_169
+  - first:
+      213: -6568632314834018669
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_170
+  - first:
+      213: -996595841414166759
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_171
+  - first:
+      213: 4119787430250228622
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_172
+  - first:
+      213: 2589761889411775718
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_173
+  - first:
+      213: -1366228180389596997
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_174
+  - first:
+      213: -6047103003137394000
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_175
+  - first:
+      213: 3872451910872270928
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_176
+  - first:
+      213: 6753662312938777808
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_177
+  - first:
+      213: 4942169751642018826
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_178
+  - first:
+      213: 3142610530961300535
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_179
+  - first:
+      213: -3442516714317911158
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_180
+  - first:
+      213: -7111811667016618196
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_181
+  - first:
+      213: -7740694988685492371
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_182
+  - first:
+      213: -5268503121229720710
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_183
+  - first:
+      213: 9212226108220751976
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_184
+  - first:
+      213: 7380093046791867215
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_185
+  - first:
+      213: 6944941437243387235
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_186
+  - first:
+      213: -459620100616827416
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_187
+  - first:
+      213: 7471620401655013434
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_188
+  - first:
+      213: 8962398778424768414
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_189
+  - first:
+      213: 1898691919050777106
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_190
+  - first:
+      213: -7449780152263638393
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_191
+  - first:
+      213: -6811642989737750907
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_192
+  - first:
+      213: 4354575256153325233
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_193
+  - first:
+      213: -1792214992235962337
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_194
+  - first:
+      213: -5348593762039189103
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_195
+  - first:
+      213: 3031942717407119683
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_196
+  - first:
+      213: 4873722650687064547
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_197
+  - first:
+      213: -2197487452760052819
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_198
+  - first:
+      213: -6344758522192483286
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_199
+  - first:
+      213: 6148154956101134729
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_200
+  - first:
+      213: 2716153227931840611
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_201
+  - first:
+      213: -1581848942690459917
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_202
+  - first:
+      213: 159918615864780856
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_203
+  - first:
+      213: 8149567019208785209
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_204
+  - first:
+      213: 496769929736760835
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_205
+  - first:
+      213: -2969523350200387967
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_206
+  - first:
+      213: 4162723563004067190
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_207
+  - first:
+      213: -7624291202630683531
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_208
+  - first:
+      213: -7283100570911872443
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_209
+  - first:
+      213: -2546409239149340335
+    second: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_210
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3423
+        width: 203
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3671bf52dcdea3880800000000000000
+      internalID: -8630324270540843165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 3739
+        width: 322
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f5591561c05da140800000000000000
+      internalID: 4732527574991328760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3793
+        width: 316
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430efdfd43d679af0800000000000000
+      internalID: -389722768882540492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_3
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 3807
+        width: 411
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a6622383e223e80800000000000000
+      internalID: -8200441152593827308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_4
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 3659
+        width: 313
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c6752427b1e9e10800000000000000
+      internalID: 2206231045011369091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_5
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 3611
+        width: 342
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58fbbbdc2378c010800000000000000
+      internalID: 1209343136451262556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_6
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 3887
+        width: 236
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b61ba26d45eccd70800000000000000
+      internalID: 9064872270520587956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_7
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 3595
+        width: 453
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ff4cb9ec92bcdb0800000000000000
+      internalID: -4770673412915527935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_8
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 3809
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7385f518e9ce44840800000000000000
+      internalID: 5207547234666633271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_9
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 3814
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c27ce4e179ed9a0800000000000000
+      internalID: -6206357080043475826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_10
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 3822
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45c433fe594f7ad0800000000000000
+      internalID: -2702360579242932918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_11
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 3397
+        width: 370
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe19159b168f08f70800000000000000
+      internalID: 9187616338440458735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_12
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 3401
+        width: 384
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a61cd8ef6eef0610800000000000000
+      internalID: 1589751357900592808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_13
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 3572
+        width: 113
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31d1735b97cac810800000000000000
+      internalID: 1786459672139649343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_14
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 3572
+        width: 132
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28896cd2efe366020800000000000000
+      internalID: 2334622718248786050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_15
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 3682
+        width: 228
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c7ffbedb1c73ae0800000000000000
+      internalID: -1569572923662959580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_16
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 3565
+        width: 92
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5ff102006866bd0800000000000000
+      internalID: -2637273196681759247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_17
+      rect:
+        serializedVersion: 2
+        x: 2344
+        y: 3660
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c11fec6cdef70b0800000000000000
+      internalID: -5728598762860766075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_18
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 3618
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfcab24d46e9374c0800000000000000
+      internalID: -4290911864060400388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2969
+        width: 280
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5120eb2c4e3f61d0800000000000000
+      internalID: -3355394700493184677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_20
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 3281
+        width: 369
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220d238eaa959ccd0800000000000000
+      internalID: -2537398324471607262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_21
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 3138
+        width: 415
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0009cbe9b8fe450800000000000000
+      internalID: 6120263932504441021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_22
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 2869
+        width: 228
+        height: 547
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7f9e96b934bc3f0800000000000000
+      internalID: -879534967444867089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_23
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 3266
+        width: 309
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02913eda5a69a2da0800000000000000
+      internalID: -5968792717795059424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_24
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 3296
+        width: 414
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858fc0378c5a16e60800000000000000
+      internalID: 7953820697255278680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_25
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 3416
+        width: 323
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c6f3e952c5fa640800000000000000
+      internalID: 5093391020217822365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_26
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 3210
+        width: 108
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03173ae836c46f80800000000000000
+      internalID: -8114142680864845045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_27
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 3052
+        width: 372
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5ebc36c5b459e50800000000000000
+      internalID: 6815436471278495228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_28
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 2858
+        width: 307
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bea65243ed7d060800000000000000
+      internalID: 6978290463181302675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_29
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2858
+        width: 255
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66605089d86d772c0800000000000000
+      internalID: -4433839404493765018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_30
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 2952
+        width: 248
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dbd040651706d710800000000000000
+      internalID: 1717568096278993875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_31
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 3110
+        width: 328
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb21df71eef4ada0800000000000000
+      internalID: -5934338164501959689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_32
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 3245
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9beab230cbb14a0800000000000000
+      internalID: -6621492105314387548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_33
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 3174
+        width: 144
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f204ff1fe9dbe20800000000000000
+      internalID: 3368022858549702448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_34
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 2762
+        width: 277
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2da7e709b27512e0800000000000000
+      internalID: -2155690707599774418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_35
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 2740
+        width: 279
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9aa00656a618f220800000000000000
+      internalID: 2519788895177058975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_36
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 2932
+        width: 302
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938510a1bb00e84c0800000000000000
+      internalID: -4283485391987582919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_37
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 2821
+        width: 219
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a30571805294c90800000000000000
+      internalID: -7185171013811815837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_38
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 3032
+        width: 143
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab45aef8618ecda0800000000000000
+      internalID: -5922654171996795994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_39
+      rect:
+        serializedVersion: 2
+        x: 2686
+        y: 2907
+        width: 146
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8609c6dcf1cc140800000000000000
+      internalID: 4741199474864449710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_40
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 3038
+        width: 133
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a19af272805ae1f0800000000000000
+      internalID: -1014910244813631066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2565
+        width: 339
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef0fcb122278e200800000000000000
+      internalID: 209542873493737449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_42
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2824
+        width: 157
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed94e288145da0290800000000000000
+      internalID: -7923286116970640930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_43
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2489
+        width: 302
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df90fc9ee4b4be850800000000000000
+      internalID: 6407297697166854653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_44
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 2620
+        width: 259
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d241f9d8dd9bff0800000000000000
+      internalID: -19741123017429678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_45
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 2683
+        width: 128
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5345e577f008ab540800000000000000
+      internalID: 5024469138200745013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_46
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 2608
+        width: 267
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0dda1caf6abe9f60800000000000000
+      internalID: 8043070973321862415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_47
+      rect:
+        serializedVersion: 2
+        x: 2818
+        y: 2751
+        width: 136
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e92438d63e5e670800000000000000
+      internalID: 8567503925635358267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_48
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 2581
+        width: 226
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc89893df2918e00800000000000000
+      internalID: 1045278204816362704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_49
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 2805
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb5669408eeb9760800000000000000
+      internalID: 7465823042051398578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_50
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 2518
+        width: 259
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8582ff3c9d6e58570800000000000000
+      internalID: 8468428497310656600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_51
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 2416
+        width: 348
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3b8276c6f9a5ad0800000000000000
+      internalID: -2712680537601297474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_52
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 2129
+        width: 236
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65aa8bdb4f665fc00800000000000000
+      internalID: 933765699090295382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_53
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 2380
+        width: 340
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23938f6e632d46d0800000000000000
+      internalID: -3004706419161984209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_54
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 2672
+        width: 130
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c7208dab3b2ec30800000000000000
+      internalID: 4387266602081614968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_55
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 2646
+        width: 190
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f348c7acd37f3e40800000000000000
+      internalID: 5638352650036069364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_56
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 2609
+        width: 177
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9e9839fdcc102a0800000000000000
+      internalID: -6772907103963452962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_57
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 2588
+        width: 175
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fc6f8f362665c00800000000000000
+      internalID: 889006157970460494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_58
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 2592
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bbe6f181bf49a20800000000000000
+      internalID: 3068353327171287897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_59
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 2411
+        width: 256
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d61c4a7aa8fcf3f0800000000000000
+      internalID: -865543617282042151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_60
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 2433
+        width: 216
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855aae98749484ac0800000000000000
+      internalID: -3870763308119579304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_61
+      rect:
+        serializedVersion: 2
+        x: 3117
+        y: 2590
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb42b7e2b0c72b60800000000000000
+      internalID: 7721351960773938141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_62
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 2589
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e92300ca3bf81e10800000000000000
+      internalID: 2168759450327001571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_63
+      rect:
+        serializedVersion: 2
+        x: 3141
+        y: 2577
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca726f6ea3e505f0800000000000000
+      internalID: -790975821201114418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_64
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 2591
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f951d0620dd92d10800000000000000
+      internalID: 2101453703429052915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_65
+      rect:
+        serializedVersion: 2
+        x: 3171
+        y: 2380
+        width: 99
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab047824845fa8460800000000000000
+      internalID: 7244872641281474746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_66
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 2426
+        width: 273
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba1a6e1ef8258b10800000000000000
+      internalID: 1983036282823645887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_67
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 2580
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6c3b8c32fe554f0800000000000000
+      internalID: -840502818464610635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_68
+      rect:
+        serializedVersion: 2
+        x: 3154
+        y: 2566
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8087dac57c9399990800000000000000
+      internalID: -7378802986053699576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2094
+        width: 292
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e725f46470b34f0800000000000000
+      internalID: -848076106269295078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_70
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 2068
+        width: 303
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6a71466ac4ee6c0800000000000000
+      internalID: -4112265132215130455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_71
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 2081
+        width: 306
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14181159d9bd4e720800000000000000
+      internalID: 2874663932026519873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_72
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 2276
+        width: 289
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0806469cf59d2c0800000000000000
+      internalID: -4406385441828208459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_73
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 2351
+        width: 142
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3d31edbfb2dffc0800000000000000
+      internalID: -3459560577988045858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_74
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 2475
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1eeb4ce2cc209f0800000000000000
+      internalID: -503615707070668327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_75
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 2374
+        width: 126
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c98dc4306b1deb0800000000000000
+      internalID: -4696772811080295354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_76
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 2079
+        width: 163
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9384919283903c880800000000000000
+      internalID: -8592013527280433095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_77
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 2244
+        width: 139
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d889c62b128f5c90800000000000000
+      internalID: -7178876227878811440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_78
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1855
+        width: 303
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44bfd37ab25f367f0800000000000000
+      internalID: -620382755808740540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_79
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 2001
+        width: 324
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5dc69c22cca3110800000000000000
+      internalID: 1241529097074300362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_80
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 2005
+        width: 263
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d00e820cda2209b0800000000000000
+      internalID: -5115479102315429679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_81
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 2148
+        width: 317
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3e361dd4a84a670800000000000000
+      internalID: 8549110059486143431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_82
+      rect:
+        serializedVersion: 2
+        x: 2643
+        y: 2154
+        width: 185
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a35e820ca6da98e0800000000000000
+      internalID: -1685799076231228507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_83
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 1993
+        width: 245
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aadef80f017d162e0800000000000000
+      internalID: -2134188280641491542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_84
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 2249
+        width: 262
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490897a291cbdb170800000000000000
+      internalID: 8195913713156980884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_85
+      rect:
+        serializedVersion: 2
+        x: 3183
+        y: 2223
+        width: 214
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58af23e7d865bf80800000000000000
+      internalID: -8091445879062419362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1794
+        width: 485
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2958d776b49aae020800000000000000
+      internalID: 2371894295087908242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_87
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1818
+        width: 435
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4db0f9e50ef2a5a0800000000000000
+      internalID: -6511362809871155890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_88
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1890
+        width: 136
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08b611b981610e50800000000000000
+      internalID: 6773802558551406604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_89
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1554
+        width: 340
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc205b20b92b3af40800000000000000
+      internalID: 5738626729035236043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_90
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 1796
+        width: 356
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df021e9ace3d4580800000000000000
+      internalID: -8841341453502115879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_91
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 1842
+        width: 179
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0acbe58518e01550800000000000000
+      internalID: 6129654271990024717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_92
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 1866
+        width: 245
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b941133be484fd00800000000000000
+      internalID: 1005574762519415224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_93
+      rect:
+        serializedVersion: 2
+        x: 3011
+        y: 1832
+        width: 186
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58113bd9c5966e30800000000000000
+      internalID: 4496445972174411867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_94
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 2006
+        width: 163
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cc59b980e0efab0800000000000000
+      internalID: -4972521508437636025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_95
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 1948
+        width: 104
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c180e9b4676af8120800000000000000
+      internalID: 2418334551926245404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_96
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1960
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958a402293cad3e20800000000000000
+      internalID: 3332008660707879001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_97
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 1749
+        width: 134
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d94685288c93300800000000000000
+      internalID: 232437317940583738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_98
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1521
+        width: 524
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44d9a3ffbaed76c0800000000000000
+      internalID: -4143897971963341750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_99
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1419
+        width: 390
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122a786acf24447b0800000000000000
+      internalID: -5240990413459316191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_100
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1833
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078f8ba3f6b7a74d0800000000000000
+      internalID: -3136058472853342096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_101
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1823
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718e94f03c8662d50800000000000000
+      internalID: 6712167481626716183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_102
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1766
+        width: 141
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1759a719d7de4c100800000000000000
+      internalID: 127487813040641393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_103
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 1634
+        width: 243
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471af365b69fe5b00800000000000000
+      internalID: 819366421631836532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_104
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 1652
+        width: 339
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463ca89a686ca7050800000000000000
+      internalID: 5799165751865295716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_105
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 1827
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33662eb0f6ee4a760800000000000000
+      internalID: 7468356242795292211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_106
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 1826
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f31f377f1be7d00800000000000000
+      internalID: 972410245918834562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_107
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 1712
+        width: 189
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd9c67232d06ac90800000000000000
+      internalID: -7159020113022378533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1334
+        width: 431
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9fa6c5673bed15e0800000000000000
+      internalID: -1937133641536196706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_109
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1546
+        width: 180
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52aed9e6d9a170a80800000000000000
+      internalID: -8500796508170491355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_110
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 1401
+        width: 260
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f035a5d20d3db960800000000000000
+      internalID: 7619313226964349170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_111
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 1468
+        width: 292
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9781caae88e701b0800000000000000
+      internalID: -5690323904711522405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_112
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 1500
+        width: 313
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24f2e657f6443f10800000000000000
+      internalID: 2248500142093300778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_113
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 1723
+        width: 137
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0307b63840d0970800000000000000
+      internalID: 8722633015776260265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_114
+      rect:
+        serializedVersion: 2
+        x: 3134
+        y: 1523
+        width: 124
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba05034af3d0ed10800000000000000
+      internalID: 2152953693702785724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_115
+      rect:
+        serializedVersion: 2
+        x: 3611
+        y: 1684
+        width: 122
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b607728d0690890800000000000000
+      internalID: -7491350023663228053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_116
+      rect:
+        serializedVersion: 2
+        x: 3256
+        y: 1535
+        width: 162
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb634ad859326be0800000000000000
+      internalID: -1485561873297085445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_117
+      rect:
+        serializedVersion: 2
+        x: 3403
+        y: 1504
+        width: 245
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6d90ff024683420800000000000000
+      internalID: 2609946076941768438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_118
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 1624
+        width: 235
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4fc04e5a6786dc0800000000000000
+      internalID: -3645533443488680730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_119
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1020
+        width: 481
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa16dca38448a1b50800000000000000
+      internalID: 6564704852604969391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_120
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1456
+        width: 110
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253c91f8e70286ce0800000000000000
+      internalID: -1411842755241852078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_121
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1253
+        width: 298
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524945b0bb7204e20800000000000000
+      internalID: 3332707408556626981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_122
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 1093
+        width: 342
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69dcbfe632b51eec0800000000000000
+      internalID: -3539447624392520298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_123
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 1062
+        width: 247
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8633489192a4eb0800000000000000
+      internalID: -4734926868657772346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_124
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 1265
+        width: 274
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f913d7c9032cdfae0800000000000000
+      internalID: -1513840385686949473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_125
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 1171
+        width: 222
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fb7611ec6c7fba0800000000000000
+      internalID: -6055152585618768079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_126
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 1419
+        width: 156
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33b144f4be0bef20800000000000000
+      internalID: 3452869709664465726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_127
+      rect:
+        serializedVersion: 2
+        x: 3017
+        y: 1226
+        width: 214
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416ca63e70d985420800000000000000
+      internalID: 2619015840521700884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_128
+      rect:
+        serializedVersion: 2
+        x: 3213
+        y: 1376
+        width: 242
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fd1da0ab3403ec0800000000000000
+      internalID: -3589294436689780934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_129
+      rect:
+        serializedVersion: 2
+        x: 3532
+        y: 1336
+        width: 98
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9051c53966a2300800000000000000
+      internalID: 228107514226739623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1244
+        width: 120
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45708b304186e0bb0800000000000000
+      internalID: -4967918903772051628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_131
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 919
+        width: 351
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1212ce4a219f4f290800000000000000
+      internalID: -7857381591383006943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_132
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1221
+        width: 119
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a9bd5bc63622af0800000000000000
+      internalID: -422666096460719534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_133
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 1187
+        width: 148
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29cb73318936a2c80800000000000000
+      internalID: -8346749454569194350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_134
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 1085
+        width: 221
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0853c9a884d0e070800000000000000
+      internalID: 8133734610459908110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_135
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 1323
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de4eeabc14c19c00800000000000000
+      internalID: 905720627752488660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_136
+      rect:
+        serializedVersion: 2
+        x: 3394
+        y: 1168
+        width: 177
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e302d10d108dde70800000000000000
+      internalID: 9141603680704922594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_137
+      rect:
+        serializedVersion: 2
+        x: 3562
+        y: 1165
+        width: 144
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a7cfaf629a46330800000000000000
+      internalID: 3703270778490092032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_138
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1067
+        width: 297
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3786dde3f8de46a0800000000000000
+      internalID: -6462989873051171014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_139
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 900
+        width: 484
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd6eb277cf26b6f0800000000000000
+      internalID: -669294960947859979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_140
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 900
+        width: 235
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b74ca8e9add4b00800000000000000
+      internalID: 814547482091748163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_141
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 1211
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ea857ef424f2cc0800000000000000
+      internalID: -3733692655115653553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_142
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 990
+        width: 277
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4218b0e35be9650800000000000000
+      internalID: 6241625411667698857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_143
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 620
+        width: 597
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b9bc021b3209b60800000000000000
+      internalID: 7750734202371021611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_144
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1073
+        width: 140
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048b11d328e564b20800000000000000
+      internalID: 3118283705463978048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_145
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1024
+        width: 193
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc6eb19b2c082950800000000000000
+      internalID: 6424398249712315609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_146
+      rect:
+        serializedVersion: 2
+        x: 2671
+        y: 854
+        width: 280
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044013a9fb0adcda0800000000000000
+      internalID: -5922901190136232896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_147
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 1017
+        width: 107
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68e785a263e74900800000000000000
+      internalID: 668753082511255662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_148
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 977
+        width: 298
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2714fe2040d3ee00800000000000000
+      internalID: 1072930110328543020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_149
+      rect:
+        serializedVersion: 2
+        x: 3487
+        y: 992
+        width: 165
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e7b7b8bc17482a0800000000000000
+      internalID: -6736134023606993395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_150
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 1050
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09ce283193fad4a0800000000000000
+      internalID: -6567669301528049396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_151
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 347
+        width: 532
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8fe9e6d4d635900800000000000000
+      internalID: 672000948744157390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_152
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 865
+        width: 115
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc8cd2be5ab665c0800000000000000
+      internalID: -4222482684722770696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_153
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 580
+        width: 535
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4967d7f8f7d82740800000000000000
+      internalID: 5127585640071260495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_154
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 830
+        width: 100
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f4a26837cecae10800000000000000
+      internalID: 2210401498048384802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_155
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 652
+        width: 435
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e68f7f20c5898a20800000000000000
+      internalID: 3065128081879434978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_156
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 901
+        width: 132
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26eb26ecc471f0170800000000000000
+      internalID: 8146755869584047714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_157
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 890
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d91742bd03ca5a10800000000000000
+      internalID: 1899044656483080665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_158
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 890
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa3c715ffa0d8a10800000000000000
+      internalID: 1913197508402363050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_159
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 787
+        width: 156
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f9ebf3758a63a00800000000000000
+      internalID: 735960681806733159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_160
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 693
+        width: 280
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa30ace9cf9e9520800000000000000
+      internalID: 2710779715330783997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_161
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 720
+        width: 239
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5c77f8a14f58ca0800000000000000
+      internalID: -6015133332370111051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_162
+      rect:
+        serializedVersion: 2
+        x: 3553
+        y: 819
+        width: 186
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0553075900a91e690800000000000000
+      internalID: -7574603770962627248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_163
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 781
+        width: 137
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782be752a29e50000800000000000000
+      internalID: 1663742110511751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_164
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 433
+        width: 445
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98ee0b2801a6bd90800000000000000
+      internalID: -7082296307539318626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_165
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 567
+        width: 301
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60abc258cbc65f60800000000000000
+      internalID: 8022823847450091626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_166
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 631
+        width: 358
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e446b7d50b24af320800000000000000
+      internalID: 2592457860755186766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_167
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 724
+        width: 122
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e671e119748baf440800000000000000
+      internalID: 4970487756273620846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_168
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 679
+        width: 249
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c37014806d222700800000000000000
+      internalID: 514023200029438914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_169
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 368
+        width: 233
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98cb88c143b16d80800000000000000
+      internalID: -8259123146501928801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_170
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 332
+        width: 149
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e9a2636b787d4a0800000000000000
+      internalID: -6568632314834018669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_171
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 723
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91780e7cc516b22f0800000000000000
+      internalID: -996595841414166759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_172
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 589
+        width: 163
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b2f2a17dc6c2930800000000000000
+      internalID: 4119787430250228622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_173
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 596
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecbb3f97bea0f320800000000000000
+      internalID: 2589761889411775718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_174
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 482
+        width: 96
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0ffb165be2a0de0800000000000000
+      internalID: -1366228180389596997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_175
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 296
+        width: 255
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba3cc98bdf541ca0800000000000000
+      internalID: -6047103003137394000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_176
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 443
+        width: 288
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058035dee76bdb530800000000000000
+      internalID: 3872451910872270928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_177
+      rect:
+        serializedVersion: 2
+        x: 3537
+        y: 432
+        width: 148
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dca8a75714d9bd50800000000000000
+      internalID: 6753662312938777808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_178
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 198
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a049d42543d169440800000000000000
+      internalID: 4942169751642018826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_179
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 580
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c995da0abcc9b20800000000000000
+      internalID: 3142610530961300535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_180
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 262
+        width: 315
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b6cbd9949b930d0800000000000000
+      internalID: -3442516714317911158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_181
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 498
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2feef508f4cd4d90800000000000000
+      internalID: -7111811667016618196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_182
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 122
+        width: 234
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f31c47be6839490800000000000000
+      internalID: -7740694988685492371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_183
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 15
+        width: 393
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73d011335482e6b0800000000000000
+      internalID: -5268503121229720710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_184
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 454
+        width: 146
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860c31346d668df70800000000000000
+      internalID: 9212226108220751976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_185
+      rect:
+        serializedVersion: 2
+        x: 3777
+        y: 338
+        width: 142
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b0c5f468b5b6660800000000000000
+      internalID: 7380093046791867215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_186
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 0
+        width: 385
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d68c8f073616060800000000000000
+      internalID: 6944941437243387235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_187
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1
+        width: 383
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edca1324f91f99f0800000000000000
+      internalID: -459620100616827416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_188
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 293
+        width: 140
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3065314b2780b760800000000000000
+      internalID: 7471620401655013434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_189
+      rect:
+        serializedVersion: 2
+        x: 2716
+        y: 398
+        width: 120
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9737634436d06c70800000000000000
+      internalID: 8962398778424768414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_190
+      rect:
+        serializedVersion: 2
+        x: 2845
+        y: 0
+        width: 161
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2122dec9d32895a10800000000000000
+      internalID: 1898691919050777106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_191
+      rect:
+        serializedVersion: 2
+        x: 2991
+        y: 243
+        width: 127
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78202911c601d9890800000000000000
+      internalID: -7449780152263638393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_192
+      rect:
+        serializedVersion: 2
+        x: 3365
+        y: 329
+        width: 284
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ec6eb5ace2871a0800000000000000
+      internalID: -6811642989737750907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_193
+      rect:
+        serializedVersion: 2
+        x: 3662
+        y: 211
+        width: 144
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be79babf1f8e6c30800000000000000
+      internalID: 4354575256153325233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_194
+      rect:
+        serializedVersion: 2
+        x: 3919
+        y: 416
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1065aac5f5c027e0800000000000000
+      internalID: -1792214992235962337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_195
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 94
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191b8cdbf4af5c5b0800000000000000
+      internalID: -5348593762039189103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_196
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 241
+        width: 72
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349426a66df931a20800000000000000
+      internalID: 3031942717407119683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_197
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 308
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e94affbde0f2a340800000000000000
+      internalID: 4873722650687064547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_198
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 0
+        width: 317
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabebd3fdc4f081e0800000000000000
+      internalID: -2197487452760052819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_199
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 90
+        width: 308
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ca5137db3e2f7a0800000000000000
+      internalID: -6344758522192483286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_200
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 261
+        width: 127
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9892776bb52a25550800000000000000
+      internalID: 6148154956101134729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_201
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 243
+        width: 143
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360786258f6b1b520800000000000000
+      internalID: 2716153227931840611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_202
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 0
+        width: 200
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe9b9284c42c0ae0800000000000000
+      internalID: -1581848942690459917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_203
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 0
+        width: 280
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838a7934225283200800000000000000
+      internalID: 159918615864780856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_204
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 155
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93dbd259604191170800000000000000
+      internalID: 8149567019208785209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_205
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 139
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e2e0d7e91e4e600800000000000000
+      internalID: 496769929736760835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_206
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 16
+        width: 132
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186f3170f322ac6d0800000000000000
+      internalID: -2969523350200387967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_207
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 0
+        width: 355
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d71078607f4c930800000000000000
+      internalID: 4162723563004067190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_208
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 0
+        width: 300
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574ff03eb83113690800000000000000
+      internalID: -7624291202630683531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_209
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 0
+        width: 267
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a6a574e9a3dea90800000000000000
+      internalID: -7283100570911872443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Bestiary_Full-2178a6d4_210
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 0
+        width: 135
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1591bb7d94659acd0800000000000000
+      internalID: -2546409239149340335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

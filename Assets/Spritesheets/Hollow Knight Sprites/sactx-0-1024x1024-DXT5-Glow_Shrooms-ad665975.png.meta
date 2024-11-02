@@ -1,0 +1,493 @@
+fileFormatVersion: 2
+guid: 220ebb552896ecd4e9f8bf6ec433199a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5825536602656043141
+    second: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_0
+  - first:
+      213: 8223977604745478465
+    second: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_1
+  - first:
+      213: 8509119218428562367
+    second: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_2
+  - first:
+      213: 8606733740507761402
+    second: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_3
+  - first:
+      213: -8656562558768845298
+    second: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_4
+  - first:
+      213: -8689563727760172938
+    second: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_5
+  - first:
+      213: -4564487397071156452
+    second: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_6
+  - first:
+      213: -8218901090043633997
+    second: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_7
+  - first:
+      213: -8535301401290805742
+    second: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_8
+  - first:
+      213: -8097291336718817050
+    second: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_9
+  - first:
+      213: 4360844839805127873
+    second: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_10
+  - first:
+      213: -2034820033150853054
+    second: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_11
+  - first:
+      213: 5524005312286959966
+    second: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_12
+  - first:
+      213: -7720668167058850898
+    second: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 266
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f86ac2359872fa0800000000000000
+      internalID: -5825536602656043141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 622
+        width: 201
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1414f9b1f00712270800000000000000
+      internalID: 8223977604745478465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_2
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 647
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb42ed88d6761670800000000000000
+      internalID: 8509119218428562367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_3
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 375
+        width: 135
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa855f8cb2417770800000000000000
+      internalID: 8606733740507761402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 259
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ee2ac9736bdd780800000000000000
+      internalID: -8656562558768845298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_5
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 128
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6785cb134d7786780800000000000000
+      internalID: -8689563727760172938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_6
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 0
+        width: 141
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b83d365eea7a0c0800000000000000
+      internalID: -4564487397071156452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_7
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 0
+        width: 120
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bed0e3110990fd80800000000000000
+      internalID: -8218901090043633997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_8
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 332
+        width: 94
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21eea25f8948c8980800000000000000
+      internalID: -8535301401290805742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_9
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 332
+        width: 111
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8e6083e64a0af80800000000000000
+      internalID: -8097291336718817050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 134
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc0e2de645d48c30800000000000000
+      internalID: 4360844839805127873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 259
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240e136f5fdd2c3e0800000000000000
+      internalID: -2034820033150853054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_12
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 167
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e592c38609539ac40800000000000000
+      internalID: 5524005312286959966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Glow_Shrooms-ad665975_13
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 17
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab7ac9353daad490800000000000000
+      internalID: -7720668167058850898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

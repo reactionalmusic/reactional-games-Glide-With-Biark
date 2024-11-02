@@ -1,0 +1,518 @@
+fileFormatVersion: 2
+guid: 4778d438ff81b5d4ead3041d2e679f9f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2754771926703828665
+    second: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_0
+  - first:
+      213: 8049241838105517522
+    second: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_1
+  - first:
+      213: 7979040324694798310
+    second: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_2
+  - first:
+      213: -2696147278890565884
+    second: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_3
+  - first:
+      213: -1107853775910966081
+    second: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_4
+  - first:
+      213: -9167832331217280583
+    second: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_5
+  - first:
+      213: 3203936487151469669
+    second: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_6
+  - first:
+      213: -3823830726478477480
+    second: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_7
+  - first:
+      213: 3745497033862459947
+    second: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_8
+  - first:
+      213: -416857368834083045
+    second: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_9
+  - first:
+      213: 8066949344193797628
+    second: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_10
+  - first:
+      213: -5249396386664781331
+    second: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_11
+  - first:
+      213: -6662136268580028832
+    second: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_12
+  - first:
+      213: 8185177442367431961
+    second: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_13
+  - first:
+      213: -2142743321375609570
+    second: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 487
+        width: 218
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741999f278515c9d0800000000000000
+      internalID: -2754771926703828665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 947
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dddd771ec6a4bf60800000000000000
+      internalID: 8049241838105517522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 947
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef63f986ee3bbe60800000000000000
+      internalID: 7979040324694798310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_3
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 642
+        width: 98
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f779ba55c559ad0800000000000000
+      internalID: -2696147278890565884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_4
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 699
+        width: 97
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc60c74cdc10a0f0800000000000000
+      internalID: -1107853775910966081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_5
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 357
+        width: 89
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1e379611155c080800000000000000
+      internalID: -9167832331217280583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_6
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 696
+        width: 87
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5648397824ba67c20800000000000000
+      internalID: 3203936487151469669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_7
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 656
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857c60bb6360feac0800000000000000
+      internalID: -3823830726478477480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_8
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 642
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22b6a235bdaaf330800000000000000
+      internalID: 3745497033862459947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 180
+        height: 589
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17f3a08e66073af0800000000000000
+      internalID: -416857368834083045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_10
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 381
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfdddb120bf83ff60800000000000000
+      internalID: 8066949344193797628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_11
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 188
+        width: 161
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de960af7cc56627b0800000000000000
+      internalID: -5249396386664781331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_12
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 0
+        width: 186
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e7a0a7c565b83a0800000000000000
+      internalID: -6662136268580028832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_13
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 65
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915e9d35487979170800000000000000
+      internalID: 8185177442367431961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x1024-DXT5-Fung_pods-26e2eb84_14
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 0
+        width: 53
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1de09c4d427342e0800000000000000
+      internalID: -2142743321375609570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

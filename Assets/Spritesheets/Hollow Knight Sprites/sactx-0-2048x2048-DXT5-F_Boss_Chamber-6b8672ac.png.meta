@@ -1,0 +1,568 @@
+fileFormatVersion: 2
+guid: 8cef4132ddd9d20489b3ed0d5473d144
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6660754893500356934
+    second: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_0
+  - first:
+      213: -5997811343732734914
+    second: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_1
+  - first:
+      213: 4549937651497427106
+    second: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_2
+  - first:
+      213: -1322574812037588028
+    second: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_3
+  - first:
+      213: -4244043953006110099
+    second: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_4
+  - first:
+      213: -6937320384116851279
+    second: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_5
+  - first:
+      213: 5452115875899114994
+    second: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_6
+  - first:
+      213: 1146868500430621021
+    second: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_7
+  - first:
+      213: 3257655114237739257
+    second: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_8
+  - first:
+      213: 6373502160444196813
+    second: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_9
+  - first:
+      213: -3229817824527622401
+    second: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_10
+  - first:
+      213: -4595340715748145276
+    second: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_11
+  - first:
+      213: 4704511712691763926
+    second: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_12
+  - first:
+      213: -6618794938747105715
+    second: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_13
+  - first:
+      213: 1046280241660682913
+    second: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_14
+  - first:
+      213: -8013950465507639600
+    second: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_15
+  - first:
+      213: 5948624195556610324
+    second: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 298
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64998031941cf6c50800000000000000
+      internalID: 6660754893500356934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1126
+        width: 661
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3480035c5e73cca0800000000000000
+      internalID: -5997811343732734914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1613
+        width: 563
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0edabff20a42f30800000000000000
+      internalID: 4549937651497427106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_3
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 620
+        width: 597
+        height: 1075
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbde9b373545ade0800000000000000
+      internalID: -1322574812037588028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_4
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1224
+        width: 623
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a1de9b2802a15c0800000000000000
+      internalID: -4244043953006110099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_5
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1324
+        width: 298
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd73abbddfa9bf90800000000000000
+      internalID: -6937320384116851279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_6
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1160
+        width: 472
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f50c39a08ec9ab40800000000000000
+      internalID: 5452115875899114994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1043
+        width: 1026
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59804423de7aef00800000000000000
+      internalID: 1146868500430621021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 928
+        width: 984
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f000ec0114853d20800000000000000
+      internalID: 3257655114237739257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1130
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc70678527a337850800000000000000
+      internalID: 6373502160444196813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_10
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 0
+        width: 430
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe5ec70dc16d23d0800000000000000
+      internalID: -3229817824527622401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_11
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 526
+        width: 1046
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48741f757f11a30c0800000000000000
+      internalID: -4595340715748145276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_12
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 435
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da38a42a78c94140800000000000000
+      internalID: 4704511712691763926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_13
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 0
+        width: 151
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e43d232115524a0800000000000000
+      internalID: -6618794938747105715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_14
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 93
+        width: 165
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2e1bb1652258e00800000000000000
+      internalID: 1046280241660682913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_15
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 269
+        width: 164
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de37d7e28ab8c090800000000000000
+      internalID: -8013950465507639600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-F_Boss_Chamber-6b8672ac_16
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 0
+        width: 566
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411127e4032cd8250800000000000000
+      internalID: 5948624195556610324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

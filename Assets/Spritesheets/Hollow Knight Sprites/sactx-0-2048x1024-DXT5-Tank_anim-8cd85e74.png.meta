@@ -1,0 +1,993 @@
+fileFormatVersion: 2
+guid: f87b1afb1eadd634c8190796c6135b5f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2750632700839141160
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_0
+  - first:
+      213: -4364328802736507884
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_1
+  - first:
+      213: 601196251852229895
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_2
+  - first:
+      213: 4346605495772693386
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_3
+  - first:
+      213: -8291098301442500411
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_4
+  - first:
+      213: -550340072670854165
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_5
+  - first:
+      213: 6168663132066172083
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_6
+  - first:
+      213: -195069913158515372
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_7
+  - first:
+      213: -195356563180961702
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_8
+  - first:
+      213: 8764350187616150692
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_9
+  - first:
+      213: 619279210364757592
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_10
+  - first:
+      213: 1143804826080055924
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_11
+  - first:
+      213: -4978336547697343894
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_12
+  - first:
+      213: -6480247565064522436
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_13
+  - first:
+      213: -1363839482237459487
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_14
+  - first:
+      213: 2606412421377035246
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_15
+  - first:
+      213: -3051088963880790639
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_16
+  - first:
+      213: -1647601183558147486
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_17
+  - first:
+      213: -8052902704915671434
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_18
+  - first:
+      213: -3754631956227725042
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_19
+  - first:
+      213: 5582377746986966038
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_20
+  - first:
+      213: 7790945933640721340
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_21
+  - first:
+      213: -6042527517064449997
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_22
+  - first:
+      213: 1387877933862800192
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_23
+  - first:
+      213: 394876185000405411
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_24
+  - first:
+      213: -6690179190578624107
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_25
+  - first:
+      213: -6337850033571817852
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_26
+  - first:
+      213: 7907098036489378788
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_27
+  - first:
+      213: -1720194680776063993
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_28
+  - first:
+      213: 8990691928614551321
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_29
+  - first:
+      213: -3315278079340792739
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_30
+  - first:
+      213: 8720043063440237612
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_31
+  - first:
+      213: -6181656350177894859
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_32
+  - first:
+      213: 6712272599281849561
+    second: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 647
+        width: 176
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0e8eec12ac3d9d0800000000000000
+      internalID: -2750632700839141160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_1
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 630
+        width: 91
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41472edb31ace63c0800000000000000
+      internalID: -4364328802736507884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 648
+        width: 83
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70dc2f74ec0e75800800000000000000
+      internalID: 601196251852229895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_3
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 642
+        width: 94
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83ca4a4bae325c30800000000000000
+      internalID: 4346605495772693386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_4
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 642
+        width: 173
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8dca0e50a10fc80800000000000000
+      internalID: -8291098301442500411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_5
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 641
+        width: 97
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be38ac6ae9ccc58f0800000000000000
+      internalID: -550340072670854165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_6
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 648
+        width: 88
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc4ad58f6e7b9550800000000000000
+      internalID: 6168663132066172083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_7
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 640
+        width: 87
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45502df82f8fa4df0800000000000000
+      internalID: -195069913158515372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_8
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 631
+        width: 88
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50ce07ad34f94df0800000000000000
+      internalID: -195356563180961702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_9
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 522
+        width: 87
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a42df36f0a31a970800000000000000
+      internalID: 8764350187616150692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_10
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 522
+        width: 87
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8566396292f189800800000000000000
+      internalID: 619279210364757592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 328
+        width: 84
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47211eedd6c9fdf00800000000000000
+      internalID: 1143804826080055924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_12
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 327
+        width: 82
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62c726494569eab0800000000000000
+      internalID: -4978336547697343894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 327
+        width: 88
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c353db36c298116a0800000000000000
+      internalID: -6480247565064522436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_14
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 326
+        width: 94
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e36592873ba21de0800000000000000
+      internalID: -1363839482237459487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_15
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 326
+        width: 248
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb0852b946db2420800000000000000
+      internalID: 2606412421377035246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_16
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 325
+        width: 261
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19555c1b0ca58a5d0800000000000000
+      internalID: -3051088963880790639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_17
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 324
+        width: 159
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262e082f37b8229e0800000000000000
+      internalID: -1647601183558147486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_18
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 313
+        width: 87
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67618bee7a75e3090800000000000000
+      internalID: -8052902704915671434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_19
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 324
+        width: 82
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0967b2f02ed4ebc0800000000000000
+      internalID: -3754631956227725042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_20
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 316
+        width: 159
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c1433fbf6987d40800000000000000
+      internalID: 5582377746986966038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_21
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 324
+        width: 83
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3ede66c000f1c60800000000000000
+      internalID: 7790945933640721340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_22
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 320
+        width: 87
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330b9d7ec31a42ca0800000000000000
+      internalID: -6042527517064449997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_23
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 204
+        width: 162
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bce77a0abb24310800000000000000
+      internalID: 1387877933862800192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 509
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9e5315cc1ea7500800000000000000
+      internalID: 394876185000405411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_25
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1
+        width: 84
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599c9d5e875b723a0800000000000000
+      internalID: -6690179190578624107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_26
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1
+        width: 83
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486114d49fe6b08a0800000000000000
+      internalID: -6337850033571817852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_27
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1
+        width: 423
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb532545c7abbd60800000000000000
+      internalID: 7907098036489378788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_28
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 1
+        width: 161
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70483d34d04a028e0800000000000000
+      internalID: -1720194680776063993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_29
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 1
+        width: 160
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fba02acaa55cc70800000000000000
+      internalID: 8990691928614551321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_30
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 1
+        width: 85
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54b045e624cdf1d0800000000000000
+      internalID: -3315278079340792739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_31
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1
+        width: 160
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24e67627f0d30970800000000000000
+      internalID: 8720043063440237612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_32
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 1
+        width: 80
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53edb142d48563aa0800000000000000
+      internalID: -6181656350177894859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Tank_anim-8cd85e74_33
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 1
+        width: 172
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d458cbad58c62d50800000000000000
+      internalID: 6712272599281849561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

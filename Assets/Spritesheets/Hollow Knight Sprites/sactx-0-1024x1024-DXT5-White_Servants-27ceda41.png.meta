@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: d3debd6b31469ac488be153ca0e98cfc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -881618427595815033
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_0
+  - first:
+      213: -2361331587046213564
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_1
+  - first:
+      213: -2895726035417836452
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_2
+  - first:
+      213: -1256400998270533169
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_3
+  - first:
+      213: 4534322503285728590
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_4
+  - first:
+      213: 4870929296214566674
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_5
+  - first:
+      213: -4998452565078078047
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_6
+  - first:
+      213: 6981912457776207213
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_7
+  - first:
+      213: 3290266029099709235
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_8
+  - first:
+      213: -8217977296141352785
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_9
+  - first:
+      213: -5839286859635808754
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_10
+  - first:
+      213: 5808608491046831775
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_11
+  - first:
+      213: 1093475475268685231
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_12
+  - first:
+      213: 25616234411800727
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_13
+  - first:
+      213: 4298271518732656292
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_14
+  - first:
+      213: -8245943569388573026
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_15
+  - first:
+      213: 6184065860503615747
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_16
+  - first:
+      213: -5710340176257800211
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_17
+  - first:
+      213: 8769970662174404877
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_18
+  - first:
+      213: 339409367551248087
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_19
+  - first:
+      213: 6700700873788592611
+    second: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 815
+        width: 191
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78786bb06bcd3c3f0800000000000000
+      internalID: -881618427595815033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 640
+        width: 128
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4487335be6dda3fd0800000000000000
+      internalID: -2361331587046213564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 824
+        width: 192
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54d114538050d7d0800000000000000
+      internalID: -2895726035417836452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 499
+        width: 129
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc183a2e2fd509ee0800000000000000
+      internalID: -1256400998270533169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 428
+        width: 129
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45e769fa462dee30800000000000000
+      internalID: 4534322503285728590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_5
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 501
+        width: 192
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217a9ea3364099340800000000000000
+      internalID: 4870929296214566674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_6
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 594
+        width: 182
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad81efffdde1aab0800000000000000
+      internalID: -4998452565078078047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_7
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 613
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6510aa736cb4e060800000000000000
+      internalID: 6981912457776207213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 152
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333f509558f59ad20800000000000000
+      internalID: 3290266029099709235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_9
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 286
+        width: 137
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0054b9031e3fd80800000000000000
+      internalID: -8217977296141352785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_10
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 475
+        width: 190
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e062dcdf98fa6fea0800000000000000
+      internalID: -5839286859635808754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_11
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 429
+        width: 75
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f960a24b5a25c9050800000000000000
+      internalID: 5808608491046831775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_12
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1
+        width: 146
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadcdf9b62ecc2f00800000000000000
+      internalID: 1093475475268685231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_13
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1
+        width: 137
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798399854d10b5000800000000000000
+      internalID: 25616234411800727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_14
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 261
+        width: 129
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae1d3e4c2786ab30800000000000000
+      internalID: 4298271518732656292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_15
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 214
+        width: 129
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e6da43306809d80800000000000000
+      internalID: -8245943569388573026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_16
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 215
+        width: 129
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30930f2b22732d550800000000000000
+      internalID: 6184065860503615747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_17
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1
+        width: 166
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de723874ddbc0c0b0800000000000000
+      internalID: -5710340176257800211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_18
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 46
+        width: 130
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01b0891ad135b970800000000000000
+      internalID: 8769970662174404877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_19
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 2
+        width: 132
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d605528503d5b400800000000000000
+      internalID: 339409367551248087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-White_Servants-27ceda41_20
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1
+        width: 129
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1915061fbadfc50800000000000000
+      internalID: 6700700873788592611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

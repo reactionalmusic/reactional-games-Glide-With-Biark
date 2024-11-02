@@ -1,0 +1,568 @@
+fileFormatVersion: 2
+guid: 97b9a9a524aebde478cbec3725eba494
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8883799035814400094
+    second: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_0
+  - first:
+      213: 5533960283951250130
+    second: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_1
+  - first:
+      213: -5670907275120725612
+    second: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_2
+  - first:
+      213: -2824874668907070188
+    second: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_3
+  - first:
+      213: -903345702596748016
+    second: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_4
+  - first:
+      213: -1466745211933813764
+    second: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_5
+  - first:
+      213: -8101463507122071373
+    second: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_6
+  - first:
+      213: -4916068450108399239
+    second: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_7
+  - first:
+      213: 3059314977590670993
+    second: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_8
+  - first:
+      213: -7639906790911436701
+    second: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_9
+  - first:
+      213: -4374800803328259083
+    second: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_10
+  - first:
+      213: 5334191874466781418
+    second: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_11
+  - first:
+      213: -7393705028307456309
+    second: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_12
+  - first:
+      213: -7256497342767369404
+    second: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_13
+  - first:
+      213: 2792628051874201199
+    second: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_14
+  - first:
+      213: -5678177074655149822
+    second: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_15
+  - first:
+      213: 8906382760730146552
+    second: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 850
+        width: 1003
+        height: 924
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50dca99728994b70800000000000000
+      internalID: 8883799035814400094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_1
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1331
+        width: 427
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dab80ede839ccc40800000000000000
+      internalID: 5533960283951250130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_2
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 853
+        width: 362
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491304801e3ec41b0800000000000000
+      internalID: -5670907275120725612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_3
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 877
+        width: 277
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d7bc894770cc8d0800000000000000
+      internalID: -2824874668907070188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_4
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1569
+        width: 319
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d585f9edba673f0800000000000000
+      internalID: -903345702596748016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_5
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 601
+        width: 407
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf31eaa300315abe0800000000000000
+      internalID: -1466745211933813764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_6
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 304
+        width: 281
+        height: 793
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8d2391dd1d19f80800000000000000
+      internalID: -8101463507122071373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_7
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1077
+        width: 273
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971a8c38acd96cbb0800000000000000
+      internalID: -4916068450108399239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1034
+        height: 910
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196f25f53ced47a20800000000000000
+      internalID: 3059314977590670993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_9
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 0
+        width: 674
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36811aa604999f590800000000000000
+      internalID: -7639906790911436701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 508
+        height: 911
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb868a19d59943c0800000000000000
+      internalID: -4374800803328259083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_11
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 9
+        width: 47
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae81e518f3bd60a40800000000000000
+      internalID: 5334191874466781418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_12
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 0
+        width: 436
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcee6b54378446990800000000000000
+      internalID: -7393705028307456309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_13
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 76
+        width: 163
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443f8c20d1ebb4b90800000000000000
+      internalID: -7256497342767369404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_14
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 0
+        width: 79
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6eb0cdca6861c620800000000000000
+      internalID: 2792628051874201199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_15
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 78
+        width: 53
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201c96de8001331b0800000000000000
+      internalID: -5678177074655149822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Temple Int-bb595ad0_16
+      rect:
+        serializedVersion: 2
+        x: 2224
+        y: 0
+        width: 190
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6bbfecee3d99b70800000000000000
+      internalID: 8906382760730146552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

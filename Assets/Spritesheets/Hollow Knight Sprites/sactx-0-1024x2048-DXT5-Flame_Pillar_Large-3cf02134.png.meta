@@ -1,0 +1,518 @@
+fileFormatVersion: 2
+guid: ce8fc4694b6804b4cb523216ac24c76e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4629970623792605191
+    second: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_0
+  - first:
+      213: 3487411442244145184
+    second: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_1
+  - first:
+      213: 8940737357102551661
+    second: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_2
+  - first:
+      213: -2820495606948558175
+    second: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_3
+  - first:
+      213: -3042180048420679772
+    second: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_4
+  - first:
+      213: -4034232615006025078
+    second: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_5
+  - first:
+      213: -5125772938113993190
+    second: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_6
+  - first:
+      213: -6423160548906681440
+    second: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_7
+  - first:
+      213: -885051639304056571
+    second: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_8
+  - first:
+      213: -3353861009480136715
+    second: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_9
+  - first:
+      213: -5378912399913657999
+    second: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_10
+  - first:
+      213: 2557279206413906540
+    second: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_11
+  - first:
+      213: -3443685072307540568
+    second: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_12
+  - first:
+      213: -4017853283767505847
+    second: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_13
+  - first:
+      213: 5790320281274496493
+    second: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1229
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708e6af60c5f04040800000000000000
+      internalID: 4629970623792605191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1264
+        width: 37
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0205898ca36c56030800000000000000
+      internalID: 3487411442244145184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_2
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 960
+        width: 127
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6299289141e31c70800000000000000
+      internalID: 8940737357102551661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1100
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa084960369bd8d0800000000000000
+      internalID: -2820495606948558175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1069
+        width: 42
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4afca173d5108c5d0800000000000000
+      internalID: -3042180048420679772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 901
+        width: 385
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a45499fc68308c0800000000000000
+      internalID: -4034232615006025078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_6
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 802
+        width: 407
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16b7689ba89dd8b0800000000000000
+      internalID: -5125772938113993190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 711
+        width: 359
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab3d1b13895cd6a0800000000000000
+      internalID: -6423160548906681440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_8
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 67
+        width: 153
+        height: 797
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5019767293aa7b3f0800000000000000
+      internalID: -885051639304056571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_9
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1
+        width: 145
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f747ef6e21b471d0800000000000000
+      internalID: -3353861009480136715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_10
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 9
+        width: 131
+        height: 795
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179d335cba34a55b0800000000000000
+      internalID: -5378912399913657999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_11
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 755
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c623bc1a3e74d7320800000000000000
+      internalID: 2557279206413906540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 353
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad2bc21ca29530d0800000000000000
+      internalID: -3443685072307540568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_13
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1
+        width: 122
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ca665d9b7bd38c0800000000000000
+      internalID: -4017853283767505847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Flame_Pillar_Large-3cf02134_14
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 218
+        width: 117
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de53b1d0e995b5050800000000000000
+      internalID: 5790320281274496493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

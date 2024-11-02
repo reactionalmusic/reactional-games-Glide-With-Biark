@@ -1,0 +1,518 @@
+fileFormatVersion: 2
+guid: 25e20738244e01f41bdbe75e33bf7037
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2090257951354591140
+    second: sactx-0-2048x1024-DXT5-Train-95678c6b_0
+  - first:
+      213: 8294298709882428401
+    second: sactx-0-2048x1024-DXT5-Train-95678c6b_1
+  - first:
+      213: -8110907915504626921
+    second: sactx-0-2048x1024-DXT5-Train-95678c6b_2
+  - first:
+      213: -1049380889609580678
+    second: sactx-0-2048x1024-DXT5-Train-95678c6b_3
+  - first:
+      213: 4163436448085702123
+    second: sactx-0-2048x1024-DXT5-Train-95678c6b_4
+  - first:
+      213: -722431328390745740
+    second: sactx-0-2048x1024-DXT5-Train-95678c6b_5
+  - first:
+      213: -5461596853121371063
+    second: sactx-0-2048x1024-DXT5-Train-95678c6b_6
+  - first:
+      213: -4596168569795453507
+    second: sactx-0-2048x1024-DXT5-Train-95678c6b_7
+  - first:
+      213: 2201308348067927516
+    second: sactx-0-2048x1024-DXT5-Train-95678c6b_8
+  - first:
+      213: -5460436505496750494
+    second: sactx-0-2048x1024-DXT5-Train-95678c6b_9
+  - first:
+      213: 2025528439923259146
+    second: sactx-0-2048x1024-DXT5-Train-95678c6b_10
+  - first:
+      213: 1365431373223342411
+    second: sactx-0-2048x1024-DXT5-Train-95678c6b_11
+  - first:
+      213: 2856137265212842640
+    second: sactx-0-2048x1024-DXT5-Train-95678c6b_12
+  - first:
+      213: 2839599805414012510
+    second: sactx-0-2048x1024-DXT5-Train-95678c6b_13
+  - first:
+      213: -4057549466334392549
+    second: sactx-0-2048x1024-DXT5-Train-95678c6b_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Train-95678c6b_0
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 812
+        width: 326
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58e298c779edf2e0800000000000000
+      internalID: -2090257951354591140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Train-95678c6b_1
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 377
+        width: 165
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbd5874bb44b1370800000000000000
+      internalID: 8294298709882428401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Train-95678c6b_2
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 850
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713517a6934407f80800000000000000
+      internalID: -8110907915504626921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Train-95678c6b_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 724
+        width: 1225
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fccb804a9df61f0800000000000000
+      internalID: -1049380889609580678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Train-95678c6b_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 256
+        width: 245
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5ff05046f77c930800000000000000
+      internalID: 4163436448085702123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Train-95678c6b_5
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 409
+        width: 101
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471f7a0d88869f5f0800000000000000
+      internalID: -722431328390745740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Train-95678c6b_6
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 564
+        width: 328
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9443f4f49928434b0800000000000000
+      internalID: -5461596853121371063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Train-95678c6b_7
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 622
+        width: 428
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdd68d89012730c0800000000000000
+      internalID: -4596168569795453507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Train-95678c6b_8
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 298
+        width: 281
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5d0bf874e9c8e10800000000000000
+      internalID: 2201308348067927516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Train-95678c6b_9
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 427
+        width: 708
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2667a4bcde1a834b0800000000000000
+      internalID: -5460436505496750494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Train-95678c6b_10
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 257
+        width: 582
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07b318626f1c1c10800000000000000
+      internalID: 2025528439923259146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Train-95678c6b_11
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 221
+        width: 112
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41b62e799cf2f210800000000000000
+      internalID: 1365431373223342411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Train-95678c6b_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1320
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09264c2d5b903a720800000000000000
+      internalID: 2856137265212842640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Train-95678c6b_13
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 248
+        width: 737
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5678f96af8486720800000000000000
+      internalID: 2839599805414012510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Train-95678c6b_14
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 40
+        width: 714
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f00981240b0b7c0800000000000000
+      internalID: -4057549466334392549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

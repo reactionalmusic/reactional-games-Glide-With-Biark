@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: 6b4ea69464473c04ca4732869035b299
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4702511428822933165
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_0
+  - first:
+      213: -5007926957591240331
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_1
+  - first:
+      213: -4688331753411191706
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_2
+  - first:
+      213: -3382667634213128012
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_3
+  - first:
+      213: -7836820969835772709
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_4
+  - first:
+      213: -1959909892414093995
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_5
+  - first:
+      213: -1870497018651221387
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_6
+  - first:
+      213: -628741839431774529
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_7
+  - first:
+      213: -7432580195941119807
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_8
+  - first:
+      213: 3295990570511054179
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_9
+  - first:
+      213: -8404384809764964011
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_10
+  - first:
+      213: 5265901178041879557
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_11
+  - first:
+      213: -7516479365732371227
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_12
+  - first:
+      213: -6644621544206680462
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_13
+  - first:
+      213: -6895793544069658492
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_14
+  - first:
+      213: -646716800229081358
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_15
+  - first:
+      213: 4514446493645299181
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_16
+  - first:
+      213: -4477629542831729044
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_17
+  - first:
+      213: -4446923398069389972
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_18
+  - first:
+      213: -1758512923885617056
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_19
+  - first:
+      213: 4940958354076059712
+    second: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1509
+        width: 990
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3516bcc35c25dbeb0800000000000000
+      internalID: -4702511428822933165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1315
+        width: 564
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571eba717f4408ab0800000000000000
+      internalID: -5007926957591240331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 874
+        width: 565
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cddb03c13bfeeb0800000000000000
+      internalID: -4688331753411191706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_3
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 993
+        width: 639
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8f38575b95e01d0800000000000000
+      internalID: -3382667634213128012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_4
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1233
+        width: 455
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd44b9469d40e3390800000000000000
+      internalID: -7836820969835772709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_5
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 1069
+        width: 449
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55542ee36500dc4e0800000000000000
+      internalID: -1959909892414093995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1041
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572edd13fd8aa06e0800000000000000
+      internalID: -1870497018651221387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_7
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 746
+        width: 632
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe4e35d0a24647f0800000000000000
+      internalID: -628741839431774529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 874
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c88358f0bb2ad890800000000000000
+      internalID: -7432580195941119807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 653
+        width: 558
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365395206f5bdbd20800000000000000
+      internalID: 3295990570511054179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_10
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 827
+        width: 455
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559354a3b80ad5b80800000000000000
+      internalID: -8404384809764964011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 830
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c4f73b83d341940800000000000000
+      internalID: 5265901178041879557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_12
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 0
+        width: 571
+        height: 836
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4f7f347d910b790800000000000000
+      internalID: -7516479365732371227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 783
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e37a609ef89c3a0800000000000000
+      internalID: -6644621544206680462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488cb41ae483d40a0800000000000000
+      internalID: -6895793544069658492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_15
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 587
+        width: 455
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe71142f766607f0800000000000000
+      internalID: -646716800229081358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 558
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded5c3bda2986ae30800000000000000
+      internalID: 4514446493645299181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_17
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 338
+        width: 455
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6658bf77a34cd1c0800000000000000
+      internalID: -4477629542831729044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_18
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 164
+        width: 455
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6573b2faba5942c0800000000000000
+      internalID: -4446923398069389972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 559
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0604dde00d18897e0800000000000000
+      internalID: -1758512923885617056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Deep_Pit-b17e2498_20
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 0
+        width: 455
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048c3b8d17fc19440800000000000000
+      internalID: 4940958354076059712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

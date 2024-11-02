@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 9d791597b677c824db9004554d71b8de
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6925625787513335218
+    second: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_0
+  - first:
+      213: 5110652741288466307
+    second: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_1
+  - first:
+      213: -4799103204758880409
+    second: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_2
+  - first:
+      213: -8688710204037604458
+    second: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_3
+  - first:
+      213: 7088087531951604892
+    second: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_4
+  - first:
+      213: -8641469858422066060
+    second: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_5
+  - first:
+      213: 4594074449368103337
+    second: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_6
+  - first:
+      213: -5229177299509942595
+    second: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_7
+  - first:
+      213: -5058041936793981534
+    second: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_8
+  - first:
+      213: -7414269058014917953
+    second: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_9
+  - first:
+      213: -7501396255705839758
+    second: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_10
+  - first:
+      213: 215113547249315998
+    second: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_11
+  - first:
+      213: -4562799161428247576
+    second: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 329
+        width: 101
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd6400d5f3cc1060800000000000000
+      internalID: 6925625787513335218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 255
+        width: 250
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38710ee379face640800000000000000
+      internalID: 5110652741288466307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 89
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f78efdf09266db0800000000000000
+      internalID: -4799103204758880409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 102
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bd60caa108b6780800000000000000
+      internalID: -8688710204037604458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_4
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 112
+        width: 133
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94c9d65e02fd5260800000000000000
+      internalID: 7088087531951604892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 66
+        width: 36
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474f18fb2f4531880800000000000000
+      internalID: -8641469858422066060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_6
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 80
+        width: 45
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9b84a0f5e61cf30800000000000000
+      internalID: 4594074449368103337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 50
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db66c2393fa3e67b0800000000000000
+      internalID: -5229177299509942595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 58
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adad5a38a93ec9b0800000000000000
+      internalID: -5058041936793981534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_9
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 30
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbac9dff2993b1990800000000000000
+      internalID: -7414269058014917953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_10
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 9
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277453b79dfa5e790800000000000000
+      internalID: -7501396255705839758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e907b2aa1ac3cf200800000000000000
+      internalID: 215113547249315998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-256x512-DXT5-Dream_Orb_Collect-c2eb0a92_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 28
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb7e91665eada0c0800000000000000
+      internalID: -4562799161428247576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

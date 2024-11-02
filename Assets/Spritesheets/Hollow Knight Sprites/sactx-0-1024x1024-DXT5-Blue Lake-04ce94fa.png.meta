@@ -1,0 +1,518 @@
+fileFormatVersion: 2
+guid: 5c9c7c7893566c24a9f5db001ef9b646
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6805158795772100742
+    second: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_0
+  - first:
+      213: -9146984660311457994
+    second: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_1
+  - first:
+      213: 4039152348392499419
+    second: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_2
+  - first:
+      213: -8379956992383397407
+    second: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_3
+  - first:
+      213: -3710308223099960402
+    second: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_4
+  - first:
+      213: -7563442054403784385
+    second: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_5
+  - first:
+      213: -8460922864375918138
+    second: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_6
+  - first:
+      213: -8573926159167115610
+    second: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_7
+  - first:
+      213: -1815167422638990767
+    second: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_8
+  - first:
+      213: -2156937902826855089
+    second: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_9
+  - first:
+      213: 1685139254840568441
+    second: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_10
+  - first:
+      213: -4167410580059306270
+    second: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_11
+  - first:
+      213: 7491526092379078674
+    second: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_12
+  - first:
+      213: -795777341089484404
+    second: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_13
+  - first:
+      213: -8163463585148950069
+    second: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 744
+        width: 103
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6800f169ed7c07e50800000000000000
+      internalID: 6805158795772100742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 627
+        width: 138
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f303c0ae16f0180800000000000000
+      internalID: -9146984660311457994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 737
+        width: 107
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8ae9719a3fd0830800000000000000
+      internalID: 4039152348392499419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 514
+        width: 99
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1dfeba38964bb80800000000000000
+      internalID: -8379956992383397407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 295
+        width: 550
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea38ae24456528cc0800000000000000
+      internalID: -3710308223099960402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_5
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 532
+        width: 262
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31030c3681490790800000000000000
+      internalID: -7563442054403784385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_6
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 425
+        width: 126
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c194e49b73c49a80800000000000000
+      internalID: -8460922864375918138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_7
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 471
+        width: 109
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae2a68b59b430980800000000000000
+      internalID: -8573926159167115610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375
+        width: 115
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15addb5a8da3fc6e0800000000000000
+      internalID: -1815167422638990767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_9
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 363
+        width: 342
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45ed63c7640112e0800000000000000
+      internalID: -2156937902826855089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_10
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 323
+        width: 141
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97aa6d95931d26710800000000000000
+      internalID: 1685139254840568441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 550
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e64c5648226a26c0800000000000000
+      internalID: -4167410580059306270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_12
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 49
+        width: 571
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21043d90a4f37f760800000000000000
+      internalID: 7491526092379078674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_13
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 214
+        width: 377
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c817e0879b4d4f4f0800000000000000
+      internalID: -795777341089484404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Blue Lake-04ce94fa_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 561
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc92c560f1d85be80800000000000000
+      internalID: -8163463585148950069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

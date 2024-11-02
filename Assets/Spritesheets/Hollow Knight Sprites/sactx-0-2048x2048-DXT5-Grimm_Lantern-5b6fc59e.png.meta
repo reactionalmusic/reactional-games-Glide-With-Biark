@@ -1,0 +1,968 @@
+fileFormatVersion: 2
+guid: ac36b202175f6524cb7338606db73fb9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -953429561348828893
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_0
+  - first:
+      213: -5337012853284394632
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_1
+  - first:
+      213: -8506242068805105092
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_2
+  - first:
+      213: -1975261440386234738
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_3
+  - first:
+      213: -7834967323580333536
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_4
+  - first:
+      213: -71650147797780045
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_5
+  - first:
+      213: -1654619256739394122
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_6
+  - first:
+      213: 5026852678523670977
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_7
+  - first:
+      213: 4415248582981678965
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_8
+  - first:
+      213: -1399973786206731003
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_9
+  - first:
+      213: 1711203882678256235
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_10
+  - first:
+      213: 7678778423331471516
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_11
+  - first:
+      213: -2233124039394262231
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_12
+  - first:
+      213: 1040581326083744795
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_13
+  - first:
+      213: 5652214071395273569
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_14
+  - first:
+      213: 448036956094149284
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_15
+  - first:
+      213: 2100958872609299760
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_16
+  - first:
+      213: -7618926041202212851
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_17
+  - first:
+      213: -9008461125018059982
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_18
+  - first:
+      213: 6680111238909939576
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_19
+  - first:
+      213: 457293935334395277
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_20
+  - first:
+      213: 2152198681272315398
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_21
+  - first:
+      213: -4576975941369864171
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_22
+  - first:
+      213: 742070835907249246
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_23
+  - first:
+      213: 5862677635147853805
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_24
+  - first:
+      213: 7281457562288924290
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_25
+  - first:
+      213: 2342559411980961136
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_26
+  - first:
+      213: -1120127530102972517
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_27
+  - first:
+      213: 329453832347712292
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_28
+  - first:
+      213: -8983211320360910324
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_29
+  - first:
+      213: 8313717301704910889
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_30
+  - first:
+      213: -3220681258542872620
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_31
+  - first:
+      213: -1996908998584999335
+    second: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1359
+        width: 200
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321527d8ddcb4c2f0800000000000000
+      internalID: -953429561348828893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1369
+        width: 98
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8792a4e261f1fe5b0800000000000000
+      internalID: -5337012853284394632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_2
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1432
+        width: 92
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a436b08e1c3f980800000000000000
+      internalID: -8506242068805105092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_3
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1383
+        width: 252
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8680437f267694e0800000000000000
+      internalID: -1975261440386234738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1134
+        width: 199
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022833b0bba944390800000000000000
+      internalID: -7834967323580333536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1034
+        width: 218
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9b868f192710ff0800000000000000
+      internalID: -71650147797780045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_6
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1176
+        width: 45
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd07837d8c9909e0800000000000000
+      internalID: -1654619256739394122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_7
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1172
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1df91b0e7f2c540800000000000000
+      internalID: 5026852678523670977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_8
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1172
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5777ba7713d164d30800000000000000
+      internalID: 4415248582981678965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1003
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5050a42424b429ce0800000000000000
+      internalID: -1399973786206731003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1001
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b628e4d6dda6fb710800000000000000
+      internalID: 1711203882678256235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_11
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 961
+        width: 307
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c904b97ca40809a60800000000000000
+      internalID: 7678778423331471516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_12
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 978
+        width: 88
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923058c84895201e0800000000000000
+      internalID: -2233124039394262231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_13
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 963
+        width: 250
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14602de333e07e00800000000000000
+      internalID: 1040581326083744795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_14
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 967
+        width: 60
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16bcaff40c2b07e40800000000000000
+      internalID: 5652214071395273569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_15
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 628
+        width: 486
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a23d3edc3fb73600800000000000000
+      internalID: 448036956094149284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 851
+        width: 1137
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d159996fa182d10800000000000000
+      internalID: 2100958872609299760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d004b20e123244690800000000000000
+      internalID: -7618926041202212851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 466
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23bf16ee5548bf280800000000000000
+      internalID: -9008461125018059982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_19
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 0
+        width: 195
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f425f67c584bc50800000000000000
+      internalID: 6680111238909939576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_20
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 717
+        width: 246
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d0c8d4962a85600800000000000000
+      internalID: 457293935334395277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 595
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60eec4b3c452edd10800000000000000
+      internalID: 2152198681272315398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_22
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 160
+        width: 269
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510e32591a05b70c0800000000000000
+      internalID: -4576975941369864171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_23
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 472
+        width: 268
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54cd6c5e7d5c4a00800000000000000
+      internalID: 742070835907249246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_24
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 111
+        width: 354
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def6d935f3a6c5150800000000000000
+      internalID: 5862677635147853805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_25
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 382
+        width: 195
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2862057f21fec0560800000000000000
+      internalID: 7281457562288924290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_26
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 311
+        width: 269
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0758f50bf51728020800000000000000
+      internalID: 2342559411980961136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_27
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 478
+        width: 256
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f931132f18470f0800000000000000
+      internalID: -1120127530102972517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_28
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 111
+        width: 266
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bf9f6d384729400800000000000000
+      internalID: 329453832347712292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_29
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 433
+        width: 63
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02ce9336e8355380800000000000000
+      internalID: -8983211320360910324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_30
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1
+        width: 1142
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928e32386d1406370800000000000000
+      internalID: 8313717301704910889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_31
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 113
+        width: 276
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d74bc19577dd43d0800000000000000
+      internalID: -3220681258542872620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Grimm_Lantern-5b6fc59e_32
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 0
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9526f8a88dd8944e0800000000000000
+      internalID: -1996908998584999335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

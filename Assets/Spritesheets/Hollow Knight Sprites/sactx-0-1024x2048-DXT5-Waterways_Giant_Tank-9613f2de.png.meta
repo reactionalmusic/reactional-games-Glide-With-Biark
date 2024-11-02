@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: f57e529e699ed1042b696534d24311ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7538804487341324568
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_0
+  - first:
+      213: 2552753599446739267
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_1
+  - first:
+      213: 82870622410991956
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_2
+  - first:
+      213: -4610061437462790965
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_3
+  - first:
+      213: -3754424415043446250
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_4
+  - first:
+      213: 318215926966976310
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_5
+  - first:
+      213: -1138172068308226476
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_6
+  - first:
+      213: -7057165706058716179
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_7
+  - first:
+      213: 9065926259386859290
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_8
+  - first:
+      213: -7619774474680688395
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_9
+  - first:
+      213: -7093583604900078810
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_10
+  - first:
+      213: -5824294691519887709
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_11
+  - first:
+      213: 5057500963757766521
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_12
+  - first:
+      213: -7542193530040696544
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_13
+  - first:
+      213: 2568475663489711656
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_14
+  - first:
+      213: -1104919954655901615
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_15
+  - first:
+      213: -9201633808179904569
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_16
+  - first:
+      213: -5989244282174977257
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_17
+  - first:
+      213: 3780036730172903530
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_18
+  - first:
+      213: -2468380763481563535
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_19
+  - first:
+      213: -3710394981602253051
+    second: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 342
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819b91b2db63f9860800000000000000
+      internalID: 7538804487341324568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 940
+        width: 377
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3496f16afd33d6320800000000000000
+      internalID: 2552753599446739267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_2
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1048
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4596f1b546a662100800000000000000
+      internalID: 82870622410991956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 819
+        width: 81
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bccbd4b3c85c500c0800000000000000
+      internalID: -4610061437462790965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 614
+        width: 355
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a1845e2ea95ebc0800000000000000
+      internalID: -3754424415043446250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 932
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ffcb813b78a6400800000000000000
+      internalID: 318215926966976310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_6
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 931
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e673fb8866430f0800000000000000
+      internalID: -1138172068308226476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_7
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 927
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb2d494e29ef0e90800000000000000
+      internalID: -7057165706058716179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_8
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 429
+        width: 563
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fb3aa46e3a0dd70800000000000000
+      internalID: 9065926259386859290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_9
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 834
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0a1109c7f114690800000000000000
+      internalID: -7619774474680688395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 874
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b55657b478e8d90800000000000000
+      internalID: -7093583604900078810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_11
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 808
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a683c426d2fb2fa0800000000000000
+      internalID: -5824294691519887709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_12
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 726
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9773afba45adf2640800000000000000
+      internalID: 5057500963757766521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 647
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021cca6d1feb45790800000000000000
+      internalID: -7542193530040696544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_14
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 659
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e3a80f10f05a320800000000000000
+      internalID: 2568475663489711656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 630
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1588e75c7298aa0f0800000000000000
+      internalID: -1104919954655901615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 625
+        width: 41
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf3636cdca3d4080800000000000000
+      internalID: -9201633808179904569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_17
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 622
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bcbe7ce0ee1eca0800000000000000
+      internalID: -5989244282174977257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_18
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 622
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6092ebe063657430800000000000000
+      internalID: 3780036730172903530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 695
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e164e06cc8ebdd0800000000000000
+      internalID: -2468380763481563535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Waterways_Giant_Tank-9613f2de_20
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 310
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507a4393c67028cc0800000000000000
+      internalID: -3710394981602253051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

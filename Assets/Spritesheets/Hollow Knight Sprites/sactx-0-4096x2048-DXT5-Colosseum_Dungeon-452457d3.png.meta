@@ -1,0 +1,493 @@
+fileFormatVersion: 2
+guid: f3b378651e885364bbf76b55d00931ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1865836634686237352
+    second: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_0
+  - first:
+      213: -5327134438233510529
+    second: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_1
+  - first:
+      213: -8504716966210608954
+    second: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_2
+  - first:
+      213: -6281895072310271720
+    second: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_3
+  - first:
+      213: 7512509059240614439
+    second: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_4
+  - first:
+      213: -7810991673019688781
+    second: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_5
+  - first:
+      213: 5536686346715705785
+    second: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_6
+  - first:
+      213: -6281508085185056756
+    second: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_7
+  - first:
+      213: -2258419994746415592
+    second: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_8
+  - first:
+      213: -1175777865523438377
+    second: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_9
+  - first:
+      213: 5661038688895345317
+    second: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_10
+  - first:
+      213: 2544533831380239856
+    second: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_11
+  - first:
+      213: 4989063760754176668
+    second: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_12
+  - first:
+      213: 1357812097923693169
+    second: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 557
+        width: 502
+        height: 1218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855dd9467773b16e0800000000000000
+      internalID: -1865836634686237352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_1
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 761
+        width: 500
+        height: 1105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d675ae3773216b0800000000000000
+      internalID: -5327134438233510529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_2
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1708
+        width: 468
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c067c9aafc29f980800000000000000
+      internalID: -8504716966210608954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_3
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1555
+        width: 298
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8116ba2f6b932d8a0800000000000000
+      internalID: -6281895072310271720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_4
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 1397
+        width: 692
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ad0f7bf2bc14860800000000000000
+      internalID: 7512509059240614439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_5
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 923
+        width: 748
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b890223578c99390800000000000000
+      internalID: -7810991673019688781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_6
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 1495
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1beb0d5e246dc40800000000000000
+      internalID: 5536686346715705785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_7
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 0
+        width: 1981
+        height: 1301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00fcc86da993d8a0800000000000000
+      internalID: -6281508085185056756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_8
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1282
+        width: 274
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816108bfafa78a0e0800000000000000
+      internalID: -2258419994746415592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_9
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 159
+        width: 1100
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc55b6c24cceafe0800000000000000
+      internalID: -1175777865523438377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1245
+        height: 844
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2a95fa1bc009e40800000000000000
+      internalID: 5661038688895345317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_11
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 23
+        width: 323
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f50262c900005320800000000000000
+      internalID: 2544533831380239856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_12
+      rect:
+        serializedVersion: 2
+        x: 3365
+        y: 294
+        width: 200
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92f685ae07bc3540800000000000000
+      internalID: 4989063760754176668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-Colosseum_Dungeon-452457d3_13
+      rect:
+        serializedVersion: 2
+        x: 3433
+        y: 0
+        width: 252
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a3878b8eae7d210800000000000000
+      internalID: 1357812097923693169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

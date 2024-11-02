@@ -1,0 +1,643 @@
+fileFormatVersion: 2
+guid: ec621e7856996d44eaf34fa100b8fd2a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4580119034387373074
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_0
+  - first:
+      213: 7869069961022222133
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_1
+  - first:
+      213: -1444428395981631127
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_2
+  - first:
+      213: 5887179578517152290
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_3
+  - first:
+      213: -8133687265238850974
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_4
+  - first:
+      213: -5930951110602417149
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_5
+  - first:
+      213: 1520094852820727750
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_6
+  - first:
+      213: 6425586866555455280
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_7
+  - first:
+      213: -7411372381112663629
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_8
+  - first:
+      213: -7882549561927160017
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_9
+  - first:
+      213: 5088572789911082518
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_10
+  - first:
+      213: 2281011053272235787
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_11
+  - first:
+      213: -3071267296290894126
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_12
+  - first:
+      213: 3126382811233246701
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_13
+  - first:
+      213: -2588417218185095514
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_14
+  - first:
+      213: -8278572775216642655
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_15
+  - first:
+      213: 4420922967826295486
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_16
+  - first:
+      213: -2434376928812382968
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_17
+  - first:
+      213: -4904769673358931617
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_18
+  - first:
+      213: -6207973821608470586
+    second: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2037
+        width: 1299
+        height: 1685
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c1aa9cef9df8f30800000000000000
+      internalID: 4580119034387373074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_1
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 2526
+        width: 316
+        height: 1473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f2d6bff6d843d60800000000000000
+      internalID: 7869069961022222133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_2
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 3297
+        width: 418
+        height: 584
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961170ad60c54fbe0800000000000000
+      internalID: -1444428395981631127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_3
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 3654
+        width: 1032
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222e27292a673b150800000000000000
+      internalID: 5887179578517152290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_4
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 3654
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262e151c6865f1f80800000000000000
+      internalID: -8133687265238850974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_5
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 3550
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c9550736701bda0800000000000000
+      internalID: -5930951110602417149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_6
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 3022
+        width: 366
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7774ff636781510800000000000000
+      internalID: 1520094852820727750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_7
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 1693
+        width: 651
+        height: 973
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037047ef5354c2950800000000000000
+      internalID: 6425586866555455280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_8
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 2439
+        width: 571
+        height: 884
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b183a52614852990800000000000000
+      internalID: -7411372381112663629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_9
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 2192
+        width: 584
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fabecdfee8b9290800000000000000
+      internalID: -7882549561927160017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_10
+      rect:
+        serializedVersion: 2
+        x: 3038
+        y: 1800
+        width: 265
+        height: 1704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6165e54fdfd3e9640800000000000000
+      internalID: 5088572789911082518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_11
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 2331
+        width: 554
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ff707b777c7af10800000000000000
+      internalID: 2281011053272235787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_12
+      rect:
+        serializedVersion: 2
+        x: 3855
+        y: 2397
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de8e429aaaa065d0800000000000000
+      internalID: -3071267296290894126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1850
+        height: 2058
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedd17f3a94236b20800000000000000
+      internalID: 3126382811233246701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_14
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 0
+        width: 1782
+        height: 1931
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6929b0148141cd0800000000000000
+      internalID: -2588417218185095514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_15
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 1757
+        width: 255
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a50ef53ce99c1d80800000000000000
+      internalID: -8278572775216642655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_16
+      rect:
+        serializedVersion: 2
+        x: 3299
+        y: 1723
+        width: 353
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebae6a424064a5d30800000000000000
+      internalID: 4420922967826295486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_17
+      rect:
+        serializedVersion: 2
+        x: 3472
+        y: 35
+        width: 365
+        height: 1724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8054bb4c41b573ed0800000000000000
+      internalID: -2434376928812382968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_18
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 167
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59055af7f1ceebb0800000000000000
+      internalID: -4904769673358931617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Spider_Town-c90fe85f_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c75a1453b8d8d9a0800000000000000
+      internalID: -6207973821608470586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

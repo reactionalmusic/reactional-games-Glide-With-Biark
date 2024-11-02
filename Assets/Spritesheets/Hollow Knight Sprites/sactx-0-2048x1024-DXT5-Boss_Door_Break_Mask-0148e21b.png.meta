@@ -1,0 +1,1943 @@
+fileFormatVersion: 2
+guid: 660bda29ff4341441aea37c9ea7b8b97
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7194810866858025727
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_0
+  - first:
+      213: -8790796640569510443
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_1
+  - first:
+      213: -1454503268279724003
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_2
+  - first:
+      213: -2420363179523501526
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_3
+  - first:
+      213: 3393762152956638656
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_4
+  - first:
+      213: 1001877823657064835
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_5
+  - first:
+      213: 7930275176821642059
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_6
+  - first:
+      213: -7273396235251086872
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_7
+  - first:
+      213: -350262189342235401
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_8
+  - first:
+      213: 7467446956507638757
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_9
+  - first:
+      213: -1346053972742903696
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_10
+  - first:
+      213: 1871160537820484316
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_11
+  - first:
+      213: -7350482962248263733
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_12
+  - first:
+      213: -3036647821440471218
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_13
+  - first:
+      213: 7318134987419888059
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_14
+  - first:
+      213: 8274087452362900292
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_15
+  - first:
+      213: 1599912321327369043
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_16
+  - first:
+      213: 6084533130236619727
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_17
+  - first:
+      213: -8140879977321501076
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_18
+  - first:
+      213: 5392883583531779234
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_19
+  - first:
+      213: 3158721968288717962
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_20
+  - first:
+      213: 5688137500408018709
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_21
+  - first:
+      213: 5508054317158555394
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_22
+  - first:
+      213: 2137686892134321054
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_23
+  - first:
+      213: 5203188848602054496
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_24
+  - first:
+      213: 5679390196018231912
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_25
+  - first:
+      213: -8703281130621111215
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_26
+  - first:
+      213: -4650526191701490353
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_27
+  - first:
+      213: -5559343268638025853
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_28
+  - first:
+      213: -761566543427079181
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_29
+  - first:
+      213: 1502130390671505112
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_30
+  - first:
+      213: 3350918570922511562
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_31
+  - first:
+      213: 3098248730166178972
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_32
+  - first:
+      213: 5913298612725078132
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_33
+  - first:
+      213: 8755995036787473990
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_34
+  - first:
+      213: -7353527499147320430
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_35
+  - first:
+      213: -4761851038812744849
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_36
+  - first:
+      213: 3145137389081343815
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_37
+  - first:
+      213: -7856944864707252806
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_38
+  - first:
+      213: -3039200617815225604
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_39
+  - first:
+      213: -7798006303530342177
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_40
+  - first:
+      213: 1473076196444339022
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_41
+  - first:
+      213: -268974688592216532
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_42
+  - first:
+      213: 3047248050914890222
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_43
+  - first:
+      213: 8184708406092028474
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_44
+  - first:
+      213: 7583788826896650774
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_45
+  - first:
+      213: 5955728714227688750
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_46
+  - first:
+      213: 7933778758659712280
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_47
+  - first:
+      213: -6059501314865592468
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_48
+  - first:
+      213: 5106777084683325936
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_49
+  - first:
+      213: -199924674290835654
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_50
+  - first:
+      213: 2766952814641640886
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_51
+  - first:
+      213: -6636308320425684720
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_52
+  - first:
+      213: 7115302342707388941
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_53
+  - first:
+      213: -6454711512608983523
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_54
+  - first:
+      213: 6345248167231566324
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_55
+  - first:
+      213: -2577986854655186249
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_56
+  - first:
+      213: -1905200545416906793
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_57
+  - first:
+      213: 4970930861104591389
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_58
+  - first:
+      213: 8413244472759114785
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_59
+  - first:
+      213: -5564231352636609976
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_60
+  - first:
+      213: -8754175371181694403
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_61
+  - first:
+      213: 1745377300808601063
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_62
+  - first:
+      213: -606026370893973301
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_63
+  - first:
+      213: 2738529898131304634
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_64
+  - first:
+      213: 3628462261232513075
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_65
+  - first:
+      213: 3874819009371482357
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_66
+  - first:
+      213: 3467746473882216963
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_67
+  - first:
+      213: -1894946413427477410
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_68
+  - first:
+      213: 7026600402568783648
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_69
+  - first:
+      213: 775309263546687801
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_70
+  - first:
+      213: -7308537863100163530
+    second: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 710
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff261391d5a19d360800000000000000
+      internalID: 7194810866858025727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_1
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 497
+        width: 177
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d53822f701d00680800000000000000
+      internalID: -8790796640569510443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_2
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 378
+        width: 240
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18da89dbf090dbe0800000000000000
+      internalID: -1454503268279724003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_3
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 623
+        width: 172
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2211190384296ed0800000000000000
+      internalID: -2420363179523501526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_4
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 675
+        width: 9
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5352b72b0191f20800000000000000
+      internalID: 3393762152956638656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_5
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 403
+        width: 153
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389bb6b829267ed00800000000000000
+      internalID: 1001877823657064835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_6
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 539
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b435d85c14ffd0e60800000000000000
+      internalID: 7930275176821642059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_7
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 519
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9023ff8a4bf0b90800000000000000
+      internalID: -7273396235251086872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_8
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 440
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f46102056e932bf0800000000000000
+      internalID: -350262189342235401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_9
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 334
+        width: 51
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eba5b55173b1a760800000000000000
+      internalID: 7467446956507638757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_10
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 373
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078e7222b0bd15de0800000000000000
+      internalID: -1346053972742903696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_11
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 322
+        width: 20
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2d4866892b7f910800000000000000
+      internalID: 1871160537820484316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_12
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 346
+        width: 48
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc791abb0b6ddf990800000000000000
+      internalID: -7350482962248263733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_13
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 398
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fa31f25e8abd5d0800000000000000
+      internalID: -3036647821440471218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_14
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 401
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb925877ffc3f8560800000000000000
+      internalID: 7318134987419888059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_15
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 326
+        width: 41
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4438b9e23b673d270800000000000000
+      internalID: 8274087452362900292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_16
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 401
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b0d7097c7043610800000000000000
+      internalID: 1599912321327369043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_17
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 261
+        width: 100
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb69db05aa907450800000000000000
+      internalID: 6084533130236619727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_18
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 343
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e69a8fac8c50f80800000000000000
+      internalID: -8140879977321501076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_19
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 342
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a48277eb0f57da40800000000000000
+      internalID: 5392883583531779234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_20
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 352
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c521005e806db20800000000000000
+      internalID: 3158721968288717962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_21
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 345
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517f5696be250fe40800000000000000
+      internalID: 5688137500408018709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_22
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 283
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fdac1f73a807c40800000000000000
+      internalID: 5508054317158555394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_23
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 320
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bcca607e69aad10800000000000000
+      internalID: 2137686892134321054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_24
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 282
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ff23ca0b0753840800000000000000
+      internalID: 5203188848602054496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_25
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 289
+        width: 16
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ab086ea4f31de40800000000000000
+      internalID: 5679390196018231912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_26
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 288
+        width: 21
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154f7f47cebb73780800000000000000
+      internalID: -8703281130621111215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_27
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 217
+        width: 32
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f458bf47113067fb0800000000000000
+      internalID: -4650526191701490353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_28
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 266
+        width: 48
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3871f5870ce39d2b0800000000000000
+      internalID: -5559343268638025853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_29
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 108
+        width: 168
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3f432834f5e65f0800000000000000
+      internalID: -761566543427079181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_30
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 65
+        width: 164
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d63b46b1a3a8d410800000000000000
+      internalID: 1502130390671505112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_31
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 161
+        width: 101
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc8813bfaad08e20800000000000000
+      internalID: 3350918570922511562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_32
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 218
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c943c5b0ec03ffa20800000000000000
+      internalID: 3098248730166178972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_33
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 223
+        width: 18
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478d94e12c1401250800000000000000
+      internalID: 5913298612725078132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_34
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 98
+        width: 169
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64efcce381b838970800000000000000
+      internalID: 8755995036787473990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_35
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 174
+        width: 27
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293e14f33b503f990800000000000000
+      internalID: -7353527499147320430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_36
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 218
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63dd36a5b18aedb0800000000000000
+      internalID: -4761851038812744849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_37
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 197
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7473efdaac5c5ab20800000000000000
+      internalID: 3145137389081343815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_38
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 206
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd6b4ff54686f290800000000000000
+      internalID: -7856944864707252806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_39
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 180
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfac9f5f32792d5d0800000000000000
+      internalID: -3039200617815225604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_40
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 188
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd821d1259ae7c390800000000000000
+      internalID: -7798006303530342177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_41
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 144
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4bf528fefa617410800000000000000
+      internalID: 1473076196444339022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_42
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1
+        width: 164
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2eb3e022f8644cf0800000000000000
+      internalID: -268974688592216532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_43
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 194
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1984115fff94a20800000000000000
+      internalID: 3047248050914890222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_44
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 171
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ad44f4eece59170800000000000000
+      internalID: 8184708406092028474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_45
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 173
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61250c6e1c70f3960800000000000000
+      internalID: 7583788826896650774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_46
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 178
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25a226f5bff6a250800000000000000
+      internalID: 5955728714227688750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_47
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 150
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815a37cfeb17a1e60800000000000000
+      internalID: 7933778758659712280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_48
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 120
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c678c63a8a358eba0800000000000000
+      internalID: -6059501314865592468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_49
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 142
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f197af93baeed640800000000000000
+      internalID: 5106777084683325936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_50
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 149
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f1f076199b93df0800000000000000
+      internalID: -199924674290835654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_51
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 134
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b57bfacce0366620800000000000000
+      internalID: 2766952814641640886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_52
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 144
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011de054eb817e3a0800000000000000
+      internalID: -6636308320425684720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_53
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 96
+        width: 87
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02249e38c1aeb260800000000000000
+      internalID: 7115302342707388941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_54
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 104
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16315be3124c66a0800000000000000
+      internalID: -6454711512608983523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_55
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 102
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1398be699de0850800000000000000
+      internalID: 6345248167231566324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_56
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 100
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7baa6ac4d96293cd0800000000000000
+      internalID: -2577986854655186249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_57
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 58
+        width: 67
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d77b88b23e5f85e0800000000000000
+      internalID: -1905200545416906793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_58
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 118
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d127a23f74b4cf440800000000000000
+      internalID: 4970930861104591389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_59
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1
+        width: 40
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c535fc549d1c470800000000000000
+      internalID: 8413244472759114785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_60
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 70
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ae00ab011e7c2b0800000000000000
+      internalID: -5564231352636609976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_61
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 95
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32ed3ba1ebe28680800000000000000
+      internalID: -8754175371181694403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_62
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 83
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed0abd5863d83810800000000000000
+      internalID: 1745377300808601063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_63
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 80
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8785ef936f697f0800000000000000
+      internalID: -606026370893973301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_64
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 72
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab037e8de66310620800000000000000
+      internalID: 2738529898131304634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_65
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 92
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330bca1c333ea5230800000000000000
+      internalID: 3628462261232513075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_66
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1
+        width: 78
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8a48efb5f16c530800000000000000
+      internalID: 3874819009371482357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_67
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 77
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30aecda8b09ef1030800000000000000
+      internalID: 3467746473882216963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_68
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 67
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54314fd64cc3b5e0800000000000000
+      internalID: -1894946413427477410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_69
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1
+        width: 18
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027aabd66df738160800000000000000
+      internalID: 7026600402568783648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_70
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1
+        width: 18
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93125ccdaa372ca00800000000000000
+      internalID: 775309263546687801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x1024-DXT5-Boss_Door_Break_Mask-0148e21b_71
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 8
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a1c6a298bd29a90800000000000000
+      internalID: -7308537863100163530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

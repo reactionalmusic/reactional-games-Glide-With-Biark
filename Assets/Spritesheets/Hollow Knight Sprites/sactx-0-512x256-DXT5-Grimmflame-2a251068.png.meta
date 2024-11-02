@@ -1,0 +1,593 @@
+fileFormatVersion: 2
+guid: d33dc33f923a70f40a7858766aa5c189
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4801048831387040875
+    second: sactx-0-512x256-DXT5-Grimmflame-2a251068_0
+  - first:
+      213: 6080924817822525459
+    second: sactx-0-512x256-DXT5-Grimmflame-2a251068_1
+  - first:
+      213: -6655719845604234960
+    second: sactx-0-512x256-DXT5-Grimmflame-2a251068_2
+  - first:
+      213: -5780858330227074619
+    second: sactx-0-512x256-DXT5-Grimmflame-2a251068_3
+  - first:
+      213: -1967048644853465056
+    second: sactx-0-512x256-DXT5-Grimmflame-2a251068_4
+  - first:
+      213: -3537910867830360159
+    second: sactx-0-512x256-DXT5-Grimmflame-2a251068_5
+  - first:
+      213: -4368527756666864579
+    second: sactx-0-512x256-DXT5-Grimmflame-2a251068_6
+  - first:
+      213: -1751873740067626567
+    second: sactx-0-512x256-DXT5-Grimmflame-2a251068_7
+  - first:
+      213: 8780849860875965702
+    second: sactx-0-512x256-DXT5-Grimmflame-2a251068_8
+  - first:
+      213: -709986215208501970
+    second: sactx-0-512x256-DXT5-Grimmflame-2a251068_9
+  - first:
+      213: -783041200227728894
+    second: sactx-0-512x256-DXT5-Grimmflame-2a251068_10
+  - first:
+      213: -1816614360503142060
+    second: sactx-0-512x256-DXT5-Grimmflame-2a251068_11
+  - first:
+      213: -7508011675782153673
+    second: sactx-0-512x256-DXT5-Grimmflame-2a251068_12
+  - first:
+      213: 1311958774047604256
+    second: sactx-0-512x256-DXT5-Grimmflame-2a251068_13
+  - first:
+      213: -2609027038953207868
+    second: sactx-0-512x256-DXT5-Grimmflame-2a251068_14
+  - first:
+      213: -2406411730361994300
+    second: sactx-0-512x256-DXT5-Grimmflame-2a251068_15
+  - first:
+      213: 2180351640124468865
+    second: sactx-0-512x256-DXT5-Grimmflame-2a251068_16
+  - first:
+      213: 5948056941383612360
+    second: sactx-0-512x256-DXT5-Grimmflame-2a251068_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-512x256-DXT5-Grimmflame-2a251068_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 133
+        width: 59
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5930fdf568f3f5db0800000000000000
+      internalID: -4801048831387040875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x256-DXT5-Grimmflame-2a251068_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 118
+        width: 50
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3182b2857e8c36450800000000000000
+      internalID: 6080924817822525459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x256-DXT5-Grimmflame-2a251068_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 122
+        width: 55
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039ed3e501222a3a0800000000000000
+      internalID: -6655719845604234960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x256-DXT5-Grimmflame-2a251068_3
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 108
+        width: 49
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c915f91af346cfa0800000000000000
+      internalID: -5780858330227074619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x256-DXT5-Grimmflame-2a251068_4
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 110
+        width: 53
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020889beda3a3b4e0800000000000000
+      internalID: -1967048644853465056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x256-DXT5-Grimmflame-2a251068_5
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 149
+        width: 55
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a73af37fc0d6eec0800000000000000
+      internalID: -3537910867830360159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x256-DXT5-Grimmflame-2a251068_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 57
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cff68962fdf53c0800000000000000
+      internalID: -4368527756666864579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x256-DXT5-Grimmflame-2a251068_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 98
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b12fef7d1810b7e0800000000000000
+      internalID: -1751873740067626567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x256-DXT5-Grimmflame-2a251068_8
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 91
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605dc8fec68dbd970800000000000000
+      internalID: 8780849860875965702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x256-DXT5-Grimmflame-2a251068_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 58
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2db2178c4f9526f0800000000000000
+      internalID: -709986215208501970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x256-DXT5-Grimmflame-2a251068_10
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 96
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2024ee75d241225f0800000000000000
+      internalID: -783041200227728894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x256-DXT5-Grimmflame-2a251068_11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1
+        width: 56
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459365c2dd61ac6e0800000000000000
+      internalID: -1816614360503142060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x256-DXT5-Grimmflame-2a251068_12
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1
+        width: 46
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73af487f82f2ec790800000000000000
+      internalID: -7508011675782153673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x256-DXT5-Grimmflame-2a251068_13
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 106
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e701fcd83053210800000000000000
+      internalID: 1311958774047604256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x256-DXT5-Grimmflame-2a251068_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1
+        width: 55
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c70ec53bbfdacbd0800000000000000
+      internalID: -2609027038953207868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x256-DXT5-Grimmflame-2a251068_15
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1
+        width: 57
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3b07ce745ba9ed0800000000000000
+      internalID: -2406411730361994300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x256-DXT5-Grimmflame-2a251068_16
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 2
+        width: 56
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e2f03c34a224e10800000000000000
+      internalID: 2180351640124468865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x256-DXT5-Grimmflame-2a251068_17
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1
+        width: 53
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c777f6264ebb8250800000000000000
+      internalID: 5948056941383612360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

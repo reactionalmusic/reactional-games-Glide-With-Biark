@@ -1,0 +1,2868 @@
+fileFormatVersion: 2
+guid: bf58ac574a99b11418c41d203a384fa8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9065663788790417895
+    second: beta_end_prompt_0
+  - first:
+      213: -7895732998673990109
+    second: beta_end_prompt_1
+  - first:
+      213: 3773177042027951493
+    second: beta_end_prompt_2
+  - first:
+      213: 4845553711244982277
+    second: beta_end_prompt_3
+  - first:
+      213: 4026054392509634839
+    second: beta_end_prompt_4
+  - first:
+      213: 6127560940871679986
+    second: beta_end_prompt_5
+  - first:
+      213: -7768124965041143042
+    second: beta_end_prompt_6
+  - first:
+      213: -8210853645644958998
+    second: beta_end_prompt_7
+  - first:
+      213: 7820893283901850050
+    second: beta_end_prompt_8
+  - first:
+      213: -3471159535310231642
+    second: beta_end_prompt_9
+  - first:
+      213: -4393767310946591145
+    second: beta_end_prompt_10
+  - first:
+      213: 7708314265098523621
+    second: beta_end_prompt_11
+  - first:
+      213: -2388603016834637631
+    second: beta_end_prompt_12
+  - first:
+      213: 5303711483316704502
+    second: beta_end_prompt_13
+  - first:
+      213: -5079782865586053656
+    second: beta_end_prompt_14
+  - first:
+      213: 2136071032566475432
+    second: beta_end_prompt_15
+  - first:
+      213: -3485475064603821974
+    second: beta_end_prompt_16
+  - first:
+      213: -7053044353265498797
+    second: beta_end_prompt_17
+  - first:
+      213: 3764047443949237020
+    second: beta_end_prompt_18
+  - first:
+      213: 2268951096129182880
+    second: beta_end_prompt_19
+  - first:
+      213: -8089809526250164765
+    second: beta_end_prompt_20
+  - first:
+      213: -8066797560364034354
+    second: beta_end_prompt_21
+  - first:
+      213: 679055609599645458
+    second: beta_end_prompt_22
+  - first:
+      213: 5712144692236702587
+    second: beta_end_prompt_23
+  - first:
+      213: 30079951257845457
+    second: beta_end_prompt_24
+  - first:
+      213: -6522399779346951804
+    second: beta_end_prompt_25
+  - first:
+      213: 8693147070875970231
+    second: beta_end_prompt_26
+  - first:
+      213: -7959701476137689810
+    second: beta_end_prompt_27
+  - first:
+      213: -6928867889106901961
+    second: beta_end_prompt_28
+  - first:
+      213: -6948487670372008374
+    second: beta_end_prompt_29
+  - first:
+      213: 22380081507177157
+    second: beta_end_prompt_30
+  - first:
+      213: 7780379894070140684
+    second: beta_end_prompt_31
+  - first:
+      213: -3867542348409364079
+    second: beta_end_prompt_32
+  - first:
+      213: 4173726853932083277
+    second: beta_end_prompt_33
+  - first:
+      213: 5884473990625766339
+    second: beta_end_prompt_34
+  - first:
+      213: -4444163612243733457
+    second: beta_end_prompt_35
+  - first:
+      213: 3668265539992493957
+    second: beta_end_prompt_36
+  - first:
+      213: 7920831082264135332
+    second: beta_end_prompt_37
+  - first:
+      213: 7655727249753953515
+    second: beta_end_prompt_38
+  - first:
+      213: 6629489074665598022
+    second: beta_end_prompt_39
+  - first:
+      213: -3873694179484761928
+    second: beta_end_prompt_40
+  - first:
+      213: 3162397506428168343
+    second: beta_end_prompt_41
+  - first:
+      213: 6094068892167868636
+    second: beta_end_prompt_42
+  - first:
+      213: -7197385997609892475
+    second: beta_end_prompt_43
+  - first:
+      213: 4849737863206057163
+    second: beta_end_prompt_44
+  - first:
+      213: -3294467583433006810
+    second: beta_end_prompt_45
+  - first:
+      213: 78244902421658250
+    second: beta_end_prompt_46
+  - first:
+      213: 2002027246304622440
+    second: beta_end_prompt_47
+  - first:
+      213: 8826218480334865663
+    second: beta_end_prompt_48
+  - first:
+      213: 5068188127815132156
+    second: beta_end_prompt_49
+  - first:
+      213: 655630408787756362
+    second: beta_end_prompt_50
+  - first:
+      213: -2677228377944838038
+    second: beta_end_prompt_51
+  - first:
+      213: 8491216532334765863
+    second: beta_end_prompt_52
+  - first:
+      213: 3397109781775657792
+    second: beta_end_prompt_53
+  - first:
+      213: 1329363346074863029
+    second: beta_end_prompt_54
+  - first:
+      213: -4188091914430871839
+    second: beta_end_prompt_55
+  - first:
+      213: -4376756786103455004
+    second: beta_end_prompt_56
+  - first:
+      213: 4659397355519586608
+    second: beta_end_prompt_57
+  - first:
+      213: -7402485163537855903
+    second: beta_end_prompt_58
+  - first:
+      213: 5413921221359645489
+    second: beta_end_prompt_59
+  - first:
+      213: 6228450774011886924
+    second: beta_end_prompt_60
+  - first:
+      213: -6367816316465015613
+    second: beta_end_prompt_61
+  - first:
+      213: 5867998155130691952
+    second: beta_end_prompt_62
+  - first:
+      213: -5407898547677576273
+    second: beta_end_prompt_63
+  - first:
+      213: 6003689873713323479
+    second: beta_end_prompt_64
+  - first:
+      213: 7643320317958046176
+    second: beta_end_prompt_65
+  - first:
+      213: 214932702587108008
+    second: beta_end_prompt_66
+  - first:
+      213: -4829523220687237810
+    second: beta_end_prompt_67
+  - first:
+      213: -9129695285866772956
+    second: beta_end_prompt_68
+  - first:
+      213: -2285017145675663778
+    second: beta_end_prompt_69
+  - first:
+      213: 8339119772929536451
+    second: beta_end_prompt_70
+  - first:
+      213: -8945757296805694169
+    second: beta_end_prompt_71
+  - first:
+      213: -5859480345165991638
+    second: beta_end_prompt_72
+  - first:
+      213: 6393154659761696725
+    second: beta_end_prompt_73
+  - first:
+      213: -4150971402266150262
+    second: beta_end_prompt_74
+  - first:
+      213: 5624458150172427470
+    second: beta_end_prompt_75
+  - first:
+      213: -2292688534466732538
+    second: beta_end_prompt_76
+  - first:
+      213: 6528814857006106962
+    second: beta_end_prompt_77
+  - first:
+      213: 8865584361425293799
+    second: beta_end_prompt_78
+  - first:
+      213: -6698215622266547202
+    second: beta_end_prompt_79
+  - first:
+      213: 4441035835176679730
+    second: beta_end_prompt_80
+  - first:
+      213: 5516175672171852334
+    second: beta_end_prompt_81
+  - first:
+      213: 2814294778651471244
+    second: beta_end_prompt_82
+  - first:
+      213: -8511461283567134494
+    second: beta_end_prompt_83
+  - first:
+      213: 894128143784252921
+    second: beta_end_prompt_84
+  - first:
+      213: 397641449159672943
+    second: beta_end_prompt_85
+  - first:
+      213: 6678253936685921684
+    second: beta_end_prompt_86
+  - first:
+      213: -6849157594905720308
+    second: beta_end_prompt_87
+  - first:
+      213: -4399815376375138393
+    second: beta_end_prompt_88
+  - first:
+      213: -3131854406170762053
+    second: beta_end_prompt_89
+  - first:
+      213: -4394049126154224551
+    second: beta_end_prompt_90
+  - first:
+      213: 6961942172843766849
+    second: beta_end_prompt_91
+  - first:
+      213: -5628608394772880653
+    second: beta_end_prompt_92
+  - first:
+      213: -4625507364177017216
+    second: beta_end_prompt_93
+  - first:
+      213: -1128080215345102239
+    second: beta_end_prompt_94
+  - first:
+      213: 1865228671285346263
+    second: beta_end_prompt_95
+  - first:
+      213: -6815805956979718958
+    second: beta_end_prompt_96
+  - first:
+      213: 33132066223811058
+    second: beta_end_prompt_97
+  - first:
+      213: 6054605079417718027
+    second: beta_end_prompt_98
+  - first:
+      213: -5140944607648953588
+    second: beta_end_prompt_99
+  - first:
+      213: -3477073703174064304
+    second: beta_end_prompt_100
+  - first:
+      213: 6298250296859253245
+    second: beta_end_prompt_101
+  - first:
+      213: 8874287415480713819
+    second: beta_end_prompt_102
+  - first:
+      213: -8171314505946122182
+    second: beta_end_prompt_103
+  - first:
+      213: -5112151379539966782
+    second: beta_end_prompt_104
+  - first:
+      213: -5688973724311774310
+    second: beta_end_prompt_105
+  - first:
+      213: -5837792131535664337
+    second: beta_end_prompt_106
+  - first:
+      213: -1982311084683815239
+    second: beta_end_prompt_107
+  - first:
+      213: -644360641678008886
+    second: beta_end_prompt_108
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: beta_end_prompt_0
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 635
+        width: 431
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9167608e0da403280800000000000000
+      internalID: -9065663788790417895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 529
+        width: 66
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ef4bccba8bc6290800000000000000
+      internalID: -7895732998673990109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 527
+        width: 66
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5853cb057840d5430800000000000000
+      internalID: 3773177042027951493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 529
+        width: 43
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50835d27d6dde3340800000000000000
+      internalID: 4845553711244982277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_4
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 529
+        width: 44
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71910f7932b6fd730800000000000000
+      internalID: 4026054392509634839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_5
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 527
+        width: 66
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fff634e538790550800000000000000
+      internalID: 6127560940871679986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_6
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 527
+        width: 90
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef201e76083123490800000000000000
+      internalID: -7768124965041143042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_7
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 528
+        width: 122
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae27c9cbc103d0e80800000000000000
+      internalID: -8210853645644958998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_8
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 529
+        width: 26
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1453d3105698c60800000000000000
+      internalID: 7820893283901850050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_9
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 527
+        width: 62
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7af1b2bc6f3dfc0800000000000000
+      internalID: -3471159535310231642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_10
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 529
+        width: 66
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e1e4de8e33603c0800000000000000
+      internalID: -4393767310946591145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_11
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 529
+        width: 54
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e31644dbfe69fa60800000000000000
+      internalID: 7708314265098523621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 400
+        width: 674
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c02528263af9ded0800000000000000
+      internalID: -2388603016834637631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_13
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 349
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4904a6e719a9940800000000000000
+      internalID: 5303711483316704502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_14
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 349
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed90a8c56cf089b0800000000000000
+      internalID: -5079782865586053656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 349
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa60276949d4ad10800000000000000
+      internalID: 2136071032566475432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 349
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68bec445ea11afc0800000000000000
+      internalID: -3485475064603821974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_17
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 349
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3550982878d8e1e90800000000000000
+      internalID: -7053044353265498797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_18
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 349
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13bf4e15359c3430800000000000000
+      internalID: 3764047443949237020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 349
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac5381200fec7f10800000000000000
+      internalID: 2268951096129182880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_20
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 349
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eda947f8193bbf80800000000000000
+      internalID: -8089809526250164765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_21
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 349
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6938bcb5afc0090800000000000000
+      internalID: -8066797560364034354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_22
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 349
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2175ce8aa7d7c6900800000000000000
+      internalID: 679055609599645458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_23
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 349
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73d666555d954f40800000000000000
+      internalID: 5712144692236702587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_24
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 348
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1deb5996e8dda6000800000000000000
+      internalID: 30079951257845457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_25
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 349
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48150f435f7cb75a0800000000000000
+      internalID: -6522399779346951804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_26
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 349
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba2ac3e33344a870800000000000000
+      internalID: 8693147070875970231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_27
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 349
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d19a40ea5798190800000000000000
+      internalID: -7959701476137689810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_28
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 349
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7342c269d57b7df90800000000000000
+      internalID: -6928867889106901961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_29
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 349
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e7b494743029f90800000000000000
+      internalID: -6948487670372008374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_30
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 348
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c29748c0928f4000800000000000000
+      internalID: 22380081507177157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_31
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 349
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f54ab9a4679fb60800000000000000
+      internalID: 7780379894070140684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_32
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 349
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191a749a9bab35ac0800000000000000
+      internalID: -3867542348409364079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_33
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 349
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d486126d57e0ce930800000000000000
+      internalID: 4173726853932083277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_34
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 291
+        width: 247
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb264dcae9d9a150800000000000000
+      internalID: 5884473990625766339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_35
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 283
+        width: 238
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24de78adb82352c0800000000000000
+      internalID: -4444163612243733457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_36
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 291
+        width: 247
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f1f05c21c48e230800000000000000
+      internalID: 3668265539992493957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_37
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 244
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a60a3827e17ced60800000000000000
+      internalID: 7920831082264135332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_38
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 244
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4dcd23f5b9e3a60800000000000000
+      internalID: 7655727249753953515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_39
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 244
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ca6c9503da00c50800000000000000
+      internalID: 6629489074665598022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_40
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 244
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0005fdaafdd3ac0800000000000000
+      internalID: -3873694179484761928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_41
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 244
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7986b39e6c713eb20800000000000000
+      internalID: 3162397506428168343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_42
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 235
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd09c62ae5b729450800000000000000
+      internalID: 6094068892167868636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_43
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 244
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585871d819fbd1c90800000000000000
+      internalID: -7197385997609892475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_44
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 244
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4b82e34eabd4340800000000000000
+      internalID: 4849737863206057163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_45
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 244
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621af6d0033b742d0800000000000000
+      internalID: -3294467583433006810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_46
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 244
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8af35ef25bf51100800000000000000
+      internalID: 78244902421658250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_47
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 244
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867f3ae5c21a8cb10800000000000000
+      internalID: 2002027246304622440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_48
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 244
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4095ec1f60d7a70800000000000000
+      internalID: 8826218480334865663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_49
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 244
+        width: 38
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3e545ff32d55640800000000000000
+      internalID: 5068188127815132156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_50
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 244
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a450db31264491900800000000000000
+      internalID: 655630408787756362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_51
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 244
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60b00e89f298dad0800000000000000
+      internalID: -2677228377944838038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_52
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 244
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727ecb0a27cd6d570800000000000000
+      internalID: 8491216532334765863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_53
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 244
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b2ebd0955f42f20800000000000000
+      internalID: 3397109781775657792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_54
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 244
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b587348be8d27210800000000000000
+      internalID: 1329363346074863029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_55
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 235
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e689a1e798e0e5c0800000000000000
+      internalID: -4188091914430871839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_56
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 244
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2f50064e2a243c0800000000000000
+      internalID: -4376756786103455004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_57
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 244
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031b323553189a040800000000000000
+      internalID: 4659397355519586608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_58
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 244
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a0a3cb6f6154990800000000000000
+      internalID: -7402485163537855903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_59
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 244
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1333719aaac122b40800000000000000
+      internalID: 5413921221359645489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_60
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 244
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d3cfdaaf6ef6650800000000000000
+      internalID: 6228450774011886924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_61
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 244
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c49a2e5cc8f0a7a0800000000000000
+      internalID: -6367816316465015613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_62
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 235
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071663b6b315f6150800000000000000
+      internalID: 5867998155130691952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_63
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 244
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3c3545ce843f4b0800000000000000
+      internalID: -5407898547677576273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_64
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 244
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ddda489124615350800000000000000
+      internalID: 6003689873713323479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_65
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 204
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e14a684557821a60800000000000000
+      internalID: 7643320317958046176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_66
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 204
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aab15c77289bf200800000000000000
+      internalID: 214932702587108008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_67
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 204
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4dcf6cf7361afcb0800000000000000
+      internalID: -4829523220687237810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_68
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 204
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4264a5a328ecc4180800000000000000
+      internalID: -9129695285866772956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_69
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 195
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e563356330df940e0800000000000000
+      internalID: -2285017145675663778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_70
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 204
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1b6ec30418ab370800000000000000
+      internalID: 8339119772929536451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_71
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 204
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725b90d92294ad380800000000000000
+      internalID: -8945757296805694169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_72
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 217
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a217ff1cba1feaea0800000000000000
+      internalID: -5859480345165991638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_73
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 204
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfaa396a4c09b850800000000000000
+      internalID: 6393154659761696725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_74
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 204
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8afe1f9089c466c0800000000000000
+      internalID: -4150971402266150262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_75
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 204
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4041f43e61e0e40800000000000000
+      internalID: 5624458150172427470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_76
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 204
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60edf72dcebbe20e0800000000000000
+      internalID: -2292688534466732538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_77
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 204
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259442475820b9a50800000000000000
+      internalID: 6528814857006106962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_78
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 204
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1530d3102e80b70800000000000000
+      internalID: 8865584361425293799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_79
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 204
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef394d551682b03a0800000000000000
+      internalID: -6698215622266547202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_80
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 204
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2397c7eff8ab1ad30800000000000000
+      internalID: 4441035835176679730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_81
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 204
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2274724c846d8c40800000000000000
+      internalID: 5516175672171852334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_82
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 204
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8de1ceb0326e0720800000000000000
+      internalID: 2814294778651471244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_83
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 204
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e89d79ee0731e980800000000000000
+      internalID: -8511461283567134494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_84
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 204
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f590f93fc4986c00800000000000000
+      internalID: 894128143784252921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_85
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 204
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64422d8ac4b48500800000000000000
+      internalID: 397641449159672943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_86
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 204
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495b400929cedac50800000000000000
+      internalID: 6678253936685921684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_87
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 204
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ac9f0b477e2f0a0800000000000000
+      internalID: -6849157594905720308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_88
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 195
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7bbd5f937b0f2c0800000000000000
+      internalID: -4399815376375138393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_89
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 204
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb423f7c20b6984d0800000000000000
+      internalID: -3131854406170762053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_90
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 204
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c36f5b9933503c0800000000000000
+      internalID: -4394049126154224551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_91
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 204
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144f92f2589cd9060800000000000000
+      internalID: 6961942172843766849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_92
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 204
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2e7c19c7a23e1b0800000000000000
+      internalID: -5628608394772880653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_93
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 195
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086864c2f85eecfb0800000000000000
+      internalID: -4625507364177017216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_94
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 140
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162853e55014850f0800000000000000
+      internalID: -1128080215345102239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_95
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 140
+        width: 58
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df36d8189f92e910800000000000000
+      internalID: 1865228671285346263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_96
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 140
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d48b3408946961a0800000000000000
+      internalID: -6815805956979718958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_97
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 140
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9e1fd4075b57000800000000000000
+      internalID: 33132066223811058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_98
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 140
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0508f5bd37460450800000000000000
+      internalID: 6054605079417718027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_99
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 140
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bcf130e12b7a8b0800000000000000
+      internalID: -5140944607648953588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_100
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 140
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0573578a3e3febfc0800000000000000
+      internalID: -3477073703174064304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_101
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 140
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df95bc28641e76750800000000000000
+      internalID: 6298250296859253245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_102
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 140
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52827ae26dc72b70800000000000000
+      internalID: 8874287415480713819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_103
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 131
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38b51510c8a99e80800000000000000
+      internalID: -8171314505946122182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_104
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 140
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c44f78d76dfd09b0800000000000000
+      internalID: -5112151379539966782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_105
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 130
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b9dd90a84bc01b0800000000000000
+      internalID: -5688973724311774310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_106
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 39
+        width: 57
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b0f3f7cfefbfea0800000000000000
+      internalID: -5837792131535664337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_107
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 16
+        width: 51
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b61a1b329a6d74e0800000000000000
+      internalID: -1982311084683815239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beta_end_prompt_108
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 13
+        width: 64
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd1a8d0965ce07f0800000000000000
+      internalID: -644360641678008886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

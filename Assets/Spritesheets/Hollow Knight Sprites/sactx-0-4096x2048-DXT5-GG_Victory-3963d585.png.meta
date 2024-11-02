@@ -1,0 +1,643 @@
+fileFormatVersion: 2
+guid: 58e4302168476a441a2051f1aa85b8f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1639472174735540446
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_0
+  - first:
+      213: -3636031764835177511
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_1
+  - first:
+      213: 1014697281019670711
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_2
+  - first:
+      213: -6714427722469976586
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_3
+  - first:
+      213: -2971692017120093561
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_4
+  - first:
+      213: -3258614972494912438
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_5
+  - first:
+      213: -4830651859533576052
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_6
+  - first:
+      213: 7808109447307363544
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_7
+  - first:
+      213: -6532410194776831451
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_8
+  - first:
+      213: 5500307413250965034
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_9
+  - first:
+      213: 1880357961109214752
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_10
+  - first:
+      213: 7642313066456062587
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_11
+  - first:
+      213: 2328695102633657477
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_12
+  - first:
+      213: 8058645669864566358
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_13
+  - first:
+      213: -5577569633313389195
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_14
+  - first:
+      213: 1453804500426499818
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_15
+  - first:
+      213: 1929412350093522695
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_16
+  - first:
+      213: 8871158667356194970
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_17
+  - first:
+      213: -2592738792873863176
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_18
+  - first:
+      213: -7877018545516111439
+    second: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_0
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1572
+        width: 208
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0cf32b14390c610800000000000000
+      internalID: 1639472174735540446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_1
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 1331
+        width: 253
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db66f8df583a8dc0800000000000000
+      internalID: -3636031764835177511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_2
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1524
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b07bbd0dcde41e00800000000000000
+      internalID: 1014697281019670711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_3
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1138
+        width: 197
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5542c9f8f81d2a0800000000000000
+      internalID: -6714427722469976586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_4
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1091
+        width: 201
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a51b9eadd62c6d0800000000000000
+      internalID: -2971692017120093561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_5
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1060
+        width: 325
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44eba882f217c2d0800000000000000
+      internalID: -3258614972494912438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_6
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 1089
+        width: 208
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88cbe64ab316fcb0800000000000000
+      internalID: -4830651859533576052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_7
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 1088
+        width: 208
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d480265c2afb5c60800000000000000
+      internalID: 7808109447307363544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_8
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 1090
+        width: 208
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52acf2db9873855a0800000000000000
+      internalID: -6532410194776831451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_9
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1068
+        width: 253
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e75425374055c40800000000000000
+      internalID: 5500307413250965034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_10
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 1070
+        width: 253
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0261e726a9f581a10800000000000000
+      internalID: 1880357961109214752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_11
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 779
+        width: 253
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a90744e33fe0a60800000000000000
+      internalID: 7642313066456062587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_12
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 0
+        width: 491
+        height: 1055
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584cbae9bdf215020800000000000000
+      internalID: 2328695102633657477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_13
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 0
+        width: 549
+        height: 1048
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e640b4a8f06df60800000000000000
+      internalID: 8058645669864566358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_14
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 737
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575895048fd7892b0800000000000000
+      internalID: -5577569633313389195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_15
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 0
+        width: 687
+        height: 725
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae629c49d73fc2410800000000000000
+      internalID: 1453804500426499818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_16
+      rect:
+        serializedVersion: 2
+        x: 2829
+        y: 394
+        width: 180
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70773985f46a6ca10800000000000000
+      internalID: 1929412350093522695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_17
+      rect:
+        serializedVersion: 2
+        x: 3467
+        y: 328
+        width: 369
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98c4e97ecfac1b70800000000000000
+      internalID: 8871158667356194970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7d0670ecdb40cd0800000000000000
+      internalID: -2592738792873863176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x2048-DXT5-GG_Victory-3963d585_19
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 284
+        width: 107
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b91959fd553fa290800000000000000
+      internalID: -7877018545516111439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
