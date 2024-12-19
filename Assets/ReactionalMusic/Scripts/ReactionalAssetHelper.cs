@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
+using MiniJSON;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -49,22 +50,25 @@ namespace Reactional.Core
                 jsonText = Reactional.Core.Engine.GetTrackMetadata(data);
             }
 
-            Dictionary<string, string> dict = new Dictionary<string, string>();
+            var dict = new Dictionary<string, string>();
             if (!string.IsNullOrEmpty(jsonText))
             {
-                
-                var meta = MiniJSON.Json.Deserialize(jsonText) as Dictionary<string, object>;
+                var meta = Json.Deserialize(jsonText) as Dictionary<string, object>;
                 Debug.Log(jsonText);
                 // var tempArtists = meta["artists"] as List<object>;
-                dict.Add("name", meta.ContainsKey("title") ? meta["title"].ToString() : " ");
-                dict.Add("artists", meta["artists"] !=null && meta.ContainsKey("artists") ? meta["artists"].ToString() : " ");
-                dict.Add("title", meta.ContainsKey("title") ? meta["title"].ToString() : " ");
-                dict.Add("album", meta.ContainsKey("album") ? meta["album"].ToString() : " ");
-                dict.Add("genre", meta.ContainsKey("genre") ? meta["genre"].ToString() : " ");
-                dict.Add("bpm", meta.ContainsKey("bpm") ? meta["bpm"].ToString() : " ");
-                dict.Add("cover", meta["cover"] !=null && meta.ContainsKey("cover") ? meta["cover"].ToString() : " ");
-            } else
+                dict.Add("name", meta.ContainsKey("title") && meta["title"] != null ? meta["title"].ToString() : " ");
+                dict.Add("artists",
+                    meta.ContainsKey("artists") && meta["artists"] != null ? meta["artists"].ToString() : " ");
+                dict.Add("title", meta.ContainsKey("title") && meta["title"] != null ? meta["title"].ToString() : " ");
+                dict.Add("album", meta.ContainsKey("album") && meta["album"] != null ? meta["album"].ToString() : " ");
+                dict.Add("genre", meta.ContainsKey("genre") && meta["genre"] != null ? meta["genre"].ToString() : " ");
+                dict.Add("bpm", meta.ContainsKey("bpm") && meta["bpm"] != null ? meta["bpm"].ToString() : " ");
+                dict.Add("cover", meta.ContainsKey("cover") && meta["cover"] != null ? meta["cover"].ToString() : " ");
+            }
+            else
+            {
                 dict.Add("name", ""); // fallback
+            }
 
             return dict;
         }
