@@ -64,7 +64,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnFly(InputAction.CallbackContext context)
     {
-       
+       CameraShake.TriggerShake(0.5f,1,1, 0.5f);
         Reactional.Playback.Theme.TriggerStinger("positive, small", 0f); //TODO replace with jumpsound
         rb.linearVelocity = Vector2.up * flyVelocity;
         isFalling = false;
