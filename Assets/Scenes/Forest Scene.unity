@@ -2442,15 +2442,9 @@ MonoBehaviour:
   startTimeRange: 2
   endTimeRange: 4
   stingerNames:
-  - negative, medium
   - negative, small
+  - negative, medium
   - negative, large
-  - positive, large
-  - positive, medium
-  - positive, small
-  - neutral, large
-  - neutral, medium
-  - neutral, small
   quant: 0
 --- !u!1 &291603759
 GameObject:
