@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Reactional.Playback;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -63,7 +64,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnFly(InputAction.CallbackContext context)
     {
-        
+       
+        Reactional.Playback.Theme.TriggerStinger("positive, small", 0f); //TODO replace with jumpsound
         rb.linearVelocity = Vector2.up * flyVelocity;
         isFalling = false;
         
