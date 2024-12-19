@@ -31,14 +31,14 @@ public class Reactional_DeepAnalysis_GlobalLightControler : MonoBehaviour
         StartCoroutine(lerpIntensity(INTENSITY));
     }
 
-    public const float INTENSITY = 0.2f;
+    public const float INTENSITY = 0.05f;
     
     private IEnumerator lerpIntensity(float StartIntensity)
     {
 
         float duration = 0.5f;
         float halfDuration = duration / 2.0f;
-        float maxIntensity = 5;
+        float maxIntensity = 1;
         var elapsedTime = 0f;
         
         Debug.Log("Start Value Intensity " +StartIntensity + "and GL intesity " + globalLight.intensity);

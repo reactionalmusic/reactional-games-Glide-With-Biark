@@ -402,7 +402,7 @@ public class Reactional_DeepAnalysis_EventDispatcher : MonoBehaviour
     /// </summary>
     /// <param name="note">The note value to calculate Y position for.</param>
     /// <returns>Returns the Y position adjusted for pitch.</returns>
-    float GetYPosition(float note)
+    public float GetYPosition(float note)
     {
         return (note % 12) / YPitchAdjustment - YPitchAdjustment;  // Return Y position adjusted for pitch
     }
