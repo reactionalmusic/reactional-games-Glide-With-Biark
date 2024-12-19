@@ -9,7 +9,7 @@ using Random = UnityEngine.Random;
 /// Reactional_DeepAnalysis_ObstacleSpawner is used for spawning gameobject prefabs on different beats
 /// Both Props and objects that can affect the Player
 /// </summary>
-public class Reactional_DeepAnalysis_ObstacleSpawner : MonoBehaviour
+public class Reactional_DeepAnalysis_PrefabSpawner : MonoBehaviour
 {
     [Header("References")] 
     private Reactional_DeepAnalysis_EventDispatcher eventDispatcher;
@@ -18,11 +18,12 @@ public class Reactional_DeepAnalysis_ObstacleSpawner : MonoBehaviour
     [SerializeField] private GameObject[] spawnableObjects; // Array to hold different objects to spawn
 
     [SerializeField] private GameObject ObstaclePrefab;
+    [SerializeField] private GameObject PickupPrefab;
     //[SerializeField] private float spawnInterval = 1f; // Time interval between spawns
     //[SerializeField] private float spawnTimer = 0f;
     [SerializeField] private float spawnTopY = 5f; // Range for random height when spawning objects
     [SerializeField] private float spawnBottomY = -2f; // Range for random height when spawning objects
-    private bool alternatingToggle = true;
+    private bool alternatingDrumToggle = true;
 
     [Header("Movement Settings")]
     [SerializeField] private float movementSpeed = 5f;
@@ -33,54 +34,81 @@ public class Reactional_DeepAnalysis_ObstacleSpawner : MonoBehaviour
     {
         eventDispatcher = FindFirstObjectByType<Reactional_DeepAnalysis_EventDispatcher>();
         
-        Reactional_DeepAnalysis_EventDispatcher.OnBassNoteHit += TriggerObjectSpawn;
+        Reactional_DeepAnalysis_EventDispatcher.OnBassNoteHit += TriggerBassNoteSpawn;
+        Reactional_DeepAnalysis_EventDispatcher.OnVocalNoteHit += TriggerVocalNoteSpawn;
+        Reactional_DeepAnalysis_EventDispatcher.OnDrumNoteHit += TriggerDrumNoteSpawn;
     }
     private void OnDisable()
     {
-        Reactional_DeepAnalysis_EventDispatcher.OnBassNoteHit -= TriggerObjectSpawn;
+        Reactional_DeepAnalysis_EventDispatcher.OnBassNoteHit -= TriggerBassNoteSpawn;
+        Reactional_DeepAnalysis_EventDispatcher.OnVocalNoteHit -= TriggerVocalNoteSpawn;
+        Reactional_DeepAnalysis_EventDispatcher.OnDrumNoteHit -= TriggerDrumNoteSpawn;
     }
 
     void Update()
     {
-        /*spawnTimer += Time.deltaTime;
-        if (spawnTimer >= spawnInterval)
-        {
-            // Spawn a specific prefab 
-            SpawnObject(ObstaclePrefab); 
-            spawnTimer = 0f; // Reset timer
-        }*/
-
         // Move all spawned objects
         MoveSpawnedObjects();
     }
     
-    private void TriggerObjectSpawn(float offset, bass bass)
+    private void TriggerBassNoteSpawn(float offset, bass bass)
+    {
+        return;
+        //if (alternatingBassToggle)
+        {
+            SpawnPickups(PickupPrefab,bass);
+        }
+        //alternatingBassToggle = !alternatingBassToggle;
+    }
+    private void TriggerVocalNoteSpawn(float offset, vocals vocal)
     {
         //if (alternatingToggle)
         {
-            SpawnObject(ObstaclePrefab,bass);
+            //SpawnPickups(ObstaclePrefab,vocal);
         }
         //alternatingToggle = !alternatingToggle;
     }
+    private void TriggerDrumNoteSpawn(float offset, drums drum)
+    {
+        if (alternatingDrumToggle)
+        {
+            SpawnObstacle(ObstaclePrefab,drum);
+        }
+        else
+        {
+            SpawnObstacle(PickupPrefab,drum);
+        }
+        alternatingDrumToggle = !alternatingDrumToggle;
+    }
 
     // Method to spawn objects with a specific prefab
-    public void SpawnObject(GameObject prefab, bass bass)
+    public void SpawnObstacle(GameObject obstaclePrefab, drums drums)
     {
-        if (prefab == null){
-            Debug.LogWarning("Spawn object is null");
+        if (obstaclePrefab == null){
+            Debug.LogWarning("Obstacle object is null");
             return; // Exit if no prefab is provided
         }
 
         // Instantiate the prefab and set its position
-        GameObject newObject = Instantiate(prefab);
-        float value = GetYPosition(bass.note);
-        Debug.Log(value + " : " + bass.note);
+        GameObject newObject = Instantiate(obstaclePrefab);
         
-        //Random
-        //newObject.transform.position = transform.position + new Vector3(0, Random.Range(spawnBottomY, spawnTopY), 0);
+        newObject.transform.position = transform.position + new Vector3(0, Random.Range(spawnBottomY, spawnTopY), 0);
+
+        // Add the newly spawned object to the list
+        spawnedObjects.Add(newObject);
+    }
+    
+    public void SpawnPickups(GameObject pickupPrefab, bass bass)
+    {
+        if (pickupPrefab == null){
+            Debug.LogWarning("Pickup object is null");
+            return; // Exit if no prefab is provided
+        }
+
+        // Instantiate the prefab and set its position
+        GameObject newObject = Instantiate(pickupPrefab);
         
-        //Get Y position (Not Random)
-        newObject.transform.position = transform.position + new Vector3(0, value, 0);
+        newObject.transform.position = transform.position + new Vector3(0, GetYPosition(bass.note), 0);
 
         // Add the newly spawned object to the list
         spawnedObjects.Add(newObject);
