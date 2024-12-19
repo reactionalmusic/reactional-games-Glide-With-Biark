@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
 { 
    public PlayerController controller;
    private bool isGameOver = false;
+   
+   private int score = 0;
 
    private void Awake()
    {
@@ -44,6 +46,12 @@ public class GameManager : MonoBehaviour
             //TODO add gameover check here so it only works when game is over
         }
        
+    }
+
+    public void AddScore(int score)
+    {
+        score++;
+        Debug.Log("Score: " + score);
     }
     
     

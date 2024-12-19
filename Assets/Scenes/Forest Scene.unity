@@ -1928,7 +1928,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &287090676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10498,6 +10498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2026244204}
   - component: {fileID: 2026244205}
+  - component: {fileID: 2026244206}
   m_Layer: 0
   m_Name: ObjectSpawner
   m_TagString: Untagged
@@ -10514,7 +10515,7 @@ Transform:
   m_GameObject: {fileID: 2026244203}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 10.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10540,6 +10541,24 @@ MonoBehaviour:
   YOffsetMultiplier: 2
   YBasePosition: -5
   YPitchAdjustment: 4
+--- !u!114 &2026244206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2026244203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e16ff53782481bb838a9452056204d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnableObjects: []
+  ObstaclePrefab: {fileID: 6499128413953368347, guid: dbba9f390706e5446bf11c4902256884, type: 3}
+  PickupPrefab: {fileID: 5070907538526596026, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
+  spawnTopY: 5
+  spawnBottomY: -2
+  movementSpeed: 5
 --- !u!1 &2034838226
 GameObject:
   m_ObjectHideFlags: 0
@@ -11287,7 +11306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2846004903400031460, guid: e65c9e0fd66bfb54b95fd09725a16db1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.274329
+      value: -12.59
       objectReference: {fileID: 0}
     - target: {fileID: 2846004903400031460, guid: e65c9e0fd66bfb54b95fd09725a16db1, type: 3}
       propertyPath: m_LocalPosition.y
