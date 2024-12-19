@@ -5,9 +5,15 @@ using Reactional.Playback;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
-
+/// <summary>
+/// Taking a Global light and alter the intensity value from the set editor value to a new value.
+/// The value lerps from startvalue to MAX_INTENSITY 
+/// </summary>
 public class Reactional_DeepAnalysis_GlobalLightControler : MonoBehaviour
 {
+   
+    [SerializeField] private float MAX_INTENSITY = 1.5f;
+    
     public Light2D globalLight;
     void OnEnable()
     {
@@ -27,25 +33,24 @@ public class Reactional_DeepAnalysis_GlobalLightControler : MonoBehaviour
 
     void PostProcessDrumEffect(float offset, drums bass)
     {
-        Debug.Log($"PostProcessBassEffect triggered for bass note with duration {offset}");
-        StartCoroutine(lerpIntensity(INTENSITY));
+        //Debug.Log($"PostProcessBassEffect triggered for bass note with duration {offset}");
+        StartCoroutine(lerpIntensity(globalLight.intensity));
     }
 
-    public const float INTENSITY = 0.2f;
     
     private IEnumerator lerpIntensity(float StartIntensity)
     {
 
         float duration = 0.5f;
         float halfDuration = duration / 2.0f;
-        float maxIntensity = 5;
+        //float maxIntensity = 5;
         var elapsedTime = 0f;
         
-        Debug.Log("Start Value Intensity " +StartIntensity + "and GL intesity " + globalLight.intensity);
+        //Debug.Log("Start Value Intensity " +StartIntensity + "and GL intesity " + globalLight.intensity);
         
         while (elapsedTime <= halfDuration)
         {
-            globalLight.intensity = Mathf.Lerp(StartIntensity, maxIntensity, elapsedTime / halfDuration);
+            globalLight.intensity = Mathf.Lerp(StartIntensity, MAX_INTENSITY, elapsedTime / halfDuration);
             
             elapsedTime += Time.deltaTime;
             yield return null;
@@ -56,7 +61,7 @@ public class Reactional_DeepAnalysis_GlobalLightControler : MonoBehaviour
         elapsedTime = 0f;
         while (elapsedTime <= halfDuration)
         {
-            globalLight.intensity = Mathf.Lerp(maxIntensity, StartIntensity, elapsedTime / halfDuration);
+            globalLight.intensity = Mathf.Lerp(MAX_INTENSITY, StartIntensity, elapsedTime / halfDuration);
             
             elapsedTime += Time.deltaTime;
             yield return null;
