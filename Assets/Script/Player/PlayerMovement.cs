@@ -40,18 +40,13 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.LogWarning("GameManager is not assigned as component in the PlayerMovement script.", this);
         }
-       
     }
-    
-   
 
     private void OnEnable()
     {
         // Subscribe to the Fly action
         controller.Player.Fly.Enable();
         controller.Player.Fly.performed += OnFly;
-        
-        
     }
 
     private void OnDisable()
@@ -63,21 +58,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnFly(InputAction.CallbackContext context)
     {
-        
         rb.linearVelocity = Vector2.up * flyVelocity;
         isFalling = false;
-        
-      
-        
     }
-    
     
     void FixedUpdate()
     {
         // Check if the player has reached the apex and started to fall
         CheckIfShouldFall();
-        
-        
 
         // Apply downward force if the player is falling
         if (isFalling)
@@ -102,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
     private void ApplyDownwardForce()
     {
         // Gradually add downward force to simulate gravity
-        rb.linearVelocity += Vector2.down * downwardForceMultiplier * Time.fixedDeltaTime;
+        rb.linearVelocity += Vector2.down * (downwardForceMultiplier * Time.fixedDeltaTime);
 
         // Limit the falling speed to maxFallSpeed
         if (rb.linearVelocity.y < maxFallSpeed)
@@ -126,29 +114,18 @@ public class PlayerMovement : MonoBehaviour
     
    // --------------- Ienumerator Coroutines -------------
 
-   private IEnumerator WaitForSeconds(float seconds)
-   {
-       yield return new WaitForSeconds(seconds);
-   }
-   
    private IEnumerator PlayerCollision()
    {
        // Start the dissolve effect
        yield return StartCoroutine(PlayerOnDeath.Instance.DisolvePlayer(true, false));
        
-
        // Wait for 4 seconds
        yield return new WaitForSeconds(timerSetPlayerInvis);
        
-
        // Set GameObject inactive
        gameObject.SetActive(false);
 
        // Call GameOver
-       gameManager.GameOver();
-       
-       
+       //gameManager.GameOver();
    }
-   
-   
 }

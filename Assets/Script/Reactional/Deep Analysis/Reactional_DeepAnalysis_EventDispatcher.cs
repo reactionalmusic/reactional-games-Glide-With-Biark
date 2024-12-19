@@ -66,7 +66,6 @@ public class Reactional_DeepAnalysis_EventDispatcher : MonoBehaviour
 
     private void Update()
     {
-
         FindVocalNoteHit();
         FindbassNoteHit();
         FindDrumNoteHit();
@@ -92,10 +91,9 @@ public class Reactional_DeepAnalysis_EventDispatcher : MonoBehaviour
         OnDrumNoteHit -= InstantiateDrumPrefab;
     }
 
-    
-    
     void FindVocalNoteHit()
     {
+        if (!offlineMusicDataAsset) { return; }
         
         float currentBeat = ReactionalEngine.Instance.CurrentBeat;  // Get current beat
 
@@ -124,6 +122,7 @@ public class Reactional_DeepAnalysis_EventDispatcher : MonoBehaviour
     
    void FindbassNoteHit()
     {
+        if (!offlineMusicDataAsset) { return; }
         
         float currentBeat = ReactionalEngine.Instance.CurrentBeat;  // Get current beat
 
@@ -152,6 +151,7 @@ public class Reactional_DeepAnalysis_EventDispatcher : MonoBehaviour
     
  void FindDrumNoteHit()
     {
+        if (!offlineMusicDataAsset) { return; }
         
         float currentBeat = ReactionalEngine.Instance.CurrentBeat;  // Get current beat
 
