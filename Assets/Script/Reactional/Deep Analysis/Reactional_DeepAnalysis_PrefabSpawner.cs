@@ -19,11 +19,14 @@ public class Reactional_DeepAnalysis_PrefabSpawner : MonoBehaviour
 
     [SerializeField] private GameObject ObstaclePrefab;
     [SerializeField] private GameObject PickupPrefab;
-    //[SerializeField] private float spawnInterval = 1f; // Time interval between spawns
-    //[SerializeField] private float spawnTimer = 0f;
+    [SerializeField] private GameObject TrailPrefab;
     [SerializeField] private float spawnTopY = 5f; // Range for random height when spawning objects
     [SerializeField] private float spawnBottomY = -2f; // Range for random height when spawning objects
+    
     private bool alternatingDrumToggle = true;
+    private bool vocalTrailEnabled = false;
+    private float lastDrumBeatTime;
+    private float drumBeatTimeout = 1f;
 
     [Header("Movement Settings")]
     [SerializeField] private float movementSpeed = 5f;
@@ -49,40 +52,37 @@ public class Reactional_DeepAnalysis_PrefabSpawner : MonoBehaviour
     {
         // Move all spawned objects
         MoveSpawnedObjects();
+        
+        // Check if drum beat hasn't occurred for a while
+        vocalTrailEnabled = Time.time - lastDrumBeatTime > drumBeatTimeout;
     }
     
     private void TriggerBassNoteSpawn(float offset, bass bass)
     {
-        return;
-        //if (alternatingBassToggle)
-        {
-            SpawnPickups(PickupPrefab,bass);
-        }
-        //alternatingBassToggle = !alternatingBassToggle;
+        
     }
     private void TriggerVocalNoteSpawn(float offset, vocals vocal)
     {
-        //if (alternatingToggle)
-        {
-            //SpawnPickups(ObstaclePrefab,vocal);
-        }
-        //alternatingToggle = !alternatingToggle;
+        if (!vocalTrailEnabled) return;
+        
+        TriggerVocalTrail(offset,vocal);
     }
     private void TriggerDrumNoteSpawn(float offset, drums drum)
     {
         if (alternatingDrumToggle)
         {
-            SpawnObstacle(ObstaclePrefab,drum);
+            SpawnPrefab(ObstaclePrefab,drum);
         }
         else
         {
-            SpawnObstacle(PickupPrefab,drum);
+            SpawnPrefab(PickupPrefab,drum);
         }
         alternatingDrumToggle = !alternatingDrumToggle;
+        lastDrumBeatTime = Time.time; // Update the last drum beat time
     }
 
     // Method to spawn objects with a specific prefab
-    public void SpawnObstacle(GameObject obstaclePrefab, drums drums)
+    public void SpawnPrefab(GameObject obstaclePrefab, drums drums)
     {
         if (obstaclePrefab == null){
             Debug.LogWarning("Obstacle object is null");
@@ -97,21 +97,23 @@ public class Reactional_DeepAnalysis_PrefabSpawner : MonoBehaviour
         // Add the newly spawned object to the list
         spawnedObjects.Add(newObject);
     }
-    
-    public void SpawnPickups(GameObject pickupPrefab, bass bass)
+
+    private void TriggerVocalTrail(float offset, vocals vocal)
     {
-        if (pickupPrefab == null){
-            Debug.LogWarning("Pickup object is null");
-            return; // Exit if no prefab is provided
+        // Create a trail following the vocals note
+        if (TrailPrefab != null)
+        {
+            GameObject trail = Instantiate(TrailPrefab, transform);
+            float trailYPosition = GetYPosition(vocal.note);
+            trail.transform.position = transform.position + new Vector3(0, trailYPosition, 0);
+
+            // Optionally adjust properties or behaviors of the trail object
+            spawnedObjects.Add(trail);
         }
-
-        // Instantiate the prefab and set its position
-        GameObject newObject = Instantiate(pickupPrefab);
-        
-        newObject.transform.position = transform.position + new Vector3(0, GetYPosition(bass.note), 0);
-
-        // Add the newly spawned object to the list
-        spawnedObjects.Add(newObject);
+        else
+        {
+            Debug.LogWarning("TrailPrefab is not assigned!");
+        }
     }
     
     /// <summary>
