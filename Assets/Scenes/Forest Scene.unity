@@ -15497,10 +15497,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9882ac6cde2f04aea915309dae5bb63b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VocalPrefab: {fileID: 0}
-  BasPrefab: {fileID: 0}
-  DrumPrefab: {fileID: 0}
-  offlineMusicDataAsset: {fileID: 0}
+  VocalPrefab: {fileID: 6691017079308188631, guid: e7a7f0d85c3f0eb41843e86ab9f52924, type: 3}
+  BasPrefab: {fileID: 6691017079308188631, guid: e78d17e8ec75bac48bc7c2364ae51836, type: 3}
+  DrumPrefab: {fileID: 6691017079308188631, guid: 34ae9d70d10bca442b1eae60ece53fc7, type: 3}
+  offlineMusicDataAsset: {fileID: 11400000, guid: 3424d0fd661a10c47a60c5fb261a5a59, type: 2}
   XOffsetMultiplier: 5
   YOffsetMultiplier: 2
   YBasePosition: -5

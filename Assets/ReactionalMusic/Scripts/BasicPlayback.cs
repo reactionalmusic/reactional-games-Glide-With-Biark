@@ -42,7 +42,7 @@ namespace Reactional.Core
             // Load "Default Section" from inspector, or first defined section in first bundle
             // await Reactional.Setup.LoadTheme("BundleName","Default","ThemeName");// Load specific theme in specific bundle
             await Reactional.Setup.LoadTheme("Reactional_ScifiBoss copy");                        // Find and load specifc theme in any bundle
-            Reactional.Playback.Theme.SetControl("Part: Silence");
+            Reactional.Playback.Theme.SetControl("part: silence");
             //Reactional.Playback.Theme.
             //await Reactional.Setup.LoadTheme();                                   // Load the first theme defined in first bundle
 
