@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Reactional.Core;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -8,6 +9,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 { 
    public PlayerController controller;
+   public GameObject player;
    private bool isGameOver = false;
    
    private int score = 0;
@@ -18,9 +20,15 @@ public class GameManager : MonoBehaviour
    }
 
    void Start()
+   {
+        //Time.timeScale = 0;
+    }
+
+    public void StartGame()
     {
-        
         Time.timeScale = 1;
+        player.SetActive(true);
+        FindFirstObjectByType<BasicPlayback>().enabled = true;
     }
 
     public void GameOver()
