@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Parallax : MonoBehaviour
 {
-    [SerializeField] private float parallaxAmount;
+    [SerializeField] private float parallaxScrollSpeed;
     private float start_pos;
     private Bounds group_bounds;
 
@@ -13,7 +13,7 @@ public class Parallax : MonoBehaviour
 
     private void Update() {
         var t = transform;
-        float dist = t.position.x - (parallaxAmount * Time.deltaTime);
+        float dist = t.position.x - (parallaxScrollSpeed * Time.deltaTime);
         t.position = new Vector3(dist, t.position.y, t.position.z);
 
         if (t.position.x < start_pos - group_bounds.extents.x) {
