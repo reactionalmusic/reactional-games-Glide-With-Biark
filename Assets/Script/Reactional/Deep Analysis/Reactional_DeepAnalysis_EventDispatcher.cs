@@ -49,9 +49,12 @@ public class Reactional_DeepAnalysis_EventDispatcher : MonoBehaviour
     void Start()
     {
         // Subscribe the instantiation methods to the events
-        OnVocalNoteHit += InstantiateVocalPrefab;
-        OnBassNoteHit += InstantiateBassPrefab;
-        OnDrumNoteHit += InstantiateDrumPrefab;
+        if(VocalPrefab != null)
+            OnVocalNoteHit += InstantiateVocalPrefab;
+        if(BasPrefab != null)
+            OnBassNoteHit += InstantiateBassPrefab;
+        if(DrumPrefab != null)
+            OnDrumNoteHit += InstantiateDrumPrefab;
        
 
       
