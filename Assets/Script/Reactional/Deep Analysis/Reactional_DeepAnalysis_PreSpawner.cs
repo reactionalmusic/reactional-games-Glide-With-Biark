@@ -3,6 +3,7 @@ using UnityEngine;
 using Reactional.Core;
 using Reactional.Experimental;
 using System;
+using Random = UnityEngine.Random;
 
 public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
 {
@@ -19,9 +20,12 @@ public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
     private List<float> accumulatedBassPositions = new List<float>();
     private List<GameObject> accumulatedBassObjects = new List<GameObject>();
     private List<int> accumulatedBassEntries = new List<int>();
-
     private int accumulatedEntry = 0;
-
+    
+    //Object spawn range
+    [SerializeField] private float spawnTopY = 5f; // Range for random height when spawning objects
+    [SerializeField] private float spawnBottomY = -2f; // Range for random height when spawning objects
+    
     public OfflineMusicDataAsset offlineMusicDataAsset;
 
     // Constants for positioning multipliers (replacing hardcoded numbers)
@@ -175,7 +179,8 @@ public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
     private void InstantiateDrumPrefab(float offset)
     {
         // Calculate position for drums using constants
-        Vector3 position = new Vector3(offset * XOffsetMultiplier, YBasePosition, 0); // Fixed Y position for drums
+        float randomY = Random.Range(spawnTopY , spawnBottomY ); // Random Y position
+        Vector3 position = new Vector3(offset * XOffsetMultiplier, randomY, 0); // Use random Y for the drum
         var obj = Instantiate(DrumPrefab, position, Quaternion.identity, gameObject.transform); // Spawn the drum prefab
         accumulatedObjects.Add(obj); // Track the spawned object
         accumulatedPositions.Add(position.x); // Track its X position
