@@ -168,7 +168,7 @@ public class Reactional_DeepAnalysis_EventDispatcher : MonoBehaviour
             {
                 // Fire the event for this vocal note
                 OnDrumNoteHit?.Invoke(drums.offset, drums);
-                Debug.Log("Drum Note Hit Blue!");
+                //Debug.Log("Drum Note Hit Blue!");
 
                 // Move to the next note
                 currentDrumIndex++;

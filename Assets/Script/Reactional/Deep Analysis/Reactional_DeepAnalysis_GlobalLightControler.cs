@@ -67,7 +67,7 @@ public class Reactional_DeepAnalysis_GlobalLightControler : MonoBehaviour
             yield return null;
         }
         
-        Debug.Log("End Value Intensity " +StartIntensity + "and GL intesity " + globalLight.intensity);
+        //Debug.Log("End Value Intensity " +StartIntensity + "and GL intesity " + globalLight.intensity);
     }
    
 }

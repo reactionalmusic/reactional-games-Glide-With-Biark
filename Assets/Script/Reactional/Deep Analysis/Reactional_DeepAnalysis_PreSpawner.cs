@@ -14,7 +14,7 @@ public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
 
     // Lists to track positions and objects spawned
     private List<float> accumulatedPositions = new List<float>();
-    private List<GameObject> accumulatedObjects = new List<GameObject>();
+    public List<GameObject> accumulatedObjects = new List<GameObject>();
     private List<int> accumulatedEntries = new List<int>();
 
     private List<float> accumulatedBassPositions = new List<float>();
@@ -28,9 +28,10 @@ public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
     
     public OfflineMusicDataAsset offlineMusicDataAsset;
 
-    // Constants for positioning multipliers (replacing hardcoded numbers)
+    // Constants for positioning multipliers
     private const float XOffsetMultiplier = 5f; // Controls spacing on X-axis
     private const float YOffsetMultiplier = 2f; // Controls spacing on Y-axis
+    private const float otherXOffset = -2f; // other offsets if needed
     private const float YBasePosition = -2f; // Base Y position for items like drums
     private const float YPitchAdjustment = 4f; // Adjustment for Y position based on pitch
 
@@ -180,7 +181,7 @@ public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
     {
         // Calculate position for drums using constants
         float randomY = Random.Range(spawnTopY , spawnBottomY ); // Random Y position
-        Vector3 position = new Vector3(offset * XOffsetMultiplier, randomY, 0); // Use random Y for the drum
+        Vector3 position = new Vector3(offset * XOffsetMultiplier + otherXOffset, randomY, 0); // Use random Y for the drum
         var obj = Instantiate(DrumPrefab, position, Quaternion.identity, gameObject.transform); // Spawn the drum prefab
         accumulatedObjects.Add(obj); // Track the spawned object
         accumulatedPositions.Add(position.x); // Track its X position
