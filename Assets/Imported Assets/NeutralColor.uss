@@ -1,0 +1,413 @@
+.FavAddButton {
+    height: 90%;
+    position: relative;
+    width: 90%;
+    -unity-font-definition: url('project://database/Assets/Fonts/KodeMono-VariableFont_wght.ttf?fileID=12800000&guid=6062b8a586e15674e844955454ff3cdc&type=3#KodeMono-VariableFont_wght');
+    color: rgb(0, 0, 0);
+    font-size: 22%;
+    -unity-font-style: bold;
+    align-self: center;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-width: 6px;
+    border-right-width: 6px;
+    border-bottom-width: 6px;
+    border-left-width: 6px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    background-color: rgb(182, 245, 196);
+    overflow: visible;
+    white-space: normal;
+}
+
+.FavRemoveButton {
+    height: 90%;
+    position: relative;
+    width: 90%;
+    -unity-font-definition: url('project://database/Assets/Fonts/KodeMono-VariableFont_wght.ttf?fileID=12800000&guid=6062b8a586e15674e844955454ff3cdc&type=3#KodeMono-VariableFont_wght');
+    color: rgb(0, 0, 0);
+    font-size: 22%;
+    -unity-font-style: bold;
+    align-self: center;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-width: 6px;
+    border-right-width: 6px;
+    border-bottom-width: 6px;
+    border-left-width: 6px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    background-color: rgb(230, 79, 80);
+    overflow: visible;
+    white-space: normal;
+}
+
+.FavLockedButton {
+    height: 90%;
+    position: relative;
+    width: 90%;
+    -unity-font-definition: url('project://database/Assets/Fonts/KodeMono-VariableFont_wght.ttf?fileID=12800000&guid=6062b8a586e15674e844955454ff3cdc&type=3#KodeMono-VariableFont_wght');
+    color: rgb(0, 0, 0);
+    font-size: 22%;
+    -unity-font-style: bold;
+    align-self: center;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-width: 6px;
+    border-right-width: 6px;
+    border-bottom-width: 6px;
+    border-left-width: 6px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    background-color: rgb(125, 125, 125);
+    overflow: visible;
+    white-space: normal;
+}
+
+.BossDisplayUp {
+    position: absolute;
+    top: auto;
+    left: auto;
+    width: 50%;
+    height: 120%;
+    background-image: url('project://database/Assets/SpritSheets/GameBoard%20Sprites/GameBoard%20Spritesheet%20BW.png?fileID=1900937075&guid=8ef0b97aa0784824089290581e7e9f5d&type=3#GameBoard_ButtonIdle');
+    flex-shrink: 0;
+    align-items: stretch;
+    align-content: auto;
+    align-self: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    -unity-background-scale-mode: stretch-to-fill;
+    translate: 0 -100%;
+    transition-duration: 1s;
+    transition-timing-function: ease-out-bounce;
+    -unity-slice-left: 35;
+    -unity-slice-top: 24;
+    -unity-slice-right: 35;
+    -unity-slice-bottom: 24;
+    display: flex;
+    -unity-background-image-tint-color: rgb(108, 193, 255);
+}
+
+.BossDisplayDown {
+    position: absolute;
+    display: flex;
+    top: auto;
+    left: auto;
+    width: 50%;
+    height: 120%;
+    background-image: url('project://database/Assets/SpritSheets/GameBoard%20Sprites/GameBoard%20Spritesheet%20BW.png?fileID=1900937075&guid=8ef0b97aa0784824089290581e7e9f5d&type=3#GameBoard_ButtonIdle');
+    flex-shrink: 0;
+    align-items: stretch;
+    align-content: auto;
+    align-self: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    -unity-background-scale-mode: stretch-to-fill;
+    translate: 0 0;
+    transition-duration: 1s;
+    transition-timing-function: ease-out-bounce;
+    -unity-slice-left: 35;
+    -unity-slice-top: 24;
+    -unity-slice-right: 35;
+    -unity-slice-bottom: 24;
+    -unity-background-image-tint-color: rgb(108, 193, 255);
+}
+
+.Container {
+    background-image: url('project://database/Assets/SpritSheets/Background%20Parallax/Background%20Gameboard/parallax_background%20(1).png?fileID=2800000&guid=13bc350fbc7bfc343b2c249bc4638c44&type=3#parallax_background (1)');
+    width: 100%;
+    height: 100%;
+    align-items: auto;
+    flex-shrink: 0;
+}
+
+.Icon {
+    background-image: url('project://database/Assets/SpritSheets/Hompeage%20Sprites/HomeScreen_Blue.png?fileID=-1003641923&guid=0bac32a9b675e6044bd6a4f134a4c41c&type=3#SettingsIcon_New');
+    -unity-background-image-tint-color: rgb(222, 248, 255);
+    width: 50%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgb(27, 27, 27);
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: flex;
+    visibility: visible;
+    overflow: visible;
+    flex-basis: auto;
+    -unity-background-scale-mode: scale-to-fit;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: auto;
+    top: auto;
+    justify-content: center;
+    align-self: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.FooterButtonLeftPosition {
+    position: absolute;
+    left: 2.5%;
+    top: 16%;
+}
+
+.FooterButtonRightPosition {
+    position: absolute;
+    top: 16%;
+    right: 2.5%;
+}
+
+.SettingsButton {
+    position: absolute;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    background-color: rgba(255, 255, 255, 0);
+    width: 56%;
+    height: 12%;
+    align-self: center;
+    justify-content: flex-start;
+    align-items: auto;
+    bottom: 65%;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.SettingsButton:active {
+    position: absolute;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    background-color: rgba(255, 255, 255, 0);
+    width: 56%;
+    height: 12%;
+    align-self: center;
+    justify-content: flex-start;
+    align-items: auto;
+    bottom: 65%;
+}
+
+.SettingsButton:hover {
+    position: absolute;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    background-color: rgba(255, 255, 255, 0);
+    width: 56%;
+    height: 12%;
+    align-self: center;
+    justify-content: flex-start;
+    align-items: auto;
+    bottom: 65%;
+    scale: 1.1 1.1;
+}
+
+.ScreenFrame {
+    flex-grow: 0;
+    flex-direction: row;
+    background-image: url('project://database/Assets/SpritSheets/GameBoard%20Sprites/GameBoard%20Color%20Blue.png?fileID=1118678135&guid=b36bcdfa870298d47a86db1dc95dfc4f&type=3#GameBoard TextScreen Boarder');
+    flex-shrink: 0;
+    width: 95%;
+    justify-content: center;
+    height: 88%;
+}
+
+.ScreenBG {
+    flex-grow: 0;
+    flex-direction: row;
+    width: 70%;
+    background-image: url('project://database/Assets/SpritSheets/GameBoard%20Sprites/GameBoard%20Spritesheet%20BW.png?fileID=-1810365495&guid=8ef0b97aa0784824089290581e7e9f5d&type=3#GameBoard_Screen');
+    flex-shrink: 0;
+    height: 45%;
+    align-self: center;
+    margin-top: 4%;
+    align-items: center;
+    justify-content: center;
+    -unity-background-image-tint-color: rgb(125, 169, 202);
+}
+
+.page-indicator--icon {
+    flex-grow: 0;
+    background-image: url('project://database/Assets/SpritSheets/Hompeage%20Sprites/HomeScreen_Blue.png?fileID=-1081458620&guid=0bac32a9b675e6044bd6a4f134a4c41c&type=3#CircleBoarder_New');
+    align-self: center;
+    width: 15%;
+    height: 80%;
+    -unity-background-scale-mode: scale-to-fit;
+    flex-shrink: 0;
+}
+
+.page-indicator--icon-fill {
+    flex-grow: 0;
+    background-image: url('project://database/Assets/SpritSheets/Hompeage%20Sprites/HomeScreen_Blue.png?fileID=878009764&guid=0bac32a9b675e6044bd6a4f134a4c41c&type=3#CitcleFill_New');
+    align-self: center;
+    flex-shrink: 0;
+    width: 15%;
+    height: 80%;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.BackButton {
+}
+
+.MultiplyerDisplay {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/Fonts/KodeMono-VariableFont_wght.ttf?fileID=12800000&guid=6062b8a586e15674e844955454ff3cdc&type=3#KodeMono-VariableFont_wght');
+    color: rgb(222, 248, 255);
+    -unity-text-align: middle-center;
+    flex-grow: 0;
+    align-self: auto;
+    align-items: auto;
+    flex-shrink: 0;
+    justify-content: center;
+    flex-basis: auto;
+    white-space: normal;
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.SettingsLableStyle {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: rgb(164, 255, 246);
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/Fonts/KodeMono-VariableFont_wght.ttf?fileID=12800000&guid=6062b8a586e15674e844955454ff3cdc&type=3#KodeMono-VariableFont_wght');
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -unity-text-align: middle-center;
+    font-size: 43%;
+    -unity-font-style: bold;
+    position: relative;
+    justify-content: flex-start;
+    align-self: center;
+    flex-shrink: 0;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+}
+
+.ToggleSettingsFrame {
+    justify-content: space-between;
+    width: 60%;
+    align-self: center;
+    position: absolute;
+    bottom: 73%;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: auto;
+}
+
+.PlayIcon {
+    background-image: url('project://database/Assets/SpritSheets/Hompeage%20Sprites/HomeScreen_Blue.png?fileID=20343691&guid=0bac32a9b675e6044bd6a4f134a4c41c&type=3#PlayIcon_New');
+}
+
+.PauseIcon {
+    background-image: url('project://database/Assets/SpritSheets/Hompeage%20Sprites/HomeScreen_Blue.png?fileID=823586340&guid=0bac32a9b675e6044bd6a4f134a4c41c&type=3#PauseIcon_New');
+}
+
+.MissionsFrameBody {
+    height: 60%;
+    align-self: center;
+    width: 80%;
+    align-items: auto;
+    flex-shrink: 0;
+    background-image: none;
+    flex-grow: 0;
+    position: absolute;
+    min-width: auto;
+    min-height: auto;
+    justify-content: center;
+    top: 12%;
+}
+
+.CurrencyContainer {
+    flex-grow: 0;
+    background-image: url('project://database/Assets/SpritSheets/ShipShop/Shipshop_Blue.png?fileID=-1901757398&guid=898d1f36f5f77fe4187db55a89912b9b&type=3#shipshop__itemname_bg');
+    position: absolute;
+    width: 32%;
+    height: 6%;
+    flex-shrink: 0;
+    top: 2%;
+    left: 3%;
+    -unity-background-image-tint-color: rgba(222, 248, 255, 0.5);
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-left-color: rgb(110, 157, 170);
+    border-right-color: rgb(110, 157, 170);
+    border-top-color: rgb(110, 157, 170);
+    border-bottom-color: rgb(110, 157, 170);
+}
+
+.TemplateContainerDefault {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.MissionEntry {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    flex-shrink: 0;
+    width: 100%;
+    align-self: center;
+    align-items: flex-start;
+    height: 250px;
+}

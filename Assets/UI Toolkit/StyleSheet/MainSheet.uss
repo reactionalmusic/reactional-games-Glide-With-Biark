@@ -4,3 +4,79 @@
     width: 100%;
     height: 100%;
 }
+
+.button_default-style:hover {
+    height: 15%;
+    width: 40%;
+    align-self: center;
+    font-size: 50%;
+    position: absolute;
+    white-space: normal;
+    -unity-font-style: bold;
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    -unity-font-definition: url("project://database/Assets/Imported%20Assets/Cinzel_Decorative/CinzelDecorative-Regular.ttf?fileID=12800000&guid=9bda887eb980a4240a4aa3b8c766a118&type=3#CinzelDecorative-Regular");
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+}
+
+.button_default-style:active {
+    font-size: 50%;
+    color: rgb(0, 0, 0);
+    background-image: url("project://database/Assets/Imported%20Assets/kenney_fantasy-ui-borders/PNG/Default/Transparent%20center/panel-transparent-center-010.png?fileID=2800000&guid=8e9bdcb360cbad1419b6fb96b4e7563c&type=3#panel-transparent-center-010");
+    -unity-slice-left: 12;
+    -unity-slice-top: 12;
+    -unity-slice-right: 12;
+    -unity-slice-bottom: 12;
+    -unity-slice-scale: 4px;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    position: absolute;
+    align-self: center;
+    width: 40%;
+    height: 15%;
+    -unity-font-definition: url("project://database/Assets/Imported%20Assets/Cinzel_Decorative/CinzelDecorative-Regular.ttf?fileID=12800000&guid=9bda887eb980a4240a4aa3b8c766a118&type=3#CinzelDecorative-Regular");
+    -unity-font-style: bold;
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+}
+
+.button_default-style {
+    height: 15%;
+    width: 30%;
+    align-self: center;
+    font-size: 50%;
+    position: absolute;
+    white-space: normal;
+    -unity-font-style: bold;
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    -unity-font-definition: url("project://database/Assets/Imported%20Assets/Cinzel_Decorative/CinzelDecorative-Regular.ttf?fileID=12800000&guid=9bda887eb980a4240a4aa3b8c766a118&type=3#CinzelDecorative-Regular");
+    color: rgb(168, 168, 168);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#start-button__left-decoration {
+    display: none;
+}
+
+#start-button__right-decoration {
+}
+
+.button_default-style:hover > .side-decoration {
+    visibility: visible;
+}
+
+.side-decoration {
+    width: 20%;
+    height: 20%;
+    background-size: contain;
+    visibility: hidden;
+}
