@@ -1,0 +1,9 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="StartupPage" src="project://database/Assets/UI%20Toolkit/UIDocuments/01_StartupPage.uxml?fileID=9197481963319205126&amp;guid=fd1e5b1a939d49944b7039885cd58290&amp;type=3#01_StartupPage" />
+    <engine:Template name="02_IngamePage" src="project://database/Assets/UI%20Toolkit/UIDocuments/02_IngamePage.uxml?fileID=9197481963319205126&amp;guid=fe16f32247a42174a9a8c8fed23d3570&amp;type=3#02_IngamePage" />
+    <engine:Template name="03_PausePage" src="project://database/Assets/UI%20Toolkit/UIDocuments/03_PausePage.uxml?fileID=9197481963319205126&amp;guid=ad5b321e0a1412145823d94b6efc92a0&amp;type=3#03_PausePage" />
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheet/MainSheet.uss?fileID=7433441132597879392&amp;guid=52ebbfe41303ae84185d13259b5dcfe9&amp;type=3#MainSheet" />
+    <engine:Instance template="StartupPage" name="StartupPage" class="template-container__default-style" />
+    <engine:Instance template="02_IngamePage" name="IngamePage" class="template-container__default-style" style="display: none;" />
+    <engine:Instance template="03_PausePage" name="PausePage" class="template-container__default-style" style="display: none;" />
+</engine:UXML>
