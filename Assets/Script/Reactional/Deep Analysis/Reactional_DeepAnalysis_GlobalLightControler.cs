@@ -13,6 +13,7 @@ public class Reactional_DeepAnalysis_GlobalLightControler : MonoBehaviour
 {
    
     [SerializeField] private float MAX_INTENSITY = 1.5f;
+    [SerializeField] private float MIN_INTENSITY = 0.2f;
     
     public Light2D globalLight;
     void OnEnable()
@@ -61,7 +62,7 @@ public class Reactional_DeepAnalysis_GlobalLightControler : MonoBehaviour
         elapsedTime = 0f;
         while (elapsedTime <= halfDuration)
         {
-            globalLight.intensity = Mathf.Lerp(MAX_INTENSITY, StartIntensity, elapsedTime / halfDuration);
+            globalLight.intensity = Mathf.Lerp(MAX_INTENSITY, MIN_INTENSITY, elapsedTime / halfDuration);
             
             elapsedTime += Time.deltaTime;
             yield return null;
