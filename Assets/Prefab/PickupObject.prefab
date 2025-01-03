@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2608133233222597596}
   - component: {fileID: 4814919939393083693}
   - component: {fileID: -7552263581669286764}
+  - component: {fileID: -8995570922424670434}
   m_Layer: 0
   m_Name: PickupObject
   m_TagString: Pickup
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 0.8958725, b: 0, a: 1}
+  m_Color: {r: 0.5568628, g: 0.9894604, b: 0.99215686, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -138,3 +139,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreAmount: 1
+--- !u!114 &-8995570922424670434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5070907538526596026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dfb6e7b92a2f424db54e4a29e206634, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pitch: 128

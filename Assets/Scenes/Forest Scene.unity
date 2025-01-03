@@ -2495,7 +2495,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -12607,7 +12607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   VocalPrefab: {fileID: 6691017079308188631, guid: e7a7f0d85c3f0eb41843e86ab9f52924, type: 3}
   BasPrefab: {fileID: 6691017079308188631, guid: e78d17e8ec75bac48bc7c2364ae51836, type: 3}
-  DrumPrefab: {fileID: 6691017079308188631, guid: 34ae9d70d10bca442b1eae60ece53fc7, type: 3}
+  DrumPrefab: {fileID: 5070907538526596026, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
   accumulatedObjects: []
   spawnTopY: 5
   spawnBottomY: -2
@@ -13649,7 +13649,7 @@ GameObject:
   - component: {fileID: 1283873115}
   - component: {fileID: 1283873117}
   m_Layer: 5
-  m_Name: UIDocument
+  m_Name: UI Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

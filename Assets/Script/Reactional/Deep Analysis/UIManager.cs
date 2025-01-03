@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
     {
@@ -12,13 +13,30 @@ public class UIManager : MonoBehaviour
         Button quitButton;
         VisualElement startupContainer;
         
+        [Header("Ingame UI Elements")]
+        Label pointsLabel;
+        Button pauseButton;
+        VisualElement ingameContainer;
+
+        [Header("Pause UI Elements")] 
+        Label pausePointsLabel;
+        Button resumeButton;
+        Button restartButton;
+        Button pauseQuitButton;
+        VisualElement pauseContainer;
+        
+        bool isPaused = false;
+        
         void Start()
         {
             uiDoc = GetComponent<UIDocument>();
-            Debug.Log(uiDoc);
             
             SetupVisualElements();
-            
+        }
+
+        void OnDestroy()
+        {
+            UnregisterCallbacks();
         }
 
         void SetupVisualElements()
@@ -28,17 +46,36 @@ public class UIManager : MonoBehaviour
             //Startup UI Elements
             startupContainer = root.Q<VisualElement>("StartupPage");
             startButton = startupContainer.Q<Button>("startup__start-button");
-            Debug.Log(startButton);
             quitButton = startupContainer.Q<Button>("startup__quit-button");
             
+            //Ingame UI Elements
+            ingameContainer = root.Q<VisualElement>("IngamePage");
+            pointsLabel = ingameContainer.Q<Label>("ingame__points-label");
+            pauseButton = ingameContainer.Q<Button>("ingame__pause-button");
+            
+            //Pause UI Elements
+            pauseContainer = root.Q<VisualElement>("PausePage"); 
+            pausePointsLabel = pauseContainer.Q<Label>("pause__points-label");
+            resumeButton = pauseContainer.Q<Button>("pause__resume-button");
+            restartButton = pauseContainer.Q<Button>("pause__restart-button");
+            pauseQuitButton = pauseContainer.Q<Button>("pause__quit-button");
+            
             RegisterCallbacks();
-            //UnregisterCallbacks();
         }
 
         void RegisterCallbacks()
         {
+            //Startup UI Elements
             startButton.RegisterCallback<ClickEvent>(ClickStartButton);
             quitButton.RegisterCallback<ClickEvent>(ClickQuitButton);
+            
+            //Ingame UI Elements
+            pauseButton.RegisterCallback<ClickEvent>(TogglePause);
+            
+            //Pause UI Elements
+            resumeButton.RegisterCallback<ClickEvent>(TogglePause);
+            restartButton.RegisterCallback<ClickEvent>(ClickRestartButton);
+            pauseQuitButton.RegisterCallback<ClickEvent>(ClickQuitButton);
         }
 
         void UnregisterCallbacks()
@@ -51,11 +88,49 @@ public class UIManager : MonoBehaviour
         {
             Debug.Log("Called ClickStartButton");
             startupContainer.style.display = DisplayStyle.None;
+            ingameContainer.style.display = DisplayStyle.Flex;
             FindFirstObjectByType<GameManager>().StartGame();
+            
+            pointsLabel.text = "Points: " + 0;
         }
         
         private static void ClickQuitButton(ClickEvent evt)
         {
             Application.Quit();
         }
+        
+        private static void ClickRestartButton(ClickEvent evt)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        
+        private void TogglePause(ClickEvent evt)
+        {
+            if (isPaused)
+            {   
+                //Unpause
+                pauseContainer.style.display = DisplayStyle.None;
+                ingameContainer.style.display = DisplayStyle.Flex;
+                Time.timeScale = 1;
+                isPaused = false;
+                Reactional.Setup.AllowPlay = true;
+            }
+            else
+            {
+                //Pause
+                pauseContainer.style.display = DisplayStyle.Flex;
+                ingameContainer.style.display = DisplayStyle.None;
+                pausePointsLabel.text = pointsLabel.text;
+                Time.timeScale = 0;
+                isPaused = true;
+                Reactional.Setup.AllowPlay = false;
+            }
+            FindFirstObjectByType<GameManager>().PauseGame(isPaused);
+        }
+
+        public void AddScore(int score)
+        {
+            pointsLabel.text = "Points: " + score;
+        }
+        
     }

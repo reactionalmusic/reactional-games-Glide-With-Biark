@@ -8,15 +8,17 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 { 
+    private UIManager uIManager;
    public PlayerController controller;
    public GameObject player;
    private bool isGameOver = false;
    
-   private int score = 0;
+   private int totalScore = 0;
 
    private void Awake()
    {
        controller = new PlayerController();
+       uIManager = FindObjectOfType<UIManager>();
    }
 
    void Start()
@@ -29,6 +31,11 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         player.SetActive(true);
         FindFirstObjectByType<BasicPlayback>().enabled = true;
+    }
+
+    public void PauseGame(bool isPaused)
+    {
+        player.SetActive(!isPaused);
     }
 
     public void GameOver()
@@ -58,8 +65,8 @@ public class GameManager : MonoBehaviour
 
     public void AddScore(int score)
     {
-        score++;
-        Debug.Log("Score: " + score);
+        totalScore += score;
+        uIManager.AddScore(totalScore);
     }
     
     

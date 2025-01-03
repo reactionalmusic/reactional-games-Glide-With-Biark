@@ -193,22 +193,38 @@ public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
     {
         float beatPosition = ReactionalEngine.Instance.CurrentBeat * XOffsetMultiplier;
 
-        // Move all objects (vocals, bass, drums) on the X-axis
-        for (int i = 0; i < accumulatedObjects.Count; i++)
+        // Cleanup destroyed objects from accumulatedObjects
+        for (int i = accumulatedObjects.Count - 1; i >= 0; i--)
         {
+            if (!accumulatedObjects[i])
+            {
+                accumulatedObjects.RemoveAt(i);
+                accumulatedPositions.RemoveAt(i);
+                accumulatedEntries.RemoveAt(i);
+                continue; // Skip this iteration after removal
+            }
+
             float position = accumulatedPositions[i];
             accumulatedObjects[i].transform.position = new Vector3(position - beatPosition,
                 accumulatedObjects[i].transform.position.y, accumulatedObjects[i].transform.position.z);
         }
 
-        // Move bass objects (similar to vocals)
-        for (int i = 0; i < accumulatedBassObjects.Count; i++)
+        // Cleanup for accumulatedBassObjects
+        for (int i = accumulatedBassObjects.Count - 1; i >= 0; i--)
         {
+            if (!accumulatedBassObjects[i])
+            {
+                accumulatedBassObjects.RemoveAt(i);
+                accumulatedBassPositions.RemoveAt(i);
+                continue;
+            }
+
             float position = accumulatedBassPositions[i];
             accumulatedBassObjects[i].transform.position = new Vector3(position - beatPosition,
                 accumulatedBassObjects[i].transform.position.y, accumulatedBassObjects[i].transform.position.z);
         }
     }
+
 
     // Calculates the Y-position based on the note value
     float GetYPosition(float note)
