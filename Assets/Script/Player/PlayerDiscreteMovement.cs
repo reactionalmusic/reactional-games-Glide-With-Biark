@@ -24,12 +24,13 @@ public class PlayerDiscreteMovement : MonoBehaviour
     {
         controller = new PlayerController();
         
-        //Obtain GameObjects
-        targetBlocks = FindFirstObjectByType<Reactional_DeepAnalysis_PreSpawner>().accumulatedObjects;
     }
 
     private void OnEnable()
     {
+        //Obtain GameObjects
+        targetBlocks = FindFirstObjectByType<Reactional_DeepAnalysis_PreSpawner>().accumulatedObjects;
+        
         //Subscribe to the Fly action
         controller.Player.Fly.Enable();
         controller.Player.Fly.performed += OnJump;
@@ -47,7 +48,7 @@ public class PlayerDiscreteMovement : MonoBehaviour
         // Enable jumping when the current block reaches x = 0
         if (currentBlockIndex < targetBlocks.Count && !isJumping)
         {
-            if (Mathf.Abs(targetBlocks[currentBlockIndex].transform.position.x) < -1.9f)
+            if (Mathf.Abs(targetBlocks[currentBlockIndex].transform.position.x) < 1.9f)
             {
                 canJump = true;
             }
@@ -58,6 +59,7 @@ public class PlayerDiscreteMovement : MonoBehaviour
     {
         if (canJump && !isJumping)
         {
+            Debug.Log("Jumping");
             StartCoroutine(JumpToNextBlock());
         }
     }
