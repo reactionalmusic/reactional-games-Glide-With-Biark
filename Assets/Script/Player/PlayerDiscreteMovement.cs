@@ -6,73 +6,90 @@ using UnityEngine.InputSystem;
 public class PlayerDiscreteMovement : MonoBehaviour
 {
     [Header("Game Objects")]
-    [SerializeField] private List<GameObject> targetBlocks; // List of game objects the player will jump to
+    private List<GameObject> targetBlocks; // List of game objects the player will jump to
     [SerializeField] private Transform playerModel; // Player's visual representation
 
     [Header("Jump Settings")]
-    [SerializeField] private float jumpDuration = 0.2f; // Time it takes to complete a jump
+    [SerializeField] private float jumpDuration = 0.5f; // Time it takes to complete a jump
     [SerializeField] private AnimationCurve jumpCurve; // Curve for smooth jumping animation
-    [SerializeField] private float jumpHeight = 2f; // Height of the jump arc
+    [SerializeField] private float baseJumpHeight = 2f; // Base height of the jump arc
 
     [Header("Misc")]
     private PlayerController controller;
-    private int currentBlockIndex = 0; // Tracks the player's current block
-    private bool canJump = false; // Ensures the player jumps only when allowed
     private bool isJumping = false; // Prevents multiple jumps during one animation
 
     private void Awake()
     {
         controller = new PlayerController();
-        
     }
 
     private void OnEnable()
     {
-        //Obtain GameObjects
-        targetBlocks = FindFirstObjectByType<Reactional_DeepAnalysis_PreSpawner>().accumulatedObjects;
-        
-        //Subscribe to the Fly action
+        var spawner = FindFirstObjectByType<Reactional_DeepAnalysis_PreSpawner>();
+        if (spawner != null && spawner.accumulatedObjects != null)
+        {
+            targetBlocks = spawner.accumulatedObjects;
+        }
+        else
+        {
+            Debug.LogError("Failed to find Reactional_DeepAnalysis_PreSpawner or its accumulatedObjects.");
+        }
+
+        // Subscribe to the Fly action
         controller.Player.Fly.Enable();
         controller.Player.Fly.performed += OnJump;
     }
 
     private void OnDisable()
     {
-        //Unsubscribe from the Fly action
         controller.Player.Fly.performed -= OnJump;
         controller.Player.Fly.Disable();
     }
 
-    private void Update()
-    {
-        // Enable jumping when the current block reaches x = 0
-        if (currentBlockIndex < targetBlocks.Count && !isJumping)
-        {
-            if (Mathf.Abs(targetBlocks[currentBlockIndex].transform.position.x) < 1.9f)
-            {
-                canJump = true;
-            }
-        }
-    }
-
     private void OnJump(InputAction.CallbackContext context)
     {
-        if (canJump && !isJumping)
+        if (!isJumping)
         {
             Debug.Log("Jumping");
-            StartCoroutine(JumpToNextBlock());
+            StartCoroutine(JumpInArc());
         }
     }
 
-    private IEnumerator JumpToNextBlock()
+    private IEnumerator JumpInArc()
     {
-        if (currentBlockIndex >= targetBlocks.Count - 1) yield break; // Prevents jumping past the last block
-
         isJumping = true;
-        canJump = false;
+
+        // Find the next target block
+        GameObject nextBlock = GetNextBlock();
+        if (nextBlock == null)
+        {
+            Debug.LogWarning("No valid block found for jumping!");
+            isJumping = false;
+            yield break;
+        }
 
         Vector3 startPosition = playerModel.position;
-        Vector3 endPosition = new Vector3(playerModel.position.x, targetBlocks[currentBlockIndex + 1].transform.position.y, playerModel.position.z);
+        Vector3 endPosition;
+        if (nextBlock.transform.position.x - playerModel.position.x < 4f)
+        { 
+            Debug.Log("Jumping" + (nextBlock.transform.position.x - playerModel.position.x).ToString());
+                endPosition = new Vector3(
+                nextBlock.transform.position.x, 
+                nextBlock.transform.position.y + 0.5f, // Slight offset for safe landing
+                playerModel.position.z
+            );
+        }
+        else
+        {
+            endPosition = new Vector3(
+                playerModel.transform.position.x, 
+                playerModel.transform.position.y, // Slight offset for safe landing
+                playerModel.position.z
+            );
+        }
+
+        float jumpDistance = Mathf.Abs(endPosition.x - startPosition.x);
+        float jumpHeight = baseJumpHeight + (jumpDistance * 0.5f); // Adjust arc height based on distance
 
         float elapsedTime = 0f;
 
@@ -89,9 +106,24 @@ public class PlayerDiscreteMovement : MonoBehaviour
             yield return null;
         }
 
-        playerModel.position = endPosition; // Snap to the final position
-        currentBlockIndex++;
+        //playerModel.position = endPosition; // Snap to the final position
         isJumping = false;
+    }
+
+    /// <summary>
+    /// Finds the next valid block to jump to.
+    /// </summary>
+    /// <returns>Next block GameObject</returns>
+    private GameObject GetNextBlock()
+    {
+        foreach (var block in targetBlocks)
+        {
+            if (block.transform.position.x > playerModel.position.x)
+            {
+                return block;
+            }
+        }
+        return null; // No valid block found
     }
 
     private void OnDrawGizmos()
