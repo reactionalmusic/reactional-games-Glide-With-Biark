@@ -1,40 +1,42 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+[RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public class PlayerDiscreteMovement : MonoBehaviour
 {
-    [Header("Game Objects")]
-    private List<GameObject> targetBlocks; // List of game objects the player will jump to
-    [SerializeField] private Transform playerModel; // Player's visual representation
-
-    [Header("Jump Settings")]
-    [SerializeField] private float jumpDuration = 0.5f; // Time it takes to complete a jump
-    [SerializeField] private AnimationCurve jumpCurve; // Curve for smooth jumping animation
-    [SerializeField] private float baseJumpHeight = 2f; // Base height of the jump arc
-
-    [Header("Misc")]
+    
     private PlayerController controller;
-    private bool isJumping = false; // Prevents multiple jumps during one animation
+    
+    [SerializeField] private ScriptableStats _stats;
+    private Rigidbody2D _rb;
+    private CapsuleCollider2D _col;
+    private FrameInput _frameInput;
+    private Vector2 _frameVelocity;
+    private bool _cachedQueryStartInColliders;
 
+    #region Interface
+
+    public event Action<bool, float> GroundedChanged;
+    public event Action Jumped;
+    
+    #endregion
+    
+    private float _time;
     private void Awake()
     {
+        _rb = GetComponent<Rigidbody2D>();
+        _col = GetComponent<CapsuleCollider2D>();
+
+        _cachedQueryStartInColliders = Physics2D.queriesStartInColliders;
+        
         controller = new PlayerController();
     }
 
     private void OnEnable()
     {
-        var spawner = FindFirstObjectByType<Reactional_DeepAnalysis_PreSpawner>();
-        if (spawner != null && spawner.accumulatedObjects != null)
-        {
-            targetBlocks = spawner.accumulatedObjects;
-        }
-        else
-        {
-            Debug.LogError("Failed to find Reactional_DeepAnalysis_PreSpawner or its accumulatedObjects.");
-        }
-
         // Subscribe to the Fly action
         controller.Player.Fly.Enable();
         controller.Player.Fly.performed += OnJump;
@@ -46,96 +48,140 @@ public class PlayerDiscreteMovement : MonoBehaviour
         controller.Player.Fly.Disable();
     }
 
-    private void OnJump(InputAction.CallbackContext context)
+    private void Update()
     {
-        if (!isJumping)
-        {
-            Debug.Log("Jumping");
-            StartCoroutine(JumpInArc());
-        }
+        _time += Time.deltaTime;
     }
 
-    private IEnumerator JumpInArc()
+    
+    private void OnJump(InputAction.CallbackContext context)
     {
-        isJumping = true;
-
-        // Find the next target block
-        GameObject nextBlock = GetNextBlock();
-        if (nextBlock == null)
+        _frameInput = new FrameInput
         {
-            Debug.LogWarning("No valid block found for jumping!");
-            isJumping = false;
-            yield break;
+            JumpDown = true
+        };
+        _jumpToConsume = true;
+        _timeJumpWasPressed = _time;
+        
+        HandleJump();
+    }
+    
+    private void FixedUpdate()
+    {
+        CheckCollisions();
+
+        HandleGravity();
+            
+        ApplyMovement();
+    }
+    
+    #region Collisions
+        
+        private float _frameLeftGrounded = float.MinValue;
+        private bool _grounded;
+
+        private void CheckCollisions()
+        {
+            Physics2D.queriesStartInColliders = false;
+
+            // Ground and Ceiling
+            bool groundHit = Physics2D.CapsuleCast(_col.bounds.center, _col.size, _col.direction, 0, Vector2.down, _stats.GrounderDistance, ~_stats.PlayerLayer);
+            bool ceilingHit = Physics2D.CapsuleCast(_col.bounds.center, _col.size, _col.direction, 0, Vector2.up, _stats.GrounderDistance, ~_stats.PlayerLayer);
+
+            // Hit a Ceiling
+            if (ceilingHit) _frameVelocity.y = Mathf.Min(0, _frameVelocity.y);
+
+            // Landed on the Ground
+            if (!_grounded && groundHit)
+            {
+                _grounded = true;
+                _coyoteUsable = true;
+                _bufferedJumpUsable = true;
+                _endedJumpEarly = false;
+                GroundedChanged?.Invoke(true, Mathf.Abs(_frameVelocity.y));
+            }
+            // Left the Ground
+            else if (_grounded && !groundHit)
+            {
+                _grounded = false;
+                _frameLeftGrounded = _time;
+                GroundedChanged?.Invoke(false, 0);
+            }
+
+            Physics2D.queriesStartInColliders = _cachedQueryStartInColliders;
+            Debug.Log(_grounded);
+            Debug.DrawRay(_col.bounds.center, Vector2.down * _stats.GrounderDistance, Color.green);
+
         }
 
-        Vector3 startPosition = playerModel.position;
-        Vector3 endPosition;
-        if (nextBlock.transform.position.x - playerModel.position.x < 4f)
-        { 
-            Debug.Log("Jumping" + (nextBlock.transform.position.x - playerModel.position.x).ToString());
-                endPosition = new Vector3(
-                nextBlock.transform.position.x, 
-                nextBlock.transform.position.y + 0.5f, // Slight offset for safe landing
-                playerModel.position.z
-            );
+    #endregion
+
+
+    #region Jumping
+
+    private bool _jumpToConsume;
+    private bool _bufferedJumpUsable;
+    private bool _endedJumpEarly;
+    private bool _coyoteUsable;
+    private float _timeJumpWasPressed;
+
+    private bool HasBufferedJump => _bufferedJumpUsable && _time < _timeJumpWasPressed + _stats.JumpBuffer;
+    private bool CanUseCoyote => _coyoteUsable && !_grounded && _time < _frameLeftGrounded + _stats.CoyoteTime;
+
+    private void HandleJump()
+    {
+        if (!_endedJumpEarly && !_grounded && _rb.linearVelocity.y > 0) _endedJumpEarly = true;
+        
+        if (!_jumpToConsume && !HasBufferedJump) return;
+
+        //if (_grounded || CanUseCoyote) 
+            ExecuteJump();
+
+        _jumpToConsume = false;
+    }
+
+    private void ExecuteJump()
+    {
+        Debug.Log("Executing");
+        _endedJumpEarly = false;
+        _timeJumpWasPressed = 0;
+        _bufferedJumpUsable = false;
+        _coyoteUsable = false;
+        _frameVelocity.y = _stats.JumpPower;
+        Jumped?.Invoke();
+    }
+
+    #endregion
+    
+    #region Gravity
+
+    private void HandleGravity()
+    {
+        if (_grounded && _frameVelocity.y <= 0f)
+        {
+            _frameVelocity.y = _stats.GroundingForce;
         }
         else
         {
-            endPosition = new Vector3(
-                playerModel.transform.position.x, 
-                playerModel.transform.position.y, // Slight offset for safe landing
-                playerModel.position.z
-            );
+            var inAirGravity = _stats.FallAcceleration;
+            if (_endedJumpEarly && _frameVelocity.y > 0) inAirGravity *= _stats.JumpEndEarlyGravityModifier;
+            _frameVelocity.y = Mathf.MoveTowards(_frameVelocity.y, -_stats.MaxFallSpeed, inAirGravity * Time.fixedDeltaTime);
         }
-
-        float jumpDistance = Mathf.Abs(endPosition.x - startPosition.x);
-        float jumpHeight = baseJumpHeight + (jumpDistance * 0.5f); // Adjust arc height based on distance
-
-        float elapsedTime = 0f;
-
-        // Perform a parabolic jump
-        while (elapsedTime < jumpDuration)
-        {
-            elapsedTime += Time.deltaTime;
-            float t = elapsedTime / jumpDuration;
-
-            // Smooth animation using the jump curve
-            float heightOffset = jumpCurve.Evaluate(t) * jumpHeight;
-            playerModel.position = Vector3.Lerp(startPosition, endPosition, t) + new Vector3(0, heightOffset, 0);
-
-            yield return null;
-        }
-
-        //playerModel.position = endPosition; // Snap to the final position
-        isJumping = false;
     }
 
-    /// <summary>
-    /// Finds the next valid block to jump to.
-    /// </summary>
-    /// <returns>Next block GameObject</returns>
-    private GameObject GetNextBlock()
+    #endregion
+
+    private void ApplyMovement() => _rb.linearVelocity = _frameVelocity;
+
+#if UNITY_EDITOR
+    private void OnValidate()
     {
-        foreach (var block in targetBlocks)
-        {
-            if (block.transform.position.x > playerModel.position.x)
-            {
-                return block;
-            }
-        }
-        return null; // No valid block found
+        if (_stats == null) Debug.LogWarning("Please assign a ScriptableStats asset to the Player Controller's Stats slot", this);
     }
+#endif
+}
 
-    private void OnDrawGizmos()
-    {
-        // Draw lines between blocks for debugging
-        if (targetBlocks != null && targetBlocks.Count > 1)
-        {
-            for (int i = 0; i < targetBlocks.Count - 1; i++)
-            {
-                Gizmos.color = Color.green;
-                Gizmos.DrawLine(targetBlocks[i].transform.position, targetBlocks[i + 1].transform.position);
-            }
-        }
-    }
+public struct FrameInput
+{
+    public bool JumpDown;
 }
