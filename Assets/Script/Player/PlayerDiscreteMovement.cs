@@ -7,7 +7,6 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public class PlayerDiscreteMovement : MonoBehaviour
 {
-    
     private PlayerController controller;
     
     [SerializeField] private ScriptableStats _stats;
@@ -29,8 +28,6 @@ public class PlayerDiscreteMovement : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
         _col = GetComponent<CapsuleCollider2D>();
-
-        _cachedQueryStartInColliders = Physics2D.queriesStartInColliders;
         
         controller = new PlayerController();
     }
@@ -76,45 +73,25 @@ public class PlayerDiscreteMovement : MonoBehaviour
     }
     
     #region Collisions
-        
-        private float _frameLeftGrounded = float.MinValue;
-        private bool _grounded;
 
-        private void CheckCollisions()
-        {
-            Physics2D.queriesStartInColliders = false;
+    private bool _grounded = false;
+    
+    [Header("Ground Check")]
+    [SerializeField] private LayerMask groundLayer; // Layer for ground objects
+    [SerializeField] private Transform groundCheckPoint; // Reference to the ground check position
+    [SerializeField] private float groundCheckRadius = 0.2f; // Radius for the overlap check
+    
+    void CheckCollisions()
+    {
+        // Use Physics2D.OverlapCircle to check if ground is detected
+        _grounded = Physics2D.OverlapCircle(groundCheckPoint.position, groundCheckRadius, groundLayer);
 
-            // Ground and Ceiling
-            bool groundHit = Physics2D.CapsuleCast(_col.bounds.center, _col.size, _col.direction, 0, Vector2.down, _stats.GrounderDistance, ~_stats.PlayerLayer);
-            bool ceilingHit = Physics2D.CapsuleCast(_col.bounds.center, _col.size, _col.direction, 0, Vector2.up, _stats.GrounderDistance, ~_stats.PlayerLayer);
-
-            // Hit a Ceiling
-            if (ceilingHit) _frameVelocity.y = Mathf.Min(0, _frameVelocity.y);
-
-            // Landed on the Ground
-            if (!_grounded && groundHit)
-            {
-                _grounded = true;
-                _coyoteUsable = true;
-                _bufferedJumpUsable = true;
-                _endedJumpEarly = false;
-                GroundedChanged?.Invoke(true, Mathf.Abs(_frameVelocity.y));
-            }
-            // Left the Ground
-            else if (_grounded && !groundHit)
-            {
-                _grounded = false;
-                _frameLeftGrounded = _time;
-                GroundedChanged?.Invoke(false, 0);
-            }
-
-            Physics2D.queriesStartInColliders = _cachedQueryStartInColliders;
-            Debug.Log(_grounded);
-            Debug.DrawRay(_col.bounds.center, Vector2.down * _stats.GrounderDistance, Color.green);
-
-        }
-
+        // Optional: Visualize the ground check in the Scene view
+        Debug.DrawLine(groundCheckPoint.position, groundCheckPoint.position + Vector3.down * groundCheckRadius, Color.red);
+    }
+    
     #endregion
+
 
 
     #region Jumping
@@ -122,11 +99,9 @@ public class PlayerDiscreteMovement : MonoBehaviour
     private bool _jumpToConsume;
     private bool _bufferedJumpUsable;
     private bool _endedJumpEarly;
-    private bool _coyoteUsable;
     private float _timeJumpWasPressed;
 
     private bool HasBufferedJump => _bufferedJumpUsable && _time < _timeJumpWasPressed + _stats.JumpBuffer;
-    private bool CanUseCoyote => _coyoteUsable && !_grounded && _time < _frameLeftGrounded + _stats.CoyoteTime;
 
     private void HandleJump()
     {
@@ -134,7 +109,7 @@ public class PlayerDiscreteMovement : MonoBehaviour
         
         if (!_jumpToConsume && !HasBufferedJump) return;
 
-        //if (_grounded || CanUseCoyote) 
+        //if (_grounded) 
             ExecuteJump();
 
         _jumpToConsume = false;
@@ -143,10 +118,11 @@ public class PlayerDiscreteMovement : MonoBehaviour
     private void ExecuteJump()
     {
         Debug.Log("Executing");
+        CameraShake.TriggerShake(0.5f,1,1, 0.5f);
+        
         _endedJumpEarly = false;
         _timeJumpWasPressed = 0;
         _bufferedJumpUsable = false;
-        _coyoteUsable = false;
         _frameVelocity.y = _stats.JumpPower;
         Jumped?.Invoke();
     }

@@ -165,7 +165,7 @@ public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
         {
             float offset = Mathf.Round(drums.offset * 4) / 4f; // Round offset to nearest 0.25
 
-            if (offset <= prev_offset + 0.25f || offset == prev_offset)
+            if (offset <= prev_offset + 1.75f)
             {
                 continue; // Skip if the offset is too close to the previous one
             }
@@ -186,6 +186,8 @@ public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
         accumulatedObjects.Add(obj); // Track the spawned object
         accumulatedPositions.Add(position.x); // Track its X position
         accumulatedEntries.Add(accumulatedEntry); // Track its entry count
+        
+        obj.SetActive(false);   //Sets disabled until near player
     }
 
     // Moves all the spawned chunks based on the current beat (only moves on the X-axis for now)
@@ -207,6 +209,11 @@ public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
             float position = accumulatedPositions[i];
             accumulatedObjects[i].transform.position = new Vector3(position - beatPosition,
                 accumulatedObjects[i].transform.position.y, accumulatedObjects[i].transform.position.z);
+
+            if (accumulatedObjects[i].transform.position.x < 15f)
+            {
+                accumulatedObjects[i].SetActive(true);
+            }
         }
 
         // Cleanup for accumulatedBassObjects
@@ -222,6 +229,11 @@ public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
             float position = accumulatedBassPositions[i];
             accumulatedBassObjects[i].transform.position = new Vector3(position - beatPosition,
                 accumulatedBassObjects[i].transform.position.y, accumulatedBassObjects[i].transform.position.z);
+            
+            if (accumulatedObjects[i].transform.position.x < 15f)
+            {
+                accumulatedObjects[i].SetActive(true);
+            }
         }
     }
 
