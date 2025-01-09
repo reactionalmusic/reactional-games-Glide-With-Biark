@@ -6,10 +6,10 @@ using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
 /// <summary>
-/// Reactional_DeepAnalysis_ObstacleSpawner is used for spawning gameobject prefabs on different beats
+/// Reactional_DeepAnalysis_RuntimeObjectSpawner is used for spawning gameobject prefabs on different instrumental beats
 /// Both Props and objects that can affect the Player
 /// </summary>
-public class Reactional_DeepAnalysis_PrefabSpawner : MonoBehaviour
+public class Reactional_DeepAnalysis_RuntimeObjectSpawner : MonoBehaviour
 {
     [Header("References")] 
     private Reactional_DeepAnalysis_EventDispatcher eventDispatcher;

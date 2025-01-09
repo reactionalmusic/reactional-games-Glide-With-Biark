@@ -91,7 +91,7 @@ public class JonasOldChunker : MonoBehaviour
             }
 
             prev_offset = offset;
-            VocalPrefab.GetComponent<pitchdata>().pitch = vocal.note;
+            VocalPrefab.GetComponent<Reactional_DeepAnalysis_PitchData>().pitch = vocal.note;
 
 
             InstantiateVocalPrefab(offset, vocal);
@@ -142,7 +142,7 @@ public class JonasOldChunker : MonoBehaviour
             prev_offset = offset;
             prev_pitch = Mathf.Round(bass.note);
             prev_end = bass.offset_seconds + bass.duration_seconds;
-            BasPrefab.GetComponent<pitchdata>().pitch = bass.note;
+            BasPrefab.GetComponent<Reactional_DeepAnalysis_PitchData>().pitch = bass.note;
 
             InstantiateBassPrefab(offset, bass);
         }
@@ -175,7 +175,7 @@ public class JonasOldChunker : MonoBehaviour
             }
 
             prev_offset = offset;
-            DrumPrefab.GetComponent<pitchdata>().pitch = 128; // Example pitch for drums (fixed value)
+            DrumPrefab.GetComponent<Reactional_DeepAnalysis_PitchData>().pitch = 128; // Example pitch for drums (fixed value)
 
             InstantiateDrumPrefab(offset);
         }

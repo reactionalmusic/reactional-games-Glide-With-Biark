@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8845421054998412797
+--- !u!1 &6789429754546363934
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,45 +8,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6691480322864162522}
-  - component: {fileID: 5448110600594654913}
+  - component: {fileID: 481955597519265928}
+  - component: {fileID: 7113235919227354311}
   m_Layer: 0
-  m_Name: Reactional Spawn Manager
+  m_Name: Reactional Event Dispatcher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6691480322864162522
+--- !u!4 &481955597519265928
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8845421054998412797}
+  m_GameObject: {fileID: 6789429754546363934}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.0656707, y: 0.21769369, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5448110600594654913
+--- !u!114 &7113235919227354311
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8845421054998412797}
+  m_GameObject: {fileID: 6789429754546363934}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1dfe62c187cc2b499b6f1c85949aada, type: 3}
+  m_Script: {fileID: 11500000, guid: 9882ac6cde2f04aea915309dae5bb63b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnableObjects: []
-  PipePrefab: {fileID: 1257496140913585039, guid: c84e028ce41fb7f4882f44aabf1c4fbd, type: 3}
-  spawnInterval: 1.8
-  spawnHeightRange: 5
-  spawnTimer: 0
-  movementSpeed: 5
+  offlineMusicDataAsset: {fileID: 11400000, guid: 8a4889d3c51330040894da9cdef35122, type: 2}
+  offlineMusicDataAssetsList: []

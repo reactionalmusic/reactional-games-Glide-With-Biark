@@ -94,7 +94,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1529104501236640156}
   - component: {fileID: 4237954801131260734}
-  - component: {fileID: -7570529272080605535}
   m_Layer: 0
   m_Name: Lantern
   m_TagString: PulseOnBeatBar
@@ -173,16 +172,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-7570529272080605535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6691017079308188631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dfb6e7b92a2f424db54e4a29e206634, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pitch: 0
