@@ -426,8 +426,8 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: Sphere Radious Size
-    path: Sphere Radious Size
+  - name: SphereRadiusSize
+    path: SphereRadiusSize
     tooltip: 
     space: -1
     spaceable: 0
@@ -506,8 +506,8 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: Field Size
-    path: Field Size
+  - name: FieldSize
+    path: FieldSize
     tooltip: 
     space: -1
     spaceable: 0
@@ -2992,7 +2992,7 @@ MonoBehaviour:
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661614619}
-  m_ExposedName: Sphere Radious Size
+  m_ExposedName: SphereRadiusSize
   m_Exposed: 1
   m_Order: 1
   m_Category: 
@@ -12393,7 +12393,7 @@ MonoBehaviour:
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661614943}
-  m_ExposedName: Field Size
+  m_ExposedName: FieldSize
   m_Exposed: 1
   m_Order: 6
   m_Category: 
