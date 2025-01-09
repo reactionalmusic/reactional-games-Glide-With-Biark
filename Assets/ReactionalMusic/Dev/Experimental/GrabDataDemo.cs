@@ -3,17 +3,17 @@
 // using System.Collections.Generic;
 // using Reactional.Core;
 // using UnityEngine;
-
+//
 // namespace Reactional.Experimental
 // {
 //     public static class GenerateAsset
 //     {
-
+//
 //         static MusicData GetMusicData(string trackHash)
 //         {
 //             Reactional.Core.TrackInfo ti = ReactionalManager.Instance._loadedTracks.Find(x => x.trackHash.Equals(trackHash));
 //             string trackJson = AssetHelper.ValidateTrack(Application.streamingAssetsPath + "/Reactional/" + ti.bundleID + "/" + ti.trackHash);
-
+//
 //             MusicData md = new MusicData();
 //             var jd = MiniJSON.Json.Deserialize(trackJson) as Dictionary<string, object>;
 //             md.id = (string)jd["id"];
@@ -28,7 +28,7 @@
 //                 }
 //                 md.tempi.Add(t);
 //             }
-
+//
 //             md.roots = new List<int[]>();
 //             foreach (List<object> l in (List<object>)jd["roots"])
 //             {
@@ -39,7 +39,7 @@
 //                 }
 //                 md.roots.Add(t);
 //             }
-
+//
 //             md.bars = new List<int[]>();
 //             foreach (List<object> l in (List<object>)jd["bars"])
 //             {
@@ -50,7 +50,7 @@
 //                 }
 //                 md.bars.Add(t);
 //             }
-
+//
 //             md.beats = new List<int[]>();
 //             foreach (List<object> l in (List<object>)jd["beats_in_bars"])
 //             {
@@ -61,20 +61,20 @@
 //                 }
 //                 md.beats.Add(t);
 //             }
-
+//
 //             // Access "deep_analysis_data" dictionary
 //             var deepAnalysisData = jd["deep_analysis_data"] as Dictionary<string, object>;
-
+//
 //             // Extract the "vocals" array from the "deep_analysis_data" dictionary
 //             var vocalsList = deepAnalysisData["vocals"] as List<object>;
-
+//
 //             // Parse each entry in the "vocals" list
 //             md.vocals = new List<PitchEntry>();
 //             foreach (var item in vocalsList)
 //             {
 //                 var vocalEntry = item as List<object>;
 //                 long timeStamp = (long)vocalEntry[0]; // JSON numbers are deserialized as doubles
-
+//
 //                 var dataDict = vocalEntry[1] as Dictionary<string, object>;
 //                 PitchData vocalData = new PitchData
 //                 {
@@ -82,23 +82,23 @@
 //                     Duration = float.Parse(dataDict["duration"].ToString()),
 //                     Note = float.Parse(dataDict["note"].ToString())
 //                 };
-
+//
 //                 PitchEntry entry = new PitchEntry
 //                 {
 //                     TimeStamp = timeStamp,
 //                     Data = vocalData
 //                 };
-
+//
 //                 md.vocals.Add(entry);
 //             }
-
+//
 //             var bassList = deepAnalysisData["bass"] as List<object>;
 //             md.bass = new List<PitchEntry>();
 //             foreach (var item in bassList)
 //             {
 //                 var bassEntry = item as List<object>;
 //                 long timeStamp = (long)bassEntry[0]; // JSON numbers are deserialized as doubles
-
+//
 //                 var dataDict = bassEntry[1] as Dictionary<string, object>;
 //                 PitchData bassData = new PitchData
 //                 {
@@ -106,45 +106,45 @@
 //                     Duration = float.Parse(dataDict["duration"].ToString()),
 //                     Note = float.Parse(dataDict["note"].ToString())
 //                 };
-
+//
 //                 PitchEntry entry = new PitchEntry
 //                 {
 //                     TimeStamp = timeStamp,
 //                     Data = bassData
 //                 };
-
+//
 //                 md.bass.Add(entry);
 //             }
-
+//
 //             var drumsList = deepAnalysisData["drums"] as List<object>;
 //             md.drums = new List<DrumsEntry>();
 //             foreach (var item in drumsList)
 //             {
 //                 var drumsEntry = item as List<object>;
 //                 long timeStamp = (long)drumsEntry[0]; // JSON numbers are deserialized as doubles
-
+//
 //                 var dataDict = drumsEntry[1] as Dictionary<string, object>;
 //                 DrumsData drumsData = new DrumsData
 //                 {
 //                     Offset = float.Parse(dataDict["offset"].ToString())
 //                 };
-
+//
 //                 DrumsEntry entry = new DrumsEntry
 //                 {
 //                     TimeStamp = timeStamp,
 //                     Data = drumsData
 //                 };
-
+//
 //                 md.drums.Add(entry);
 //             }
-
+//
 //             var segmentsList = deepAnalysisData["segments"] as List<object>;
 //             md.segments = new List<SegmentsEntry>();
 //             foreach (var item in segmentsList)
 //             {
 //                 var segmentsEntry = item as List<object>;
 //                 long timeStamp = (long)segmentsEntry[0]; // JSON numbers are deserialized as doubles
-
+//
 //                 var dataDict = segmentsEntry[1] as Dictionary<string, object>;
 //                 SegmentsData segmentsData = new SegmentsData
 //                 {
@@ -152,23 +152,23 @@
 //                     Duration = float.Parse(dataDict["duration"].ToString()),
 //                     Label = dataDict["label"].ToString()
 //                 };
-
+//
 //                 SegmentsEntry entry = new SegmentsEntry
 //                 {
 //                     TimeStamp = timeStamp,
 //                     Data = segmentsData
 //                 };
-
+//
 //                 md.segments.Add(entry);
 //             }
-
+//
 //             return md;
 //         }
 //         public static void Single(string trackName)
 //         {
 //             Debug.Log("Creating asset for: " + trackName);
 //             MusicData musicData = GetMusicData(trackName);
-
+//
 //             OfflineMusicDataAsset asset = ScriptableObject.CreateInstance<OfflineMusicDataAsset>();
 //             asset.name = musicData.name;
 //             Debug.Log("Creating asset for: " + asset.name);
@@ -185,10 +185,10 @@
 //                 bpm += t.tempo[1];
 //                 prev_bpm = t.tempo[1];
 //             }
-
+//
 //             //avarage bpm
 //             asset.tempo_bpm = bpm / musicData.tempi.Count;
-
+//
 //             foreach (var root in musicData.roots)
 //             {
 //                 roots r = new roots();
@@ -197,7 +197,7 @@
 //                 r.root[1] = root[1];
 //                 asset.roots.Add(r);
 //             }
-
+//
 //             //bar beats
 //             if (musicData.bars != null)
 //             {
@@ -216,7 +216,7 @@
 //                     beat b = new beat();
 //                     b.offset = (float)(long)beat[0] / 1000000f;
 //                     b.beatIndex = (int)(long)beat[1];
-
+//
 //                     // check which bar this beat belongs to
 //                     for (int i = 0; i < asset.bars.Count - 1; i++)
 //                     {
@@ -274,8 +274,8 @@
 //                     asset.segments.Add(s);
 //                 }
 //             }
-
-
+//
+//
 //             //check if folder exists else create it
 //             if (!System.IO.Directory.Exists("Assets/ReactionalData"))
 //             {
@@ -286,7 +286,7 @@
 //             UnityEditor.AssetDatabase.SaveAssets();
 //             UnityEditor.AssetDatabase.Refresh();
 //         }
-
+//
 //         public static void All()
 //         {
 //             foreach (Reactional.Core.TrackInfo ti in ReactionalManager.Instance._loadedTracks)
@@ -295,8 +295,8 @@
 //                 Single(ti.trackHash);
 //             }
 //         }
-
-
+//
+//
 //         [UnityEditor.MenuItem("Assets/Reactional/GenerateOfflineData")]
 //         public static void Init()
 //         {
@@ -304,7 +304,7 @@
 //             All();
 //         }
 // #endif
-
+//
 //         [System.Serializable]
 //         public class MusicData
 //         {
@@ -321,37 +321,37 @@
 //             public List<DrumsEntry> drums { get; set; }
 //             public List<SegmentsEntry> segments { get; set; }
 //         }
-
+//
 //         public class PitchEntry
 //         {
 //             public long TimeStamp { get; set; } // Corresponds to the first element in each list (13375480, 22599942, etc.)
 //             public PitchData Data { get; set; } // Corresponds to the dictionary with "offset", "duration", and "note"
 //         }
-
+//
 //         public class PitchData
 //         {
 //             public float Offset { get; set; }
 //             public float Duration { get; set; }
 //             public float Note { get; set; }
 //         }
-
+//
 //         public class DrumsEntry
 //         {
 //             public long TimeStamp { get; set; }
 //             public DrumsData Data { get; set; }
 //         }
-
+//
 //         public class DrumsData
 //         {
 //             public float Offset { get; set; }
 //         }
-
+//
 //         public class SegmentsEntry
 //         {
 //             public long TimeStamp { get; set; }
 //             public SegmentsData Data { get; set; }
 //         }
-
+//
 //         public class SegmentsData
 //         {
 //             public float Offset { get; set; }
@@ -359,5 +359,5 @@
 //             public string Label { get; set; }
 //         }
 //     }
-
+//
 // }

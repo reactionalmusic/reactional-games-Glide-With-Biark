@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 
+
 public class GameManager : MonoBehaviour
 { 
     private UIManager uIManager;
@@ -19,6 +20,8 @@ public class GameManager : MonoBehaviour
    {
        controller = new PlayerController();
        uIManager = FindObjectOfType<UIManager>();
+       
+      
    }
 
    void Start()
@@ -30,7 +33,9 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1;
         player.SetActive(true);
-        FindFirstObjectByType<BasicPlayback>().enabled = true;
+        
+        Reactional.Playback.Playlist.Random();
+       
     }
 
     public void PauseGame(bool isPaused)
@@ -68,9 +73,9 @@ public class GameManager : MonoBehaviour
         totalScore += score;
         uIManager.AddScore(totalScore);
     }
+
     
-    
-    
+   
     
     //--------------- Buttonklicks------------------
     

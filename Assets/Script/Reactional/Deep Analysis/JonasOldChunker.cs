@@ -7,7 +7,7 @@ using System;
 public class JonasOldChunker : MonoBehaviour
 {
     // Public variables for prefabs
-    public SongChunker songChunker;
+    
     public GameObject VocalPrefab;
     public GameObject BasPrefab;
     public GameObject DrumPrefab;
@@ -47,11 +47,7 @@ public class JonasOldChunker : MonoBehaviour
             return;
         }
 
-        // Spawn chunks if autoChunk is disabled
-        foreach (var chunk in songChunker.chunkAssets)
-        {
-            SpawnChunk(chunk);
-        }
+    
     }
 
     //TODO add event for subscribe and unsubscribe , 2 methods. 
@@ -196,43 +192,7 @@ public class JonasOldChunker : MonoBehaviour
     }
 
     // Spawns chunks based on the data in chunkAssets
-    void SpawnChunk(ChunkAsset chunk)
-    {
-        // Loop through the chunk's intList to spawn corresponding objects
-        for (int i = 0; i < chunk.intList.Count; i++)
-        {
-            int value = chunk.intList[i]; // Get the value for this beat in the chunk
-
-            // Check if the value indicates a prefab should be spawned
-            if (value > 0)
-            {
-                GameObject prefabToSpawn = VocalPrefab; // Default to vocal prefab
-
-                // Select the correct prefab based on the index
-                if (i == 0)
-                {
-                    prefabToSpawn = DrumPrefab; // Use bass prefab for index 0
-                }
-                else if (i == 8)
-                {
-                    prefabToSpawn = BasPrefab; // Use drum prefab for index 8
-                }
-
-                // Calculate position using the X and Y multipliers and base Y position
-                Vector3 position = new Vector3(accumulatedEntry * XOffsetMultiplier,
-                    (value * YOffsetMultiplier) + YBasePosition, 0);
-
-                // Spawn the prefab at the calculated position
-                var obj = Instantiate(prefabToSpawn, position, Quaternion.identity, gameObject.transform);
-                accumulatedObjects.Add(obj); // Track the spawned object
-                accumulatedPositions.Add(position.x); // Track its X position
-                accumulatedEntries.Add(accumulatedEntry); // Track its entry count
-            }
-
-            accumulatedEntry++; // Increment the entry count
-        }
-    }
-
+    
     // Moves all the spawned chunks based on the current beat (only moves on the X-axis for now)
     void MoveChunks()
     {

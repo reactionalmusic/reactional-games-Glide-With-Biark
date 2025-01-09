@@ -13644,6 +13644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa27ffffb004f27bc63ea4c77d27396, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  preSpawner: {fileID: 1201219998}
 --- !u!1 &1307496064
 GameObject:
   m_ObjectHideFlags: 0
@@ -17585,13 +17586,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667900473}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9062e3bfc3f4b83429a1ab9a138df423, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _autoplayTheme: 0
-  _autoplayTrack: 1
+  _autoplayTrack: 0
   _themeVolume: 1
   _playlistVolume: 0.6
 --- !u!114 &1667900476

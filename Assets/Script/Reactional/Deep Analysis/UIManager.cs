@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using NUnit.Framework;
+using Reactional.Playback;
+using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 
@@ -26,14 +30,42 @@ public class UIManager : MonoBehaviour
         VisualElement pauseContainer;
         
         bool isPaused = false;
+        public PlayerController controller;
+        public Reactional_DeepAnalysis_PreSpawner preSpawner;
         
         void Start()
         {
+            controller = new PlayerController();
             uiDoc = GetComponent<UIDocument>();
+            
             
             SetupVisualElements();
         }
+        
+        
+        //------------------------------- Controller -------------------------------
+        private void OnEnable()
+        {
+            // Subscribe to the controller action
+            controller.UI.Pause.Enable();
+            controller.UI.Pause.performed += OnPause;
+            
+            controller.UI.Start.Enable();
+            controller.UI.Start.performed += OnStart;
+        }
 
+        private void OnDisable()
+        {
+            // Unsubscribe from the controler action
+            controller.UI.Pause.performed -= OnPause;
+            controller.UI.Pause.Disable();
+            
+            controller.UI.Start.performed -= OnStart;
+            controller.UI.Start.Disable();
+        }
+
+        //---------------------------------------- Callbacks -------------------------------
+        
         void OnDestroy()
         {
             UnregisterCallbacks();
@@ -86,13 +118,23 @@ public class UIManager : MonoBehaviour
 
         private void ClickStartButton(ClickEvent evt)
         {
-            Debug.Log("Called ClickStartButton");
-            startupContainer.style.display = DisplayStyle.None;
+            preSpawner.SpawnSongs();
+            
+            Debug.Log("Click Start and play random song");
+            
+         startupContainer.style.display = DisplayStyle.None;
             ingameContainer.style.display = DisplayStyle.Flex;
             FindFirstObjectByType<GameManager>().StartGame();
             
             pointsLabel.text = "Points: " + 0;
+            
+            
+            //TODO FIX THIS SO IT DESOLVES IN ON SPAWN
+            StartCoroutine(PlayerOnDeath.Instance.SpawnPlayer(true, false));
         }
+        
+        
+        //------------------------------------ Buttons ----------------------------
         
         private static void ClickQuitButton(ClickEvent evt)
         {
@@ -102,9 +144,15 @@ public class UIManager : MonoBehaviour
         private static void ClickRestartButton(ClickEvent evt)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+           
         }
         
         private void TogglePause(ClickEvent evt)
+        {
+            Pause();
+        }
+
+        private void Pause()
         {
             if (isPaused)
             {   
@@ -127,10 +175,41 @@ public class UIManager : MonoBehaviour
             }
             FindFirstObjectByType<GameManager>().PauseGame(isPaused);
         }
+        
+        
+        /// <summary>
+        /// Press Escape to Pause
+        /// </summary>
+        /// <param name="context"></param>
+        private void OnPause(InputAction.CallbackContext context)
+        {
+
+            Pause();
+
+        }
+        
+        /// <summary>
+        /// Press Enter To Start
+        /// </summary>
+        /// <param name="context"></param>
+        private void OnStart(InputAction.CallbackContext context)
+        {
+            startupContainer.style.display = DisplayStyle.None;
+            ingameContainer.style.display = DisplayStyle.Flex;
+            FindFirstObjectByType<GameManager>().StartGame();
+            
+            pointsLabel.text = "Points: " + 0;
+        }
 
         public void AddScore(int score)
         {
             pointsLabel.text = "Points: " + score;
+        }
+
+
+        public void RandomizeSong()
+        {
+            Playlist.Random();
         }
         
     }

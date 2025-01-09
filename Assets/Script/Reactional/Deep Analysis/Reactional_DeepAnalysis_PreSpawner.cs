@@ -37,7 +37,7 @@ public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
 
     //TODO add delegates here for all instrument events?
 
-    void Start()
+    public void SpawnSongs()
     {
         // TODO add the Delegates here and subscribe on them , but break out the function as separate functions that you call here. 
 
@@ -56,6 +56,8 @@ public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
             MoveChunks();
         }
     }
+    
+    
 
     /// <summary>
     /// Method to spawn vocals based on the offlineMusicDataAsset
