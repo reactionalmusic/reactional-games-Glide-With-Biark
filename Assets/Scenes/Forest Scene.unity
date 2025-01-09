@@ -22409,6 +22409,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Runtime Object Spawner
       objectReference: {fileID: 0}
+    - target: {fileID: 281220262757905065, guid: cce279b878fdbc9498d2c9f3b5a29892, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2220414624883425503, guid: cce279b878fdbc9498d2c9f3b5a29892, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2538856107465434625, guid: cce279b878fdbc9498d2c9f3b5a29892, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -22633,6 +22641,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1442745991}
     m_Modifications:
+    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
+      propertyPath: DrumPrefab
+      value: 
+      objectReference: {fileID: 281220262757905065, guid: cce279b878fdbc9498d2c9f3b5a29892, type: 3}
     - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
       propertyPath: offlineMusicDataAssetList.Array.size
       value: 4
