@@ -32,7 +32,7 @@ public class UIManager : MonoBehaviour
         bool isPaused = false;
         public PlayerController controller;
         [SerializeField] GameManager gameManager;
-        public Reactional_DeepAnalysis_PreSpawner preSpawner;
+        public Reactional_DeepAnalysis_ProceduralMapGenerator proceduralMapGenerator;
         
         void Start()
         {
@@ -119,7 +119,7 @@ public class UIManager : MonoBehaviour
 
         private void ClickStartButton(ClickEvent evt)
         {
-            preSpawner.SpawnSongs();
+            proceduralMapGenerator.SpawnSongs();
             
             Debug.Log("Click Start and play random song");
             

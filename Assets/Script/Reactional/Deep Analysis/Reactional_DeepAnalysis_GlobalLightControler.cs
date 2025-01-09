@@ -6,7 +6,8 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 /// <summary>
-/// Taking a Global light and alter the intensity value from the set editor value to a new value.
+/// Subscribing to the Reactional Deep Analysis Event Dispatcher Instruments
+/// And taking a Global light and alter the intensity value from the set editor value to a new value.
 /// The value lerps from startvalue to MAX_INTENSITY 
 /// </summary>
 public class Reactional_DeepAnalysis_GlobalLightControler : MonoBehaviour

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1594701824830509876
+--- !u!1 &281220262757905065
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,46 +8,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7556271836800088945}
-  - component: {fileID: 7568384613635961683}
+  - component: {fileID: 2538856107465434625}
+  - component: {fileID: 2220414624883425503}
   m_Layer: 0
-  m_Name: Reactional Pulse Manager
+  m_Name: ObjectSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7556271836800088945
+--- !u!4 &2538856107465434625
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1594701824830509876}
+  m_GameObject: {fileID: 281220262757905065}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.0656707, y: 0.21769369, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7568384613635961683
+--- !u!114 &2220414624883425503
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1594701824830509876}
+  m_GameObject: {fileID: 281220262757905065}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20458a41408443640af9cd9cc443f4bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 36e16ff53782481bb838a9452056204d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PulseOnBeatBar: []
-  PulseOn4th: []
-  PulseOn8th: []
-  PulseOn16th: []
-  xScale: 1.1
-  yScale: 1.1
-  zScale: 1
+  spawnableObjects: []
+  ObstaclePrefab: {fileID: 6499128413953368347, guid: dbba9f390706e5446bf11c4902256884, type: 3}
+  PickupPrefab: {fileID: 5070907538526596026, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
+  spawnTopY: 5
+  spawnBottomY: -2
+  movementSpeed: 5
