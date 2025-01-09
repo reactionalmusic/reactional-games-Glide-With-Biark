@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 6691480322864162522}
   - component: {fileID: 5448110600594654913}
   m_Layer: 0
-  m_Name: Reactional Spawn Manager
+  m_Name: Reactional Spawn Manager DEPRICATED
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6691480322864162522
 Transform:
   m_ObjectHideFlags: 0
