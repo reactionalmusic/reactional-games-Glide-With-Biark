@@ -31,11 +31,12 @@ public class UIManager : MonoBehaviour
         
         bool isPaused = false;
         public PlayerController controller;
+        [SerializeField] GameManager gameManager;
         public Reactional_DeepAnalysis_PreSpawner preSpawner;
         
         void Start()
         {
-            controller = new PlayerController();
+            
             uiDoc = GetComponent<UIDocument>();
             
             
@@ -47,21 +48,21 @@ public class UIManager : MonoBehaviour
         private void OnEnable()
         {
             // Subscribe to the controller action
-            controller.UI.Pause.Enable();
-            controller.UI.Pause.performed += OnPause;
+            gameManager.controller.UI.Pause.Enable();
+            gameManager.controller.UI.Pause.performed += OnPause;
             
-            controller.UI.Start.Enable();
-            controller.UI.Start.performed += OnStart;
+            gameManager.controller.UI.Start.Enable();
+            gameManager.controller.UI.Start.performed += OnStart;
         }
 
         private void OnDisable()
         {
             // Unsubscribe from the controler action
-            controller.UI.Pause.performed -= OnPause;
-            controller.UI.Pause.Disable();
+            gameManager.controller.UI.Pause.performed -= OnPause;
+            gameManager.controller.UI.Pause.Disable();
             
-            controller.UI.Start.performed -= OnStart;
-            controller.UI.Start.Disable();
+            gameManager.controller.UI.Start.performed -= OnStart;
+            gameManager.controller.UI.Start.Disable();
         }
 
         //---------------------------------------- Callbacks -------------------------------

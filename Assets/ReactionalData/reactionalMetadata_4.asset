@@ -1,0 +1,3333 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80f06be99485b49e6b79207e3683adf0, type: 3}
+  m_Name: reactionalMetadata_4
+  m_EditorClassIdentifier: 
+  name: 
+  tempo_bpm: 0
+  tempi: []
+  roots: []
+  bars: []
+  vocals:
+  - offset: 0
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 0.11664
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 1.017361
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 1.978812
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 2.535607
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 3.016333
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 3.288442
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 4.14781
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 5.525676
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 6.182301
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 6.734133
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 7.052036
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 7.557145
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 8.011776
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 8.395655
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 9.565279
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 12.051681
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 13.386042
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 14.730882
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 16.075735
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 17.875284
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 20.104212
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 21.932163
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 22.755953
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 22.985731
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 23.473923
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 26.014652
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 28.106133
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 30.139166
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 30.78796
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 32.03581
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 32.350243
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 33.511246
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 34.20417
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 35.462585
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 36.153526
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 37.527683
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 44.23939
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 46.09737
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 46.734783
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 46.96243
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 47.492203
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 48.685123
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 49.414917
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 50.163395
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 50.85553
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 51.49655
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 62.517887
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 63.08834
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 94.86649
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 96.03021
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 96.58702
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 97.404465
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 98.274895
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 99.107124
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 99.533615
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 123.62566
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 124.13508
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 124.360176
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 125.473785
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 126.80522
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 127.53186
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 128.25452
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 128.53885
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 129.7117
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 130.16525
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 131.62761
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 132.5635
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 134.10577
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 136.23277
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 140.07973
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 141.37106
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 142.68605
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 144.00963
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 145.12323
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 146.87657
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 147.30307
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 148.09682
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 149.87997
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 151.05525
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 151.45805
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 154.55865
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 155.30563
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 156.13678
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 156.6244
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 157.39862
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 158.14499
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 158.80841
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 160.05342
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 160.31949
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 161.5077
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 162.20071
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 163.46095
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 172.22906
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 174.08463
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 174.7464
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 175.48756
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 176.11546
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 176.48273
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 176.70781
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 177.39493
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 178.16498
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 178.86395
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 179.50368
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 186.38808
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 187.13239
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 187.5039
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 188.1572
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 188.80878
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 190.04749
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 190.59384
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 191.49796
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 192.46619
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 192.98746
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 194.02249
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 195.40056
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 196.1908
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 197.76553
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 203.41801
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 204.0696
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 205.38461
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 205.87033
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 207.50192
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 208.10611
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 208.78139
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 209.34303
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 210.70645
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 211.41656
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 212.02045
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 212.45001
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 212.79832
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 219.49452
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 220.11847
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 220.54803
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 222.07411
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 222.70103
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 223.51239
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 224.46971
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 225.46384
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 225.9851
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 227.4965
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 228.1552
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 228.46866
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 235.95033
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 238.06764
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 239.53755
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 242.01266
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 242.77087
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 243.3587
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 243.68523
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 244.39062
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 253.24554
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 253.93268
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 254.41501
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 282.24054
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 282.54288
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 283.47836
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 284.08377
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 285.24478
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 286.26907
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 287.48053
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 289.0917
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 289.68405
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 317.9785
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 321.1857
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 348.07034
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 348.87595
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 350.1995
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 351.44342
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 389.3865
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 390.571
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 391.76443
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 392.03693
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 392.49893
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 415.11014
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 415.92758
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 416.5673
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 426.4261
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 426.90982
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 427.42108
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 428.17926
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 429.12704
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 442.2554
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 443.46133
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 443.77582
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 444.68726
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 445.20923
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 446.03265
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 446.39545
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 446.90338
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 448.9779
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  - offset: 449.63416
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 0
+  bass:
+  - offset: 0
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 55
+  - offset: 0.100736
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 48
+  - offset: 0.323393
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 47
+  - offset: 0.54605
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 46
+  - offset: 0.768707
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 1.31668
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 43
+  - offset: 1.679492
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 42
+  - offset: 2.039238
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 2.443064
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 40
+  - offset: 2.846889
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 3.161458
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 3.8508
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 37
+  - offset: 4.460387
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 36
+  - offset: 5.713485
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 35
+  - offset: 6.390134
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 65
+  - offset: 60.219585
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 61.451664
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 62.636356
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 64.78921
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 65.168304
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 36
+  - offset: 65.54741
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 66.79573
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 67.60549
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 68.55324
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 69.50099
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 70.2592
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 40
+  - offset: 70.82785
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 71.59827
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 73.59674
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 74.11801
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 74.82883
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 76.2073
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 77.55033
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 78.59286
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 79.58799
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 81.55129
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 82.78338
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 84.59628
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 85.599655
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 86.31047
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 40
+  - offset: 86.83173
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 87.49517
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 88.21027
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 36
+  - offset: 88.694016
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 89.542175
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 90.2971
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 40
+  - offset: 90.780846
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 92.34911
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 93.1547
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 93.58119
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 94.346466
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 95.544495
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 97.629555
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 98.10558
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 98.54096
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 99.308525
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 99.64024
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 100.63538
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 101.393585
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 102.34845
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 104.30464
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 104.825905
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 106.83319
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 107.5829
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 33
+  - offset: 108.04927
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 108.53303
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 46
+  - offset: 109.4903
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 48
+  - offset: 110.2959
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 46
+  - offset: 113.443886
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 46
+  - offset: 115.48156
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 46
+  - offset: 116.438255
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 46
+  - offset: 117.58702
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 43
+  - offset: 118.203064
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 119.48253
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 120.43925
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 121.43691
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 123.43611
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 124.289085
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 125.56856
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 126.188446
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 127.15276
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 40
+  - offset: 126.672195
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 128.1479
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 128.47961
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 129.42737
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 130.28618
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 131.58023
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 132.62276
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 133.1914
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 40
+  - offset: 133.52312
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 134.19043
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 135.39165
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 136.81328
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 137.57147
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 140.29297
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 141.47766
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 142.80453
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 143.23582
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 40
+  - offset: 143.13907
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 143.62283
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 144.19917
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 40
+  - offset: 144.1518
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 144.81522
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 145.57343
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 146.18945
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 146.66333
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 147.37415
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 148.55885
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 149.56552
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 150.23782
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 150.80646
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 151.65944
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 152.22809
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 152.79675
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 153.56651
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 156.35738
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 157.292
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 158.19237
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 161.56577
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 162.90216
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 164.47769
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 165.14876
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 165.52028
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 167.37901
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 168.13722
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 168.80064
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 169.60622
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 170.80739
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 171.7439
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 33
+  - offset: 172.16861
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 40
+  - offset: 172.31372
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 172.65236
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 173.58363
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 174.81606
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 175.66528
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 177.46602
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 180.21896
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 36
+  - offset: 180.60597
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 181.23004
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 37
+  - offset: 181.60915
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 183.36247
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 185.6101
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 186.27925
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 186.81136
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 187.14398
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 188.45337
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 47
+  - offset: 188.7851
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 46
+  - offset: 189.16762
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 189.55461
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 44
+  - offset: 189.94162
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 43
+  - offset: 190.30928
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 42
+  - offset: 190.76457
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 191.33739
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 40
+  - offset: 191.97964
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 192.45435
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 193.36981
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 37
+  - offset: 194.28429
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 36
+  - offset: 220.10684
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 48
+  - offset: 220.43192
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 47
+  - offset: 220.80344
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 46
+  - offset: 221.13388
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 221.56924
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 44
+  - offset: 221.95625
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 43
+  - offset: 222.32951
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 42
+  - offset: 222.84036
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 223.40576
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 40
+  - offset: 224.02226
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 224.40924
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 225.2269
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 37
+  - offset: 252.52287
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 253.51802
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 254.33035
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 40
+  - offset: 254.76573
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 256.09735
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 256.7608
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 257.56638
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 258.2346
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 258.5732
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 259.19797
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 40
+  - offset: 259.1032
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 259.57706
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 261.56735
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 262.27817
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 263.56924
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 265.37878
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 266.72034
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 268.51694
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 269.47452
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 271.1535
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 37
+  - offset: 270.28595
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 272.66992
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 273.4755
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 274.75497
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 276.08353
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 275.56055
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 277.09738
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 277.57123
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 278.66116
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 280.22964
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 280.81015
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 281.57224
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 282.3373
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 283.38547
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 284.605
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 285.55276
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 286.2207
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 286.8496
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 291.13794
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 37
+  - offset: 289.55377
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 292.18048
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 36
+  - offset: 292.5122
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 293.50732
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 294.17432
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 295.1863
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 37
+  - offset: 295.518
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 297.5557
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 300.02026
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 300.504
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 46
+  - offset: 301.50928
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 48
+  - offset: 302.27304
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 46
+  - offset: 305.46286
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 46
+  - offset: 306.7094
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 46
+  - offset: 307.46408
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 46
+  - offset: 308.55438
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 46
+  - offset: 309.17953
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 309.55862
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 43
+  - offset: 310.22205
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 312.70047
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 313.4846
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 315.4077
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 316.54498
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 317.54016
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 318.2562
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 318.6432
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 321.5411
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 322.7893
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 323.55182
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 324.35742
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 325.54208
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 326.30655
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 327.55276
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 329.59045
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 330.11404
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 330.64618
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 332.59628
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 333.44925
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 334.26016
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 334.7439
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 336.21814
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 336.64465
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 337.4976
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 338.64816
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 340.58984
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 341.4512
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 342.16202
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 343.58365
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 345.59433
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 347.44247
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 348.57974
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 349.44177
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 350.25873
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 351.5856
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 352.6755
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 353.52847
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 354.67966
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 355.11267
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 37
+  - offset: 355.4444
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 356.5343
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 357.4347
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 358.7774
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 359.11368
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 359.58752
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 360.1088
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 360.77222
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 363.39896
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 364.25192
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 365.34186
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 366.29565
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 367.11557
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 367.58948
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 368.11075
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 369.20068
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 37
+  - offset: 368.77417
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 371.54306
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 372.5382
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 373.43857
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 374.24417
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 40
+  - offset: 374.67065
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 375.52362
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 376.62634
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 378.7664
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 379.38245
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 45
+  - offset: 380.51974
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 381.5149
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 382.2304
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 383.57297
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 385.2315
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 385.61063
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 387.10007
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 387.5739
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 388.4743
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 389.51685
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 390.2324
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 390.76453
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 392.61743
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 393.5178
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 394.66873
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 395.52847
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 33
+  - offset: 396.52362
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 397.56613
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 398.28275
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 399.3399
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 401.56714
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 403.57782
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 404.33603
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 405.0942
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 405.5207
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 406.2315
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 406.61063
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 407.511
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 410.32727
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 411.51196
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 33
+  - offset: 412.31757
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 413.40747
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 414.16913
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 418.70224
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 419.56128
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 420.60382
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 421.4568
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 422.21948
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 422.79996
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 423.5623
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 424.08353
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 39
+  - offset: 424.6522
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 425.55255
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 426.7526
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 428.41623
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 429.45874
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 433.17538
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 36
+  - offset: 430.1731
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 436.56033
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 437.46066
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 41
+  - offset: 438.78757
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 439.54572
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 440.11676
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 40
+  - offset: 440.6489
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 441.60382
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  - offset: 442.7885
+    offset_seconds: 0
+    duration_seconds: 0
+    note: 38
+  drums:
+  - offset: 59.993286
+    offset_seconds: 0
+  - offset: 60.98403
+    offset_seconds: 0
+  - offset: 61.983387
+    offset_seconds: 0
+  - offset: 62.97191
+    offset_seconds: 0
+  - offset: 63.99319
+    offset_seconds: 0
+  - offset: 64.50576
+    offset_seconds: 0
+  - offset: 64.975525
+    offset_seconds: 0
+  - offset: 65.98552
+    offset_seconds: 0
+  - offset: 66.50397
+    offset_seconds: 0
+  - offset: 66.98592
+    offset_seconds: 0
+  - offset: 68.00083
+    offset_seconds: 0
+  - offset: 68.50544
+    offset_seconds: 0
+  - offset: 68.99449
+    offset_seconds: 0
+  - offset: 69.99259
+    offset_seconds: 0
+  - offset: 70.50405
+    offset_seconds: 0
+  - offset: 70.971725
+    offset_seconds: 0
+  - offset: 70.98519
+    offset_seconds: 0
+  - offset: 72.005325
+    offset_seconds: 0
+  - offset: 72.50706
+    offset_seconds: 0
+  - offset: 72.97117
+    offset_seconds: 0
+  - offset: 72.99565
+    offset_seconds: 0
+  - offset: 73.99611
+    offset_seconds: 0
+  - offset: 74.49762
+    offset_seconds: 0
+  - offset: 74.96104
+    offset_seconds: 0
+  - offset: 74.98782
+    offset_seconds: 0
+  - offset: 75.98635
+    offset_seconds: 0
+  - offset: 76.4974
+    offset_seconds: 0
+  - offset: 76.99395
+    offset_seconds: 0
+  - offset: 77.99769
+    offset_seconds: 0
+  - offset: 78.32102
+    offset_seconds: 0
+  - offset: 78.50252
+    offset_seconds: 0
+  - offset: 78.97746
+    offset_seconds: 0
+  - offset: 79.98815
+    offset_seconds: 0
+  - offset: 80.49806
+    offset_seconds: 0
+  - offset: 80.98285
+    offset_seconds: 0
+  - offset: 80.99892
+    offset_seconds: 0
+  - offset: 81.99894
+    offset_seconds: 0
+  - offset: 82.50016
+    offset_seconds: 0
+  - offset: 82.990654
+    offset_seconds: 0
+  - offset: 83.98955
+    offset_seconds: 0
+  - offset: 84.50567
+    offset_seconds: 0
+  - offset: 85.00231
+    offset_seconds: 0
+  - offset: 85.99982
+    offset_seconds: 0
+  - offset: 86.32185
+    offset_seconds: 0
+  - offset: 86.50942
+    offset_seconds: 0
+  - offset: 86.9826
+    offset_seconds: 0
+  - offset: 87.99046
+    offset_seconds: 0
+  - offset: 88.5076
+    offset_seconds: 0
+  - offset: 88.993614
+    offset_seconds: 0
+  - offset: 89.913475
+    offset_seconds: 0
+  - offset: 90.493195
+    offset_seconds: 0
+  - offset: 90.99981
+    offset_seconds: 0
+  - offset: 91.99242
+    offset_seconds: 0
+  - offset: 92.98222
+    offset_seconds: 0
+  - offset: 93.984726
+    offset_seconds: 0
+  - offset: 94.99041
+    offset_seconds: 0
+  - offset: 95.99417
+    offset_seconds: 0
+  - offset: 96.983055
+    offset_seconds: 0
+  - offset: 97.987785
+    offset_seconds: 0
+  - offset: 98.98667
+    offset_seconds: 0
+  - offset: 100.003426
+    offset_seconds: 0
+  - offset: 100.99398
+    offset_seconds: 0
+  - offset: 101.99292
+    offset_seconds: 0
+  - offset: 102.98828
+    offset_seconds: 0
+  - offset: 103.00394
+    offset_seconds: 0
+  - offset: 104.00481
+    offset_seconds: 0
+  - offset: 104.25179
+    offset_seconds: 0
+  - offset: 104.512375
+    offset_seconds: 0
+  - offset: 104.99685
+    offset_seconds: 0
+  - offset: 105.99515
+    offset_seconds: 0
+  - offset: 107.00753
+    offset_seconds: 0
+  - offset: 107.98712
+    offset_seconds: 0
+  - offset: 108.50122
+    offset_seconds: 0
+  - offset: 108.9948
+    offset_seconds: 0
+  - offset: 109.996155
+    offset_seconds: 0
+  - offset: 110.319534
+    offset_seconds: 0
+  - offset: 110.98297
+    offset_seconds: 0
+  - offset: 111.98765
+    offset_seconds: 0
+  - offset: 112.501884
+    offset_seconds: 0
+  - offset: 112.99878
+    offset_seconds: 0
+  - offset: 113.99843
+    offset_seconds: 0
+  - offset: 114.492386
+    offset_seconds: 0
+  - offset: 114.989265
+    offset_seconds: 0
+  - offset: 115.98903
+    offset_seconds: 0
+  - offset: 116.50227
+    offset_seconds: 0
+  - offset: 116.99626
+    offset_seconds: 0
+  - offset: 117.99958
+    offset_seconds: 0
+  - offset: 118.32259
+    offset_seconds: 0
+  - offset: 118.983055
+    offset_seconds: 0
+  - offset: 119.98963
+    offset_seconds: 0
+  - offset: 120.51285
+    offset_seconds: 0
+  - offset: 120.99335
+    offset_seconds: 0
+  - offset: 121.91179
+    offset_seconds: 0
+  - offset: 122.97397
+    offset_seconds: 0
+  - offset: 123.2567
+    offset_seconds: 0
+  - offset: 123.4873
+    offset_seconds: 0
+  - offset: 123.99116
+    offset_seconds: 0
+  - offset: 124.99115
+    offset_seconds: 0
+  - offset: 125.98176
+    offset_seconds: 0
+  - offset: 126.99315
+    offset_seconds: 0
+  - offset: 127.99908
+    offset_seconds: 0
+  - offset: 128.98788
+    offset_seconds: 0
+  - offset: 129.97375
+    offset_seconds: 0
+  - offset: 131.00467
+    offset_seconds: 0
+  - offset: 132.00012
+    offset_seconds: 0
+  - offset: 132.99579
+    offset_seconds: 0
+  - offset: 133.99472
+    offset_seconds: 0
+  - offset: 135.0082
+    offset_seconds: 0
+  - offset: 135.93901
+    offset_seconds: 0
+  - offset: 136.00406
+    offset_seconds: 0
+  - offset: 136.99927
+    offset_seconds: 0
+  - offset: 137.99454
+    offset_seconds: 0
+  - offset: 138.98973
+    offset_seconds: 0
+  - offset: 140.00592
+    offset_seconds: 0
+  - offset: 141.0006
+    offset_seconds: 0
+  - offset: 141.96288
+    offset_seconds: 0
+  - offset: 141.99626
+    offset_seconds: 0
+  - offset: 142.94933
+    offset_seconds: 0
+  - offset: 142.99222
+    offset_seconds: 0
+  - offset: 143.96948
+    offset_seconds: 0
+  - offset: 145.00195
+    offset_seconds: 0
+  - offset: 145.99745
+    offset_seconds: 0
+  - offset: 146.99217
+    offset_seconds: 0
+  - offset: 147.9876
+    offset_seconds: 0
+  - offset: 148.983
+    offset_seconds: 0
+  - offset: 149.9983
+    offset_seconds: 0
+  - offset: 150.9564
+    offset_seconds: 0
+  - offset: 150.99431
+    offset_seconds: 0
+  - offset: 151.98814
+    offset_seconds: 0
+  - offset: 152.98343
+    offset_seconds: 0
+  - offset: 153.92287
+    offset_seconds: 0
+  - offset: 154.99384
+    offset_seconds: 0
+  - offset: 155.98137
+    offset_seconds: 0
+  - offset: 156.98459
+    offset_seconds: 0
+  - offset: 156.99849
+    offset_seconds: 0
+  - offset: 158.00574
+    offset_seconds: 0
+  - offset: 158.99034
+    offset_seconds: 0
+  - offset: 159.99158
+    offset_seconds: 0
+  - offset: 160.98248
+    offset_seconds: 0
+  - offset: 161.99536
+    offset_seconds: 0
+  - offset: 162.97278
+    offset_seconds: 0
+  - offset: 163.91666
+    offset_seconds: 0
+  - offset: 164.98715
+    offset_seconds: 0
+  - offset: 165.99174
+    offset_seconds: 0
+  - offset: 166.98058
+    offset_seconds: 0
+  - offset: 167.00255
+    offset_seconds: 0
+  - offset: 168.00371
+    offset_seconds: 0
+  - offset: 168.96797
+    offset_seconds: 0
+  - offset: 168.99326
+    offset_seconds: 0
+  - offset: 169.99417
+    offset_seconds: 0
+  - offset: 170.9794
+    offset_seconds: 0
+  - offset: 171.00449
+    offset_seconds: 0
+  - offset: 171.98634
+    offset_seconds: 0
+  - offset: 172.97665
+    offset_seconds: 0
+  - offset: 172.99396
+    offset_seconds: 0
+  - offset: 173.98886
+    offset_seconds: 0
+  - offset: 175.00584
+    offset_seconds: 0
+  - offset: 176.00612
+    offset_seconds: 0
+  - offset: 176.97723
+    offset_seconds: 0
+  - offset: 176.99597
+    offset_seconds: 0
+  - offset: 177.99791
+    offset_seconds: 0
+  - offset: 178.9689
+    offset_seconds: 0
+  - offset: 178.9856
+    offset_seconds: 0
+  - offset: 179.9865
+    offset_seconds: 0
+  - offset: 180.9822
+    offset_seconds: 0
+  - offset: 181.99727
+    offset_seconds: 0
+  - offset: 182.97205
+    offset_seconds: 0
+  - offset: 183.9881
+    offset_seconds: 0
+  - offset: 184.9794
+    offset_seconds: 0
+  - offset: 185.92151
+    offset_seconds: 0
+  - offset: 186.99107
+    offset_seconds: 0
+  - offset: 187.9601
+    offset_seconds: 0
+  - offset: 188.99529
+    offset_seconds: 0
+  - offset: 189.98885
+    offset_seconds: 0
+  - offset: 190.91805
+    offset_seconds: 0
+  - offset: 191.99474
+    offset_seconds: 0
+  - offset: 192.9908
+    offset_seconds: 0
+  - offset: 194.03041
+    offset_seconds: 0
+  - offset: 194.98946
+    offset_seconds: 0
+  - offset: 196.0039
+    offset_seconds: 0
+  - offset: 196.9791
+    offset_seconds: 0
+  - offset: 197.9984
+    offset_seconds: 0
+  - offset: 198.99495
+    offset_seconds: 0
+  - offset: 200.0044
+    offset_seconds: 0
+  - offset: 200.99663
+    offset_seconds: 0
+  - offset: 201.9989
+    offset_seconds: 0
+  - offset: 202.99002
+    offset_seconds: 0
+  - offset: 203.97098
+    offset_seconds: 0
+  - offset: 204.97314
+    offset_seconds: 0
+  - offset: 205.98384
+    offset_seconds: 0
+  - offset: 206.9931
+    offset_seconds: 0
+  - offset: 207.92397
+    offset_seconds: 0
+  - offset: 207.99333
+    offset_seconds: 0
+  - offset: 208.98308
+    offset_seconds: 0
+  - offset: 209.9628
+    offset_seconds: 0
+  - offset: 210.96074
+    offset_seconds: 0
+  - offset: 211.96135
+    offset_seconds: 0
+  - offset: 212.9728
+    offset_seconds: 0
+  - offset: 213.95317
+    offset_seconds: 0
+  - offset: 214.91869
+    offset_seconds: 0
+  - offset: 214.98065
+    offset_seconds: 0
+  - offset: 215.99385
+    offset_seconds: 0
+  - offset: 216.99176
+    offset_seconds: 0
+  - offset: 218.9129
+    offset_seconds: 0
+  - offset: 218.96043
+    offset_seconds: 0
+  - offset: 220.91031
+    offset_seconds: 0
+  - offset: 221.98459
+    offset_seconds: 0
+  - offset: 222.9371
+    offset_seconds: 0
+  - offset: 223.91458
+    offset_seconds: 0
+  - offset: 223.94937
+    offset_seconds: 0
+  - offset: 224.9796
+    offset_seconds: 0
+  - offset: 225.93753
+    offset_seconds: 0
+  - offset: 225.96645
+    offset_seconds: 0
+  - offset: 226.90117
+    offset_seconds: 0
+  - offset: 226.93976
+    offset_seconds: 0
+  - offset: 228.92534
+    offset_seconds: 0
+  - offset: 228.98245
+    offset_seconds: 0
+  - offset: 229.99976
+    offset_seconds: 0
+  - offset: 232.93762
+    offset_seconds: 0
+  - offset: 233.90306
+    offset_seconds: 0
+  - offset: 233.9992
+    offset_seconds: 0
+  - offset: 234.99388
+    offset_seconds: 0
+  - offset: 235.98463
+    offset_seconds: 0
+  - offset: 237.86023
+    offset_seconds: 0
+  - offset: 238.99115
+    offset_seconds: 0
+  - offset: 239.90417
+    offset_seconds: 0
+  - offset: 240.9639
+    offset_seconds: 0
+  - offset: 243.96693
+    offset_seconds: 0
+  - offset: 245.71304
+    offset_seconds: 0
+  - offset: 247.97345
+    offset_seconds: 0
+  - offset: 251.96397
+    offset_seconds: 0
+  - offset: 252.95418
+    offset_seconds: 0
+  - offset: 253.95436
+    offset_seconds: 0
+  - offset: 254.96364
+    offset_seconds: 0
+  - offset: 255.96538
+    offset_seconds: 0
+  - offset: 256.9548
+    offset_seconds: 0
+  - offset: 257.9566
+    offset_seconds: 0
+  - offset: 258.96405
+    offset_seconds: 0
+  - offset: 259.9709
+    offset_seconds: 0
+  - offset: 260.48077
+    offset_seconds: 0
+  - offset: 260.9579
+    offset_seconds: 0
+  - offset: 261.9593
+    offset_seconds: 0
+  - offset: 262.46835
+    offset_seconds: 0
+  - offset: 262.95593
+    offset_seconds: 0
+  - offset: 263.9757
+    offset_seconds: 0
+  - offset: 264.47916
+    offset_seconds: 0
+  - offset: 264.94144
+    offset_seconds: 0
+  - offset: 264.96747
+    offset_seconds: 0
+  - offset: 265.96613
+    offset_seconds: 0
+  - offset: 266.4768
+    offset_seconds: 0
+  - offset: 266.95367
+    offset_seconds: 0
+  - offset: 266.97742
+    offset_seconds: 0
+  - offset: 267.95886
+    offset_seconds: 0
+  - offset: 268.21396
+    offset_seconds: 0
+  - offset: 268.46854
+    offset_seconds: 0
+  - offset: 268.96866
+    offset_seconds: 0
+  - offset: 269.96906
+    offset_seconds: 0
+  - offset: 270.30295
+    offset_seconds: 0
+  - offset: 270.48306
+    offset_seconds: 0
+  - offset: 270.97375
+    offset_seconds: 0
+  - offset: 271.97937
+    offset_seconds: 0
+  - offset: 272.47873
+    offset_seconds: 0
+  - offset: 272.9515
+    offset_seconds: 0
+  - offset: 272.97018
+    offset_seconds: 0
+  - offset: 273.96982
+    offset_seconds: 0
+  - offset: 274.47
+    offset_seconds: 0
+  - offset: 274.9437
+    offset_seconds: 0
+  - offset: 274.9616
+    offset_seconds: 0
+  - offset: 275.47366
+    offset_seconds: 0
+  - offset: 275.96115
+    offset_seconds: 0
+  - offset: 276.46994
+    offset_seconds: 0
+  - offset: 276.96518
+    offset_seconds: 0
+  - offset: 277.97162
+    offset_seconds: 0
+  - offset: 278.2928
+    offset_seconds: 0
+  - offset: 278.47443
+    offset_seconds: 0
+  - offset: 278.95343
+    offset_seconds: 0
+  - offset: 279.9616
+    offset_seconds: 0
+  - offset: 280.4734
+    offset_seconds: 0
+  - offset: 280.9559
+    offset_seconds: 0
+  - offset: 280.97214
+    offset_seconds: 0
+  - offset: 281.89816
+    offset_seconds: 0
+  - offset: 282.4957
+    offset_seconds: 0
+  - offset: 282.96506
+    offset_seconds: 0
+  - offset: 283.45377
+    offset_seconds: 0
+  - offset: 283.9636
+    offset_seconds: 0
+  - offset: 284.9544
+    offset_seconds: 0
+  - offset: 285.95474
+    offset_seconds: 0
+  - offset: 286.96295
+    offset_seconds: 0
+  - offset: 287.96567
+    offset_seconds: 0
+  - offset: 288.47766
+    offset_seconds: 0
+  - offset: 288.95352
+    offset_seconds: 0
+  - offset: 289.95645
+    offset_seconds: 0
+  - offset: 290.97403
+    offset_seconds: 0
+  - offset: 291.96722
+    offset_seconds: 0
+  - offset: 292.48117
+    offset_seconds: 0
+  - offset: 292.96515
+    offset_seconds: 0
+  - offset: 293.96063
+    offset_seconds: 0
+  - offset: 294.48083
+    offset_seconds: 0
+  - offset: 294.95975
+    offset_seconds: 0
+  - offset: 294.97522
+    offset_seconds: 0
+  - offset: 295.9743
+    offset_seconds: 0
+  - offset: 296.47955
+    offset_seconds: 0
+  - offset: 296.94107
+    offset_seconds: 0
+  - offset: 296.96707
+    offset_seconds: 0
+  - offset: 297.96695
+    offset_seconds: 0
+  - offset: 298.4732
+    offset_seconds: 0
+  - offset: 298.97775
+    offset_seconds: 0
+  - offset: 299.9584
+    offset_seconds: 0
+  - offset: 300.47418
+    offset_seconds: 0
+  - offset: 300.96658
+    offset_seconds: 0
+  - offset: 301.96802
+    offset_seconds: 0
+  - offset: 302.3024
+    offset_seconds: 0
+  - offset: 302.48465
+    offset_seconds: 0
+  - offset: 302.97522
+    offset_seconds: 0
+  - offset: 303.97928
+    offset_seconds: 0
+  - offset: 304.482
+    offset_seconds: 0
+  - offset: 304.95374
+    offset_seconds: 0
+  - offset: 304.9716
+    offset_seconds: 0
+  - offset: 305.96927
+    offset_seconds: 0
+  - offset: 306.4784
+    offset_seconds: 0
+  - offset: 306.96304
+    offset_seconds: 0
+  - offset: 306.9814
+    offset_seconds: 0
+  - offset: 307.96097
+    offset_seconds: 0
+  - offset: 308.47147
+    offset_seconds: 0
+  - offset: 308.96875
+    offset_seconds: 0
+  - offset: 309.97086
+    offset_seconds: 0
+  - offset: 310.2946
+    offset_seconds: 0
+  - offset: 310.95392
+    offset_seconds: 0
+  - offset: 311.96085
+    offset_seconds: 0
+  - offset: 312.47443
+    offset_seconds: 0
+  - offset: 312.97308
+    offset_seconds: 0
+  - offset: 313.93503
+    offset_seconds: 0
+  - offset: 314.02118
+    offset_seconds: 0
+  - offset: 314.49048
+    offset_seconds: 0
+  - offset: 314.94778
+    offset_seconds: 0
+  - offset: 315.225
+    offset_seconds: 0
+  - offset: 315.45984
+    offset_seconds: 0
+  - offset: 315.96255
+    offset_seconds: 0
+  - offset: 316.95563
+    offset_seconds: 0
+  - offset: 317.95312
+    offset_seconds: 0
+  - offset: 318.4749
+    offset_seconds: 0
+  - offset: 318.96188
+    offset_seconds: 0
+  - offset: 319.9637
+    offset_seconds: 0
+  - offset: 320.47827
+    offset_seconds: 0
+  - offset: 320.95035
+    offset_seconds: 0
+  - offset: 321.95526
+    offset_seconds: 0
+  - offset: 322.94794
+    offset_seconds: 0
+  - offset: 322.96555
+    offset_seconds: 0
+  - offset: 323.96677
+    offset_seconds: 0
+  - offset: 324.25687
+    offset_seconds: 0
+  - offset: 324.48062
+    offset_seconds: 0
+  - offset: 324.95004
+    offset_seconds: 0
+  - offset: 325.96057
+    offset_seconds: 0
+  - offset: 326.96048
+    offset_seconds: 0
+  - offset: 326.97455
+    offset_seconds: 0
+  - offset: 327.9754
+    offset_seconds: 0
+  - offset: 328.48093
+    offset_seconds: 0
+  - offset: 328.96643
+    offset_seconds: 0
+  - offset: 329.96597
+    offset_seconds: 0
+  - offset: 330.48334
+    offset_seconds: 0
+  - offset: 330.97717
+    offset_seconds: 0
+  - offset: 331.97687
+    offset_seconds: 0
+  - offset: 332.48312
+    offset_seconds: 0
+  - offset: 332.96826
+    offset_seconds: 0
+  - offset: 333.96692
+    offset_seconds: 0
+  - offset: 334.30045
+    offset_seconds: 0
+  - offset: 334.48502
+    offset_seconds: 0
+  - offset: 334.964
+    offset_seconds: 0
+  - offset: 335.97784
+    offset_seconds: 0
+  - offset: 336.4804
+    offset_seconds: 0
+  - offset: 336.9713
+    offset_seconds: 0
+  - offset: 337.96826
+    offset_seconds: 0
+  - offset: 338.48276
+    offset_seconds: 0
+  - offset: 338.96198
+    offset_seconds: 0
+  - offset: 338.98044
+    offset_seconds: 0
+  - offset: 339.96005
+    offset_seconds: 0
+  - offset: 340.4733
+    offset_seconds: 0
+  - offset: 340.97015
+    offset_seconds: 0
+  - offset: 341.96982
+    offset_seconds: 0
+  - offset: 342.29343
+    offset_seconds: 0
+  - offset: 342.95193
+    offset_seconds: 0
+  - offset: 343.96085
+    offset_seconds: 0
+  - offset: 344.4803
+    offset_seconds: 0
+  - offset: 344.97186
+    offset_seconds: 0
+  - offset: 345.898
+    offset_seconds: 0
+  - offset: 346.96005
+    offset_seconds: 0
+  - offset: 347.96136
+    offset_seconds: 0
+  - offset: 348.95053
+    offset_seconds: 0
+  - offset: 349.97192
+    offset_seconds: 0
+  - offset: 350.48303
+    offset_seconds: 0
+  - offset: 350.96057
+    offset_seconds: 0
+  - offset: 351.96716
+    offset_seconds: 0
+  - offset: 352.47775
+    offset_seconds: 0
+  - offset: 352.9511
+    offset_seconds: 0
+  - offset: 353.95438
+    offset_seconds: 0
+  - offset: 354.47668
+    offset_seconds: 0
+  - offset: 354.95483
+    offset_seconds: 0
+  - offset: 355.9663
+    offset_seconds: 0
+  - offset: 356.47888
+    offset_seconds: 0
+  - offset: 356.96393
+    offset_seconds: 0
+  - offset: 357.96152
+    offset_seconds: 0
+  - offset: 358.47842
+    offset_seconds: 0
+  - offset: 358.95667
+    offset_seconds: 0
+  - offset: 359.97513
+    offset_seconds: 0
+  - offset: 360.47458
+    offset_seconds: 0
+  - offset: 360.93948
+    offset_seconds: 0
+  - offset: 360.96622
+    offset_seconds: 0
+  - offset: 361.47186
+    offset_seconds: 0
+  - offset: 361.9653
+    offset_seconds: 0
+  - offset: 362.47757
+    offset_seconds: 0
+  - offset: 362.97668
+    offset_seconds: 0
+  - offset: 363.9757
+    offset_seconds: 0
+  - offset: 364.48343
+    offset_seconds: 0
+  - offset: 364.96573
+    offset_seconds: 0
+  - offset: 365.96683
+    offset_seconds: 0
+  - offset: 366.29715
+    offset_seconds: 0
+  - offset: 366.48184
+    offset_seconds: 0
+  - offset: 366.96445
+    offset_seconds: 0
+  - offset: 367.97784
+    offset_seconds: 0
+  - offset: 368.48132
+    offset_seconds: 0
+  - offset: 368.97052
+    offset_seconds: 0
+  - offset: 369.96753
+    offset_seconds: 0
+  - offset: 370.97766
+    offset_seconds: 0
+  - offset: 371.97916
+    offset_seconds: 0
+  - offset: 372.48785
+    offset_seconds: 0
+  - offset: 372.97006
+    offset_seconds: 0
+  - offset: 373.96915
+    offset_seconds: 0
+  - offset: 374.29398
+    offset_seconds: 0
+  - offset: 374.47498
+    offset_seconds: 0
+  - offset: 374.94946
+    offset_seconds: 0
+  - offset: 375.9594
+    offset_seconds: 0
+  - offset: 376.2963
+    offset_seconds: 0
+  - offset: 376.48102
+    offset_seconds: 0
+  - offset: 376.97
+    offset_seconds: 0
+  - offset: 377.89725
+    offset_seconds: 0
+  - offset: 377.97665
+    offset_seconds: 0
+  - offset: 378.9448
+    offset_seconds: 0
+  - offset: 378.95956
+    offset_seconds: 0
+  - offset: 379.96085
+    offset_seconds: 0
+  - offset: 380.9555
+    offset_seconds: 0
+  - offset: 381.95508
+    offset_seconds: 0
+  - offset: 382.4744
+    offset_seconds: 0
+  - offset: 382.95258
+    offset_seconds: 0
+  - offset: 383.96548
+    offset_seconds: 0
+  - offset: 384.47098
+    offset_seconds: 0
+  - offset: 384.9498
+    offset_seconds: 0
+  - offset: 385.47342
+    offset_seconds: 0
+  - offset: 385.95807
+    offset_seconds: 0
+  - offset: 386.94592
+    offset_seconds: 0
+  - offset: 386.96072
+    offset_seconds: 0
+  - offset: 387.9682
+    offset_seconds: 0
+  - offset: 388.25388
+    offset_seconds: 0
+  - offset: 388.4782
+    offset_seconds: 0
+  - offset: 388.96283
+    offset_seconds: 0
+  - offset: 389.9628
+    offset_seconds: 0
+  - offset: 390.48
+    offset_seconds: 0
+  - offset: 390.9736
+    offset_seconds: 0
+  - offset: 391.9737
+    offset_seconds: 0
+  - offset: 392.4828
+    offset_seconds: 0
+  - offset: 392.96536
+    offset_seconds: 0
+  - offset: 393.96436
+    offset_seconds: 0
+  - offset: 394.48203
+    offset_seconds: 0
+  - offset: 394.95508
+    offset_seconds: 0
+  - offset: 394.9748
+    offset_seconds: 0
+  - offset: 395.97644
+    offset_seconds: 0
+  - offset: 396.48264
+    offset_seconds: 0
+  - offset: 396.96582
+    offset_seconds: 0
+  - offset: 397.96628
+    offset_seconds: 0
+  - offset: 398.29706
+    offset_seconds: 0
+  - offset: 398.48172
+    offset_seconds: 0
+  - offset: 398.96143
+    offset_seconds: 0
+  - offset: 398.97473
+    offset_seconds: 0
+  - offset: 399.977
+    offset_seconds: 0
+  - offset: 400.48434
+    offset_seconds: 0
+  - offset: 400.95316
+    offset_seconds: 0
+  - offset: 400.96762
+    offset_seconds: 0
+  - offset: 401.96753
+    offset_seconds: 0
+  - offset: 402.97763
+    offset_seconds: 0
+  - offset: 403.97873
+    offset_seconds: 0
+  - offset: 404.48413
+    offset_seconds: 0
+  - offset: 404.96637
+    offset_seconds: 0
+  - offset: 405.969
+    offset_seconds: 0
+  - offset: 406.29208
+    offset_seconds: 0
+  - offset: 406.47443
+    offset_seconds: 0
+  - offset: 406.95245
+    offset_seconds: 0
+  - offset: 407.95914
+    offset_seconds: 0
+  - offset: 408.47717
+    offset_seconds: 0
+  - offset: 408.9692
+    offset_seconds: 0
+  - offset: 409.89868
+    offset_seconds: 0
+  - offset: 410.9441
+    offset_seconds: 0
+  - offset: 410.9581
+    offset_seconds: 0
+  - offset: 411.96027
+    offset_seconds: 0
+  - offset: 412.26346
+    offset_seconds: 0
+  - offset: 412.9524
+    offset_seconds: 0
+  - offset: 413.95203
+    offset_seconds: 0
+  - offset: 414.4715
+    offset_seconds: 0
+  - offset: 414.96054
+    offset_seconds: 0
+  - offset: 415.95993
+    offset_seconds: 0
+  - offset: 416.95016
+    offset_seconds: 0
+  - offset: 417.95306
+    offset_seconds: 0
+  - offset: 418.94556
+    offset_seconds: 0
+  - offset: 418.96878
+    offset_seconds: 0
+  - offset: 419.96954
+    offset_seconds: 0
+  - offset: 420.48032
+    offset_seconds: 0
+  - offset: 420.96243
+    offset_seconds: 0
+  - offset: 421.96143
+    offset_seconds: 0
+  - offset: 422.95798
+    offset_seconds: 0
+  - offset: 422.97287
+    offset_seconds: 0
+  - offset: 423.9739
+    offset_seconds: 0
+  - offset: 424.48303
+    offset_seconds: 0
+  - offset: 424.95
+    offset_seconds: 0
+  - offset: 424.9636
+    offset_seconds: 0
+  - offset: 425.96436
+    offset_seconds: 0
+  - offset: 426.97562
+    offset_seconds: 0
+  - offset: 427.97586
+    offset_seconds: 0
+  - offset: 428.48425
+    offset_seconds: 0
+  - offset: 428.96527
+    offset_seconds: 0
+  - offset: 429.96472
+    offset_seconds: 0
+  - offset: 430.2964
+    offset_seconds: 0
+  - offset: 430.9738
+    offset_seconds: 0
+  - offset: 431.97522
+    offset_seconds: 0
+  - offset: 432.48325
+    offset_seconds: 0
+  - offset: 432.95132
+    offset_seconds: 0
+  - offset: 432.9677
+    offset_seconds: 0
+  - offset: 433.96698
+    offset_seconds: 0
+  - offset: 434.47284
+    offset_seconds: 0
+  - offset: 434.97812
+    offset_seconds: 0
+  - offset: 435.97757
+    offset_seconds: 0
+  - offset: 436.48376
+    offset_seconds: 0
+  - offset: 436.96628
+    offset_seconds: 0
+  - offset: 437.96753
+    offset_seconds: 0
+  - offset: 438.29114
+    offset_seconds: 0
+  - offset: 438.47537
+    offset_seconds: 0
+  - offset: 438.9512
+    offset_seconds: 0
+  - offset: 439.95837
+    offset_seconds: 0
+  - offset: 440.4803
+    offset_seconds: 0
+  - offset: 440.96243
+    offset_seconds: 0
+  - offset: 441.90073
+    offset_seconds: 0
+  - offset: 442.94614
+    offset_seconds: 0
+  segments:
+  - offset: 0
+    offset_seconds: 0
+    duration_seconds: 0
+    segment: A
+  - offset: 6.148148
+    offset_seconds: 0
+    duration_seconds: 0
+    segment: B
+  - offset: 27.89796
+    offset_seconds: 0
+    duration_seconds: 0
+    segment: C
+  - offset: 59.86
+    offset_seconds: 0
+    duration_seconds: 0
+    segment: D
+  - offset: 74.61224
+    offset_seconds: 0
+    duration_seconds: 0
+    segment: E
+  - offset: 92.244896
+    offset_seconds: 0
+    duration_seconds: 0
+    segment: D
+  - offset: 107.02
+    offset_seconds: 0
+    duration_seconds: 0
+    segment: E
+  - offset: 128.7347
+    offset_seconds: 0
+    duration_seconds: 0
+    segment: B
+  - offset: 155.82979
+    offset_seconds: 0
+    duration_seconds: 0
+    segment: C
+  - offset: 230.40816
+    offset_seconds: 0
+    duration_seconds: 0
+    segment: F
+  - offset: 264.85715
+    offset_seconds: 0
+    duration_seconds: 0
+    segment: E
+  - offset: 316.5102
+    offset_seconds: 0
+    duration_seconds: 0
+    segment: D
+  - offset: 332.5102
+    offset_seconds: 0
+    duration_seconds: 0
+    segment: E
+  - offset: 380.4694
+    offset_seconds: 0
+    duration_seconds: 0
+    segment: D
+  - offset: 394
+    offset_seconds: 0
+    duration_seconds: 0
+    segment: G
+  - offset: 412.04083
+    offset_seconds: 0
+    duration_seconds: 0
+    segment: D
+  - offset: 424.7551
+    offset_seconds: 0
+    duration_seconds: 10
+    segment: G
+  - offset: 445.35556
+    offset_seconds: 0
+    duration_seconds: 0
+    segment: F

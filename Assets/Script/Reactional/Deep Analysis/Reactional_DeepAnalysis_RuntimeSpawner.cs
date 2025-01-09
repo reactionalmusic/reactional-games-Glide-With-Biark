@@ -4,7 +4,7 @@ using Reactional.Core;
 using Reactional.Experimental;
 using System;
 
-public class Reactional_DeepAnalysis_EventDispatcher : MonoBehaviour
+public class Reactional_DeepAnalysis_RuntimeSpawner : MonoBehaviour
 {
     // Public variables for prefabs
     [Header("Reactional Instrument Events")]
