@@ -1,11 +1,9 @@
-using System;
 using System.Collections;
 using UnityEngine;
 
 public class PlayerOnDeath : MonoBehaviour
 {
     public static PlayerOnDeath Instance { get; private set; }
-
     
     [Header("Disolve before Death")]
     [SerializeField] private float _dissolveTime = 0.75f;
@@ -17,7 +15,6 @@ public class PlayerOnDeath : MonoBehaviour
     
     private int _dissolveAmount;
     private int _verticalDissolveAmount;
-    
 
     private void Awake()
     {
@@ -34,14 +31,14 @@ public class PlayerOnDeath : MonoBehaviour
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _material = _spriteRenderer.material;
-        
+        if(!_material) { Debug.LogWarning("Material null in player");}
         
         // Set the disolve amounts to the right values
         _dissolveAmount = Shader.PropertyToID("_Disolve");
         _verticalDissolveAmount = Shader.PropertyToID("_VerticalDisolve");
     }
 
-  // TODO check why this value behaves wierd
+    // TODO check why this value behaves wierd
     public IEnumerator DisolvePlayer(bool useDissolve, bool useVerticalDisolve)
     {
         float elapsedTime = 0f;
@@ -59,7 +56,6 @@ public class PlayerOnDeath : MonoBehaviour
                 _material.SetFloat(_verticalDissolveAmount, lerpedVerticalDissolve);
             yield return null;
         }
-        
     }
     
     public IEnumerator SpawnPlayer(bool useDissolve, bool useVerticalDisolve)
@@ -72,6 +68,8 @@ public class PlayerOnDeath : MonoBehaviour
             float lerpedDissolve = Mathf.Lerp(0f, 1f, (elapsedTime / _dissolveTime));
             float lerpedVerticalDissolve = Mathf.Lerp(0f, 1.1f,(elapsedTime / _dissolveTime));
 
+            if(!_material) { yield return null; }
+            
             if (useDissolve)
                 _material.SetFloat(_dissolveAmount, lerpedDissolve);
 
@@ -79,6 +77,5 @@ public class PlayerOnDeath : MonoBehaviour
                 _material.SetFloat(_verticalDissolveAmount, lerpedVerticalDissolve);
             yield return null;
         }
-        
     }
 }

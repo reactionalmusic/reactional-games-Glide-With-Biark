@@ -12454,7 +12454,12 @@ MonoBehaviour:
   accumulatedObjects: []
   spawnTopY: 2
   spawnBottomY: -2
-  offlineMusicDataAsset: {fileID: 11400000, guid: 3424d0fd661a10c47a60c5fb261a5a59, type: 2}
+  offlineMusicDataAssetList:
+  - {fileID: 11400000, guid: 8a4889d3c51330040894da9cdef35122, type: 2}
+  - {fileID: 11400000, guid: 04bfd50c6c2417944b7da101658a9cff, type: 2}
+  - {fileID: 11400000, guid: f881febef88b9b54f86bd6ea9bae2acc, type: 2}
+  - {fileID: 11400000, guid: c71f4adbb0353264c92cae30a5e72eb2, type: 2}
+  offlineMusicDataAsset: {fileID: 11400000, guid: 8a4889d3c51330040894da9cdef35122, type: 2}
 --- !u!4 &1203402896 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 397430815569231525, guid: be42e40d78146fe45a92b2de89e5edd5, type: 3}
@@ -13544,6 +13549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aa27ffffb004f27bc63ea4c77d27396, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 133823191}
   preSpawner: {fileID: 1201219998}
 --- !u!1 &1307496064
 GameObject:
@@ -17527,7 +17533,7 @@ MonoBehaviour:
       playlists:
       - name: Default
         tracks:
-        - name: ' '
+        - name: track1
           trackID: -1
           trackHash: reactionalMetadata
           trackName: ' '
@@ -17555,7 +17561,7 @@ MonoBehaviour:
       playlists:
       - name: Default
         tracks:
-        - name: ' '
+        - name: track2
           trackID: -1
           trackHash: reactionalMetadata
           trackName: ' '
@@ -17583,7 +17589,7 @@ MonoBehaviour:
       playlists:
       - name: Default
         tracks:
-        - name: ' '
+        - name: track3
           trackID: -1
           trackHash: reactionalMetadata
           trackName: ' '
@@ -17611,7 +17617,7 @@ MonoBehaviour:
       playlists:
       - name: Default
         tracks:
-        - name: ' '
+        - name: track4
           trackID: -1
           trackHash: reactionalMetadata
           trackName: ' '
@@ -17638,27 +17644,7 @@ MonoBehaviour:
         bundleID: GlideWithBiarkTheme
       playlists:
       - name: Default
-        tracks:
-        - name: Daft Punk - Giorgio by Moroder
-          trackID: -1
-          trackHash: a890f7ac9b03186bffb094e027716581ae84e308b30af02bfdb65996b3d0feb5
-          trackName: Daft Punk - Giorgio by Moroder
-          trackArtist: unknown
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 5bef0d3b69956bdfb20fa03b803e48ea185617720e490bffb68130b9ca7f098a
-          trackBPM: 0
-          bundleID: GlideWithBiarkTheme
-        - name: Daft Punk - Within
-          trackID: -1
-          trackHash: c9fac36fbe98823db6c9418b134729f2c593e80cdce7ddaa26e63fd0e8789b02
-          trackName: Daft Punk - Within
-          trackArtist: unknown
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 20b9878e0df36e62aadd7ecdc08e395c2f927431b8149c6bd32889ebf63caf9c
-          trackBPM: 0
-          bundleID: GlideWithBiarkTheme
+        tracks: []
   _loadedThemes: []
   _loadedTracks: []
   lookahead: 0
@@ -21152,7 +21138,7 @@ MonoBehaviour:
   VocalPrefab: {fileID: 0}
   BasPrefab: {fileID: 0}
   DrumPrefab: {fileID: 0}
-  offlineMusicDataAsset: {fileID: 11400000, guid: 3424d0fd661a10c47a60c5fb261a5a59, type: 2}
+  offlineMusicDataAsset: {fileID: 0}
   XOffsetMultiplier: 5
   YOffsetMultiplier: 2
   YBasePosition: -5

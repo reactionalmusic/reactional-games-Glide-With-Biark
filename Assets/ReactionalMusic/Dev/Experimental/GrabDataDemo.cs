@@ -18,60 +18,12 @@ namespace Reactional.Experimental
 
             MusicData md = new MusicData();
             var jd = MiniJSON.Json.Deserialize(trackJson) as Dictionary<string, object>;
-            // md.id = (string)jd["id"];
-            // //            md.name = (string)jd["name"];
-            // md.tempi = new List<int[]>();
-            // foreach (List<object> l in (List<object>)jd["tempi"])
-            // {
-            //     int[] t = new int[l.Count];
-            //     for (int i = 0; i < l.Count; i++)
-            //     {
-            //         t[i] = (int)(long)l[i];
-            //     }
-            //     md.tempi.Add(t);
-            // }
-            //
-            // md.roots = new List<int[]>();
-            // foreach (List<object> l in (List<object>)jd["roots"])
-            // {
-            //     int[] t = new int[l.Count];
-            //     for (int i = 0; i < l.Count; i++)
-            //     {
-            //         t[i] = (int)(long)l[i];
-            //     }
-            //     md.roots.Add(t);
-            // }
-            //
-            // md.bars = new List<int[]>();
-            // foreach (List<object> l in (List<object>)jd["bars"])
-            // {
-            //     int[] t = new int[l.Count];
-            //     for (int i = 0; i < l.Count; i++)
-            //     {
-            //         t[i] = (int)(long)l[i];
-            //     }
-            //     md.bars.Add(t);
-            // }
-
-            // md.beats = new List<int[]>();
-            // foreach (List<object> l in (List<object>)jd["beats_in_bars"])
-            // {
-            //     int[] t = new int[l.Count];
-            //     for (int i = 0; i < l.Count; i++)
-            //     {
-            //         t[i] = (int)(long)l[i];
-            //     }
-            //     md.beats.Add(t);
-            // }
 
             // Access "deep_analysis_data" dictionary
-            
-            
-            if(jd != null && !jd.ContainsKey("deep_analysis_data") && jd["deep_analysis_data"] != null)
+            if(jd == null || !jd.ContainsKey("deep_analysis_data") || jd["deep_analysis_data"] == null)
             {
                 return null;
             };
-            
             
             var deepAnalysisData = jd["deep_analysis_data"] as Dictionary<string, object>;
 
@@ -182,7 +134,7 @@ namespace Reactional.Experimental
             {
                 return;
             }
-            
+
             OfflineMusicDataAsset asset = ScriptableObject.CreateInstance<OfflineMusicDataAsset>();
             asset.name = musicData.name;
             Debug.Log("Creating asset for: " + asset.name);
@@ -293,9 +245,7 @@ namespace Reactional.Experimental
                 }
             }
 
-
             var pathname = GetUniqueFilename(ti.trackName + ti.trackHash);
-
 
             AssetDatabase.CreateAsset(asset, pathname);
             Debug.Log("Asset created at: " + pathname);
@@ -338,7 +288,6 @@ namespace Reactional.Experimental
 
         public static void All()
         {
-            
             foreach (var b in  ReactionalManager.Instance.bundles)
             {
                 foreach (var s in b.sections)

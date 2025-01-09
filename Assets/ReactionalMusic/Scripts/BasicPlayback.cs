@@ -59,7 +59,6 @@ namespace Reactional.Core
                 Reactional.Playback.Theme.Play();
             if (_autoplayTrack)
                 Reactional.Playback.Playlist.Play();
-            
                  
             //Reactional.Playback.Playlist.PlayTrack("Daft Punk - Within");
             //Debug.Log("Track playing is: " +Reactional.Playback.Playlist.GetCurrentTrackInfo().trackName);  // NO STRING?

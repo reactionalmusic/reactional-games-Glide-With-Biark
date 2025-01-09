@@ -109,7 +109,7 @@ public class PlayerDiscreteMovement : MonoBehaviour
             }
 
             Physics2D.queriesStartInColliders = _cachedQueryStartInColliders;
-            Debug.Log(_grounded);
+            //Debug.Log(_grounded);
             Debug.DrawRay(_col.bounds.center, Vector2.down * _stats.GrounderDistance, Color.green);
 
         }
@@ -142,7 +142,7 @@ public class PlayerDiscreteMovement : MonoBehaviour
 
     private void ExecuteJump()
     {
-        Debug.Log("Executing");
+        //Debug.Log("Executing");
         _endedJumpEarly = false;
         _timeJumpWasPressed = 0;
         _bufferedJumpUsable = false;
