@@ -22633,6 +22633,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1442745991}
     m_Modifications:
+    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
+      propertyPath: offlineMusicDataAssetList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
+      propertyPath: 'offlineMusicDataAssetList.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 8a4889d3c51330040894da9cdef35122, type: 2}
+    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
+      propertyPath: 'offlineMusicDataAssetList.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 04bfd50c6c2417944b7da101658a9cff, type: 2}
+    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
+      propertyPath: 'offlineMusicDataAssetList.Array.data[2]'
+      value: 
+      objectReference: {fileID: 11400000, guid: f881febef88b9b54f86bd6ea9bae2acc, type: 2}
+    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
+      propertyPath: 'offlineMusicDataAssetList.Array.data[3]'
+      value: 
+      objectReference: {fileID: 11400000, guid: c71f4adbb0353264c92cae30a5e72eb2, type: 2}
     - target: {fileID: 4351450413426844312, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
