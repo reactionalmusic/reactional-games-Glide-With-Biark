@@ -117,7 +117,7 @@ public class PlayerDiscreteMovement : MonoBehaviour
 
     private void ExecuteJump()
     {
-        CameraShake.TriggerShake(0.5f,1,1, 0.5f);
+        //CameraShake.TriggerShake(0.5f,1,1, 0.5f);
         
         _endedJumpEarly = false;
         _timeJumpWasPressed = 0;

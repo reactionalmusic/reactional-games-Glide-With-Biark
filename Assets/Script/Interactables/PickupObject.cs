@@ -11,7 +11,6 @@ public class PickupObject : MonoBehaviour
     
     private void OnDestroy()
     {
-        Debug.Log("I am now self-destructing ...");
         if(vfxObject != null)
             vfxObject.vfxExplode();
     }

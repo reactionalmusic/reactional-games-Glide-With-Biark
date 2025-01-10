@@ -14,6 +14,7 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
     public GameObject VocalPrefab;
     public GameObject BasPrefab;
     public GameObject DrumPrefab;
+    public GameObject DrumDangerPrefab;
 
     // Lists to track positions and objects spawned
     private List<float> accumulatedPositions = new List<float>();
@@ -199,7 +200,16 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
         // Calculate position for drums using constants
         float randomY = Random.Range(spawnTopY , spawnBottomY ); // Random Y position
         Vector3 position = new Vector3(offset * XOffsetMultiplier + otherXOffset, randomY, 0); // Use random Y for the drum
-        var obj = Instantiate(DrumPrefab, position, Quaternion.identity, gameObject.transform); // Spawn the drum prefab
+        GameObject prefab;
+        if (Random.value < 0.1f)
+        {
+            prefab = DrumDangerPrefab;
+        }
+        else
+        {
+            prefab = DrumPrefab;
+        }
+        var obj = Instantiate(prefab, position, Quaternion.identity, gameObject.transform); // Spawn the drum prefab
         accumulatedObjects.Add(obj); // Track the spawned object
         accumulatedPositions.Add(position.x); // Track its X position
         accumulatedEntries.Add(accumulatedEntry); // Track its entry count

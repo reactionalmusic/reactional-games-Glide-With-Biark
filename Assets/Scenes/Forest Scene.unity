@@ -10679,71 +10679,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1066041014
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 681240083152646723, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1893381627863587035, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 1893381627863587035, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 1893381627863587035, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1893381627863587035, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1893381627863587035, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1893381627863587035, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1893381627863587035, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1893381627863587035, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1893381627863587035, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1893381627863587035, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5070907538526596026, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
-      propertyPath: m_Name
-      value: PickupObject
-      objectReference: {fileID: 0}
-    - target: {fileID: 5070907538526596026, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
 --- !u!1 &1070736631
 GameObject:
   m_ObjectHideFlags: 0
@@ -17812,7 +17747,7 @@ MonoBehaviour:
   defaultSection: 
   bundles:
   - name: 219246102_deep
-    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\219246102_deep
+    path: C:/Unity/Repo/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\219246102_deep
     sections:
     - name: Test
       themes:
@@ -17837,10 +17772,10 @@ MonoBehaviour:
           trackAlbum: ' '
           trackGenre: ' '
           trackCover: c08721c1cb65b6ecc3333256f94e434e1cece6238755aa2b79408f5d49c85b99
-          trackBPM: 0
+          trackBPM: 93.9385400000001
           bundleID: 219246102_deep
   - name: 219303026_deep
-    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\219303026_deep
+    path: C:/Unity/Repo/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\219303026_deep
     sections:
     - name: Test
       themes:
@@ -17865,10 +17800,10 @@ MonoBehaviour:
           trackAlbum: ' '
           trackGenre: ' '
           trackCover: 303ece5949e50692e762e46f6c144e2a5fd8b98bc614a94397268051fe248cfe
-          trackBPM: 0
+          trackBPM: 104.99678813278
           bundleID: 219303026_deep
   - name: 220323489_deep
-    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\220323489_deep
+    path: C:/Unity/Repo/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\220323489_deep
     sections:
     - name: Test
       themes:
@@ -17893,10 +17828,10 @@ MonoBehaviour:
           trackAlbum: ' '
           trackGenre: ' '
           trackCover: 59d7ac0b06f3d2f2d7432aa192cbff3f384b85c9830eea86a9738c28a34940fb
-          trackBPM: 0
+          trackBPM: 100.019634123711
           bundleID: 220323489_deep
   - name: 226814360_deep
-    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\226814360_deep
+    path: C:/Unity/Repo/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\226814360_deep
     sections:
     - name: Test
       themes:
@@ -17921,10 +17856,10 @@ MonoBehaviour:
           trackAlbum: ' '
           trackGenre: ' '
           trackCover: cec27a8fea138ad0885d0f1d672657ce54d959b1577bd19bf3209903712a9953
-          trackBPM: 0
+          trackBPM: 122.368439999999
           bundleID: 226814360_deep
   - name: GlideWithBiarkTheme
-    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\GlideWithBiarkTheme
+    path: C:/Unity/Repo/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\GlideWithBiarkTheme
     sections:
     - name: Section #1
       themes:
@@ -17940,27 +17875,7 @@ MonoBehaviour:
         bundleID: GlideWithBiarkTheme
       playlists:
       - name: Default
-        tracks:
-        - name: Daft Punk - Giorgio by Moroder
-          trackID: -1
-          trackHash: a890f7ac9b03186bffb094e027716581ae84e308b30af02bfdb65996b3d0feb5
-          trackName: Daft Punk - Giorgio by Moroder
-          trackArtist: unknown
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 5bef0d3b69956bdfb20fa03b803e48ea185617720e490bffb68130b9ca7f098a
-          trackBPM: 0
-          bundleID: GlideWithBiarkTheme
-        - name: Daft Punk - Within
-          trackID: -1
-          trackHash: c9fac36fbe98823db6c9418b134729f2c593e80cdce7ddaa26e63fd0e8789b02
-          trackName: Daft Punk - Within
-          trackArtist: unknown
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 20b9878e0df36e62aadd7ecdc08e395c2f927431b8149c6bd32889ebf63caf9c
-          trackBPM: 0
-          bundleID: GlideWithBiarkTheme
+        tracks: []
   _loadedThemes: []
   _loadedTracks: []
   lookahead: 0
@@ -23398,6 +23313,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1442745991}
     m_Modifications:
     - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
+      propertyPath: DrumDangerPrefab
+      value: 
+      objectReference: {fileID: 6499128413953368347, guid: 2cad6a43cd604e94ab374e55d647cf13, type: 3}
+    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
       propertyPath: offlineMusicDataAssetList.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -23906,4 +23825,3 @@ SceneRoots:
   - {fileID: 1070796880303309623}
   - {fileID: 1863871667}
   - {fileID: 8431449021175919550}
-  - {fileID: 1066041014}
