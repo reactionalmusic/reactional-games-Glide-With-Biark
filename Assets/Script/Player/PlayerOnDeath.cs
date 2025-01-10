@@ -61,7 +61,14 @@ public class PlayerOnDeath : MonoBehaviour
     
     public IEnumerator SpawnPlayer(bool useDissolve, bool useVerticalDisolve)
     {
-        gameObject.transform.position = respawnPoint.position;
+        //Spawn at respawnPoint
+        if(respawnPoint)
+            gameObject.transform.position = respawnPoint.position;
+        else
+        {
+            Debug.LogWarning("Respawn point is null");
+        }
+        
         float elapsedTime = 0f;
         while (elapsedTime < _dissolveTime)
         {

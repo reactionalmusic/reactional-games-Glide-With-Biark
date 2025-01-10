@@ -6,44 +6,36 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public class PlayerDiscreteMovement : MonoBehaviour
 {
-    private PlayerController controller;
+    private PlayerController _controller;
     
     [SerializeField] private ScriptableStats _stats;
     private Rigidbody2D _rb;
     private CapsuleCollider2D _col;
-    private FrameInput _frameInput;
     private Vector2 _frameVelocity;
     private bool _cachedQueryStartInColliders;
     
-    private float _frameLeftGrounded = float.MinValue;
     [SerializeField] private bool _grounded;
-
-    #region Interface
-
-    public event Action Jumped;
-    
-    #endregion
-    
     private float _time;
+    
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
         _col = GetComponent<CapsuleCollider2D>();
         
-        controller = new PlayerController();
+        _controller = new PlayerController();
     }
 
     private void OnEnable()
     {
         // Subscribe to the Fly action
-        controller.Player.Fly.Enable();
-        controller.Player.Fly.performed += OnJump;
+        _controller.Player.Fly.Enable();
+        _controller.Player.Fly.performed += OnJump;
     }
 
     private void OnDisable()
     {
-        controller.Player.Fly.performed -= OnJump;
-        controller.Player.Fly.Disable();
+        _controller.Player.Fly.performed -= OnJump;
+        _controller.Player.Fly.Disable();
     }
 
     private void Update()
@@ -54,10 +46,6 @@ public class PlayerDiscreteMovement : MonoBehaviour
     
     private void OnJump(InputAction.CallbackContext context)
     {
-        _frameInput = new FrameInput
-        {
-            JumpDown = true
-        };
         _jumpToConsume = true;
         _timeJumpWasPressed = _time;
         
@@ -108,11 +96,6 @@ public class PlayerDiscreteMovement : MonoBehaviour
                 _bufferedJumpUsable = true;
                 _endedJumpEarly = false;
             }
-            // Left the Ground
-            else
-            {
-                _frameLeftGrounded = _time;
-            }
 
             Physics2D.queriesStartInColliders = _cachedQueryStartInColliders;
             //Debug.Log(_grounded);
@@ -145,13 +128,10 @@ public class PlayerDiscreteMovement : MonoBehaviour
 
     private void ExecuteJump()
     {
-        //CameraShake.TriggerShake(0.5f,1,1, 0.5f);
-        
         _endedJumpEarly = false;
         _timeJumpWasPressed = 0;
         _bufferedJumpUsable = false;
         _frameVelocity.y = _stats.JumpPower;
-        Jumped?.Invoke();
     }
 
     #endregion
@@ -182,9 +162,4 @@ public class PlayerDiscreteMovement : MonoBehaviour
         if (_stats == null) Debug.LogWarning("Please assign a ScriptableStats asset to the Player Controller's Stats slot", this);
     }
 #endif
-}
-
-public struct FrameInput
-{
-    public bool JumpDown;
 }
