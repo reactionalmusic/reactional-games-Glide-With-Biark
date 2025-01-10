@@ -17873,120 +17873,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultSection: 
   bundles:
-  - name: 219246102_deep
-    path: C:/Unity/Repo/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\219246102_deep
+  - name: combined_deeptracks
+    path: D:/Projects/Reactional/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\combined_deeptracks
     sections:
     - name: Test
-      themes:
-      - name: ' '
-        trackID: -1
-        trackHash: reactionalMetadata
-        trackName: ' '
-        trackArtist: 
-        trackAlbum: 
-        trackGenre: 
-        trackCover: 
-        trackBPM: 
-        bundleID: 219246102_deep
+      themes: []
       playlists:
       - name: Default
         tracks:
-        - name: ' '
+        - name: track1
           trackID: -1
-          trackHash: reactionalMetadata
+          trackHash: 0 reactionalMetadata
           trackName: ' '
           trackArtist: ' '
           trackAlbum: ' '
           trackGenre: ' '
           trackCover: c08721c1cb65b6ecc3333256f94e434e1cece6238755aa2b79408f5d49c85b99
           trackBPM: 93.9385400000001
-          bundleID: 219246102_deep
-  - name: 219303026_deep
-    path: C:/Unity/Repo/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\219303026_deep
-    sections:
-    - name: Test
-      themes:
-      - name: ' '
-        trackID: -1
-        trackHash: reactionalMetadata
-        trackName: ' '
-        trackArtist: 
-        trackAlbum: 
-        trackGenre: 
-        trackCover: 
-        trackBPM: 
-        bundleID: 219303026_deep
-      playlists:
-      - name: Default
-        tracks:
-        - name: ' '
+          bundleID: combined_deeptracks
+        - name: track2
           trackID: -1
-          trackHash: reactionalMetadata
+          trackHash: 1 reactionalMetadata
           trackName: ' '
           trackArtist: ' '
           trackAlbum: ' '
           trackGenre: ' '
           trackCover: 303ece5949e50692e762e46f6c144e2a5fd8b98bc614a94397268051fe248cfe
           trackBPM: 104.99678813278
-          bundleID: 219303026_deep
-  - name: 220323489_deep
-    path: C:/Unity/Repo/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\220323489_deep
-    sections:
-    - name: Test
-      themes:
-      - name: ' '
-        trackID: -1
-        trackHash: reactionalMetadata
-        trackName: ' '
-        trackArtist: 
-        trackAlbum: 
-        trackGenre: 
-        trackCover: 
-        trackBPM: 
-        bundleID: 220323489_deep
-      playlists:
-      - name: Default
-        tracks:
-        - name: ' '
+          bundleID: combined_deeptracks
+        - name: track3
           trackID: -1
-          trackHash: reactionalMetadata
+          trackHash: 2 reactionalMetadata
           trackName: ' '
           trackArtist: ' '
           trackAlbum: ' '
           trackGenre: ' '
           trackCover: 59d7ac0b06f3d2f2d7432aa192cbff3f384b85c9830eea86a9738c28a34940fb
           trackBPM: 100.019634123711
-          bundleID: 220323489_deep
-  - name: 226814360_deep
-    path: C:/Unity/Repo/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\226814360_deep
-    sections:
-    - name: Test
-      themes:
-      - name: ' '
-        trackID: -1
-        trackHash: reactionalMetadata
-        trackName: ' '
-        trackArtist: 
-        trackAlbum: 
-        trackGenre: 
-        trackCover: 
-        trackBPM: 
-        bundleID: 226814360_deep
-      playlists:
-      - name: Default
-        tracks:
-        - name: ' '
+          bundleID: combined_deeptracks
+        - name: track4
           trackID: -1
-          trackHash: reactionalMetadata
+          trackHash: 3 reactionalMetadata
           trackName: ' '
           trackArtist: ' '
           trackAlbum: ' '
           trackGenre: ' '
           trackCover: cec27a8fea138ad0885d0f1d672657ce54d959b1577bd19bf3209903712a9953
           trackBPM: 122.368439999999
-          bundleID: 226814360_deep
+          bundleID: combined_deeptracks
   - name: GlideWithBiarkTheme
-    path: C:/Unity/Repo/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\GlideWithBiarkTheme
+    path: D:/Projects/Reactional/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\GlideWithBiarkTheme
     sections:
     - name: Section #1
       themes:
@@ -18002,7 +17938,27 @@ MonoBehaviour:
         bundleID: GlideWithBiarkTheme
       playlists:
       - name: Default
-        tracks: []
+        tracks:
+        - name: Daft Punk - Giorgio by Moroder
+          trackID: -1
+          trackHash: a890f7ac9b03186bffb094e027716581ae84e308b30af02bfdb65996b3d0feb5
+          trackName: Daft Punk - Giorgio by Moroder
+          trackArtist: unknown
+          trackAlbum: ' '
+          trackGenre: ' '
+          trackCover: 5bef0d3b69956bdfb20fa03b803e48ea185617720e490bffb68130b9ca7f098a
+          trackBPM: 112.67731384058
+          bundleID: GlideWithBiarkTheme
+        - name: Daft Punk - Within
+          trackID: -1
+          trackHash: c9fac36fbe98823db6c9418b134729f2c593e80cdce7ddaa26e63fd0e8789b02
+          trackName: Daft Punk - Within
+          trackArtist: unknown
+          trackAlbum: ' '
+          trackGenre: ' '
+          trackCover: 20b9878e0df36e62aadd7ecdc08e395c2f927431b8149c6bd32889ebf63caf9c
+          trackBPM: 105.983729398281
+          bundleID: GlideWithBiarkTheme
   _loadedThemes: []
   _loadedTracks: []
   lookahead: 0

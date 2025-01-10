@@ -137,6 +137,7 @@ namespace Reactional.Experimental
 
             OfflineMusicDataAsset asset = ScriptableObject.CreateInstance<OfflineMusicDataAsset>();
             asset.name = musicData.name;
+            asset.hash = ti.trackHash;
             Debug.Log("Creating asset for: " + asset.name);
             float bpm = 0;
             float prev_bpm = 0;

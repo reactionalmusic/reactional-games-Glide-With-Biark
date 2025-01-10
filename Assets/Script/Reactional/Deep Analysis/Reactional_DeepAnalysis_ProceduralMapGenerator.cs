@@ -46,11 +46,11 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
         {
             yield return new WaitForNextFrameUnit();
         }
-        var track_name = Reactional.Playback.Playlist.GetCurrentTrackInfo().trackName;
+        var track_name = Reactional.Playback.Playlist.GetCurrentTrackInfo().trackHash;
         print("trackName:" + track_name);
         foreach (var data_asset in offlineMusicDataAssetList) 
         {
-            if (data_asset.name == track_name)
+            if (data_asset.hash == track_name)
             {
                 offlineMusicDataAsset = data_asset;
                 break;
@@ -86,20 +86,20 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
 
         foreach (var vocal in offlineMusicDataAsset.vocals)
         {
-            float offset = Mathf.Round(vocal.offset * 4) / 4f; // Round offset to nearest 0.25
+            float offset = Mathf.Round(vocal.offset * 8) / 8f; // Round offset to nearest 0.25
 
             // Skipping logic based on previous vocal's pitch and offset
-            if (Mathf.Round(vocal.note) % 12 == prev_pitch % 12 && vocal.offset_seconds + 0.3f < prev_end)
+            if (Mathf.Approximately(Mathf.Round(vocal.note) % 12, prev_pitch % 12) && vocal.offset_seconds + 0.3f < prev_end)
             {
                 continue;
             }
 
-            if ((offset % 1 != 0f || offset % 1 != 0.5f) && vocal.duration_seconds < 0.1f)
+            if ((offset % 1 != 0f || !Mathf.Approximately(offset % 1, 0.5f)) && vocal.duration_seconds < 0.1f)
             {
                 continue; // Skip very short vocals
             }
 
-            if (offset <= prev_offset + 0.75f || offset == prev_offset)
+            if (offset <= prev_offset + 0.75f || Mathf.Approximately(offset, prev_offset))
             {
                 continue; // Skip if the offset is too close to the previous one
             }
@@ -135,17 +135,17 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
             float offset = Mathf.Round(bass.offset * 4) / 4f; // Round offset to nearest 0.25
 
             // Skipping logic based on previous bass object's pitch and offset
-            if (Mathf.Round(bass.note) % 12 == prev_pitch % 12 && bass.offset_seconds + 0.3f < prev_end)
+            if (Mathf.Approximately(Mathf.Round(bass.note) % 12, prev_pitch % 12) && bass.offset_seconds + 0.3f < prev_end)
             {
                 continue;
             }
 
-            if ((offset % 1 != 0f || offset % 1 != 0.5f) && bass.duration_seconds < 0.15f)
+            if ((offset % 1 != 0f || !Mathf.Approximately(offset % 1, 0.5f)) && bass.duration_seconds < 0.15f)
             {
                 continue; // Skip very short bass objects
             }
 
-            if (offset <= prev_offset + 0.25f || offset == prev_offset)
+            if (offset <= prev_offset + 0.25f || Mathf.Approximately(offset, prev_offset))
             {
                 continue; // Skip if the offset is too close to the previous one
             }

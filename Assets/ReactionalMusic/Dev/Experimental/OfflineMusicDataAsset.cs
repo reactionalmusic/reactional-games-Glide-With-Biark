@@ -5,6 +5,7 @@ namespace Reactional.Experimental
 {
     public class OfflineMusicDataAsset : ScriptableObject
     {
+        public new string hash;
         public new string name;
         public float tempo_bpm;
         public List<tempi> tempi = new List<tempi>();

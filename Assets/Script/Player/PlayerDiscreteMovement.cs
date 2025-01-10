@@ -80,9 +80,9 @@ public class PlayerDiscreteMovement : MonoBehaviour
             );
 #if UNITY_EDITOR
             Debug.DrawLine(
-                col_pos + new Vector3(-x_half, -y_half), 
-                col_pos + new Vector3(x_half, -y_half),
-                _grounded ? Color.green : Color.red
+                start: col_pos + new Vector3(-x_half, -y_half), 
+                end:   col_pos + new Vector3(x_half, -y_half),
+                color: _grounded ? Color.green : Color.red
             );
 #endif
             bool ceilingHit = Physics2D.CapsuleCast(_col.bounds.center, _col.size, _col.direction, 0, Vector2.up, _stats.GrounderDistance, ~_stats.PlayerLayer);
@@ -103,7 +103,6 @@ public class PlayerDiscreteMovement : MonoBehaviour
         }
 
         #endregion
-
 
     #region Jumping
 

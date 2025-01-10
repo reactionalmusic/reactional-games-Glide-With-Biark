@@ -32,16 +32,16 @@ namespace Reactional.Core
             
             // Reactional.Setup.UpdateBundles();                                    // Check for new bundles in StreamingAssets
 
-            await Reactional.Setup.LoadBundles();                                   // Load everything in StreamingAssets
+            //await Reactional.Setup.LoadBundles();                                   // Load everything in StreamingAssets
             // await Reactional.Setup.LoadBundle("BundleName");                     // Load everything in a specific bundle
             
             // await Reactional.Setup.LoadSection("BundleName","Default");          // Load specific section in specific bundle
             
-            // await Reactional.Setup.LoadSection();
+            await Reactional.Setup.LoadPlaylist();
             
             // TODO: Load "Default Section" from inspector, or first defined section in first bundle, Deload it if using any other way
             // await Reactional.Setup.LoadTheme("BundleName","Default","ThemeName");// Load specific theme in specific bundle
-            // await Reactional.Setup.LoadTheme("Reactional_ScifiBoss copy");                        // Find and load specifc theme in any bundle
+            await Reactional.Setup.LoadTheme("GlideWithBiarkTheme", "Section #1", "Reactional_ScifiBoss copy");                        // Find and load specifc theme in any bundle
             Reactional.Playback.Theme.SetControl("part: silence");
             
             // TODO theme är fucked för kunde haft flera.
