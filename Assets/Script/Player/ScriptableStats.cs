@@ -5,6 +5,7 @@
     {
         [Header("LAYERS")] [Tooltip("Set this to the layer your player is on")]
         public LayerMask PlayerLayer;
+        public LayerMask GroundLayer;
         
         [Tooltip("A constant downward force applied while grounded. Helps on slopes"), Range(0f, -10f)]
         public float GroundingForce = -1.5f;
