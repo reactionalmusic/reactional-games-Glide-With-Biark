@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
     {
         // Initialize 
         rb = GetComponent<Rigidbody2D>();
-        gameManager = GetComponent<GameManager>();
+        //gameManager = GetComponent<GameManager>();
         controller = new PlayerController();
 
         // Null checks for required serialized fields
@@ -110,9 +110,9 @@ public class PlayerMovement : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other)
     {
         return;
-        Debug.Log("Collision with " + other.gameObject.name + " Game Over");
+        //Debug.Log("Collision with " + other.gameObject.name + " Game Over");
 
-        StartCoroutine(PlayerCollision());
+        //StartCoroutine(PlayerCollision());
     }
     
     

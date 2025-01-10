@@ -5,6 +5,8 @@ using Random = UnityEngine.Random;
 
 public class PlayerAnimationController : MonoBehaviour
 {
+    private static readonly int spin_trigger = Animator.StringToHash("SpinTrigger");
+
     [Header("Animation Settings")]
     [SerializeField] private Animator animator;
     [SerializeField] float startTimeRange = 2f;
@@ -19,7 +21,7 @@ public class PlayerAnimationController : MonoBehaviour
     
     private void Start()
     {
-        animator = GetComponent<Animator>();
+        animator = GetComponentInChildren<Animator>();
         SetRandomTime();
     }
     
@@ -31,7 +33,7 @@ public class PlayerAnimationController : MonoBehaviour
         if (timer >= RandomTime)
         {
             // Trigger the Spin animation
-            animator.SetTrigger("SpinTrigger");
+            animator.SetTrigger(spin_trigger);
             RandomizeReactionalStinger();
     
             // Reset the timer and random time

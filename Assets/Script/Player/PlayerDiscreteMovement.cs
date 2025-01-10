@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public class PlayerDiscreteMovement : MonoBehaviour
 {
-    
     private PlayerController controller;
     
     [SerializeField] private ScriptableStats _stats;
@@ -19,7 +17,6 @@ public class PlayerDiscreteMovement : MonoBehaviour
 
     #region Interface
 
-    public event Action<bool, float> GroundedChanged;
     public event Action Jumped;
     
     #endregion
@@ -78,44 +75,54 @@ public class PlayerDiscreteMovement : MonoBehaviour
     #region Collisions
         
         private float _frameLeftGrounded = float.MinValue;
-        private bool _grounded;
+        [SerializeField] private bool _grounded;
 
         private void CheckCollisions()
         {
-            Physics2D.queriesStartInColliders = false;
-
+            Physics2D.queriesStartInColliders = true;
+            
             // Ground and Ceiling
-            bool groundHit = Physics2D.CapsuleCast(_col.bounds.center, _col.size, _col.direction, 0, Vector2.down, _stats.GrounderDistance, ~_stats.PlayerLayer);
+            var col_pos = transform.position + new Vector3(_col.offset.x, _col.offset.y, 0);
+            var x = _col.size.x;
+            var x_half = _col.size.x / 2;
+            var y_half = (_col.size.y / 2) + 0.1f;
+            _grounded = Physics2D.Raycast(
+                col_pos + new Vector3(-x_half, -y_half), 
+                Vector2.right, 
+                x, 
+                ~_stats.PlayerLayer
+            );
+#if UNITY_EDITOR
+            Debug.DrawLine(
+                col_pos + new Vector3(-x_half, -y_half), 
+                col_pos + new Vector3(x_half, -y_half),
+                _grounded ? Color.green : Color.red
+            );
+#endif
             bool ceilingHit = Physics2D.CapsuleCast(_col.bounds.center, _col.size, _col.direction, 0, Vector2.up, _stats.GrounderDistance, ~_stats.PlayerLayer);
 
             // Hit a Ceiling
             if (ceilingHit) _frameVelocity.y = Mathf.Min(0, _frameVelocity.y);
 
             // Landed on the Ground
-            if (!_grounded && groundHit)
+            if (_grounded)
             {
-                _grounded = true;
                 _coyoteUsable = true;
                 _bufferedJumpUsable = true;
                 _endedJumpEarly = false;
-                GroundedChanged?.Invoke(true, Mathf.Abs(_frameVelocity.y));
             }
             // Left the Ground
-            else if (_grounded && !groundHit)
+            else
             {
-                _grounded = false;
                 _frameLeftGrounded = _time;
-                GroundedChanged?.Invoke(false, 0);
             }
 
             Physics2D.queriesStartInColliders = _cachedQueryStartInColliders;
             //Debug.Log(_grounded);
             Debug.DrawRay(_col.bounds.center, Vector2.down * _stats.GrounderDistance, Color.green);
-
         }
 
-    #endregion
-
+        #endregion
 
     #region Jumping
 
@@ -134,7 +141,7 @@ public class PlayerDiscreteMovement : MonoBehaviour
         
         if (!_jumpToConsume && !HasBufferedJump) return;
 
-        //if (_grounded || CanUseCoyote) 
+        if (_grounded || CanUseCoyote) 
             ExecuteJump();
 
         _jumpToConsume = false;
