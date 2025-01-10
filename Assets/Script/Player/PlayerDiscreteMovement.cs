@@ -76,7 +76,7 @@ public class PlayerDiscreteMovement : MonoBehaviour
                 col_pos + new Vector3(-x_half, -y_half),
                 Vector2.right,
                 (x / 4) * 3,
-                ~_stats.PlayerLayer
+                _stats.GroundLayer
             );
 #if UNITY_EDITOR
             Debug.DrawLine(
