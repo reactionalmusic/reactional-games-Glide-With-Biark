@@ -56,7 +56,7 @@ public class Reactional_DeepAnalysis_EventDispatcher : MonoBehaviour
             {
                 // Fire the event for this vocal note
                 OnVocalNoteHit?.Invoke(vocal.offset, vocal);
-                Debug.Log("Vocal Note Hit Purple!" +  vocal.offset);
+                //Debug.Log("Vocal Note Hit Purple!" +  vocal.offset);
 
                 // Move to the next note
                 _currentVocalIndex++;
@@ -85,7 +85,7 @@ public class Reactional_DeepAnalysis_EventDispatcher : MonoBehaviour
             {
                 // Fire the event for this vocal note
                 OnBassNoteHit?.Invoke(bass.offset, bass);
-                // Debug.Log("Bass Note Hit Green!");
+                // Debug.Log("Bass Note Hit Green!" + bass.offset);
 
                 // Move to the next note
                 _currentBassIndex++;
@@ -114,7 +114,7 @@ public class Reactional_DeepAnalysis_EventDispatcher : MonoBehaviour
             {
                 // Fire the event for this vocal note
                 OnDrumNoteHit?.Invoke(drums.offset, drums);
-                //Debug.Log("Drum Note Hit Blue!");
+                //Debug.Log("Drum Note Hit Blue!" + drum.offset);
 
                 // Move to the next note
                 _currentDrumIndex++;
