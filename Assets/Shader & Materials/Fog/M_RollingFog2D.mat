@@ -55,12 +55,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FogSize: 1.4
+    - _FogSize: 1.8
     - _QueueControl: 0
     - _QueueOffset: 0
     - _isInWorldSpace: 1
     m_Colors:
-    - _FogColor: {r: 0.6194968, g: 0.86036164, b: 1, a: 0.039215688}
+    - _FogColor: {r: 0.6194968, g: 0.86036164, b: 1, a: 0.019607844}
     - _FogSpeed: {r: 5, g: -1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
