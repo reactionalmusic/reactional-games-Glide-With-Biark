@@ -1,8 +1,22 @@
+using System.Collections;
+using Reactional.Playback;
 using UnityEngine;
 
 public class Parallax : MonoBehaviour
 {
+    
+    [Header("Parallax Scroll Settings")]
     [SerializeField] private float parallaxScrollSpeed;
+    
+    [Header("Parallax Pulse Settings")]
+    [SerializeField] private bool extraspeed = false;
+    [SerializeField] private AnimationCurve parallaxCurve;
+    
+    [Header("Reactional Quant Settings")]
+    [SerializeField] private float quant = 2;
+    private float speedup;
+    
+
     private float start_pos;
     private Bounds group_bounds;
 
@@ -11,15 +25,24 @@ public class Parallax : MonoBehaviour
         start_pos = transform.position.x;
     }
 
-    private void Update() {
+   
+    private void Update()
+    {
+        if (extraspeed)
+            speedup = parallaxCurve.Evaluate(MusicSystem.GetCurrentBeat() % quant);
+        else
+            speedup = 0;
+
         var t = transform;
-        float dist = t.position.x - (parallaxScrollSpeed * Time.deltaTime);
+        var dist = t.position.x - (parallaxScrollSpeed + speedup) * Time.deltaTime;
+
         t.position = new Vector3(dist, t.position.y, t.position.z);
 
-        if (t.position.x < start_pos - group_bounds.extents.x) {
+        if (t.position.x < start_pos - group_bounds.extents.x)
             t.position = new Vector3(start_pos, t.position.y, t.position.z);
-        }
     }
+    
+ 
 
     private static Bounds get_bounds(GameObject game_object) {
         Bounds bounds = new  Bounds(Vector3.zero,Vector3.zero);
@@ -40,4 +63,6 @@ public class Parallax : MonoBehaviour
         }
         return bounds;
     }
+    
+    
 }
