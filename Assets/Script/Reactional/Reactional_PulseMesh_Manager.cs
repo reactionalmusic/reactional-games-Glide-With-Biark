@@ -97,7 +97,7 @@ namespace DashGames
             {
                 if (entry.Value == null || entry.Value.Count == 0)
                 {
-                    Debug.LogWarning($"{entry.Key} list is null or empty.");
+                    //Debug.LogWarning($"{entry.Key} list is null or empty.");
                 }
             }
            

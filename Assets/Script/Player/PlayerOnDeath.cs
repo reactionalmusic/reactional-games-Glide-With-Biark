@@ -10,8 +10,8 @@ public class PlayerOnDeath : MonoBehaviour
     [SerializeField] private bool canDisolve = true;
     [SerializeField] private bool canDisolveVertical = false;
     
-    [SerializeField] private SpriteRenderer _spriteRenderer;
-    [SerializeField] private Material _material;
+    private SpriteRenderer _spriteRenderer;
+    private Material _material;
     [SerializeField] private Transform respawnPoint;
     
     private int _dissolveAmount;
@@ -30,7 +30,7 @@ public class PlayerOnDeath : MonoBehaviour
 
     private void Start()
     {
-        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         _material = _spriteRenderer.material;
         if(!_material) { Debug.LogWarning("Material null in player");}
         

@@ -32,7 +32,7 @@ namespace Reactional.Core
             
             // Reactional.Setup.UpdateBundles();                                    // Check for new bundles in StreamingAssets
 
-            await Reactional.Setup.LoadBundles();                                // Load everything in StreamingAssets
+            await Reactional.Setup.LoadBundles();                                   // Load everything in StreamingAssets
             // await Reactional.Setup.LoadBundle("BundleName");                     // Load everything in a specific bundle
             
             // await Reactional.Setup.LoadSection("BundleName","Default");          // Load specific section in specific bundle

@@ -29,7 +29,7 @@ public class DangerObject : MonoBehaviour
         // Start the spawn effect
         yield return StartCoroutine(PlayerOnDeath.Instance.SpawnPlayer(true, false));
 
-
+        Debug.Log("Player respawn");
         // Call GameOver
         //gameManager.GameOver();
     }

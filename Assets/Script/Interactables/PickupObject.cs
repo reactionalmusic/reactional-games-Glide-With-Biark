@@ -7,10 +7,9 @@ public class PickupObject : MonoBehaviour
     [SerializeField] PickupVFX vfxObject;
     public int scoreAmount = 1;
    
- 
-    
     private void OnDestroy()
     {
+        //Debug.Log("I am now self-destructing ...");
         if(vfxObject != null)
             vfxObject.vfxExplode();
     }
