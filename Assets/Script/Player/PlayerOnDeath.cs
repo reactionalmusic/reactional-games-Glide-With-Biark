@@ -29,7 +29,7 @@ public class PlayerOnDeath : MonoBehaviour
 
     private void Start()
     {
-        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         _material = _spriteRenderer.material;
         if(!_material) { Debug.LogWarning("Material null in player");}
         
