@@ -12,14 +12,14 @@ public class PickupObject : MonoBehaviour
     private void OnDestroy()
     {
         Debug.Log("I am now self-destructing ...");
-        vfxObject.vfxExplode();
+        if(vfxObject != null)
+            vfxObject.vfxExplode();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Obstacle") || other.CompareTag("Pickup"))
         {
-            Debug.Log("I will self-destruct soon ...");
             Destroy(gameObject);
         }
         else if (other.CompareTag("Player"))

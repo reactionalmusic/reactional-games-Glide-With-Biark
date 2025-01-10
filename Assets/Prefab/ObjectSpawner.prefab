@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2538856107465434625}
   - component: {fileID: 2220414624883425503}
+  - component: {fileID: -4231382432442382077}
   m_Layer: 0
   m_Name: ObjectSpawner
   m_TagString: Untagged
@@ -50,3 +51,16 @@ MonoBehaviour:
   spawnTopY: 5
   spawnBottomY: -2
   movementSpeed: 5
+--- !u!114 &-4231382432442382077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281220262757905065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dfb6e7b92a2f424db54e4a29e206634, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pitch: 128

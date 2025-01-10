@@ -117,7 +117,6 @@ public class PlayerDiscreteMovement : MonoBehaviour
 
     private void ExecuteJump()
     {
-        Debug.Log("Executing");
         CameraShake.TriggerShake(0.5f,1,1, 0.5f);
         
         _endedJumpEarly = false;

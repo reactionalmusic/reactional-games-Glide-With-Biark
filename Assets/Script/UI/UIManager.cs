@@ -45,7 +45,7 @@ public class UIManager : MonoBehaviour
         
         
         //------------------------------- Controller -------------------------------
-        private void OnEnable()
+        /*private void OnEnable()
         {
             // Subscribe to the controller action
             gameManager.controller.UI.Pause.Enable();
@@ -63,7 +63,7 @@ public class UIManager : MonoBehaviour
             
             gameManager.controller.UI.Start.performed -= OnStart;
             gameManager.controller.UI.Start.Disable();
-        }
+        }*/
 
         //---------------------------------------- Callbacks -------------------------------
         
@@ -119,13 +119,14 @@ public class UIManager : MonoBehaviour
 
         private void ClickStartButton(ClickEvent evt)
         {
-            proceduralMapGenerator.SpawnSongs();
             
             Debug.Log("Click Start and play random song");
             
-         startupContainer.style.display = DisplayStyle.None;
+            startupContainer.style.display = DisplayStyle.None;
             ingameContainer.style.display = DisplayStyle.Flex;
             FindFirstObjectByType<GameManager>().StartGame();
+
+            StartCoroutine(proceduralMapGenerator.SpawnSongs());
             
             pointsLabel.text = "Points: " + 0;
             

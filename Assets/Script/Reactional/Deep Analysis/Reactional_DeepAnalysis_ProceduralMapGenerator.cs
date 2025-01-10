@@ -37,7 +37,7 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
     private const float YOffsetMultiplier = 2f; // Controls spacing on Y-axis
     private const float otherXOffset = -2f; // other offsets if needed
     private const float YBasePosition = -2f; // Base Y position for items like drums
-    private const float YPitchAdjustment = 4f; // Adjustment for Y position based on pitch
+    private const float YPitchAdjustment = 2f; // Adjustment for Y position based on pitch
 
     //TODO add delegates here for all instrument events?
 
@@ -61,7 +61,7 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
         // TODO add the Delegates here and subscribe on them , but break out the function as separate functions that you call here. 
 
         SpawnVocals();
-        SpawnBass();
+        //SpawnBass();
         SpawnDrums();   //Only drums work currently
     }
 
@@ -100,7 +100,7 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
                 continue; // Skip very short vocals
             }
 
-            if (offset <= prev_offset + 0.25f || offset == prev_offset)
+            if (offset <= prev_offset + 0.75f || offset == prev_offset)
             {
                 continue; // Skip if the offset is too close to the previous one
             }
@@ -175,6 +175,7 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
     /// </summary>
     void SpawnDrums()
     {
+        Debug.Log("Spawning Drums");
         float prev_offset = 0;
 
         foreach (var drums in offlineMusicDataAsset.drums)

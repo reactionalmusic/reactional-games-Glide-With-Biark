@@ -95,6 +95,8 @@ GameObject:
   - component: {fileID: 1529104501236640156}
   - component: {fileID: 4237954801131260734}
   - component: {fileID: -7570529272080605535}
+  - component: {fileID: -7871631494525874026}
+  - component: {fileID: -5418927516529286359}
   m_Layer: 0
   m_Name: VocalPurple
   m_TagString: PulseOnBeatBar
@@ -185,4 +187,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dfb6e7b92a2f424db54e4a29e206634, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pitch: 128
+  pitch: 69.06672
+--- !u!114 &-7871631494525874026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6691017079308188631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3907de4d8d04e1479de99c27002ef77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vfxObject: {fileID: 0}
+  scoreAmount: 1
+--- !u!136 &-5418927516529286359
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6691017079308188631}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.505
+  m_Height: 2.2199998
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
