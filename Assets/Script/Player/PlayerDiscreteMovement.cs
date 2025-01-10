@@ -85,9 +85,9 @@ public class PlayerDiscreteMovement : MonoBehaviour
             var x_half = _col.size.x / 2;
             var y_half = (_col.size.y / 2) + 0.1f;
             _grounded = Physics2D.Raycast(
-                col_pos + new Vector3(-x_half, -y_half), 
-                Vector2.right, 
-                x, 
+                col_pos + new Vector3(-x_half, -y_half),
+                Vector2.right,
+                (x / 4) * 3,
                 ~_stats.PlayerLayer
             );
 #if UNITY_EDITOR
