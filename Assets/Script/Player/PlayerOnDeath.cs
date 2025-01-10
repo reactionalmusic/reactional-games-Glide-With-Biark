@@ -12,6 +12,7 @@ public class PlayerOnDeath : MonoBehaviour
     
     [SerializeField] private SpriteRenderer _spriteRenderer;
     [SerializeField] private Material _material;
+    [SerializeField] private Transform respawnPoint;
     
     private int _dissolveAmount;
     private int _verticalDissolveAmount;
@@ -60,6 +61,7 @@ public class PlayerOnDeath : MonoBehaviour
     
     public IEnumerator SpawnPlayer(bool useDissolve, bool useVerticalDisolve)
     {
+        gameObject.transform.position = respawnPoint.position;
         float elapsedTime = 0f;
         while (elapsedTime < _dissolveTime)
         {

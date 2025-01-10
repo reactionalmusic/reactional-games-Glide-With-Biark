@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
 
     public void AddScore(int score)
     {
-        totalScore += score;
+        totalScore = Mathf.Max(0, totalScore + score);
         uIManager.AddScore(totalScore);
     }
     

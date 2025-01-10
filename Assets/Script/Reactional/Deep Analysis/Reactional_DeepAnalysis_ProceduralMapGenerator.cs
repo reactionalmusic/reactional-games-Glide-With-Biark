@@ -201,7 +201,7 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
         float randomY = Random.Range(spawnTopY , spawnBottomY ); // Random Y position
         Vector3 position = new Vector3(offset * XOffsetMultiplier + otherXOffset, randomY, 0); // Use random Y for the drum
         GameObject prefab;
-        if (Random.value < 0.1f)
+        if (Random.value < 0.175f)
         {
             prefab = DrumDangerPrefab;
         }
