@@ -35,9 +35,7 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
 
     // Constants for positioning multipliers
     private const float XOffsetMultiplier = 5f; // Controls spacing on X-axis
-    private const float YOffsetMultiplier = 2f; // Controls spacing on Y-axis
     private const float otherXOffset = -2f; // other offsets if needed
-    private const float YBasePosition = -2f; // Base Y position for items like drums
     private const float YPitchAdjustment = 2f; // Adjustment for Y position based on pitch
 
     //TODO add delegates here for all instrument events?
@@ -176,7 +174,6 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
     /// </summary>
     void SpawnDrums()
     {
-        Debug.Log("Spawning Drums");
         float prev_offset = 0;
 
         foreach (var drums in offlineMusicDataAsset.drums)

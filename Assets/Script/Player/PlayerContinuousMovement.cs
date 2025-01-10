@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
+//Alternate Movement
 public class PlayerContinuousMovement : MonoBehaviour
 {
     [Header("Movement Settings")]
