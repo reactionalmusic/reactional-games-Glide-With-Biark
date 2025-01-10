@@ -4,7 +4,9 @@ using Reactional.Experimental;
 using Reactional.Playback;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
+
 /// <summary>
 /// Subscribing to the Reactional Deep Analysis Event Dispatcher Instruments
 /// And taking a Global light and alter the intensity value from the set editor value to a new value.
@@ -12,12 +14,30 @@ using UnityEngine.Rendering.Universal;
 /// </summary>
 public class Reactional_DeepAnalysis_GlobalLightControler : MonoBehaviour
 {
-   
-    [SerializeField] private float MAX_INTENSITY = 1.5f;
-    [SerializeField] private float MIN_INTENSITY = 0.2f;
+    [Header("Global Light")]
     
-    public Light2D globalLight;
-    void OnEnable()
+    [SerializeField] private Light2D globalLight;
+    [SerializeField] private float MAX_GLOBALLIGHT_INTENSITY = 1.5f;
+    [SerializeField] private float MIN_GLOBALLIGHT_INTENSITY = 0.2f;
+    
+    [Header("Post Process")]
+    
+    [SerializeField] private Volume postprocess;
+    [SerializeField] private float MIN_CHROMATICABBERATION = 0f;
+    [SerializeField] private float MAX_CHROMATICABBERATION = 1f;
+    
+    private Bloom bloom;
+    private ChromaticAberration chromaticAberration;
+
+
+    private void Start()
+    {
+        postprocess.profile.TryGet(out bloom);
+        postprocess.profile.TryGet(out chromaticAberration);
+        chromaticAberration.intensity.overrideState = true;
+    }
+
+    private void OnEnable()
     {
         // Subscriba på eventen
         //Reactional_DeepAnalysis_EventDispatcher.OnVocalNoteHit += HandleVocalNoteHit;
@@ -25,51 +45,56 @@ public class Reactional_DeepAnalysis_GlobalLightControler : MonoBehaviour
         Reactional_DeepAnalysis_EventDispatcher.OnDrumNoteHit += PostProcessDrumEffect;
     }
 
-    void OnDisable()
+    private void OnDisable()
     {
         // Unsubscriba från eventen för att undvika memory leaks
         //Reactional_DeepAnalysis_EventDispatcher.OnVocalNoteHit -= HandleVocalNoteHit;
-       // Reactional_DeepAnalysis_EventDispatcher.OnBassNoteHit -= PostProcessBasEffect;
+        // Reactional_DeepAnalysis_EventDispatcher.OnBassNoteHit -= PostProcessBasEffect;
         Reactional_DeepAnalysis_EventDispatcher.OnDrumNoteHit -= PostProcessDrumEffect;
     }
 
-    void PostProcessDrumEffect(float offset, drums bass)
+    private void PostProcessDrumEffect(float offset, drums bass)
     {
         //Debug.Log($"PostProcessBassEffect triggered for bass note with duration {offset}");
         StartCoroutine(lerpIntensity(globalLight.intensity));
     }
 
-    
+
     private IEnumerator lerpIntensity(float StartIntensity)
     {
-
-        float duration = 0.5f;
-        float halfDuration = duration / 2.0f;
+        var duration = 0.5f;
+        var halfDuration = duration / 2.0f;
         //float maxIntensity = 5;
         var elapsedTime = 0f;
-        
+
         //Debug.Log("Start Value Intensity " +StartIntensity + "and GL intesity " + globalLight.intensity);
-        
+
+
         while (elapsedTime <= halfDuration)
         {
-            globalLight.intensity = Mathf.Lerp(StartIntensity, MAX_INTENSITY, elapsedTime / halfDuration);
-            
+            globalLight.intensity = Mathf.Lerp(StartIntensity, MAX_GLOBALLIGHT_INTENSITY, elapsedTime / halfDuration);
+
+            chromaticAberration.intensity.value = Mathf.Lerp(MAX_CHROMATICABBERATION, MIN_CHROMATICABBERATION,
+                elapsedTime / halfDuration);
+
+
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-        
-  
-        
+
+
         elapsedTime = 0f;
         while (elapsedTime <= halfDuration)
         {
-            globalLight.intensity = Mathf.Lerp(MAX_INTENSITY, MIN_INTENSITY, elapsedTime / halfDuration);
-            
+            globalLight.intensity = Mathf.Lerp(MAX_GLOBALLIGHT_INTENSITY, MIN_GLOBALLIGHT_INTENSITY,
+                elapsedTime / halfDuration);
+            chromaticAberration.intensity.value = Mathf.Lerp(MIN_CHROMATICABBERATION, MAX_CHROMATICABBERATION,
+                elapsedTime / halfDuration);
+
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-        
+
         //Debug.Log("End Value Intensity " +StartIntensity + "and GL intesity " + globalLight.intensity);
     }
-   
 }
