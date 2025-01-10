@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5677547772842749909}
   - component: {fileID: 7903432798591600549}
   - component: {fileID: 681240083152646723}
+  - component: {fileID: 4587509850559005908}
   m_Layer: 0
   m_Name: Pikcup
   m_TagString: Untagged
@@ -57,18 +58,33 @@ VisualEffect:
       - m_Value: 0.3
         m_Name: Field Size
         m_Overridden: 1
-      - m_Value: 3000
+      - m_Value: 300
         m_Name: Field Spawn Rate
         m_Overridden: 1
       - m_Value: 15
         m_Name: Trail Spawnrate
+        m_Overridden: 1
+      - m_Value: 0.25
+        m_Name: SphereRadiusSize
+        m_Overridden: 1
+      - m_Value: 0.5
+        m_Name: FieldSize
+        m_Overridden: 1
+      - m_Value: 0.75
+        m_Name: Alpha
+        m_Overridden: 1
+      - m_Value: 0.8
+        m_Name: Trail Lifetime
         m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
       m_Array: []
     m_Vector4f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 2.7304142, y: 2.1290014, z: 0.7938649, w: 0.98039216}
+        m_Name: Color
+        m_Overridden: 1
     m_Uint:
       m_Array: []
     m_Int:
@@ -126,6 +142,26 @@ VFXRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &4587509850559005908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469684113801353281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b16d13b218650a4db6df770158a16b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0, w: 0}
+  visualEffect: {fileID: 7903432798591600549}
+  fieldSizeShrink: 0.1
+  lerpShrinkDuration: 0.3
+  fieldSizeExplode: 1.35
+  lerpExplodeDuration: 2
+  alphaIncrease: 1.55
+  alphaFade: 0
 --- !u!1 &5070907538526596026
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,6 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3907de4d8d04e1479de99c27002ef77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vfxObject: {fileID: 4587509850559005908}
   scoreAmount: 1
 --- !u!114 &-8995570922424670434
 MonoBehaviour:

@@ -226,7 +226,6 @@ namespace Reactional
             foreach (var section in bundle.sections)
             {
                 await LoadSection(bundleName, section.name);
-
             }
         }
 

@@ -48,6 +48,7 @@ namespace Reactional.Core
             {
                 byte[] data = File.ReadAllBytes(trackPath);
                 jsonText = Reactional.Core.Engine.GetTrackMetadata(data);
+                
             }
 
             var dict = new Dictionary<string, string>();
@@ -71,6 +72,29 @@ namespace Reactional.Core
             }
 
             return dict;
+        }
+
+        public static string ExportAnalysisData(string trackPath)
+        {
+            string jsonText;
+            if (Application.platform == RuntimePlatform.Android)
+            {
+                var www = UnityWebRequest.Get(trackPath);
+                www.SendWebRequest();
+                while (!www.isDone)
+                {
+                }
+
+                jsonText = Engine.GetTrackMetadata(www.downloadHandler.data);
+            }
+            else
+            {
+                var data = File.ReadAllBytes(trackPath);
+                jsonText = Engine.GetTrackMetadata(data);
+                Debug.Log(jsonText);
+            }
+
+            return jsonText;
         }
 
         static int CheckTrackID(int id)

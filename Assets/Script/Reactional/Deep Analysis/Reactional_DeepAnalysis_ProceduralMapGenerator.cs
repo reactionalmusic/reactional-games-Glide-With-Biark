@@ -1,11 +1,14 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Reactional.Core;
 using Reactional.Experimental;
-using System;
+using Unity.VisualScripting;
 using Random = UnityEngine.Random;
-
-public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
+/// <summary>
+/// TODO for joel to describe this 
+/// </summary>
+public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
 {
     // Public variables for prefabs
     public GameObject VocalPrefab;
@@ -26,7 +29,8 @@ public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
     [SerializeField] private float spawnTopY = 5f; // Range for random height when spawning objects
     [SerializeField] private float spawnBottomY = -2f; // Range for random height when spawning objects
     
-    public OfflineMusicDataAsset offlineMusicDataAsset;
+    [SerializeField] private List<OfflineMusicDataAsset> offlineMusicDataAssetList;
+    [SerializeField] private OfflineMusicDataAsset offlineMusicDataAsset;
 
     // Constants for positioning multipliers
     private const float XOffsetMultiplier = 5f; // Controls spacing on X-axis
@@ -37,8 +41,23 @@ public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
 
     //TODO add delegates here for all instrument events?
 
-    void Start()
+    public IEnumerator SpawnSongs()
     {
+        while (!Reactional.Playback.Playlist.IsPlaying)
+        {
+            yield return new WaitForNextFrameUnit();
+        }
+        var track_name = Reactional.Playback.Playlist.GetCurrentTrackInfo().trackName;
+        print("trackName:" + track_name);
+        foreach (var data_asset in offlineMusicDataAssetList) 
+        {
+            if (data_asset.name == track_name)
+            {
+                offlineMusicDataAsset = data_asset;
+                break;
+            }
+        }
+
         // TODO add the Delegates here and subscribe on them , but break out the function as separate functions that you call here. 
 
         SpawnVocals();
@@ -87,8 +106,7 @@ public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
             }
 
             prev_offset = offset;
-            VocalPrefab.GetComponent<pitchdata>().pitch = vocal.note;
-
+            VocalPrefab.GetComponent<Reactional_DeepAnalysis_PitchData>().pitch = vocal.note; 
 
             InstantiateVocalPrefab(offset, vocal);
         }
@@ -98,13 +116,11 @@ public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
     {
         // Using constants for the position calculations
         Vector3 position = new Vector3(offset * XOffsetMultiplier, GetYPosition(vocal.note), 0);
-        var obj = Instantiate(VocalPrefab, position, Quaternion.identity,
-            gameObject.transform); // Spawn the vocal prefab
+        var obj = Instantiate(VocalPrefab, position, Quaternion.identity, gameObject.transform); // Spawn the vocal prefab
         accumulatedObjects.Add(obj); // Track the spawned object
         accumulatedPositions.Add(position.x); // Track its X position
         accumulatedEntries.Add(accumulatedEntry); // Track its entry count
     }
-
 
     /// <summary>
     /// Method to spawn bass objects
@@ -138,7 +154,7 @@ public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
             prev_offset = offset;
             prev_pitch = Mathf.Round(bass.note);
             prev_end = bass.offset_seconds + bass.duration_seconds;
-            BasPrefab.GetComponent<pitchdata>().pitch = bass.note;
+            BasPrefab.GetComponent<Reactional_DeepAnalysis_PitchData>().pitch = bass.note;
 
             InstantiateBassPrefab(offset, bass);
         }
@@ -171,7 +187,7 @@ public class Reactional_DeepAnalysis_PreSpawner : MonoBehaviour
             }
 
             prev_offset = offset;
-            DrumPrefab.GetComponent<pitchdata>().pitch = 128; // Example pitch for drums (fixed value)
+            DrumPrefab.GetComponent<Reactional_DeepAnalysis_PitchData>().pitch = 128; // Example pitch for drums (fixed value)
 
             InstantiateDrumPrefab(offset);
         }

@@ -1,36 +1,29 @@
-using System;
 using System.Collections;
-using Reactional.Core;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
-
 public class GameManager : MonoBehaviour
 { 
     private UIManager uIManager;
-   public PlayerController controller;
-   public GameObject player;
-   private bool isGameOver = false;
-   
-   private int totalScore = 0;
+    public PlayerController controller;
+    public GameObject player;
+    private bool isGameOver = false;
+    
+    private int totalScore = 0;
 
-   private void Awake()
-   {
-       controller = new PlayerController();
-       uIManager = FindObjectOfType<UIManager>();
-   }
-
-   void Start()
-   {
-        //Time.timeScale = 0;
+    private void Awake()
+    {
+        controller = new PlayerController();
+        uIManager = FindObjectOfType<UIManager>();
     }
 
     public void StartGame()
     {
         Time.timeScale = 1;
         player.SetActive(true);
-        FindFirstObjectByType<BasicPlayback>().enabled = true;
+        
+        Reactional.Playback.Playlist.Random();
     }
 
     public void PauseGame(bool isPaused)
@@ -47,7 +40,7 @@ public class GameManager : MonoBehaviour
     
     public void ReloadGame(InputAction.CallbackContext context)
     {
-        if(isGameOver = true)
+        if(isGameOver)
         {
             Debug.Log("Reload Game");
             SceneManager.LoadScene(0);
@@ -55,12 +48,9 @@ public class GameManager : MonoBehaviour
             // Set Player Visible Again
             gameObject.SetActive(true);
             StartCoroutine(PlayerOnDeath.Instance.SpawnPlayer(true, false));
-            
-            
         
             //TODO add gameover check here so it only works when game is over
         }
-       
     }
 
     public void AddScore(int score)
@@ -69,9 +59,6 @@ public class GameManager : MonoBehaviour
         uIManager.AddScore(totalScore);
     }
     
-    
-    
-    
     //--------------- Buttonklicks------------------
     
     private void OnEnable()
@@ -79,8 +66,6 @@ public class GameManager : MonoBehaviour
         // Subscribe to the Fly action
         controller.UI.Submit.Enable();
         controller.UI.Submit.performed += ReloadGame;
-        
-        
     }
 
     private void OnDisable()
@@ -96,5 +81,4 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(seconds);
     }
-
 }
