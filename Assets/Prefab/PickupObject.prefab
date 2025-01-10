@@ -157,9 +157,9 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0, w: 0}
   visualEffect: {fileID: 7903432798591600549}
   fieldSizeShrink: 0.1
-  lerpShrinkDuration: 0.3
+  lerpShrinkDuration: 0.1
   fieldSizeExplode: 1.35
-  lerpExplodeDuration: 2
+  lerpExplodeDuration: 1
   alphaIncrease: 1.55
   alphaFade: 0
 --- !u!1 &5070907538526596026
@@ -259,4 +259,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dfb6e7b92a2f424db54e4a29e206634, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pitch: 128
+  pitch: 69.06672

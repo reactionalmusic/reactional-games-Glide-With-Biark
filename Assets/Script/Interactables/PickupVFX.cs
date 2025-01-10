@@ -18,27 +18,22 @@ public class PickupVFX : MonoBehaviour
     [SerializeField] private float alphaIncrease = 1.35f; // alpha when shrinking
     [SerializeField] private float alphaFade = 0; // alpha when exploding
     
-    
-    
-    //TODO WTF WAS THIS
-    // [SerializeField] private Vector4 currentIntensity; 
-    // [SerializeField] private float newIntensity = 0.001f; 
-  
-
-
     public void vfxExplode()
     {
-        // Destroy(transform.parent, 2);
-       //TODO position = transform.parent.position;             INHERRIT CORRECT POS IN PARALLAX
-        transform.parent = null;
-        //TODO transform.position = position;
+        
+        Reactional.Playback.Theme.TriggerStinger("positive, large", 16);
         transform.GetComponent<PickupVFX>().enabled = true;
-        visualEffect.enabled = true;
+        visualEffect.enabled = true;  // TODO move to when VFX changes place
+        
+        // Reset original values
         _fieldSize = visualEffect.GetFloat("FieldSize");
         _alpha = visualEffect.GetFloat("Alpha");
-        // currentIntensity = visualEffect.GetVector4("Color");
+        
+        //Remove Collider from parent Object
+        transform.parent.GetComponent<CircleCollider2D>().enabled = false;
+        
 
-        Debug.Log("However I will 'save' the children ...");
+        Debug.Log("Lets Explode");
         StartCoroutine(vfxtimer());
     }
 
@@ -69,12 +64,6 @@ public class PickupVFX : MonoBehaviour
             visualEffect.SetFloat("FieldSize", _fieldSize);
 
 
-            // currentIntensity.x = Mathf.Lerp(currentIntensity.x, newIntensity, t);
-            // currentIntensity.y = Mathf.Lerp(currentIntensity.y, newIntensity, t);
-            // currentIntensity.z = Mathf.Lerp(currentIntensity.z, newIntensity, t);
-            // visualEffect.SetVector4("Color", currentIntensity);
-            //Debug.Log($"ElapsedTime: {elapsedTime}, t: {t}, FieldSize: {_fieldSize}" +  "alpha: " + alpha +  "intensity: " + currentIntensity.x +  currentIntensity.y +  currentIntensity.z);
-
             _alpha = Mathf.Lerp(alphaIncrease, alphaFade, t);
             visualEffect.SetFloat("Alpha", _alpha);
 
@@ -83,8 +72,8 @@ public class PickupVFX : MonoBehaviour
         }
 
         // Wait briefly before destroying the object
-        yield return new WaitForSeconds(lerpShrinkDuration + lerpExplodeDuration);
-
+        //yield return new WaitForSeconds(lerpShrinkDuration + lerpExplodeDuration);
+        
         visualEffect.enabled = false;
     }
 }
