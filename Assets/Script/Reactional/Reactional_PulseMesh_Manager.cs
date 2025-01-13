@@ -64,8 +64,10 @@ namespace DashGames
 
         private void Update()
         {
-            ScaleMeshes();
-            
+            if (Reactional.Playback.Playlist.IsPlaying)
+            {
+                ScaleMeshes();
+            }
         }
 
 
