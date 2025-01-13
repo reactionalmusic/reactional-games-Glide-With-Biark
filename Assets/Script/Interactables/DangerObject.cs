@@ -11,7 +11,7 @@ public class DangerObject : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             CameraShake.TriggerShake(0.5f,1,1, 0.5f);
-            Reactional.Playback.Theme.TriggerStinger("negative, large");
+            Reactional.Playback.Theme.TriggerStinger("negative, large", 0f);
             //Destroy(other.gameObject);
             StartCoroutine(PlayerCollision(other));
             var manager = FindFirstObjectByType<GameManager>();
