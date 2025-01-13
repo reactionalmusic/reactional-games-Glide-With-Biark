@@ -17947,16 +17947,6 @@ MonoBehaviour:
       playlists:
       - name: Default
         tracks:
-        - name: track4
-          trackID: -1
-          trackHash: 3 reactionalMetadata
-          trackName: ' '
-          trackArtist: ' '
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: cec27a8fea138ad0885d0f1d672657ce54d959b1577bd19bf3209903712a9953
-          trackBPM: 122.368439999999
-          bundleID: combined_deeptracks
         - name: track1
           trackID: -1
           trackHash: 0 reactionalMetadata
@@ -17986,6 +17976,16 @@ MonoBehaviour:
           trackGenre: ' '
           trackCover: 59d7ac0b06f3d2f2d7432aa192cbff3f384b85c9830eea86a9738c28a34940fb
           trackBPM: 100.019634123711
+          bundleID: combined_deeptracks
+        - name: track4
+          trackID: -1
+          trackHash: 3 reactionalMetadata
+          trackName: ' '
+          trackArtist: ' '
+          trackAlbum: ' '
+          trackGenre: ' '
+          trackCover: cec27a8fea138ad0885d0f1d672657ce54d959b1577bd19bf3209903712a9953
+          trackBPM: 122.368439999999
           bundleID: combined_deeptracks
   - name: GlideWithBiarkTheme
     path: D:/Projects/Reactional/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\GlideWithBiarkTheme
@@ -23629,7 +23629,7 @@ PrefabInstance:
     - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
       propertyPath: VocalPrefab
       value: 
-      objectReference: {fileID: 6691017079308188631, guid: e7a7f0d85c3f0eb41843e86ab9f52924, type: 3}
+      objectReference: {fileID: 5070907538526596026, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
     - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
       propertyPath: DrumDangerPrefab
       value: 

@@ -1,6 +1,9 @@
 using Reactional.Playback;
 using UnityEngine;
 
+/// <summary>
+/// Used to scroll elements across the screen, speeding up over an animation curve to for the duration of a beat.
+/// </summary>
 public class Parallax : MonoBehaviour
 {
     [Header("Parallax Scroll Settings")]
@@ -17,12 +20,14 @@ public class Parallax : MonoBehaviour
     private float start_pos;
     private Bounds group_bounds;
 
-    void Start() {
+    void Start() 
+    {
         group_bounds = get_bounds(gameObject);
         start_pos = transform.position.x;
     }
    
-    private void Update() {
+    private void Update() 
+    {
         if (extraspeed) {
             speedup = parallaxCurve.Evaluate(MusicSystem.GetCurrentBeat() % quant);
         } else {
@@ -39,7 +44,8 @@ public class Parallax : MonoBehaviour
         }
     }
 
-    private static Bounds get_bounds(GameObject game_object) {
+    private static Bounds get_bounds(GameObject game_object)
+    {
         Bounds bounds = new  Bounds(Vector3.zero,Vector3.zero);
         
         Renderer render = game_object.GetComponent<Renderer>();

@@ -1,7 +1,9 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using Reactional.Core;
 using Reactional.Experimental;
+using Unity.VisualScripting;
 using UnityEngine;
 /// <summary>
 /// This Script is used to subscribe on the events of instruments analysed with deep analysis
@@ -29,7 +31,25 @@ public class Reactional_DeepAnalysis_EventDispatcher : MonoBehaviour
     public static event Action<float, bass> OnBassNoteHit; // Event for when a bass note is hit
     public static event Action<float, drums> OnDrumNoteHit; // Event for when a drum note is hit
 
-   
+
+    private void Start() => StartCoroutine(SelectDataAsset());
+    private IEnumerator SelectDataAsset()
+    {
+        while (!Reactional.Playback.Playlist.IsPlaying)
+        {
+            yield return new WaitForNextFrameUnit();
+        }
+        var track_name = Reactional.Playback.Playlist.GetCurrentTrackInfo().trackHash;
+        foreach (var data_asset in offlineMusicDataAssetsList) 
+        {
+            if (data_asset.hash == track_name)
+            {
+                offlineMusicDataAsset = data_asset;
+                break;
+            }
+        }
+    }
+
     private void Update()
     {
         FindVocalNoteHit();
