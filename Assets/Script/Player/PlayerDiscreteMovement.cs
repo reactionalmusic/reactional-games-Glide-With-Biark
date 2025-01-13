@@ -128,7 +128,7 @@ public class PlayerDiscreteMovement : MonoBehaviour
 
     private void ExecuteJump()
     {
-        Reactional.Playback.Theme.TriggerStinger("positive, small", 0f);
+        //Reactional.Playback.Theme.TriggerStinger("positive, small", 0f);
         _endedJumpEarly = false;
         _timeJumpWasPressed = 0;
         _bufferedJumpUsable = false;
