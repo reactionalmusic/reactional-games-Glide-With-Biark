@@ -47,12 +47,10 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
             yield return new WaitForNextFrameUnit();
         }
         var track_name = Reactional.Playback.Playlist.GetCurrentTrackInfo().trackHash;
-        //print("trackName:" + track_name);
         foreach (var data_asset in offlineMusicDataAssetList) 
         {
             if (data_asset.hash == track_name)
             {
-                //print("data_asset name:" + data_asset.name);
                 offlineMusicDataAsset = data_asset;
                 break;
             }
