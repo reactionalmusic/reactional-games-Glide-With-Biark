@@ -4,27 +4,29 @@ using UnityEngine;
 using Reactional.Core;
 using Reactional.Experimental;
 using Unity.VisualScripting;
+using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
+
 /// <summary>
-/// TODO for joel to describe this 
+/// Using Reactional Deep Analysis to instantiate and place objects at beats
+/// specified by the respective instruments. The script also utilizes the beat to
+/// move the objects accordingly.
 /// </summary>
-public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
+
+public class ReactionalDeepAnalysisProceduralMapGenerator : MonoBehaviour
 {
     // Public variables for prefabs
-    public GameObject VocalPrefab;
-    public GameObject BasPrefab;
-    public GameObject DrumPrefab;
-    public GameObject DrumDangerPrefab;
+    public GameObject vocalPrefab;
+    public GameObject bassPrefab;
+    public GameObject drumPrefab;
+    public GameObject drumDangerPrefab;
 
     // Lists to track positions and objects spawned
-    private List<float> accumulatedPositions = new List<float>();
-    public List<GameObject> accumulatedObjects = new List<GameObject>();
-    private List<int> accumulatedEntries = new List<int>();
+    private readonly List<float> _accumulatedPositions = new List<float>();
+    private readonly List<GameObject> _accumulatedObjects = new List<GameObject>();
 
-    private List<float> accumulatedBassPositions = new List<float>();
-    private List<GameObject> accumulatedBassObjects = new List<GameObject>();
-    private List<int> accumulatedBassEntries = new List<int>();
-    private int accumulatedEntry = 0;
+    private readonly List<float> _accumulatedBassPositions = new List<float>();
+    private readonly List<GameObject> _accumulatedBassObjects = new List<GameObject>();
     
     //Object spawn range
     [SerializeField] private float spawnTopY = 5f; // Range for random height when spawning objects
@@ -35,10 +37,8 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
 
     // Constants for positioning multipliers
     private const float XOffsetMultiplier = 5f; // Controls spacing on X-axis
-    private const float otherXOffset = -5f; // other offsets if needed
+    private const float OtherXOffset = -2f; // Other offsets if needed
     private const float YPitchAdjustment = 2f; // Adjustment for Y position based on pitch
-
-    //TODO add delegates here for all instrument events?
 
     public IEnumerator SpawnSongs()
     {
@@ -46,25 +46,20 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
         {
             yield return new WaitForNextFrameUnit();
         }
-        var track_name = Reactional.Playback.Playlist.GetCurrentTrackInfo().trackHash;
-        print("trackName:" + track_name);
-        foreach (var data_asset in offlineMusicDataAssetList) 
+        var trackName = Reactional.Playback.Playlist.GetCurrentTrackInfo().trackHash;
+        foreach (var dataAsset in offlineMusicDataAssetList) 
         {
-            if (data_asset.hash == track_name)
+            if (dataAsset.hash == trackName)
             {
-                offlineMusicDataAsset = data_asset;
+                offlineMusicDataAsset = dataAsset;
                 break;
             }
         }
-
-        // TODO add the Delegates here and subscribe on them , but break out the function as separate functions that you call here. 
-
+        
         SpawnVocals();
         //SpawnBass();
-        SpawnDrums();   //Only drums work currently
+        SpawnDrums();
     }
-
-    //TODO add event for subscribe and unsubscribe , 2 methods. 
 
     void Update()
     {
@@ -80,16 +75,16 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
     /// </summary>
     void SpawnVocals()
     {
-        float prev_offset = 0;
-        float prev_pitch = 0;
-        float prev_end = 0;
+        float prevOffset = 0;
+        float prevPitch = 0;
+        float prevEnd = 0;
 
         foreach (var vocal in offlineMusicDataAsset.vocals)
         {
             float offset = Mathf.Round(vocal.offset * 8) / 8f; // Round offset to nearest 0.25
 
             // Skipping logic based on previous vocal's pitch and offset
-            if (Mathf.Approximately(Mathf.Round(vocal.note) % 12, prev_pitch % 12) && vocal.offset_seconds + 0.3f < prev_end)
+            if (Mathf.Approximately(Mathf.Round(vocal.note) % 12, prevPitch % 12) && vocal.offset_seconds + 0.3f < prevEnd)
             {
                 continue;
             }
@@ -99,13 +94,13 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
                 continue; // Skip very short vocals
             }
 
-            if (offset <= prev_offset + 0.75f || Mathf.Approximately(offset, prev_offset))
+            if (offset <= prevOffset + 0.75f || Mathf.Approximately(offset, prevOffset))
             {
                 continue; // Skip if the offset is too close to the previous one
             }
 
-            prev_offset = offset;
-            VocalPrefab.GetComponent<Reactional_DeepAnalysis_PitchData>().pitch = vocal.note; 
+            prevOffset = offset;
+            vocalPrefab.GetComponent<Reactional_DeepAnalysis_PitchData>().pitch = vocal.note; 
 
             InstantiateVocalPrefab(offset, vocal);
         }
@@ -115,10 +110,9 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
     {
         // Using constants for the position calculations
         Vector3 position = new Vector3(offset * XOffsetMultiplier, GetYPosition(vocal.note), 0);
-        var obj = Instantiate(VocalPrefab, position, Quaternion.identity, gameObject.transform); // Spawn the vocal prefab
-        accumulatedObjects.Add(obj); // Track the spawned object
-        accumulatedPositions.Add(position.x); // Track its X position
-        accumulatedEntries.Add(accumulatedEntry); // Track its entry count
+        var obj = Instantiate(vocalPrefab, position, Quaternion.identity, gameObject.transform); // Spawn the vocal prefab
+        _accumulatedObjects.Add(obj); // Track the spawned object
+        _accumulatedPositions.Add(position.x); // Track its X position
     }
 
     /// <summary>
@@ -126,16 +120,16 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
     /// </summary>
     void SpawnBass()
     {
-        float prev_offset = 0;
-        float prev_pitch = 0;
-        float prev_end = 0;
+        float prevOffset = 0;
+        float prevPitch = 0;
+        float prevEnd = 0;
 
         foreach (var bass in offlineMusicDataAsset.bass)
         {
             float offset = Mathf.Round(bass.offset * 4) / 4f; // Round offset to nearest 0.25
 
             // Skipping logic based on previous bass object's pitch and offset
-            if (Mathf.Approximately(Mathf.Round(bass.note) % 12, prev_pitch % 12) && bass.offset_seconds + 0.3f < prev_end)
+            if (Mathf.Approximately(Mathf.Round(bass.note) % 12, prevPitch % 12) && bass.offset_seconds + 0.3f < prevEnd)
             {
                 continue;
             }
@@ -145,15 +139,15 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
                 continue; // Skip very short bass objects
             }
 
-            if (offset <= prev_offset + 0.25f || Mathf.Approximately(offset, prev_offset))
+            if (offset <= prevOffset + 0.25f || Mathf.Approximately(offset, prevOffset))
             {
                 continue; // Skip if the offset is too close to the previous one
             }
 
-            prev_offset = offset;
-            prev_pitch = Mathf.Round(bass.note);
-            prev_end = bass.offset_seconds + bass.duration_seconds;
-            BasPrefab.GetComponent<Reactional_DeepAnalysis_PitchData>().pitch = bass.note;
+            prevOffset = offset;
+            prevPitch = Mathf.Round(bass.note);
+            prevEnd = bass.offset_seconds + bass.duration_seconds;
+            bassPrefab.GetComponent<Reactional_DeepAnalysis_PitchData>().pitch = bass.note;
 
             InstantiateBassPrefab(offset, bass);
         }
@@ -163,10 +157,9 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
     {
         // Position calculation with constants for better clarity
         Vector3 position = new Vector3(offset * XOffsetMultiplier, GetYPosition(bass.note), 0);
-        var obj = Instantiate(BasPrefab, position, Quaternion.identity, gameObject.transform); // Spawn the bass prefab
-        accumulatedBassObjects.Add(obj); // Track the spawned bass object
-        accumulatedBassPositions.Add(position.x); // Track its X position
-        accumulatedBassEntries.Add(accumulatedEntry); // Track its entry count 
+        var obj = Instantiate(bassPrefab, position, Quaternion.identity, gameObject.transform); // Spawn the bass prefab
+        _accumulatedBassObjects.Add(obj); // Track the spawned bass object
+        _accumulatedBassPositions.Add(position.x); // Track its X position
     }
 
     /// <summary>
@@ -174,19 +167,19 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
     /// </summary>
     void SpawnDrums()
     {
-        float prev_offset = 0;
+        float prevOffset = 0;
 
         foreach (var drums in offlineMusicDataAsset.drums)
         {
             float offset = Mathf.Round(drums.offset * 4) / 4f; // Round offset to nearest 0.25
 
-            if (offset <= prev_offset + 1.75f)
+            if (offset <= prevOffset + 1.75f)
             {
                 continue; // Skip if the offset is too close to the previous one
             }
 
-            prev_offset = offset;
-            DrumPrefab.GetComponent<Reactional_DeepAnalysis_PitchData>().pitch = 128; // Example pitch for drums (fixed value)
+            prevOffset = offset;
+            drumPrefab.GetComponent<Reactional_DeepAnalysis_PitchData>().pitch = 128; // Example pitch for drums (fixed value)
 
             InstantiateDrumPrefab(offset);
         }
@@ -196,22 +189,21 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
     {
         // Calculate position for drums using constants
         float randomY = Random.Range(spawnTopY , spawnBottomY ); // Random Y position
-        Vector3 position = new Vector3(offset * XOffsetMultiplier + otherXOffset, randomY, 0); // Use random Y for the drum
+        Vector3 position = new Vector3(offset * XOffsetMultiplier + OtherXOffset, randomY, 0); // Use random Y for the drum
         GameObject prefab;
         if (Random.value < 0.175f)
         {
-            prefab = DrumDangerPrefab;
+            prefab = drumDangerPrefab;
         }
         else
         {
-            prefab = DrumPrefab;
+            prefab = drumPrefab;
         }
         var obj = Instantiate(prefab, position, Quaternion.identity, gameObject.transform); // Spawn the drum prefab
-        accumulatedObjects.Add(obj); // Track the spawned object
-        accumulatedPositions.Add(position.x); // Track its X position
-        accumulatedEntries.Add(accumulatedEntry); // Track its entry count
+        _accumulatedObjects.Add(obj); // Track the spawned object
+        _accumulatedPositions.Add(position.x); // Track its X position
         
-        obj.SetActive(false);   //Sets disabled until near player
+        obj.SetActive(false);   //Sets object disabled until near player
     }
 
     // Moves all the spawned chunks based on the current beat (only moves on the X-axis for now)
@@ -220,43 +212,42 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
         float beatPosition = ReactionalEngine.Instance.CurrentBeat * XOffsetMultiplier;
 
         // Cleanup destroyed objects from accumulatedObjects
-        for (int i = accumulatedObjects.Count - 1; i >= 0; i--)
+        for (int i = _accumulatedObjects.Count - 1; i >= 0; i--)
         {
-            if (!accumulatedObjects[i])
+            if (!_accumulatedObjects[i])
             {
-                accumulatedObjects.RemoveAt(i);
-                accumulatedPositions.RemoveAt(i);
-                accumulatedEntries.RemoveAt(i);
+                _accumulatedObjects.RemoveAt(i);
+                _accumulatedPositions.RemoveAt(i);
                 continue; // Skip this iteration after removal
             }
 
-            float position = accumulatedPositions[i];
-            accumulatedObjects[i].transform.position = new Vector3(position - beatPosition,
-                accumulatedObjects[i].transform.position.y, accumulatedObjects[i].transform.position.z);
+            float position = _accumulatedPositions[i];
+            _accumulatedObjects[i].transform.position = new Vector3(position - beatPosition,
+                _accumulatedObjects[i].transform.position.y, _accumulatedObjects[i].transform.position.z);
 
-            if (accumulatedObjects[i].transform.position.x < 15f)
+            if (_accumulatedObjects[i].transform.position.x < 15f)
             {
-                accumulatedObjects[i].SetActive(true);
+                _accumulatedObjects[i].SetActive(true);
             }
         }
 
         // Cleanup for accumulatedBassObjects
-        for (int i = accumulatedBassObjects.Count - 1; i >= 0; i--)
+        for (int i = _accumulatedBassObjects.Count - 1; i >= 0; i--)
         {
-            if (!accumulatedBassObjects[i])
+            if (!_accumulatedBassObjects[i])
             {
-                accumulatedBassObjects.RemoveAt(i);
-                accumulatedBassPositions.RemoveAt(i);
+                _accumulatedBassObjects.RemoveAt(i);
+                _accumulatedBassPositions.RemoveAt(i);
                 continue;
             }
 
-            float position = accumulatedBassPositions[i];
-            accumulatedBassObjects[i].transform.position = new Vector3(position - beatPosition,
-                accumulatedBassObjects[i].transform.position.y, accumulatedBassObjects[i].transform.position.z);
+            float position = _accumulatedBassPositions[i];
+            _accumulatedBassObjects[i].transform.position = new Vector3(position - beatPosition,
+                _accumulatedBassObjects[i].transform.position.y, _accumulatedBassObjects[i].transform.position.z);
             
-            if (accumulatedObjects[i].transform.position.x < 15f)
+            if (_accumulatedObjects[i].transform.position.x < 15f)
             {
-                accumulatedObjects[i].SetActive(true);
+                _accumulatedObjects[i].SetActive(true);
             }
         }
     }

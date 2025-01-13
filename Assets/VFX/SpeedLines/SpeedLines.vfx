@@ -178,8 +178,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 138
     y: -493
-    width: 1017
-    height: 2334
+    width: 1016
+    height: 2310
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -213,8 +213,8 @@ MonoBehaviour:
   m_UIInfos: {fileID: 114340500867371532}
   m_CustomAttributes: []
   m_ParameterInfo:
-  - name: Radious
-    path: Radious
+  - name: Radius
+    path: Radius
     tooltip: 
     space: -1
     spaceable: 0
@@ -1135,12 +1135,12 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661614559}
-  m_ExposedName: Radious
+  m_ExposedName: Radius
   m_Exposed: 1
   m_Order: 0
   m_Category: 
@@ -1660,7 +1660,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614574}
   m_ExposedName: XScaleRange
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 2
   m_Category: 
   m_Min:
     m_Type:
@@ -1813,7 +1813,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614578}
   m_ExposedName: YScaleRange
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 1
   m_Category: 
   m_Min:
     m_Type:
@@ -3653,7 +3653,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614715}
   m_ExposedName: SpawnRate
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 3
   m_Category: 
   m_Min:
     m_Type:
@@ -3833,7 +3833,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614720}
   m_ExposedName: ColorGradient
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 4
   m_Category: 
   m_Min:
     m_Type:

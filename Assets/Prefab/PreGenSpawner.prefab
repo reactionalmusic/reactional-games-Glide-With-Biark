@@ -44,10 +44,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9371ced6b71bfa449c28c2401e1e97d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VocalPrefab: {fileID: 6691017079308188631, guid: e7a7f0d85c3f0eb41843e86ab9f52924, type: 3}
-  BasPrefab: {fileID: 6691017079308188631, guid: e78d17e8ec75bac48bc7c2364ae51836, type: 3}
-  DrumPrefab: {fileID: 6499128413953368347, guid: dbba9f390706e5446bf11c4902256884, type: 3}
-  accumulatedObjects: []
+  vocalPrefab: {fileID: 6691017079308188631, guid: e7a7f0d85c3f0eb41843e86ab9f52924, type: 3}
+  bassPrefab: {fileID: 6691017079308188631, guid: e78d17e8ec75bac48bc7c2364ae51836, type: 3}
+  drumPrefab: {fileID: 6499128413953368347, guid: dbba9f390706e5446bf11c4902256884, type: 3}
+  drumDangerPrefab: {fileID: 6499128413953368347, guid: 2cad6a43cd604e94ab374e55d647cf13, type: 3}
   spawnTopY: 2
   spawnBottomY: -2
+  offlineMusicDataAssetList:
+  - {fileID: 11400000, guid: 8a4889d3c51330040894da9cdef35122, type: 2}
+  - {fileID: 11400000, guid: 04bfd50c6c2417944b7da101658a9cff, type: 2}
+  - {fileID: 11400000, guid: f881febef88b9b54f86bd6ea9bae2acc, type: 2}
+  - {fileID: 11400000, guid: c71f4adbb0353264c92cae30a5e72eb2, type: 2}
   offlineMusicDataAsset: {fileID: 11400000, guid: 8a4889d3c51330040894da9cdef35122, type: 2}

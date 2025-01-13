@@ -30,7 +30,7 @@ public class UIManager : MonoBehaviour
     bool isPaused = false;
     public PlayerController controller;
     [SerializeField] GameManager gameManager;
-    public Reactional_DeepAnalysis_ProceduralMapGenerator proceduralMapGenerator;
+    public ReactionalDeepAnalysisProceduralMapGenerator proceduralMapGenerator;
     
     void Start()
     {
@@ -44,21 +44,21 @@ public class UIManager : MonoBehaviour
     private void EnableController()
     {
         // Subscribe to the controller action
-        gameManager.controller.UI.Pause.Enable();
-        gameManager.controller.UI.Pause.performed += OnPause;
+        gameManager.Controller.UI.Pause.Enable();
+        gameManager.Controller.UI.Pause.performed += OnPause;
         
-        gameManager.controller.UI.Start.Enable();
-        gameManager.controller.UI.Start.performed += OnStart;
+        gameManager.Controller.UI.Start.Enable();
+        gameManager.Controller.UI.Start.performed += OnStart;
     }
 
     private void OnDisable()
     {
         // Unsubscribe from the controler action
-        gameManager.controller.UI.Pause.performed -= OnPause;
-        gameManager.controller.UI.Pause.Disable();
+        gameManager.Controller.UI.Pause.performed -= OnPause;
+        gameManager.Controller.UI.Pause.Disable();
         
-        gameManager.controller.UI.Start.performed -= OnStart;
-        gameManager.controller.UI.Start.Disable();
+        gameManager.Controller.UI.Start.performed -= OnStart;
+        gameManager.Controller.UI.Start.Disable();
     }
 
     //---------------------------------------- Callbacks -------------------------------

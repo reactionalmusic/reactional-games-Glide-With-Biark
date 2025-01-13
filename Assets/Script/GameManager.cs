@@ -3,19 +3,23 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Game Manager to manage game states and score accumulation.
+/// </summary>
+
 public class GameManager : MonoBehaviour
 { 
-    private UIManager uIManager;
-    public PlayerController controller;
+    private UIManager _uIManager;
+    public PlayerController Controller;
     public GameObject player;
-    private bool isGameOver = false;
+    private bool _isGameOver = false;
     
-    private int totalScore = 0;
+    public int totalScore = 0;
 
     private void Awake()
     {
-        controller = new PlayerController();
-        uIManager = FindObjectOfType<UIManager>();
+        Controller = new PlayerController();
+        _uIManager = FindFirstObjectByType<UIManager>();
     }
 
     public void StartGame()
@@ -34,52 +38,43 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         Time.timeScale = 0;
-        isGameOver = true;
+        _isGameOver = true;
         Debug.Log("Game Over");
     }
     
     public void ReloadGame(InputAction.CallbackContext context)
     {
-        if(isGameOver)
-        {
-            Debug.Log("Reload Game");
-            SceneManager.LoadScene(0);
-            
-            // Set Player Visible Again
-            gameObject.SetActive(true);
-            StartCoroutine(PlayerOnDeath.Instance.SpawnPlayer(true, false));
+        if (!_isGameOver) return;
         
-            //TODO add gameover check here so it only works when game is over
-        }
+        SceneManager.LoadScene(0);
+            
+        // Set Player Visible Again
+        gameObject.SetActive(true);
+        StartCoroutine(PlayerOnDeath.Instance.SpawnPlayer(true, false));
+        
+        //TODO add gameover check here so it only works when game is over
     }
 
     public void AddScore(int score)
     {
         totalScore = Mathf.Max(0, totalScore + score);
-        uIManager.AddScore(totalScore);
+        _uIManager.AddScore(totalScore);
     }
     
-    //--------------- Buttonklicks------------------
+    //--------------- ButtonClicks------------------
     
     private void OnEnable()
     {
         // Subscribe to the Fly action
-        controller.UI.Submit.Enable();
-        controller.UI.Submit.performed += ReloadGame;
+        Controller.UI.Submit.Enable();
+        Controller.UI.Submit.performed += ReloadGame;
     }
 
     private void OnDisable()
     {
         // Unsubscribe from the Fly action
-        controller.UI.Submit.performed -= ReloadGame;
-        controller.UI.Submit.Disable();
-    }
-    
-    // --------------- Ienumerators -------------
-
-    private IEnumerator WaitForSeconds(float seconds)
-    {
-        yield return new WaitForSeconds(seconds);
+        Controller.UI.Submit.performed -= ReloadGame;
+        Controller.UI.Submit.Disable();
     }
     
 }
