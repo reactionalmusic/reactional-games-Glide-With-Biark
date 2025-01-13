@@ -22990,6 +22990,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PostProcess - ForestScene
       objectReference: {fileID: 0}
+    - target: {fileID: 1622015176290592475, guid: e78144a8eefcaa9419b45a14a2bfc6c7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5583878237009013972, guid: e78144a8eefcaa9419b45a14a2bfc6c7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -23430,7 +23434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2108191429290876692, guid: e167bd4367629a54ab9a67e92b92e951, type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[0].m_Value
-      value: 8
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2108191429290876692, guid: e167bd4367629a54ab9a67e92b92e951, type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[1].m_Value
@@ -23625,7 +23629,7 @@ PrefabInstance:
     - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
       propertyPath: VocalPrefab
       value: 
-      objectReference: {fileID: 5070907538526596026, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
+      objectReference: {fileID: 6691017079308188631, guid: e7a7f0d85c3f0eb41843e86ab9f52924, type: 3}
     - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
       propertyPath: DrumDangerPrefab
       value: 

@@ -35,7 +35,7 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
 
     // Constants for positioning multipliers
     private const float XOffsetMultiplier = 5f; // Controls spacing on X-axis
-    private const float otherXOffset = -2f; // other offsets if needed
+    private const float otherXOffset = -5f; // other offsets if needed
     private const float YPitchAdjustment = 2f; // Adjustment for Y position based on pitch
 
     //TODO add delegates here for all instrument events?
