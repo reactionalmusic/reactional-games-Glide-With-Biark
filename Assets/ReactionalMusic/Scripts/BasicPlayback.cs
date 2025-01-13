@@ -53,8 +53,7 @@ namespace Reactional.Core
                 Reactional.Playback.Theme.Play();
             if (_autoplayTrack)
                 Reactional.Playback.Playlist.Play();
-                 
-            //Debug.Log("Track playing is: " +Reactional.Playback.Playlist.GetCurrentTrackInfo().trackName);
+            
                 
             // Important to call this; otherwise there will be a samplerate mismatch; time will drift and music sound bad
             Reactional.Setup.InitAudio();           

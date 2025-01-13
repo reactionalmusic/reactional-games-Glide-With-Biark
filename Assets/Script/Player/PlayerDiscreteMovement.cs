@@ -46,6 +46,7 @@ public class PlayerDiscreteMovement : MonoBehaviour
     
     private void OnJump(InputAction.CallbackContext context)
     {
+        
         _jumpToConsume = true;
         _timeJumpWasPressed = _time;
         
@@ -127,6 +128,7 @@ public class PlayerDiscreteMovement : MonoBehaviour
 
     private void ExecuteJump()
     {
+        Reactional.Playback.Theme.TriggerStinger("positive, small", 0f);
         _endedJumpEarly = false;
         _timeJumpWasPressed = 0;
         _bufferedJumpUsable = false;

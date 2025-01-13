@@ -15,7 +15,7 @@ public class PlayerOnDeath : MonoBehaviour
     [SerializeField] private Transform respawnPoint;
     
     private int _dissolveAmount;
-    private int _verticalDissolveAmount;
+ 
 
     private void Awake()
     {
@@ -30,13 +30,13 @@ public class PlayerOnDeath : MonoBehaviour
 
     private void Start()
     {
-        _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
         _material = _spriteRenderer.material;
         if(!_material) { Debug.LogWarning("Material null in player");}
         
         // Set the disolve amounts to the right values
-        _dissolveAmount = Shader.PropertyToID("_Disolve");
-        _verticalDissolveAmount = Shader.PropertyToID("_VerticalDisolve");
+        _dissolveAmount = Shader.PropertyToID("_DistortionStrength");
+       
     }
 
     // TODO check why this value behaves wierd
@@ -47,14 +47,12 @@ public class PlayerOnDeath : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
 
-            float lerpedDissolve = Mathf.Lerp(1f, 0f, (elapsedTime / _dissolveTime));
-            float lerpedVerticalDissolve = Mathf.Lerp(1.1f, 0f, (elapsedTime / _dissolveTime));
+            float lerpedDissolve = Mathf.Lerp(0.015f, 1.3f, (elapsedTime / _dissolveTime));
+       
 
             if (useDissolve)
                 _material.SetFloat(_dissolveAmount, lerpedDissolve);
 
-            if (useVerticalDisolve)
-                _material.SetFloat(_verticalDissolveAmount, lerpedVerticalDissolve);
             yield return null;
         }
     }
@@ -62,8 +60,11 @@ public class PlayerOnDeath : MonoBehaviour
     public IEnumerator SpawnPlayer(bool useDissolve, bool useVerticalDisolve)
     {
         //Spawn at respawnPoint
-        if(respawnPoint)
-            gameObject.transform.position = respawnPoint.position;
+        if (respawnPoint)
+        {
+            Reactional.Playback.Theme.TriggerStinger("positive, medium", 0f);
+            transform.parent.position = respawnPoint.position;
+        }
         else
         {
             Debug.LogWarning("Respawn point is null");
@@ -74,16 +75,15 @@ public class PlayerOnDeath : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
 
-            float lerpedDissolve = Mathf.Lerp(0f, 1f, (elapsedTime / _dissolveTime));
-            float lerpedVerticalDissolve = Mathf.Lerp(0f, 1.1f,(elapsedTime / _dissolveTime));
+            float lerpedDissolve = Mathf.Lerp(1.3f, 0.015f, (elapsedTime / _dissolveTime));
+     
 
-            if(!_material) { yield return null; }
+            //if(!_material) { yield return null; }
             
             if (useDissolve)
                 _material.SetFloat(_dissolveAmount, lerpedDissolve);
 
-            if (useVerticalDisolve)
-                _material.SetFloat(_verticalDissolveAmount, lerpedVerticalDissolve);
+            
             yield return null;
         }
     }

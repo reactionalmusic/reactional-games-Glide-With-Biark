@@ -34,7 +34,7 @@ public class PlayerAnimationController : MonoBehaviour
         {
             // Trigger the Spin animation
             animator.SetTrigger(spin_trigger);
-            RandomizeReactionalStinger();
+            //RandomizeReactionalStinger();                 Timing is off
     
             // Reset the timer and random time
             SetRandomTime();
