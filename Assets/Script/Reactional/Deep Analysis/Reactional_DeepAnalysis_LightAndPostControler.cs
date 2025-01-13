@@ -10,9 +10,10 @@ using UnityEngine.Rendering.Universal;
 /// <summary>
 /// Subscribing to the Reactional Deep Analysis Event Dispatcher Instruments
 /// And taking a Global light and alter the intensity value from the set editor value to a new value.
-/// The value lerps from startvalue to MAX_INTENSITY 
+/// The value lerps from startvalue to MAX_INTENSITY
+/// Also Alters the Chromatic Abboration value on the Post Process.
 /// </summary>
-public class Reactional_DeepAnalysis_GlobalLightControler : MonoBehaviour
+public class Reactional_DeepAnalysis_LightAndPostControler : MonoBehaviour
 {
     [Header("Global Light")]
     
@@ -39,7 +40,6 @@ public class Reactional_DeepAnalysis_GlobalLightControler : MonoBehaviour
 
     private void OnEnable()
     {
-        // Subscriba på eventen
         //Reactional_DeepAnalysis_EventDispatcher.OnVocalNoteHit += HandleVocalNoteHit;
         //Reactional_DeepAnalysis_EventDispatcher.OnBassNoteHit += PostProcessBasEffect;
         Reactional_DeepAnalysis_EventDispatcher.OnDrumNoteHit += PostProcessDrumEffect;
@@ -47,7 +47,6 @@ public class Reactional_DeepAnalysis_GlobalLightControler : MonoBehaviour
 
     private void OnDisable()
     {
-        // Unsubscriba från eventen för att undvika memory leaks
         //Reactional_DeepAnalysis_EventDispatcher.OnVocalNoteHit -= HandleVocalNoteHit;
         // Reactional_DeepAnalysis_EventDispatcher.OnBassNoteHit -= PostProcessBasEffect;
         Reactional_DeepAnalysis_EventDispatcher.OnDrumNoteHit -= PostProcessDrumEffect;
@@ -64,7 +63,6 @@ public class Reactional_DeepAnalysis_GlobalLightControler : MonoBehaviour
     {
         var duration = 0.5f;
         var halfDuration = duration / 2.0f;
-        //float maxIntensity = 5;
         var elapsedTime = 0f;
 
         //Debug.Log("Start Value Intensity " +StartIntensity + "and GL intesity " + globalLight.intensity);
