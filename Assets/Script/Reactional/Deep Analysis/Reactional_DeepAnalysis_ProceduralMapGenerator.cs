@@ -30,7 +30,9 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
     [SerializeField] private float spawnTopY = 5f; // Range for random height when spawning objects
     [SerializeField] private float spawnBottomY = -2f; // Range for random height when spawning objects
     
-    [SerializeField] private List<OfflineMusicDataAsset> offlineMusicDataAssetList;
+    
+    //OfflineMusicDataAsset
+    [SerializeField] DeepAnalysisAssetList offlineMusicDataAssetList;
     [SerializeField] private OfflineMusicDataAsset offlineMusicDataAsset;
 
     // Constants for positioning multipliers
@@ -47,7 +49,7 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
             yield return new WaitForNextFrameUnit();
         }
         var track_name = Reactional.Playback.Playlist.GetCurrentTrackInfo().trackHash;
-        foreach (var data_asset in offlineMusicDataAssetList) 
+        foreach (var data_asset in offlineMusicDataAssetList.songs) 
         {
             if (data_asset.hash == track_name)
             {

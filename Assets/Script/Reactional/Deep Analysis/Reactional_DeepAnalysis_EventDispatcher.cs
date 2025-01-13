@@ -18,8 +18,9 @@ public class Reactional_DeepAnalysis_EventDispatcher : MonoBehaviour
 {
     
     [Header("Reactional Data Asset")] 
-    public OfflineMusicDataAsset offlineMusicDataAsset;
-    public List<OfflineMusicDataAsset> offlineMusicDataAssetsList ;
+    [SerializeField] private DeepAnalysisAssetList offlineMusicDataAssetList;               // Slot Scriptable object with Data Asset here
+    [SerializeField] private OfflineMusicDataAsset offlineMusicDataAsset;
+   
 
     // Index for Calculating where we are in Real Time Beat Matching for Instruments
     private int _currentVocalIndex;
@@ -40,7 +41,7 @@ public class Reactional_DeepAnalysis_EventDispatcher : MonoBehaviour
             yield return new WaitForNextFrameUnit();
         }
         var track_name = Reactional.Playback.Playlist.GetCurrentTrackInfo().trackHash;
-        foreach (var data_asset in offlineMusicDataAssetsList) 
+        foreach (var data_asset in offlineMusicDataAssetList.songs) 
         {
             if (data_asset.hash == track_name)
             {
