@@ -9,8 +9,7 @@ public class PickupObject : MonoBehaviour
    
     private void OnDestroy()
     {
-        Debug.Log("I am now self-destructing ...");
-           
+        //Debug.Log("I am now self-destructing ...");
     }
 
     private void OnTriggerEnter2D(Collider2D other)
