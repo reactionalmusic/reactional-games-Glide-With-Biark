@@ -47,11 +47,12 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
             yield return new WaitForNextFrameUnit();
         }
         var track_name = Reactional.Playback.Playlist.GetCurrentTrackInfo().trackHash;
-        print("trackName:" + track_name);
+        //print("trackName:" + track_name);
         foreach (var data_asset in offlineMusicDataAssetList) 
         {
             if (data_asset.hash == track_name)
             {
+                //print("data_asset name:" + data_asset.name);
                 offlineMusicDataAsset = data_asset;
                 break;
             }
@@ -89,20 +90,20 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
             float offset = Mathf.Round(vocal.offset * 8) / 8f; // Round offset to nearest 0.25
 
             // Skipping logic based on previous vocal's pitch and offset
-            if (Mathf.Approximately(Mathf.Round(vocal.note) % 12, prev_pitch % 12) && vocal.offset_seconds + 0.3f < prev_end)
-            {
-                continue;
-            }
+            //if (Mathf.Approximately(Mathf.Round(vocal.note) % 12, prev_pitch % 12) && vocal.offset_seconds + 0.3f < prev_end)
+            //{
+            //    continue;
+            //}
 
-            if ((offset % 1 != 0f || !Mathf.Approximately(offset % 1, 0.5f)) && vocal.duration_seconds < 0.1f)
-            {
-                continue; // Skip very short vocals
-            }
+            //if ((offset % 1 != 0f || !Mathf.Approximately(offset % 1, 0.5f)) && vocal.duration_seconds < 0.1f)
+            //{
+            //    continue; // Skip very short vocals
+            //}
 
-            if (offset <= prev_offset + 0.75f || Mathf.Approximately(offset, prev_offset))
-            {
-                continue; // Skip if the offset is too close to the previous one
-            }
+            //if (offset <= prev_offset + 0.75f || Mathf.Approximately(offset, prev_offset))
+            //{
+            //    continue; // Skip if the offset is too close to the previous one
+            //}
 
             prev_offset = offset;
             VocalPrefab.GetComponent<Reactional_DeepAnalysis_PitchData>().pitch = vocal.note; 

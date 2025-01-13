@@ -1,4 +1,3 @@
-#if UNITY_EDITOR
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -11,7 +10,7 @@ namespace Reactional.Experimental
 {
     public static class GenerateAsset
     {
-
+#if UNITY_EDITOR
         static MusicData GetMusicData(TrackInfo ti)
         {
            string trackJson = AssetHelper.ExportAnalysisData(Application.streamingAssetsPath + "/Reactional/" + ti.bundleID + "/" + ti.trackHash);
@@ -297,9 +296,7 @@ namespace Reactional.Experimental
                     {
                         foreach (var t in p.tracks)
                         {
-#if UNITY_EDITOR
                             Debug.Log("Creating asset for: " + t.trackHash);
-#endif
                             Single(t);
                         }
                     }
@@ -372,5 +369,4 @@ namespace Reactional.Experimental
             public string Label { get; set; }
         }
     }
-
 }
