@@ -26,16 +26,20 @@ public class Reactional_DeepAnalysis_LightAndPostControler : MonoBehaviour
     [SerializeField] private Volume postprocess;
     [SerializeField] private float MIN_CHROMATICABBERATION = 0f;
     [SerializeField] private float MAX_CHROMATICABBERATION = 1f;
+    [SerializeField] private float scoreActivationTreshhold = 5f;
     
     private Bloom bloom;
     private ChromaticAberration chromaticAberration;
+    private GameManager _gameManager;
 
 
     private void Start()
     {
+        _gameManager = FindObjectOfType<GameManager>();
         postprocess.profile.TryGet(out bloom);
         postprocess.profile.TryGet(out chromaticAberration);
         chromaticAberration.intensity.overrideState = true;
+        chromaticAberration.intensity.value = 0f;
     }
 
     private void OnEnable()
@@ -71,9 +75,11 @@ public class Reactional_DeepAnalysis_LightAndPostControler : MonoBehaviour
         while (elapsedTime <= halfDuration)
         {
             globalLight.intensity = Mathf.Lerp(StartIntensity, MAX_GLOBALLIGHT_INTENSITY, elapsedTime / halfDuration);
-
-            chromaticAberration.intensity.value = Mathf.Lerp(MAX_CHROMATICABBERATION, MIN_CHROMATICABBERATION,
-                elapsedTime / halfDuration);
+            if (_gameManager.totalScore >= scoreActivationTreshhold)
+            {  Debug.Log("ActivateChrommaticAberration");
+                chromaticAberration.intensity.value = Mathf.Lerp(MAX_CHROMATICABBERATION, MIN_CHROMATICABBERATION,
+                    elapsedTime / halfDuration);
+            }
 
 
             elapsedTime += Time.deltaTime;
@@ -86,8 +92,12 @@ public class Reactional_DeepAnalysis_LightAndPostControler : MonoBehaviour
         {
             globalLight.intensity = Mathf.Lerp(MAX_GLOBALLIGHT_INTENSITY, MIN_GLOBALLIGHT_INTENSITY,
                 elapsedTime / halfDuration);
-            chromaticAberration.intensity.value = Mathf.Lerp(MIN_CHROMATICABBERATION, MAX_CHROMATICABBERATION,
-                elapsedTime / halfDuration);
+
+            if (_gameManager.totalScore >= scoreActivationTreshhold)
+            {
+                chromaticAberration.intensity.value = Mathf.Lerp(MIN_CHROMATICABBERATION, MAX_CHROMATICABBERATION,
+                    elapsedTime / halfDuration);
+            }
 
             elapsedTime += Time.deltaTime;
             yield return null;
