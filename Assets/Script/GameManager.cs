@@ -1,4 +1,5 @@
 using System.Collections;
+using Reactional.Core;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -12,7 +13,6 @@ public class GameManager : MonoBehaviour
     private UIManager _uIManager;
     public PlayerController Controller;
     public GameObject player;
-    private bool _isGameOver = false;
     
     public int totalScore = 0;
 
@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     {
         Controller = new PlayerController();
         _uIManager = FindFirstObjectByType<UIManager>();
+
     }
 
     public void StartGame()
@@ -28,6 +29,8 @@ public class GameManager : MonoBehaviour
         player.SetActive(true);
         
         Reactional.Playback.Playlist.Random();
+        
+        ReactionalEngine.Instance.onAudioEnd += OnAudioEnd;
     }
 
     public void PauseGame(bool isPaused)
@@ -35,16 +38,13 @@ public class GameManager : MonoBehaviour
         player.SetActive(!isPaused);
     }
 
-    public void GameOver()
+    void OnAudioEnd()
     {
-        Time.timeScale = 0;
-        _isGameOver = true;
-        Debug.Log("Game Over");
+        SceneManager.LoadScene(0);
     }
     
     public void ReloadGame(InputAction.CallbackContext context)
     {
-        if (!_isGameOver) return;
         
         SceneManager.LoadScene(0);
             
@@ -52,7 +52,6 @@ public class GameManager : MonoBehaviour
         gameObject.SetActive(true);
         StartCoroutine(PlayerOnDeath.Instance.SpawnPlayer(true, false));
         
-        //TODO add gameover check here so it only works when game is over
     }
 
     public void AddScore(int score)
