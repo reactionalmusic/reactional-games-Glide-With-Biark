@@ -26,6 +26,10 @@ public class UIManager : MonoBehaviour
     Button pauseQuitButton;
     VisualElement pauseContainer;
     
+    [Header("Misc")] 
+    private static AudioClip clickSound;
+    private static AudioSource audioSource;
+    
     bool isPaused = false;
     public PlayerController controller;
     [SerializeField] GameManager gameManager;
@@ -33,8 +37,11 @@ public class UIManager : MonoBehaviour
     
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+        clickSound = Resources.Load<AudioClip>("BiarkButtonclickSound");
+        audioSource.clip = clickSound;
         uiDoc = GetComponent<UIDocument>();
-        
+       
         SetupVisualElements();
         EnableController();
     }
@@ -110,10 +117,20 @@ public class UIManager : MonoBehaviour
     {
         startButton.UnregisterCallback<ClickEvent>(ClickStartButton);
         quitButton.UnregisterCallback<ClickEvent>(ClickQuitButton);
+        
+        
+        //remove?
+        pauseButton.UnregisterCallback<ClickEvent>(TogglePause);
+        
+        resumeButton.UnregisterCallback<ClickEvent>(TogglePause);
+        restartButton.UnregisterCallback<ClickEvent>(ClickRestartButton);
+        pauseQuitButton.UnregisterCallback<ClickEvent>(ClickQuitButton);
     }
 
     private void ClickStartButton(ClickEvent evt)
     {
+        audioSource.PlayOneShot(clickSound);
+        
         startupContainer.style.display = DisplayStyle.None;
         ingameContainer.style.display = DisplayStyle.Flex;
         FindFirstObjectByType<GameManager>().StartGame();
@@ -128,19 +145,25 @@ public class UIManager : MonoBehaviour
     
     
     //------------------------------------ Buttons ----------------------------
+
+   
     
     private static void ClickQuitButton(ClickEvent evt)
     {
+        audioSource.PlayOneShot(clickSound);
         Application.Quit();
     }
     
     private static void ClickRestartButton(ClickEvent evt)
     {
+        audioSource.PlayOneShot(clickSound);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     
     private void TogglePause(ClickEvent evt)
     {
+        
+        audioSource.PlayOneShot(clickSound);
         if (isPaused)
         {   
             //Unpause
@@ -170,6 +193,7 @@ public class UIManager : MonoBehaviour
     /// <param name="context"></param>
     private void OnPause(InputAction.CallbackContext context)
     {
+        audioSource.PlayOneShot(clickSound);
         TogglePause(null);
     }
     
@@ -179,6 +203,7 @@ public class UIManager : MonoBehaviour
     /// <param name="context"></param>
     private void OnStart(InputAction.CallbackContext context)
     {
+        audioSource.PlayOneShot(clickSound);
         startupContainer.style.display = DisplayStyle.None;
         ingameContainer.style.display = DisplayStyle.Flex;
         FindFirstObjectByType<GameManager>().StartGame();
