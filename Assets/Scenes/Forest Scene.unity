@@ -23069,10 +23069,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PostProcess - ForestScene
       objectReference: {fileID: 0}
-    - target: {fileID: 1622015176290592475, guid: e78144a8eefcaa9419b45a14a2bfc6c7, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5583878237009013972, guid: e78144a8eefcaa9419b45a14a2bfc6c7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -23305,18 +23301,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 963748414579438780, guid: 725a896aa59888245b3eed1af5e09ffa, type: 3}
-      propertyPath: m_Color.b
-      value: 0.53638804
-      objectReference: {fileID: 0}
-    - target: {fileID: 963748414579438780, guid: 725a896aa59888245b3eed1af5e09ffa, type: 3}
-      propertyPath: m_Color.g
-      value: 0.22985432
-      objectReference: {fileID: 0}
-    - target: {fileID: 963748414579438780, guid: 725a896aa59888245b3eed1af5e09ffa, type: 3}
-      propertyPath: m_Color.r
-      value: 0.16988029
-      objectReference: {fileID: 0}
     - target: {fileID: 4247415920208018986, guid: 725a896aa59888245b3eed1af5e09ffa, type: 3}
       propertyPath: m_Name
       value: Global Light 2D
@@ -23365,10 +23349,6 @@ PrefabInstance:
       propertyPath: postprocess
       value: 
       objectReference: {fileID: 643512639}
-    - target: {fileID: 9217475156401708472, guid: 725a896aa59888245b3eed1af5e09ffa, type: 3}
-      propertyPath: MAX_CHROMATICABBERATION
-      value: 0.65
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23425,30 +23405,6 @@ PrefabInstance:
     - target: {fileID: 6789429754546363934, guid: 79af50200adc2394d9ad7f89fdf8729a, type: 3}
       propertyPath: m_Name
       value: Reactional Event Dispatcher
-      objectReference: {fileID: 0}
-    - target: {fileID: 7113235919227354311, guid: 79af50200adc2394d9ad7f89fdf8729a, type: 3}
-      propertyPath: offlineMusicDataAssetList
-      value: 
-      objectReference: {fileID: 11400000, guid: a6b9a03614f482d4e8064697cae1852e, type: 2}
-    - target: {fileID: 7113235919227354311, guid: 79af50200adc2394d9ad7f89fdf8729a, type: 3}
-      propertyPath: offlineMusicDataAssetsList.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7113235919227354311, guid: 79af50200adc2394d9ad7f89fdf8729a, type: 3}
-      propertyPath: 'offlineMusicDataAssetsList.Array.data[0]'
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7113235919227354311, guid: 79af50200adc2394d9ad7f89fdf8729a, type: 3}
-      propertyPath: 'offlineMusicDataAssetsList.Array.data[1]'
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7113235919227354311, guid: 79af50200adc2394d9ad7f89fdf8729a, type: 3}
-      propertyPath: 'offlineMusicDataAssetsList.Array.data[2]'
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 7113235919227354311, guid: 79af50200adc2394d9ad7f89fdf8729a, type: 3}
-      propertyPath: 'offlineMusicDataAssetsList.Array.data[3]'
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23729,50 +23685,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1442745991}
     m_Modifications:
-    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
-      propertyPath: spawnTopY
-      value: 1.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
-      propertyPath: VocalPrefab
-      value: 
-      objectReference: {fileID: 5070907538526596026, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
-    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
-      propertyPath: DrumDangerPrefab
-      value: 
-      objectReference: {fileID: 6499128413953368347, guid: 2cad6a43cd604e94ab374e55d647cf13, type: 3}
-    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
-      propertyPath: offlineMusicDataAsset
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
-      propertyPath: offlineMusicDataAssetList
-      value: 
-      objectReference: {fileID: 11400000, guid: a6b9a03614f482d4e8064697cae1852e, type: 2}
-    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
-      propertyPath: offlineMusicDataAssetList.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
-      propertyPath: 'offlineMusicDataAssetList.Array.data[0]'
-      value: 
-      objectReference: {fileID: 11400000, guid: 6c97fcca629561f46a70b789be62b2dd, type: 2}
-    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
-      propertyPath: 'offlineMusicDataAssetList.Array.data[1]'
-      value: 
-      objectReference: {fileID: 11400000, guid: 710b2474ae234dc449ffbc682047bd88, type: 2}
-    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
-      propertyPath: 'offlineMusicDataAssetList.Array.data[2]'
-      value: 
-      objectReference: {fileID: 11400000, guid: c6308e0eeebb47d49b8e2982341cb907, type: 2}
-    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
-      propertyPath: 'offlineMusicDataAssetList.Array.data[3]'
-      value: 
-      objectReference: {fileID: 11400000, guid: e61e6ab5dda1cf44ca923ef0860f1f6e, type: 2}
-    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
-      propertyPath: 'offlineMusicDataAssetList.Array.data[4]'
-      value: 
-      objectReference: {fileID: 11400000, guid: 1b1ee9818cd7bcf49a2c2d2a96f712eb, type: 2}
     - target: {fileID: 4351450413426844312, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
