@@ -876,7 +876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3ad393a17b4e264b9d0d430f78bf089, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dissolveTime: 0.75
+  _dissolveTime: 0.35
   canDisolve: 1
   canDisolveVertical: 0
   respawnPoint: {fileID: 1627561177}
@@ -24075,9 +24075,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8937468650196414522, guid: bdc41e4709fc8f343b280e242f64d320, type: 3}
+      propertyPath: maxScore
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8937468650196414522, guid: bdc41e4709fc8f343b280e242f64d320, type: 3}
       propertyPath: speedLines
       value: 
       objectReference: {fileID: 1198050136}
+    - target: {fileID: 8937468650196414522, guid: bdc41e4709fc8f343b280e242f64d320, type: 3}
+      propertyPath: aberrationStart
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8937468650196414522, guid: bdc41e4709fc8f343b280e242f64d320, type: 3}
       propertyPath: postProcessVolume
       value: 
