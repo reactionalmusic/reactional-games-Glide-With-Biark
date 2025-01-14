@@ -745,6 +745,7 @@ GameObject:
   - component: {fileID: 104891014}
   - component: {fileID: 104891013}
   - component: {fileID: 104891012}
+  - component: {fileID: 104891015}
   m_Layer: 3
   m_Name: Visuals
   m_TagString: Untagged
@@ -840,7 +841,6 @@ MonoBehaviour:
   stingerNames:
   - negative, small
   - negative, medium
-  - negative, large
   quant: 0
 --- !u!95 &104891014
 Animator:
@@ -864,6 +864,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &104891015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104891010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3ad393a17b4e264b9d0d430f78bf089, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dissolveTime: 0.75
+  canDisolve: 1
+  canDisolveVertical: 0
+  respawnPoint: {fileID: 1627561177}
 --- !u!1 &105080077
 GameObject:
   m_ObjectHideFlags: 0
@@ -2703,7 +2719,6 @@ GameObject:
   m_Component:
   - component: {fileID: 287090674}
   - component: {fileID: 287090683}
-  - component: {fileID: 287090678}
   - component: {fileID: 287090675}
   - component: {fileID: 287090677}
   m_Layer: 3
@@ -2795,22 +2810,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0.08, y: -0.03}
   m_Size: {x: 1.4, y: 0.73}
   m_Direction: 1
---- !u!114 &287090678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 287090672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3ad393a17b4e264b9d0d430f78bf089, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _dissolveTime: 0.75
-  canDisolve: 1
-  canDisolveVertical: 0
-  respawnPoint: {fileID: 1627561177}
 --- !u!114 &287090683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10661,6 +10660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35df35f6c729d314997846ccd9632a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePenalty: -5
 --- !u!61 &1049636136
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15735,7 +15735,6 @@ Transform:
   - {fileID: 524725893}
   - {fileID: 961475376}
   - {fileID: 2018011553}
-  - {fileID: 2026244204}
   - {fileID: 1201219997}
   - {fileID: 740949512}
   m_Father: {fileID: 0}
@@ -16198,6 +16197,84 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be42e40d78146fe45a92b2de89e5edd5, type: 3}
+--- !u!1 &1472205700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1472205702}
+  - component: {fileID: 1472205703}
+  m_Layer: 7
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1472205702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472205700}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.731573, y: 0.8336526, z: -0.17955704}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1472205703
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472205700}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.5800228, y: -4.4085827}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 39.914013, y: 2.7286377}
+  m_EdgeRadius: 0
 --- !u!1 &1473624540
 GameObject:
   m_ObjectHideFlags: 0
@@ -17951,14 +18028,24 @@ MonoBehaviour:
   defaultSection: 
   bundles:
   - name: combined_deeptracks
-    path: D:/Projects/Reactional/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\combined_deeptracks
+    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\combined_deeptracks
     sections:
     - name: Test
       themes: []
       playlists:
       - name: Default
         tracks:
-        - name: track1
+        - name: 4
+          trackID: -1
+          trackHash: 4 reactionalMetadata
+          trackName: ' '
+          trackArtist: ' '
+          trackAlbum: ' '
+          trackGenre: ' '
+          trackCover: 7724af86d21bcb1bac38f32fecbb015be1ae06c5f66ea418c085dbdf2d575667
+          trackBPM: 0
+          bundleID: combined_deeptracks
+        - name: 0
           trackID: -1
           trackHash: 0 reactionalMetadata
           trackName: ' '
@@ -17966,9 +18053,9 @@ MonoBehaviour:
           trackAlbum: ' '
           trackGenre: ' '
           trackCover: c08721c1cb65b6ecc3333256f94e434e1cece6238755aa2b79408f5d49c85b99
-          trackBPM: 93.9385400000001
+          trackBPM: 0
           bundleID: combined_deeptracks
-        - name: track2
+        - name: 1
           trackID: -1
           trackHash: 1 reactionalMetadata
           trackName: ' '
@@ -17976,9 +18063,9 @@ MonoBehaviour:
           trackAlbum: ' '
           trackGenre: ' '
           trackCover: 303ece5949e50692e762e46f6c144e2a5fd8b98bc614a94397268051fe248cfe
-          trackBPM: 104.99678813278
+          trackBPM: 0
           bundleID: combined_deeptracks
-        - name: track3
+        - name: 2
           trackID: -1
           trackHash: 2 reactionalMetadata
           trackName: ' '
@@ -17986,9 +18073,9 @@ MonoBehaviour:
           trackAlbum: ' '
           trackGenre: ' '
           trackCover: 59d7ac0b06f3d2f2d7432aa192cbff3f384b85c9830eea86a9738c28a34940fb
-          trackBPM: 100.019634123711
+          trackBPM: 0
           bundleID: combined_deeptracks
-        - name: track4
+        - name: 3
           trackID: -1
           trackHash: 3 reactionalMetadata
           trackName: ' '
@@ -17996,17 +18083,17 @@ MonoBehaviour:
           trackAlbum: ' '
           trackGenre: ' '
           trackCover: cec27a8fea138ad0885d0f1d672657ce54d959b1577bd19bf3209903712a9953
-          trackBPM: 122.368439999999
+          trackBPM: 0
           bundleID: combined_deeptracks
   - name: GlideWithBiarkTheme
-    path: D:/Projects/Reactional/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\GlideWithBiarkTheme
+    path: D:/GitHub/reactional-games-Glide-With-Biark/Assets/StreamingAssets/Reactional\GlideWithBiarkTheme
     sections:
     - name: Section #1
       themes:
-      - name: Reactional_ScifiBoss copy
+      - name: Pete Frogs - Back in Action copy
         trackID: -1
-        trackHash: d592445baa37315bef581ca9e5af74d7ff8dda8dba2c43870e76ed774d602a23
-        trackName: Reactional_ScifiBoss copy
+        trackHash: 24352058e53b5a455307f9bdb914761f75a5af45568dd8fc8bd532bdf7de6d12
+        trackName: Pete Frogs - Back in Action copy
         trackArtist: 
         trackAlbum: 
         trackGenre: 
@@ -18015,27 +18102,7 @@ MonoBehaviour:
         bundleID: GlideWithBiarkTheme
       playlists:
       - name: Default
-        tracks:
-        - name: Daft Punk - Giorgio by Moroder
-          trackID: -1
-          trackHash: a890f7ac9b03186bffb094e027716581ae84e308b30af02bfdb65996b3d0feb5
-          trackName: Daft Punk - Giorgio by Moroder
-          trackArtist: unknown
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 5bef0d3b69956bdfb20fa03b803e48ea185617720e490bffb68130b9ca7f098a
-          trackBPM: 112.67731384058
-          bundleID: GlideWithBiarkTheme
-        - name: Daft Punk - Within
-          trackID: -1
-          trackHash: c9fac36fbe98823db6c9418b134729f2c593e80cdce7ddaa26e63fd0e8789b02
-          trackName: Daft Punk - Within
-          trackArtist: unknown
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 20b9878e0df36e62aadd7ecdc08e395c2f927431b8149c6bd32889ebf63caf9c
-          trackBPM: 105.983729398281
-          bundleID: GlideWithBiarkTheme
+        tracks: []
   _loadedThemes: []
   _loadedTracks: []
   lookahead: 0
@@ -21545,11 +21612,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 397430815569231525, guid: be42e40d78146fe45a92b2de89e5edd5, type: 3}
   m_PrefabInstance: {fileID: 1458786587}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &2026244204 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2538856107465434625, guid: cce279b878fdbc9498d2c9f3b5a29892, type: 3}
-  m_PrefabInstance: {fileID: 949386319549408542}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2044857640
 GameObject:
   m_ObjectHideFlags: 0
@@ -23358,6 +23420,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Reactional Event Dispatcher
       objectReference: {fileID: 0}
+    - target: {fileID: 7113235919227354311, guid: 79af50200adc2394d9ad7f89fdf8729a, type: 3}
+      propertyPath: offlineMusicDataAssetList
+      value: 
+      objectReference: {fileID: 11400000, guid: a6b9a03614f482d4e8064697cae1852e, type: 2}
+    - target: {fileID: 7113235919227354311, guid: 79af50200adc2394d9ad7f89fdf8729a, type: 3}
+      propertyPath: offlineMusicDataAssetsList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7113235919227354311, guid: 79af50200adc2394d9ad7f89fdf8729a, type: 3}
+      propertyPath: 'offlineMusicDataAssetsList.Array.data[0]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7113235919227354311, guid: 79af50200adc2394d9ad7f89fdf8729a, type: 3}
+      propertyPath: 'offlineMusicDataAssetsList.Array.data[1]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7113235919227354311, guid: 79af50200adc2394d9ad7f89fdf8729a, type: 3}
+      propertyPath: 'offlineMusicDataAssetsList.Array.data[2]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7113235919227354311, guid: 79af50200adc2394d9ad7f89fdf8729a, type: 3}
+      propertyPath: 'offlineMusicDataAssetsList.Array.data[3]'
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23638,9 +23724,49 @@ PrefabInstance:
     m_TransformParent: {fileID: 1442745991}
     m_Modifications:
     - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
-      propertyPath: vocalPrefab
+      propertyPath: spawnTopY
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
+      propertyPath: VocalPrefab
       value: 
       objectReference: {fileID: 5070907538526596026, guid: d2dbc16c7d37f6f4a95c83ffed4288f7, type: 3}
+    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
+      propertyPath: DrumDangerPrefab
+      value: 
+      objectReference: {fileID: 6499128413953368347, guid: 2cad6a43cd604e94ab374e55d647cf13, type: 3}
+    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
+      propertyPath: offlineMusicDataAsset
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
+      propertyPath: offlineMusicDataAssetList
+      value: 
+      objectReference: {fileID: 11400000, guid: a6b9a03614f482d4e8064697cae1852e, type: 2}
+    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
+      propertyPath: offlineMusicDataAssetList.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
+      propertyPath: 'offlineMusicDataAssetList.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 6c97fcca629561f46a70b789be62b2dd, type: 2}
+    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
+      propertyPath: 'offlineMusicDataAssetList.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 710b2474ae234dc449ffbc682047bd88, type: 2}
+    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
+      propertyPath: 'offlineMusicDataAssetList.Array.data[2]'
+      value: 
+      objectReference: {fileID: 11400000, guid: c6308e0eeebb47d49b8e2982341cb907, type: 2}
+    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
+      propertyPath: 'offlineMusicDataAssetList.Array.data[3]'
+      value: 
+      objectReference: {fileID: 11400000, guid: e61e6ab5dda1cf44ca923ef0860f1f6e, type: 2}
+    - target: {fileID: 2179503987092375453, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
+      propertyPath: 'offlineMusicDataAssetList.Array.data[4]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 1b1ee9818cd7bcf49a2c2d2a96f712eb, type: 2}
     - target: {fileID: 4351450413426844312, guid: 342b7cd7aec567144b2e3ea177cfef79, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -24185,6 +24311,7 @@ SceneRoots:
   - {fileID: 118354093}
   - {fileID: 519420032}
   - {fileID: 287090674}
+  - {fileID: 1472205702}
   - {fileID: 1298807429}
   - {fileID: 1848548741}
   - {fileID: 2138306601}

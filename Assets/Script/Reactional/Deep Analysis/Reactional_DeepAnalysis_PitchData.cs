@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-///     Slot on Gameobjeccts with AudioSource to set a unique pitch for the sound
+///     Deep Analysis will give you Pich of the instruments notes. 
+///     Slot on Gameobjeccts with AudioSource to set a unique pitch for a soundclip
 ///     Needs to be updated elsewhere via the DeepAnalysis OfflineData Instrument.Note
 ///     Gameobject.pitch = offlineMusicDataAsset.vocals.note;
 /// </summary>

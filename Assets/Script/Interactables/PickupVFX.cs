@@ -20,8 +20,7 @@ public class PickupVFX : MonoBehaviour
     
     public void vfxExplode()
     {
-        
-        Reactional.Playback.Theme.TriggerStinger("positive, large", 16);
+        Reactional.Playback.Theme.TriggerStinger("positive, large", 0f);
         transform.GetComponent<PickupVFX>().enabled = true;
         visualEffect.enabled = true;  // TODO move to when VFX changes place
         
@@ -32,8 +31,6 @@ public class PickupVFX : MonoBehaviour
         //Remove Collider from parent Object
         transform.parent.GetComponent<CircleCollider2D>().enabled = false;
         
-
-        Debug.Log("Lets Explode");
         StartCoroutine(vfxtimer());
     }
 

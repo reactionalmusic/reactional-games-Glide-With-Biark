@@ -1,7 +1,10 @@
 using System;
 using Reactional.Playback;
 using UnityEngine;
-
+/// <summary>
+/// This Scripts moves any object on Z axis over a Animated Curve in sync to the Curretn Beat / Quant.
+/// Change the Quant if you want to alter what beat in a bar that it should look for
+/// </summary>
 public class Reactional_PulsePosition : MonoBehaviour
 {
     [Header("Pulse Settings")]
@@ -21,7 +24,7 @@ public class Reactional_PulsePosition : MonoBehaviour
     private void Update()
     {
         var vector3 = transform.position;
-        vector3.z = (_startPosition.z + curve.Evaluate(MusicSystem.GetCurrentBeat() % quant));
+        vector3.z = (_startPosition.z + curve.Evaluate(MusicSystem.GetCurrentBeat() % quant));  // Using the curve.Evaluate on the current beat with a quantization value
         transform.position = vector3;
       
     }

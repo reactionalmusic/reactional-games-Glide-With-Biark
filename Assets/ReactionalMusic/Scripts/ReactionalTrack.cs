@@ -6,7 +6,6 @@ namespace Reactional.Core
   using System.Runtime.InteropServices;
   using System.Collections.Generic;
   using System.Text;
-  using System.Diagnostics;
 
   /// <summary>
   ///   Contains all native declarations.

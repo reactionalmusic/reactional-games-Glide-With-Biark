@@ -5,15 +5,17 @@ using UnityEngine;
 
 public class DangerObject : MonoBehaviour
 {
+    [SerializeField] private int scorePenalty = -5; 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             CameraShake.TriggerShake(0.5f,1,1, 0.5f);
+            Reactional.Playback.Theme.TriggerStinger("negative, large", 0f);
             //Destroy(other.gameObject);
             StartCoroutine(PlayerCollision(other));
             var manager = FindFirstObjectByType<GameManager>();
-            manager.AddScore(-10);
+            manager.AddScore(scorePenalty);
         }
     }
     private IEnumerator PlayerCollision(Collider2D other)
@@ -30,7 +32,7 @@ public class DangerObject : MonoBehaviour
         // Start the spawn effect
         yield return StartCoroutine(PlayerOnDeath.Instance.SpawnPlayer(true, false));
 
-        Debug.Log("Player respawn");
+        //Debug.Log("Player respawn");
         // Call GameOver
         //gameManager.GameOver();
     }

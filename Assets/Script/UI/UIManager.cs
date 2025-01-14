@@ -1,5 +1,4 @@
-﻿using Reactional.Playback;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
@@ -115,8 +114,6 @@ public class UIManager : MonoBehaviour
 
     private void ClickStartButton(ClickEvent evt)
     {
-        Debug.Log("Click Start and play random song");
-        
         startupContainer.style.display = DisplayStyle.None;
         ingameContainer.style.display = DisplayStyle.Flex;
         FindFirstObjectByType<GameManager>().StartGame();
@@ -140,7 +137,6 @@ public class UIManager : MonoBehaviour
     private static void ClickRestartButton(ClickEvent evt)
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-       
     }
     
     private void TogglePause(ClickEvent evt)
@@ -193,11 +189,5 @@ public class UIManager : MonoBehaviour
     public void AddScore(int score)
     {
         pointsLabel.text = "Points: " + score;
-    }
-
-
-    public void RandomizeSong()
-    {
-        Playlist.Random();
     }
 }

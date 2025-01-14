@@ -4,7 +4,6 @@ using UnityEngine;
 using Reactional.Core;
 using Reactional.Experimental;
 using Unity.VisualScripting;
-using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
 /// <summary>
@@ -32,12 +31,13 @@ public class ReactionalDeepAnalysisProceduralMapGenerator : MonoBehaviour
     [SerializeField] private float spawnTopY = 5f; // Range for random height when spawning objects
     [SerializeField] private float spawnBottomY = -2f; // Range for random height when spawning objects
     
-    [SerializeField] private List<OfflineMusicDataAsset> offlineMusicDataAssetList;
+    //OfflineMusicDataAsset
+    [SerializeField] private DeepAnalysisAssetList offlineMusicDataAssetList;
     [SerializeField] private OfflineMusicDataAsset offlineMusicDataAsset;
 
     // Constants for positioning multipliers
     private const float XOffsetMultiplier = 5f; // Controls spacing on X-axis
-    private const float OtherXOffset = -2f; // Other offsets if needed
+    private const float OtherXOffset = -5f; // Manual offset if needed
     private const float YPitchAdjustment = 2f; // Adjustment for Y position based on pitch
 
     public IEnumerator SpawnSongs()
@@ -47,7 +47,7 @@ public class ReactionalDeepAnalysisProceduralMapGenerator : MonoBehaviour
             yield return new WaitForNextFrameUnit();
         }
         var trackName = Reactional.Playback.Playlist.GetCurrentTrackInfo().trackHash;
-        foreach (var dataAsset in offlineMusicDataAssetList) 
+        foreach (var dataAsset in offlineMusicDataAssetList.songs) 
         {
             if (dataAsset.hash == trackName)
             {
@@ -55,7 +55,7 @@ public class ReactionalDeepAnalysisProceduralMapGenerator : MonoBehaviour
                 break;
             }
         }
-        
+
         SpawnVocals();
         //SpawnBass();
         SpawnDrums();
@@ -75,31 +75,31 @@ public class ReactionalDeepAnalysisProceduralMapGenerator : MonoBehaviour
     /// </summary>
     void SpawnVocals()
     {
-        float prevOffset = 0;
-        float prevPitch = 0;
-        float prevEnd = 0;
+        //float prevOffset = 0;
+        //float prevPitch = 0;
+        //float prevEnd = 0;
 
         foreach (var vocal in offlineMusicDataAsset.vocals)
         {
-            float offset = Mathf.Round(vocal.offset * 8) / 8f; // Round offset to nearest 0.25
+            var offset = Mathf.Round(vocal.offset * 8) / 8f; // Round offset to nearest 0.25
 
             // Skipping logic based on previous vocal's pitch and offset
-            if (Mathf.Approximately(Mathf.Round(vocal.note) % 12, prevPitch % 12) && vocal.offset_seconds + 0.3f < prevEnd)
-            {
-                continue;
-            }
+            //if (Mathf.Approximately(Mathf.Round(vocal.note) % 12, prev_pitch % 12) && vocal.offset_seconds + 0.3f < prev_end)
+            //{
+            //    continue;
+            //}
 
-            if ((offset % 1 != 0f || !Mathf.Approximately(offset % 1, 0.5f)) && vocal.duration_seconds < 0.1f)
-            {
-                continue; // Skip very short vocals
-            }
+            //if ((offset % 1 != 0f || !Mathf.Approximately(offset % 1, 0.5f)) && vocal.duration_seconds < 0.1f)
+            //{
+            //    continue; // Skip very short vocals
+            //}
 
-            if (offset <= prevOffset + 0.75f || Mathf.Approximately(offset, prevOffset))
-            {
-                continue; // Skip if the offset is too close to the previous one
-            }
-
-            prevOffset = offset;
+            //if (offset <= prev_offset + 0.75f || Mathf.Approximately(offset, prev_offset))
+            //{
+            //    continue; // Skip if the offset is too close to the previous one
+            //}
+            //
+            //prevOffset = offset;
             vocalPrefab.GetComponent<Reactional_DeepAnalysis_PitchData>().pitch = vocal.note; 
 
             InstantiateVocalPrefab(offset, vocal);
@@ -190,15 +190,8 @@ public class ReactionalDeepAnalysisProceduralMapGenerator : MonoBehaviour
         // Calculate position for drums using constants
         float randomY = Random.Range(spawnTopY , spawnBottomY ); // Random Y position
         Vector3 position = new Vector3(offset * XOffsetMultiplier + OtherXOffset, randomY, 0); // Use random Y for the drum
-        GameObject prefab;
-        if (Random.value < 0.175f)
-        {
-            prefab = drumDangerPrefab;
-        }
-        else
-        {
-            prefab = drumPrefab;
-        }
+        var prefab = Random.value < 0.175f ? drumDangerPrefab : drumPrefab;
+        
         var obj = Instantiate(prefab, position, Quaternion.identity, gameObject.transform); // Spawn the drum prefab
         _accumulatedObjects.Add(obj); // Track the spawned object
         _accumulatedPositions.Add(position.x); // Track its X position
@@ -232,7 +225,7 @@ public class ReactionalDeepAnalysisProceduralMapGenerator : MonoBehaviour
         }
 
         // Cleanup for accumulatedBassObjects
-        for (int i = _accumulatedBassObjects.Count - 1; i >= 0; i--)
+        for (var i = _accumulatedBassObjects.Count - 1; i >= 0; i--)
         {
             if (!_accumulatedBassObjects[i])
             {
@@ -241,7 +234,7 @@ public class ReactionalDeepAnalysisProceduralMapGenerator : MonoBehaviour
                 continue;
             }
 
-            float position = _accumulatedBassPositions[i];
+            var position = _accumulatedBassPositions[i];
             _accumulatedBassObjects[i].transform.position = new Vector3(position - beatPosition,
                 _accumulatedBassObjects[i].transform.position.y, _accumulatedBassObjects[i].transform.position.z);
             
@@ -254,7 +247,7 @@ public class ReactionalDeepAnalysisProceduralMapGenerator : MonoBehaviour
 
 
     // Calculates the Y-position based on the note value
-    float GetYPosition(float note)
+    static float GetYPosition(float note)
     {
         // Return Y position adjusted for pitch (adjustment factor and base value)
         return (note % 12) / YPitchAdjustment - YPitchAdjustment;

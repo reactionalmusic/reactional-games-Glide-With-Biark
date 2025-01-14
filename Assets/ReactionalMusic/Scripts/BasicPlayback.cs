@@ -39,29 +39,21 @@ namespace Reactional.Core
             
             await Reactional.Setup.LoadPlaylist();
             
-            // TODO: Load "Default Section" from inspector, or first defined section in first bundle, Deload it if using any other way
             // await Reactional.Setup.LoadTheme("BundleName","Default","ThemeName");// Load specific theme in specific bundle
-            await Reactional.Setup.LoadTheme("GlideWithBiarkTheme", "Section #1", "Reactional_ScifiBoss copy");                        // Find and load specifc theme in any bundle
+            await Reactional.Setup.LoadTheme("GlideWithBiarkTheme", "Section #1", "Pete Frogs - Back in Action copy");                        // Find and load specifc theme in any bundle
             Reactional.Playback.Theme.SetControl("part: silence");
             
-            // TODO theme är fucked för kunde haft flera.
-            
-            //Reactional.Playback.Theme.
             //await Reactional.Setup.LoadTheme();                                   // Load the first theme defined in first bundle
 
             // await Reactional.Setup.LoadPlaylist("BundleName","Default");         // Load specific playlist in specific bundle
             // await Reactional.Setup.LoadPlaylist("Default");                      // Find and load specifc playlist in any bundle
             // await Reactional.Setup.LoadPlaylist();                               // Load the first playlist defined in first bundle
 
-             //await Reactional.Setup.LoadTrack("GlideWithBiark","Daft Punk - Giorgio by Moroder"); // Load specific track in specific bundle, LOADS ONE TRACK INTO RAM, NO OTHER TRACK WILL BE LOADED
-
             if (_autoplayTheme)
                 Reactional.Playback.Theme.Play();
             if (_autoplayTrack)
                 Reactional.Playback.Playlist.Play();
-                 
-            //Reactional.Playback.Playlist.PlayTrack("Daft Punk - Within");
-            //Debug.Log("Track playing is: " +Reactional.Playback.Playlist.GetCurrentTrackInfo().trackName);  // NO STRING?
+            
                 
             // Important to call this; otherwise there will be a samplerate mismatch; time will drift and music sound bad
             Reactional.Setup.InitAudio();           
