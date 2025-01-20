@@ -75,41 +75,30 @@ public class ReactionalDeepAnalysisProceduralMapGenerator : MonoBehaviour
     /// </summary>
     void SpawnVocals()
     {
-        //float prevOffset = 0;
-        //float prevPitch = 0;
-        //float prevEnd = 0;
-
         foreach (var vocal in offlineMusicDataAsset.vocals)
         {
-            var offset = Mathf.Round(vocal.offset * 8) / 8f; // Round offset to nearest 0.25
+            var offset = Mathf.Round(vocal.offset * 8) / 8f; // Round offset to nearest 0.125
 
-            // Skipping logic based on previous vocal's pitch and offset
-            //if (Mathf.Approximately(Mathf.Round(vocal.note) % 12, prev_pitch % 12) && vocal.offset_seconds + 0.3f < prev_end)
-            //{
-            //    continue;
-            //}
+            if (vocal.duration_seconds < 0.15f && (offset % 1) != 0) 
+            { 
+                continue; 
+            }
 
-            //if ((offset % 1 != 0f || !Mathf.Approximately(offset % 1, 0.5f)) && vocal.duration_seconds < 0.1f)
-            //{
-            //    continue; // Skip very short vocals
-            //}
-
-            //if (offset <= prev_offset + 0.75f || Mathf.Approximately(offset, prev_offset))
-            //{
-            //    continue; // Skip if the offset is too close to the previous one
-            //}
-            //
-            //prevOffset = offset;
+            // Assign the pitch value to the prefab before instantiating
             vocalPrefab.GetComponent<Reactional_DeepAnalysis_PitchData>().pitch = vocal.note; 
 
             InstantiateVocalPrefab(offset, vocal);
         }
     }
 
+    /// <summary>
+    /// Instantiates vocal prefab and places it based on X and calculated Y positions.
+    /// </summary>
     private void InstantiateVocalPrefab(float offset, vocals vocal)
     {
-        // Using constants for the position calculations
-        Vector3 position = new Vector3(offset * XOffsetMultiplier, GetYPosition(vocal.note), 0);
+        // Keeping X position calculation intact
+        Vector3 position = new Vector3(offset * XOffsetMultiplier, GetYPositionBasedOnLane(vocal.note), 0);
+    
         var obj = Instantiate(vocalPrefab, position, Quaternion.identity, gameObject.transform); // Spawn the vocal prefab
         _accumulatedObjects.Add(obj); // Track the spawned object
         _accumulatedPositions.Add(position.x); // Track its X position
@@ -149,18 +138,18 @@ public class ReactionalDeepAnalysisProceduralMapGenerator : MonoBehaviour
             prevEnd = bass.offset_seconds + bass.duration_seconds;
             bassPrefab.GetComponent<Reactional_DeepAnalysis_PitchData>().pitch = bass.note;
 
-            InstantiateBassPrefab(offset, bass);
+            //InstantiateBassPrefab(offset, bass);
         }
     }
 
-    private void InstantiateBassPrefab(float offset, bass bass)
+    /*private void InstantiateBassPrefab(float offset, bass bass)
     {
         // Position calculation with constants for better clarity
         Vector3 position = new Vector3(offset * XOffsetMultiplier, GetYPosition(bass.note), 0);
         var obj = Instantiate(bassPrefab, position, Quaternion.identity, gameObject.transform); // Spawn the bass prefab
         _accumulatedBassObjects.Add(obj); // Track the spawned bass object
         _accumulatedBassPositions.Add(position.x); // Track its X position
-    }
+    }*/
 
     /// <summary>
     /// Method to spawn drum objects
@@ -246,10 +235,35 @@ public class ReactionalDeepAnalysisProceduralMapGenerator : MonoBehaviour
     }
 
 
-    // Calculates the Y-position based on the note value
-    static float GetYPosition(float note)
+    /// <summary>
+    /// Calculates the Y-position based on the note value, dividing it into 5 lanes.
+    /// </summary>
+    private float GetYPositionBasedOnLane(float note)
     {
-        // Return Y position adjusted for pitch (adjustment factor and base value)
-        return (note % 12) / YPitchAdjustment - YPitchAdjustment;
+        float modNote = note % 5;  // Modulo 5 for lane assignment
+        float baseY = 1f; // Default base Y position
+        float laneHeight = 1f; // Distance between lanes
+
+        // Determine lane position based on modulo operation
+        if (modNote > 4)
+        {
+            return baseY + (laneHeight * 2);
+        }
+        else if (modNote > 3)
+        {
+            return baseY + (laneHeight * 1); 
+        }
+        else if (modNote > 2)
+        {
+            return baseY; 
+        }
+        else if (modNote > 1)
+        {
+            return baseY - (laneHeight * 1);
+        }
+        else
+        {
+            return baseY - (laneHeight * 2);
+        }
     }
 }
