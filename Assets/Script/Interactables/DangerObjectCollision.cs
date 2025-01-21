@@ -17,6 +17,7 @@ public class DangerObjectCollision : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        
         if (other.CompareTag("Player"))
         {
             CameraShake.TriggerShake(0.5f,1,1, 0.5f);

@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: -7570529272080605535}
   - component: {fileID: -7871631494525874026}
   - component: {fileID: 5666269025484562630}
+  - component: {fileID: 1519781440064293313}
   m_Layer: 0
   m_Name: VocalPurple
   m_TagString: PulseOnBeatBar
@@ -187,7 +188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dfb6e7b92a2f424db54e4a29e206634, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pitch: 69.06672
+  pitch: 69.09844
 --- !u!114 &-7871631494525874026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,6 +203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vfxObject: {fileID: 0}
   scoreAmount: 1
+  audioSource: {fileID: 0}
 --- !u!70 &5666269025484562630
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -239,3 +241,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1.01, y: 2.2199998}
   m_Direction: 0
+--- !u!114 &1519781440064293313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6691017079308188631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94f96ad1614f4b63ae077b1973971394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  note: 4.31
+  beat: 0
+  duration: 0
