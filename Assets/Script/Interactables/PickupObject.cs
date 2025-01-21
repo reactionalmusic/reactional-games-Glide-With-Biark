@@ -8,6 +8,7 @@ public class PickupObject : MonoBehaviour
     public int scoreAmount = 1;
     
     public AudioSource audioSource;
+    public AudioClip audioClip;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -19,11 +20,12 @@ public class PickupObject : MonoBehaviour
         {
             var manager = FindFirstObjectByType<GameManager>();
             manager.AddScore(scoreAmount);
-            float pitch = GetComponent<NoteData>().note;
+            float pitch = GetComponent<Reactional_DeepAnalysis_PitchData>().pitch;
             pitch = Mathf.Pow(2, (pitch - 60) / 12f);
             audioSource.pitch = pitch;
-            Reactional.Playback.MusicSystem.ScheduleAudio(audioSource, 0.25f);
-            vfxObject.vfxExplode();
+            audioSource.PlayOneShot(audioClip);
+            if(vfxObject != null)
+                vfxObject.vfxExplode();
         }
     }
 }
