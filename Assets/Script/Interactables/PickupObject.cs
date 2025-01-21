@@ -7,9 +7,10 @@ public class PickupObject : MonoBehaviour
     [SerializeField] PickupVFX vfxObject;
     public int scoreAmount = 1;
     
+    
     public AudioSource audioSource;
     public AudioClip audioClip;
-
+    public int startNote;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Obstacle") || other.CompareTag("Pickup"))
@@ -21,7 +22,7 @@ public class PickupObject : MonoBehaviour
             var manager = FindFirstObjectByType<GameManager>();
             manager.AddScore(scoreAmount);
             float pitch = GetComponent<Reactional_DeepAnalysis_PitchData>().pitch;
-            pitch = Mathf.Pow(2, (pitch - 60) / 12f);
+            pitch = Mathf.Pow(2, (pitch - startNote) / 12f);
             audioSource.pitch = pitch;
             audioSource.PlayOneShot(audioClip);
             if(vfxObject != null)

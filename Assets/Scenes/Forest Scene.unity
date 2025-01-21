@@ -10288,6 +10288,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35df35f6c729d314997846ccd9632a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scorePenalty: -5
+  worldAudioSource: {fileID: 0}
+  collisionSoundClip: {fileID: 0}
 --- !u!61 &1049636136
 BoxCollider2D:
   m_ObjectHideFlags: 0
