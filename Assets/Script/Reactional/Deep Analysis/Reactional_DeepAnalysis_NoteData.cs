@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NoteData : MonoBehaviour
+public class Reactional_DeepAnalysis_NoteData : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public float note;

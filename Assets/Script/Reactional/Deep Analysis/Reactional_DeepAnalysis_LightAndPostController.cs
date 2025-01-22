@@ -13,7 +13,7 @@ using UnityEngine.Rendering.Universal;
 /// The value lerps from startvalue to MAX_INTENSITY
 /// Also Alters the Chromatic Abboration value on the Post Process.
 /// </summary>
-public class Reactional_DeepAnalysis_LightAndPostControler : MonoBehaviour
+public class Reactional_DeepAnalysis_LightAndPostController : MonoBehaviour
 {
     [Header("Global Light")]
     

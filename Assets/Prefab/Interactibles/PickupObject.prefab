@@ -174,7 +174,6 @@ GameObject:
   - component: {fileID: 4814919939393083693}
   - component: {fileID: -7552263581669286764}
   - component: {fileID: -8995570922424670434}
-  - component: {fileID: 4610428610213970482}
   - component: {fileID: 1890327449200756282}
   m_Layer: 0
   m_Name: PickupObject
@@ -265,21 +264,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pitch: 69.06672
---- !u!114 &4610428610213970482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5070907538526596026}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94f96ad1614f4b63ae077b1973971394, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  note: 0
-  beat: 0
-  duration: 0
 --- !u!82 &1890327449200756282
 AudioSource:
   m_ObjectHideFlags: 0

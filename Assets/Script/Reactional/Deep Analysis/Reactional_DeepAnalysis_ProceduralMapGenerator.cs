@@ -12,7 +12,7 @@ using Random = UnityEngine.Random;
 /// move the objects accordingly.
 /// </summary>
 
-public class ReactionalDeepAnalysisProceduralMapGenerator : MonoBehaviour
+public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
 {
     // Public variables for prefabs
     public GameObject vocalPrefab;

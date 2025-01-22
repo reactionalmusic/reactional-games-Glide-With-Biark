@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BeatZoom : MonoBehaviour
+public class Reactional_CameraPulseOnBeat : MonoBehaviour
 {
     public AnimationCurve zoomCurve; // The curve controlling the zoom
     public float zoomSpeed = 1f; // The speed of the zoom
