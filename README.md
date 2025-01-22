@@ -41,14 +41,14 @@ Unlike Geometry Dash, Glide With Biark leverages Reactional Deep Analysis to pro
 
 ### Reactional Deep Analysis Scripts
 
-- 'Reactional_DeepAnalysis_EventDispatcher': Subscribes to the events of instruments analyzed with Deep Analysis. Each note played by an instrument triggers live events sent to subscribed functions.
-- 'Reactional_DeepAnalysis_PitchData': Captures the pitch of instrument notes assigned by Deep Analysis. Useful for triggering pitch-toned sound effects based on music data.
-- 'Reactional_DeepAnalysis_ProceduralMapGenerator': Instantiates and places objects at specified notes from respective instruments all at once. Utilizes BPM to dynamically move objects in sync with the music.
+- `Reactional_DeepAnalysis_EventDispatcher`: Subscribes to the events of instruments analyzed with Deep Analysis. Each note played by an instrument triggers live events sent to subscribed functions.
+- `Reactional_DeepAnalysis_PitchData`: Captures the pitch of instrument notes assigned by Deep Analysis. Useful for triggering pitch-toned sound effects based on music data.
+- `Reactional_DeepAnalysis_ProceduralMapGenerator`: Instantiates and places objects at specified notes from respective instruments all at once. Utilizes BPM to dynamically move objects in sync with the music.
 
 ### Gameplay
 
-- 'Reactional_DeepAnalysis_LightAndPostController': Subscribes to the Reactional Deep Analysis Event Dispatcher. Adjusts global light intensity to fine-tune lighting effects based on musical instruments.
-- 'Reactional_CameraPulseOnBeat': Leverages Reactional's GetCurrentBeat() functionality. Modifies camera zoom to pulse in sync with the beat for enhanced immersion.
+- `Reactional_DeepAnalysis_LightAndPostController`: Subscribes to the Reactional Deep Analysis Event Dispatcher. Adjusts global light intensity to fine-tune lighting effects based on musical instruments.
+- `Reactional_CameraPulseOnBeat`: Leverages Reactional's GetCurrentBeat() functionality. Modifies camera zoom to pulse in sync with the beat for enhanced immersion.
 
 
 Feel free to explore and integrate these scripts into your projects to fully leverage the power of Reactional Deep Analysis.
