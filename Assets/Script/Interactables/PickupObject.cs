@@ -13,7 +13,6 @@ public class PickupObject : MonoBehaviour
     public int startNote;
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log(other.tag);
         if (other.CompareTag("Obstacle") || other.CompareTag("Pickup"))
         {
             Destroy(gameObject);
