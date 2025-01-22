@@ -4156,7 +4156,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &434026302
 Transform:
   m_ObjectHideFlags: 0
@@ -17952,6 +17952,16 @@ MonoBehaviour:
           trackCover: c08721c1cb65b6ecc3333256f94e434e1cece6238755aa2b79408f5d49c85b99
           trackBPM: 0
           bundleID: combined_deeptracks
+        - name: 4
+          trackID: -1
+          trackHash: 4 reactionalMetadata
+          trackName: ' '
+          trackArtist: ' '
+          trackAlbum: ' '
+          trackGenre: ' '
+          trackCover: 7724af86d21bcb1bac38f32fecbb015be1ae06c5f66ea418c085dbdf2d575667
+          trackBPM: 0
+          bundleID: combined_deeptracks
         - name: 1
           trackID: -1
           trackHash: 1 reactionalMetadata
@@ -17980,16 +17990,6 @@ MonoBehaviour:
           trackAlbum: ' '
           trackGenre: ' '
           trackCover: cec27a8fea138ad0885d0f1d672657ce54d959b1577bd19bf3209903712a9953
-          trackBPM: 0
-          bundleID: combined_deeptracks
-        - name: 4
-          trackID: -1
-          trackHash: 4 reactionalMetadata
-          trackName: ' '
-          trackArtist: ' '
-          trackAlbum: ' '
-          trackGenre: ' '
-          trackCover: 7724af86d21bcb1bac38f32fecbb015be1ae06c5f66ea418c085dbdf2d575667
           trackBPM: 0
           bundleID: combined_deeptracks
   - name: GlideWithBiarkTheme

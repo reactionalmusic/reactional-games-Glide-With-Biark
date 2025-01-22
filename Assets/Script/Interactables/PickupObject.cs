@@ -24,7 +24,8 @@ public class PickupObject : MonoBehaviour
             float pitch = GetComponent<Reactional_DeepAnalysis_PitchData>().pitch;
             pitch = Mathf.Pow(2, (pitch - startNote) / 12f);
             audioSource.pitch = pitch;
-            audioSource.PlayOneShot(audioClip);
+            Reactional.Playback.MusicSystem.ScheduleAudio(audioSource, 0.25f);
+            audioSource.Play();
             if(vfxObject != null)
                 vfxObject.vfxExplode();
         }
