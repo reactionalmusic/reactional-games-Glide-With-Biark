@@ -11,7 +11,7 @@ namespace DashGames
     // TODO One more script is added underneeth , but commented out, that only takes one clip an asset in the world uses. 
     // TODO Call the animation when needed prefarably and not in update if you dont want to repeat it. 
 
-    public class Reactional_Animation : MonoBehaviour
+    public class Reactional_AnimationConverter : MonoBehaviour
     {
         [SerializeField] private Animator animator;
         [SerializeField] RuntimeAnimatorController controller;

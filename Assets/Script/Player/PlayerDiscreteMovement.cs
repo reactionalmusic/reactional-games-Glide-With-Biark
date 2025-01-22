@@ -126,7 +126,7 @@ public class PlayerDiscreteMovement : MonoBehaviour
         
         if (!_jumpToConsume && !HasBufferedJump) return;
 
-        if (grounded) 
+        //if (grounded) 
             ExecuteJump();
 
         _jumpToConsume = false;

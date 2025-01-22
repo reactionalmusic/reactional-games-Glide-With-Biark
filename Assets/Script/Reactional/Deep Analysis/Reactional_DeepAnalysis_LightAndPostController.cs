@@ -13,7 +13,7 @@ using UnityEngine.Rendering.Universal;
 /// The value lerps from startvalue to MAX_INTENSITY
 /// Also Alters the Chromatic Abboration value on the Post Process.
 /// </summary>
-public class Reactional_DeepAnalysis_LightAndPostControler : MonoBehaviour
+public class Reactional_DeepAnalysis_LightAndPostController : MonoBehaviour
 {
     [Header("Global Light")]
     
@@ -76,7 +76,7 @@ public class Reactional_DeepAnalysis_LightAndPostControler : MonoBehaviour
         {
             globalLight.intensity = Mathf.Lerp(StartIntensity, MAX_GLOBALLIGHT_INTENSITY, elapsedTime / halfDuration);
             if (_gameManager.totalScore >= scoreActivationTreshhold)
-            {  Debug.Log("ActivateChrommaticAberration");
+            {  //Debug.Log("ActivateChrommaticAberration");
                 chromaticAberration.intensity.value = Mathf.Lerp(MAX_CHROMATICABBERATION, MIN_CHROMATICABBERATION,
                     elapsedTime / halfDuration);
             }

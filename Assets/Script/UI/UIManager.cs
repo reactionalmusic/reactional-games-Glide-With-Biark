@@ -33,7 +33,7 @@ public class UIManager : MonoBehaviour
     bool isPaused = false;
     public PlayerController controller;
     [SerializeField] GameManager gameManager;
-    public ReactionalDeepAnalysisProceduralMapGenerator proceduralMapGenerator;
+    public Reactional_DeepAnalysis_ProceduralMapGenerator proceduralMapGenerator;
     
     void Start()
     {
