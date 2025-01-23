@@ -22,9 +22,11 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
 
     // Lists to track positions and objects spawned
     private readonly List<float> _accumulatedPositions = new List<float>();
+    private readonly List<float> _accumulatedStartPositions = new List<float>();
     private readonly List<GameObject> _accumulatedObjects = new List<GameObject>();
 
     private readonly List<float> _accumulatedBassPositions = new List<float>();
+    private readonly List<float> _accumulatedBassStartPositions = new List<float>();
     private readonly List<GameObject> _accumulatedBassObjects = new List<GameObject>();
     
     //Object spawn range
@@ -37,8 +39,10 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
 
     // Constants for positioning multipliers
     private const float XOffsetMultiplier = 5f; // Controls spacing on X-axis
-    private const float OtherXOffset = -5f; // Manual offset if needed
+    private const float OtherXOffset = -1.4f; // Manual offset if needed
     private const float YPitchAdjustment = 2f; // Adjustment for Y position based on pitch
+    
+    float _startBeat = 0.0f;
 
     public IEnumerator SpawnSongs()
     {
@@ -55,10 +59,13 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
                 break;
             }
         }
+        
+        _startBeat = Reactional.Playback.MusicSystem.GetNextBeat(4f);
 
         SpawnVocals();
         //SpawnBass();
         SpawnDrums();
+        
     }
 
     void Update()
@@ -97,11 +104,12 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
     private void InstantiateVocalPrefab(float offset, vocals vocal)
     {
         // Keeping X position calculation intact
-        Vector3 position = new Vector3(offset * XOffsetMultiplier, GetYPositionBasedOnLane(vocal.note), 0);
+        Vector3 position = new Vector3(offset * XOffsetMultiplier + OtherXOffset, GetYPositionBasedOnLane(vocal.note), 0);
     
         var obj = Instantiate(vocalPrefab, position, Quaternion.identity, gameObject.transform); // Spawn the vocal prefab
         _accumulatedObjects.Add(obj); // Track the spawned object
         _accumulatedPositions.Add(position.x); // Track its X position
+        _accumulatedStartPositions.Add(position.x); // Track its X position
     }
 
     /// <summary>
@@ -184,6 +192,7 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
         var obj = Instantiate(prefab, position, Quaternion.identity, gameObject.transform); // Spawn the drum prefab
         _accumulatedObjects.Add(obj); // Track the spawned object
         _accumulatedPositions.Add(position.x); // Track its X position
+        _accumulatedStartPositions.Add(position.x); // Track its X position
         
         obj.SetActive(false);   //Sets object disabled until near player
     }
@@ -200,11 +209,12 @@ public class Reactional_DeepAnalysis_ProceduralMapGenerator : MonoBehaviour
             {
                 _accumulatedObjects.RemoveAt(i);
                 _accumulatedPositions.RemoveAt(i);
+                _accumulatedStartPositions.RemoveAt(i);
                 continue; // Skip this iteration after removal
             }
 
             float position = _accumulatedPositions[i];
-            _accumulatedObjects[i].transform.position = new Vector3(position - beatPosition,
+            _accumulatedObjects[i].transform.position = new Vector3(position - (ReactionalEngine.Instance.CurrentBeat - _startBeat)*5f,
                 _accumulatedObjects[i].transform.position.y, _accumulatedObjects[i].transform.position.z);
 
             if (_accumulatedObjects[i].transform.position.x < 15f)
