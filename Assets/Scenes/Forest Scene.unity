@@ -551,7 +551,7 @@ GameObject:
   - component: {fileID: 72457615}
   - component: {fileID: 72457614}
   m_Layer: 0
-  m_Name: GuitarheroLine (1)
+  m_Name: GuitarheroLine Reverse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -620,12 +620,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 72457613}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.48, y: 1.1, z: -1.2}
-  m_LocalScale: {x: -1, y: 0.66198, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13.879999, y: 0, z: 0}
+  m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1506368430}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &82533623 stripped
 Transform:
@@ -16572,7 +16572,8 @@ Transform:
   m_LocalPosition: {x: 5.4, y: 1.1, z: -1.2}
   m_LocalScale: {x: 1, y: 0.66198, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 72457615}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1522260135
@@ -22355,6 +22356,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2100168813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2100168815}
+  - component: {fileID: 2100168814}
+  m_Layer: 0
+  m_Name: AudioSourcePool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2100168814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100168813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7aa0f95e4763aa498da27064110e691, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolSize: 20
+--- !u!4 &2100168815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100168813}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.4353758, y: 1.0868443, z: -0.047382254}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2107403282
 GameObject:
   m_ObjectHideFlags: 0
@@ -24219,4 +24265,4 @@ SceneRoots:
   - {fileID: 8431449021175919550}
   - {fileID: 1731797961}
   - {fileID: 1506368430}
-  - {fileID: 72457615}
+  - {fileID: 2100168815}

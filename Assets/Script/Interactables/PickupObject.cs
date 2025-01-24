@@ -8,9 +8,10 @@ public class PickupObject : MonoBehaviour
     public int scoreAmount = 1;
     
     
-    public AudioSource audioSource;
+    [HideInInspector]public AudioSource audioSource;
     public AudioClip audioClip;
     public int startNote;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Obstacle") || other.CompareTag("Pickup"))
@@ -19,6 +20,8 @@ public class PickupObject : MonoBehaviour
         }
         else if (other.CompareTag("Player"))
         {
+            audioSource = AudioSourcePool.Instance.GetAvailableSource();
+            audioSource.clip = audioClip;
             var manager = FindFirstObjectByType<GameManager>();
             manager.AddScore(scoreAmount);
             float pitch = GetComponent<Reactional_DeepAnalysis_PitchData>().pitch;
@@ -29,5 +32,11 @@ public class PickupObject : MonoBehaviour
             if(vfxObject != null)
                 vfxObject.vfxExplode();
         }
+    }
+    
+    private void OnDestroy()
+    {
+        if(audioSource != null)
+            AudioSourcePool.Instance.ReturnSource(audioSource);
     }
 }
