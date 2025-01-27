@@ -1,4 +1,4 @@
-# Reactional Games - Glide With Biark
+# Reactional Games - Glide With Biark!
 
 Glide With Biark is a special celebration of the 10th anniversary of Flappy Bird, showcasing the powerful capabilities of Reactional Deep Analysis by integrating music with procedural level generation and gameplay elements.
 
